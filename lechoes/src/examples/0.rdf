@@ -1,0 +1,25 @@
+@prefix scho: <http://schema.org/> .
+@prefix bme: <http://radio.liv.ac.uk/bme/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://radio.liv.ac.uk/bme/Instrument/Fender_Stratocaster> a scho:MusicInstrument;
+    scho:name "Fender Stratocaster" ;
+    scho:about <http://www.wikidata.org/entity/Q1299> ;
+    scho:caption "A red Fender Stratocaster with a maple neck that was originally made in 1965 and used by The Beatles in Abbey Road." ;
+    scho:description "A classic electric guitar, used by many famous musicians." ;
+    scho:color <http://www.wikidata.org/entity/Q3142> ;
+    scho:genre <http://www.wikidata.org/entity/Q11399> ;
+    scho:audio "https://example.com/audio/fender_stratocaster_sample.mp3" ;
+    scho:image "https://example.com/images/fender_stratocaster.jpg" ;
+    scho:material <http://www.wikidata.org/entity/Q287> ;
+    scho:video "https://example.com/videos/fender_stratocaster_demo.mp4" ;
+    scho:additionalProperty [
+        a scho:PropertyValue ;
+        scho:name "Condition" ;
+        scho:value "Good"
+    ] ;
+    bme:year "1965"^^xsd:gYear ;
+    bme:caseNumber 1 ;
+    bme:lender "John Smith" ;
+    bme:lendStart "2023-01-01T00:00:00"^^xsd:dateTime ;
+    bme:lendEnd "2024-12-31T00:00:00"^^xsd:dateTime .

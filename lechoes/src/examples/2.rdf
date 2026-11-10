@@ -1,0 +1,20 @@
+@prefix scho: <http://schema.org/> .
+@prefix bme: <http://radio.liv.ac.uk/bme/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://radio.liv.ac.uk/bme/Costume/FreddieMercuryDress> a scho:Clothing ;
+    scho:name "Freddy Mercury Stage Dress" ;
+    scho:about <http://www.wikidata.org/entity/Q15990> ;
+    scho:caption "Freddie Mercury's stage dress." ;
+    scho:description "A dress worn by Freddie Mercury during a Queen concert." ;
+    scho:image "https://example.com/images/freddie_dress.jpg" ;
+    scho:color <http://www.wikidata.org/entity/Q23444> ;
+    scho:material <http://www.wikidata.org/entity/Q28823> ;
+    scho:additionalProperty [
+        a scho:PropertyValue ;
+        scho:name "Condition" ;
+        scho:value "Fair"
+    ] ;
+    bme:year "1980"^^xsd:gYear ;
+    bme:caseNumber 3 ;
+    scho:caption "Freddie Mercury's stage dress." .

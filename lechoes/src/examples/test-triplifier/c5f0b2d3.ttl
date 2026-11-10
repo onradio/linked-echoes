@@ -1,0 +1,46 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix scho: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix dbp: <http://dbpedia.org/resource/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix mimo: <http://www.mimo-db.eu/InstrumentsKeywords/> .
+@prefix euf: <http://thesaurus.europeanafashion.eu/thesaurus/> .
+@prefix pbcore: <http://pbcore.org/pbcore-controlled-vocabularies/titletype-vocabulary#> .
+
+<http://radio.liv.ac.uk/bme/HumanMadeObject/c5f0b2d3> a crm:E22_Human_Made_Object ;
+    scho:identifier "c5f0b2d3" ;
+    scho:name "Master Tape for 'Sgt. Pepper's Lonely Hearts Club Band'" ;
+    scho:description "The original 1-inch 4-track analogue master tape for The Beatles' seminal 1967 album, recorded at EMI Studios (now Abbey Road Studios)." ;
+    scho:caption "The original recording of a pop masterpiece. The Beatles' groundbreaking album that redefined popular music and culture. This master tape captures the innovative techniques and creativity that made 'Sgt. Pepper's' a timeless classic." ;
+    scho:category wd:Q758901 ;
+    scho:additionalType pbcore:1InchVideotape ;
+    scho:itemLocation "3" ;
+    scho:isPartOf <http://radio.liv.ac.uk/bme/Exhibition/Zone3> ;
+    scho:image <https://goauctionomega.blob.core.windows.net/stock/25311-2-medium.jpg?v=63798651902413> ;
+    scho:audio <https://open.spotify.com/track/6pcO0mAQbpKbqKeiFHuTRR?si=b73e631024924ab9> ;
+    scho:video <https://www.youtube.com/watch?v=opecMCX-SQQ> ;
+    scho:about wd:Q1299, wd:Q209651, wd:Q84, wd:Q145, wd:Q169226, wd:Q300385 ;
+    scho:genre wd:Q206159, wd:Q76092 ;
+    scho:material wd:Q193663 ;
+    scho:hasPart [
+        a scho:BorrowAction ;
+        scho:lender "Apple Corps" ;
+        scho:startTime "2017-06-01"^^xsd:date
+    ] .
+
+
+wd:Q758901 a scho:DefinedTerm, skos:Concept ; rdfs:label "Audiovisual Media"@en .
+pbcore:1InchVideotape a scho:DefinedTerm ; rdfs:label "1 inch videotape"@en .
+wd:Q145 a scho:Country ; rdfs:label "United Kingdom"@en .
+wd:Q84 a scho:Place ; rdfs:label "London"@en .
+wd:Q1299 a scho:MusicGroup ; rdfs:label "The Beatles"@en .
+wd:Q209651 a scho:EventVenue ; rdfs:label "Abbey Road Studios"@en .
+wd:Q169226 a scho:MusicAlbum ; rdfs:label "Sgt. Pepper's Lonely Hearts Club Band"@en .
+wd:Q300385 a scho:MusicComposition ; rdfs:label "A Day in the Life"@en .
+wd:Q206159 a scho:MusicGenre ; rdfs:label "Psychedelic Rock"@en .
+wd:Q76092 a scho:MusicGenre ; rdfs:label "Glam Rock"@en .
+wd:Q193663 a scho:Product ; rdfs:label "Magnetic tape"@en .

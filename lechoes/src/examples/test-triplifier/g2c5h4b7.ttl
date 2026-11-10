@@ -1,0 +1,46 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix scho: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix dbp: <http://dbpedia.org/resource/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix mimo: <http://www.mimo-db.eu/InstrumentsKeywords/> .
+@prefix euf: <http://thesaurus.europeanafashion.eu/thesaurus/> .
+@prefix pbcore: <http://pbcore.org/pbcore-controlled-vocabularies/titletype-vocabulary#> .
+
+<http://radio.liv.ac.uk/bme/HumanMadeObject/g2c5h4b7> a crm:E22_Human_Made_Object ;
+    scho:identifier "g2c5h4b7" ;
+    scho:name "BRIT Award for British Album of the Year (2012)" ;
+    scho:description "The BRIT Award trophy presented to Adele for her album '21' at the 2012 ceremony. The statue for that year was designed by Sir Peter Blake." ;
+    scho:caption "A physical recognition of a record-breaking album. Adele's '21' became the best-selling album of the 21st century in the UK, and this BRIT Award trophy symbolizes her monumental achievement in British music history." ;
+    scho:category wd:Q190573 ;
+    scho:additionalType aat:300233975 ;
+    scho:itemLocation "7" ;
+    scho:isPartOf <http://radio.liv.ac.uk/bme/Exhibition/Zone8> ;
+    scho:image <https://i.pinimg.com/736x/66/06/59/6606594978ed4227b3ad7dec06eea626.jpg> ;
+    scho:audio <https://open.spotify.com/album/0Lg1uZvI312TPqxNWShFXL?si=hvKnl5LYQ_uLUfXSfPWSqg> ;
+    scho:video <https://www.youtube.com/watch?v=I4RS4YodJU8> ;
+    scho:about wd:Q23215, wd:Q84, wd:Q145, wd:Q5364202, wd:Q155169, wd:Q2982137 ;
+    scho:genre wd:Q131272 ;
+    scho:material wd:Q663 ;
+    scho:color wd:Q183127 ;
+    scho:hasPart [
+        a scho:BorrowAction ;
+        scho:lender "BRIT Awards Ltd." ;
+        scho:startTime "2013-02-20"^^xsd:date
+    ] .
+
+wd:Q190573 a scho:DefinedTerm, skos:Concept ; rdfs:label "Award and Recognition"@en .
+aat:300233975 a scho:DefinedTerm ; rdfs:label "Trophies"@en .
+wd:Q23215 a scho:MusicArtist ; rdfs:label "Adele"@en .
+wd:Q84 a scho:City ; rdfs:label "London"@en .
+wd:Q145 a scho:Country ; rdfs:label "United Kingdom"@en .
+wd:Q5364202 a scho:EventVenue ; rdfs:label "The O2 Arena"@en .
+wd:Q155169 a scho:MusicAlbum ; rdfs:label "21"@en .
+wd:Q2982137 a scho:Event ; rdfs:label "2012 BRIT Awards"@en .
+wd:Q131272 a scho:MusicGenre ; rdfs:label "Soul music"@en .
+wd:Q663 a scho:Product ; rdfs:label "Aluminium"@en .
+wd:Q183127 a scho:Color ; rdfs:label "Multicolour"@en .

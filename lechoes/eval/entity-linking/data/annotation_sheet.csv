@@ -1,0 +1,116 @@
+mention_id,label,entity_type,n_objects,object_ids,object_refs,surface_variants,auto_flag,wikidata_qid,alt_qids,nil_reason,notes
+M-001,Band Aid,music artist,3,OBJ-048 OBJ-049 OBJ-050,Do They Know It's Christmas Single and Picture Disc (case 23) ; Bob Geldof Band Aid T-Shirt (case 23) ; Band Aid Promotional Poster (case 23),,,Q806231,,,
+M-002,Chas McDevitt,music artist,3,OBJ-004 OBJ-005 OBJ-006,Skiffle Concert Poster at the Metropolitan Club (case 2) ; Freight Train sheet music (case 2) ; Freight Train sheet music (case 2),,,Q5087038,,,
+M-003,Cream,music artist,3,OBJ-019 OBJ-020 OBJ-021,"Lyrics to 'White Room' (case 7) ; Lyrics to 'I Feel Free' (case 7) ; Disraeli Gears 12"" LP (case 7)",,,Q203736,,,
+M-004,Culture Club,music artist,3,OBJ-045 OBJ-046 OBJ-047,Boy George's Colour By Numbers outfit (case 15) ; Colour By Numbers tour programme (case 15) ; Colour By Numbers LP (case 15),,,Q50037,,,
+M-005,David Bowie,music artist,3,OBJ-028 OBJ-029 OBJ-030,Ziggy Stardust comic (case 10) ; Ziggy Stardust Wool Multi-coloured Suit (case 10) ; Ziggy Stardust Kimono with Carp Design (case 10),,,Q5383,,,
+M-006,New Order,music artist,3,OBJ-054 OBJ-055 OBJ-056,"Blue Monday' lyrics (case 17) ; 'Blue Monday' recording schedule (case 17) ; Blue Monday' 7"" single (case 17)",,,Q214990,,,
+M-007,Queen,music artist,3,OBJ-031 OBJ-032 OBJ-034,Roger Taylor drum head and drumsticks (case 11) ; Lyrics to 'I Want To Break Free' (case 11) ; Brian May's Red Special (case 11),,,Q15862,,,
+M-008,Sandie Shaw,music artist,3,OBJ-013 OBJ-014 OBJ-015,"Puppet on a String 12""LP (case 5) ; Puppet on a String sheet music (case 5) ; Puppet on a String Dress (case 5)",,,Q229356,,,
+M-009,Sex Pistols,music artist,3,OBJ-039 OBJ-040 OBJ-041,Anarchy in the UK tour poster (case 13) ; Sex Pistols flyer (case 13) ; Glen Matlock's bass guitar (case 13),,,Q82545,,,
+M-010,Suede,music artist,3,OBJ-057 OBJ-058 OBJ-059,Lyrics to 'Beautiful Ones' (case 19) ; Lyrics to 'So Young' (case 19) ; Lyrics to 'The Drowners' (case 19),,,Q826255,,,
+M-011,Suzi Quatro,music artist,3,OBJ-036 OBJ-037 OBJ-038,Suzi Quatro Black eather jumpsuit (case 12) ; Concert poster advertising Suzi Quatro at Torquay Town Hall (case 12) ; 'Can The Can' sheet music (case 12),,,Q234750,,,
+M-012,The Beatles,music artist,3,OBJ-010 OBJ-011 OBJ-012,The Beatles tour programme (case 4) ; Selcol 'New Beat' toy guitar (case 4) ; Selcol 'New Beat' toy drum (case 4),,,Q1299,,,
+M-013,The Specials,music artist,3,OBJ-042 OBJ-043 OBJ-044,Lynval Golding blue suit (case 14) ; Lynval Golding Trilby hat (case 14) ; The Specials 'Why?' lyrics (case 14),,,Q19057,,,
+M-014,Bob Geldof,music artist,2,OBJ-048 OBJ-049,Do They Know It's Christmas Single and Picture Disc (case 23) ; Bob Geldof Band Aid T-Shirt (case 23),,,Q216608,,,
+M-015,Brian May,music artist,2,OBJ-034 OBJ-035,Brian May's Red Special (case 11) ; Brian May's plectrum (case 11),,,Q15873,,,
+M-016,Kate Nash,music artist,2,OBJ-063 OBJ-064,Kate Nash - 'Made Of Bricks' poster (case 21) ; Kate Nash - Lyrics to 'Foundations' (case 21),,,Q237548,,,
+M-017,Ken Colyer,music artist,2,OBJ-001 OBJ-002,Programme for the 'New Orleans Joys' concert (case 1) ; Ken Colyer's Jazzmen promotional leaflet (case 1),,,Q1738588,,,
+M-018,Ken Colyer's jazzmen,music artist,2,OBJ-001 OBJ-002,Programme for the 'New Orleans Joys' concert (case 1) ; Ken Colyer's Jazzmen promotional leaflet (case 1),,,,,no_entity,
+M-019,Lynval Golding,music artist,2,OBJ-042 OBJ-043,Lynval Golding blue suit (case 14) ; Lynval Golding Trilby hat (case 14),,,Q6709528,,,
+M-020,Saxon,music artist,2,OBJ-052 OBJ-053,Saxon's Strong Arm Of The Law LP (case 16) ; Saxon's tour programme (case 16),,,Q504090,,,
+M-021,Spice Girls,music artist,2,OBJ-061 OBJ-062,Take That Pops tour programme (case 20) ; That That Everything Changes Tour official programme (case 20),,,Q55641,,,
+M-022,Acker Bilk,music artist,1,OBJ-001,Programme for the 'New Orleans Joys' concert (case 1),,,Q45610,,,
+M-023,Acker Bilk And His Paramount Jazz Band,music artist,1,OBJ-001,Programme for the 'New Orleans Joys' concert (case 1),,,Q112148502,,,
+M-024,Amy Winehouse,music artist,1,OBJ-065,Amy Winehouse - Tour poster (case 21),,,Q15897,,,
+M-025,Bill Wyman,music artist,1,OBJ-026,Bass guitar played by Bill Wyman (case 9),,,Q312559,,,
+M-026,Boy George,music artist,1,OBJ-045,Boy George's Colour By Numbers outfit (case 15),,,Q312883,,,
+M-027,Chas McDevitt Skiffle Group,music artist,1,OBJ-004,Skiffle Concert Poster at the Metropolitan Club (case 2),,,,,no_entity,
+M-028,Cliff Richard,music artist,1,OBJ-009,Cliff Richard and The Shadows sheet music (case 3),,,Q82238,,,
+M-029,Emma Bunton,music artist,1,OBJ-060,Emma Bunton outfit (case 20),,,Q219878,,,
+M-030,Freddy Mercury,music artist,1,OBJ-033,Freddie Mercury trousers and jacket (case 11),,,Q15869,,,
+M-031,Glen Matlock,music artist,1,OBJ-041,Glen Matlock's bass guitar (case 13),,,Q51319,,,
+M-032,Hapshash and the Coloured Coat,music artist,1,OBJ-022,Pink Floyd at the UFO poster (case 8),,,Q1967686,,,
+M-033,Marty Wilde,music artist,1,OBJ-008,Picturegoer magazine featuring Marty Wilde (case 3),,,Q1905851,,,
+M-034,Mick Jagger,music artist,1,OBJ-027,Mick Jagger Jumpsuit (case 9),,,Q128121,,,
+M-035,Midge Ure,music artist,1,OBJ-048,Do They Know It's Christmas Single and Picture Disc (case 23),,,Q355382,,,
+M-036,Paul Quinn,music artist,1,OBJ-051,Saxon's Stratocaster guitar (case 16),,,Q1524690,,,
+M-037,Peter Blake,music artist,1,OBJ-048,Do They Know It's Christmas Single and Picture Disc (case 23),,,,,out_of_scope,
+M-038,Pink Floyd,music artist,1,OBJ-022,Pink Floyd at the UFO poster (case 8),,,Q2306,,,
+M-039,Terry Dene,music artist,1,OBJ-007,I've Come Of Age' sheet music (case 3),,,Q3984808,,,
+M-040,The Clash,music artist,1,OBJ-042,Lynval Golding blue suit (case 14),,,Q125603,,,
+M-041,The Detours,music artist,1,OBJ-017,Flyer for The Detours at the White Hart Hotel in Acton (case 6),,,Q93346,,,
+M-042,The High Numbers,music artist,1,OBJ-018,Flyer for The High Numbers at the Railway Hotel in Harrow (case 6),,,Q68981254,,,
+M-043,The Rolling Stones,music artist,1,OBJ-016,Official Rolling Stones Fan Club newsletter and photograph of the band (case 6),,,Q11036,,,
+M-044,The Shadows,music artist,1,OBJ-009,Cliff Richard and The Shadows sheet music (case 3),,,Q212168,,,
+M-045,Blue Monday,music work,3,OBJ-054 OBJ-055 OBJ-056,"Blue Monday' lyrics (case 17) ; 'Blue Monday' recording schedule (case 17) ; Blue Monday' 7"" single (case 17)",,,Q885777,,,
+M-046,Puppet on a string,music work,3,OBJ-013 OBJ-014 OBJ-015,"Puppet on a String 12""LP (case 5) ; Puppet on a String sheet music (case 5) ; Puppet on a String Dress (case 5)",,,Q924657,,,
+M-047,Do They Know It's Christmas?,music work,2,OBJ-049 OBJ-050,Bob Geldof Band Aid T-Shirt (case 23) ; Band Aid Promotional Poster (case 23),,,Q1188494,,,
+M-048,Freight Train,music work,2,OBJ-005 OBJ-006,Freight Train sheet music (case 2) ; Freight Train sheet music (case 2),,,Q3430090,,,
+M-049,A Girl Like You,music work,1,OBJ-009,Cliff Richard and The Shadows sheet music (case 3),,,,,out_of_scope,"Q4657027 is the single but not the work, and wikidata points to the MB work ID within the single/release"
+M-050,Apache,music work,1,OBJ-009,Cliff Richard and The Shadows sheet music (case 3),,,Q616563,,,
+M-051,Beautiful Ones,music work,1,OBJ-057,Lyrics to 'Beautiful Ones' (case 19),,,,,out_of_scope,Q2085988 is the single
+M-052,Can The Can,music work,1,OBJ-038,'Can The Can' sheet music (case 12),,,,,out_of_scope,Q588027 is the single
+M-053,Do They Know It's Christmas,music work,1,OBJ-048,Do They Know It's Christmas Single and Picture Disc (case 23),,,Q1188494,,,Same of M-047
+M-054,Everything Changes,music work,1,OBJ-062,That That Everything Changes Tour official programme (case 20),,,Q1403847,,,Borderline as this entity is both a single and a song
+M-055,I Feel Free,music work,1,OBJ-020,Lyrics to 'I Feel Free' (case 7),,,Q746775,,,
+M-056,I Want to Break Free,music work,1,OBJ-032,Lyrics to 'I Want To Break Free' (case 11),,,Q219209,,,
+M-057,I'll String Along With You,music work,1,OBJ-009,Cliff Richard and The Shadows sheet music (case 3),,,Q16386212,,,
+M-058,I've Come Of Age,music work,1,OBJ-007,I've Come Of Age' sheet music (case 3),,,,,no_entity,
+M-059,Kon-tiki,music work,1,OBJ-009,Cliff Richard and The Shadows sheet music (case 3),,,,,out_of_scope,"Q6428677 is the single and not the work, but the WD page still points to the MusicBrainz work"
+M-060,Man Of Mystery,music work,1,OBJ-009,Cliff Richard and The Shadows sheet music (case 3),,,Q108551355,,,Q108551355 is both the single and the work
+M-061,So Young,music work,1,OBJ-058,Lyrics to 'So Young' (case 19),,,,,out_of_scope,Q12741029 is the single and not the work
+M-062,Spread Your Wings,music work,1,OBJ-034,Brian May's Red Special (case 11),,,Q387813,,,
+M-063,That's My Desire,music work,1,OBJ-009,Cliff Richard and The Shadows sheet music (case 3),,,Q7710965,,,Another entity that can be confused by its single due to Ella's references in other labels
+M-064,The Drowners,music work,1,OBJ-059,Lyrics to 'The Drowners' (case 19),,,,,out_of_scope,Q4051056 is the single and not the work
+M-065,We Will Rock You,music work,1,OBJ-034,Brian May's Red Special (case 11),,,Q326487,,,
+M-066,White Room,music work,1,OBJ-019,Lyrics to 'White Room' (case 7),,,,,out_of_scope,Q3122019 is the single and not the work
+M-067,Why?,music work,1,OBJ-044,The Specials 'Why?' lyrics (case 14),,,,,out_of_scope,Several songs exist but no one seems to related to the specials
+M-068,"Power, Corruption & Lies",music album,3,OBJ-054 OBJ-055 OBJ-056,"Blue Monday' lyrics (case 17) ; 'Blue Monday' recording schedule (case 17) ; Blue Monday' 7"" single (case 17)",,,Q1930135,,,
+M-069,Colour By Numbers,music album,2,OBJ-045 OBJ-047,Boy George's Colour By Numbers outfit (case 15) ; Colour By Numbers LP (case 15),,,Q287982,,,
+M-070,Do They Know It's Christmas?,music album,2,OBJ-049 OBJ-050,Bob Geldof Band Aid T-Shirt (case 23) ; Band Aid Promotional Poster (case 23),,,,,out_of_scope,There are song and single but no album to date
+M-071,Back To Black,music album,1,OBJ-065,Amy Winehouse - Tour poster (case 21),,,Q156670,,,
+M-072,Denim and Leather,music album,1,OBJ-053,Saxon's tour programme (case 16),,,Q1929652,,,
+M-073,Disraeli Gears,music album,1,OBJ-021,"Disraeli Gears 12"" LP (case 7)",,,Q269211,,,
+M-074,Do They Know It's Christmas,music album,1,OBJ-048,Do They Know It's Christmas Single and Picture Disc (case 23),,,,,out_of_scope,Duplicate. There are song and single but no album to date
+M-075,Foundations,music album,1,OBJ-064,Kate Nash - Lyrics to 'Foundations' (case 21),,,,,out_of_scope,Q111941015 is the wrong album but may get confused while Q1172554 is the correct single but not the album itself
+M-076,Made of Bricks,music album,1,OBJ-063,Kate Nash - 'Made Of Bricks' poster (case 21),,,Q2012764,,,
+M-077,Strong Arm Of The Law,music album,1,OBJ-052,Saxon's Strong Arm Of The Law LP (case 16),,,Q1869172,,,
+M-078,Live Aid,event,3,OBJ-048 OBJ-049 OBJ-050,Do They Know It's Christmas Single and Picture Disc (case 23) ; Bob Geldof Band Aid T-Shirt (case 23) ; Band Aid Promotional Poster (case 23),,,Q193740,,,
+M-079,New Orleans Joys,event,1,OBJ-001,Programme for the 'New Orleans Joys' concert (case 1),,,,,out_of_scope,No related data
+M-080,UFO Club,venue,2,OBJ-022 OBJ-023,Pink Floyd at the UFO poster (case 8) ; Membership cards to the UFO club (case 8),,,Q2304064,,,
+M-081,Blitz Club,venue,1,OBJ-045,Boy George's Colour By Numbers outfit (case 15),,,Q69908442,,,
+M-082,"Metropolitan Club, Edge Road",venue,1,OBJ-004,Skiffle Concert Poster at the Metropolitan Club (case 2),,,,,out_of_scope,
+M-083,Middle Earth underground club,venue,1,OBJ-024,Middle Earth underground artwork (case 8),,,,,no_entity,
+M-084,Railway Hotel,venue,1,OBJ-018,Flyer for The High Numbers at the Railway Hotel in Harrow (case 6),,,,,out_of_scope,Several hotels with this name in UK but none is in Harrow
+M-085,Shepherd's Bush Empire,venue,1,OBJ-065,Amy Winehouse - Tour poster (case 21),,,Q2778511,,,
+M-086,Torquay Town Hall,venue,1,OBJ-037,Concert poster advertising Suzi Quatro at Torquay Town Hall (case 12),,,Q26503331,,,
+M-087,White Hart Hotel,venue,1,OBJ-017,Flyer for The Detours at the White Hart Hotel in Acton (case 6),,,,,out_of_scope,No hotel is in Acton as this place is now a historical pub
+M-088,London,place,3,OBJ-004 OBJ-024 OBJ-065,Skiffle Concert Poster at the Metropolitan Club (case 2) ; Middle Earth underground artwork (case 8) ; Amy Winehouse - Tour poster (case 21),,,Q84,,,
+M-089,Acton,place,1,OBJ-017,Flyer for The Detours at the White Hart Hotel in Acton (case 6),,,Q83609,,,Difficult because it requires knowledge of which Acton is the correct one (and this one is an area of London) as there are several villages with this name
+M-090,Harrow,place,1,OBJ-018,Flyer for The High Numbers at the Railway Hotel in Harrow (case 6),,,Q54961,,,Also require disambiguation
+M-091,Torquay,place,1,OBJ-037,Concert poster advertising Suzi Quatro at Torquay Town Hall (case 12),,,Q209055,,,
+M-092,United Kingdom,country,6,OBJ-004 OBJ-016 OBJ-036 OBJ-037 OBJ-039 OBJ-065,Skiffle Concert Poster at the Metropolitan Club (case 2) ; Official Rolling Stones Fan Club newsletter and photograph of the band (case 6) ; Suzi Quatro Black eather jumpsuit (case 12) ; Concert poster advertising Suzi Quatro at Torquay Town Hall (case 12) ; +2 more,,,Q145,,,
+M-093,Ethiopia,country,1,OBJ-048,Do They Know It's Christmas Single and Picture Disc (case 23),,,Q115,,,
+M-094,Germany,country,1,OBJ-002,Ken Colyer's Jazzmen promotional leaflet (case 1),,,Q183,,,
+M-095,Scandinavia,country,1,OBJ-016,Official Rolling Stones Fan Club newsletter and photograph of the band (case 6),,,,,out_of_scope,Q21195 is a region because Scandinavia is not really a country
+M-096,United States,country,1,OBJ-016,Official Rolling Stones Fan Club newsletter and photograph of the band (case 6),,,Q30,,,
+M-097,Britpop,music genre,3,OBJ-057 OBJ-058 OBJ-059,Lyrics to 'Beautiful Ones' (case 19) ; Lyrics to 'So Young' (case 19) ; Lyrics to 'The Drowners' (case 19),,,Q189045,,,
+M-098,Glam rock,music genre,3,OBJ-036 OBJ-037 OBJ-038,Suzi Quatro Black eather jumpsuit (case 12) ; Concert poster advertising Suzi Quatro at Torquay Town Hall (case 12) ; 'Can The Can' sheet music (case 12),,,Q76092,,,
+M-099,Hard Rock,music genre,3,OBJ-051 OBJ-052 OBJ-053,Saxon's Stratocaster guitar (case 16) ; Saxon's Strong Arm Of The Law LP (case 16) ; Saxon's tour programme (case 16),,,Q83270,,,
+M-100,Jazz,music genre,3,OBJ-001 OBJ-002 OBJ-003,"Programme for the 'New Orleans Joys' concert (case 1) ; Ken Colyer's Jazzmen promotional leaflet (case 1) ; Jazz News, 25th July 1962 (case 1)",,,Q8341,,,
+M-101,Madchester,music genre,3,OBJ-054 OBJ-055 OBJ-056,"Blue Monday' lyrics (case 17) ; 'Blue Monday' recording schedule (case 17) ; Blue Monday' 7"" single (case 17)",,,Q4841596,,,Tricky one because madchester appears as alias while there is another wikidata page about the musical movement and scene (Q502886)
+M-102,New Romantics,music genre,3,OBJ-045 OBJ-046 OBJ-047,Boy George's Colour By Numbers outfit (case 15) ; Colour By Numbers tour programme (case 15) ; Colour By Numbers LP (case 15),,,Q597240,,,This is a movement that Wikidata considers also as genre
+M-103,Punk,music genre,3,OBJ-039 OBJ-040 OBJ-041,Anarchy in the UK tour poster (case 13) ; Sex Pistols flyer (case 13) ; Glen Matlock's bass guitar (case 13),,,Q3071,,,
+M-104,Seasonal,music genre,3,OBJ-048 OBJ-049 OBJ-050,Do They Know It's Christmas Single and Picture Disc (case 23) ; Bob Geldof Band Aid T-Shirt (case 23) ; Band Aid Promotional Poster (case 23),,,,,data_error,This should have not been annotated as seasonal
+M-105,Ska,music genre,3,OBJ-042 OBJ-043 OBJ-044,Lynval Golding blue suit (case 14) ; Lynval Golding Trilby hat (case 14) ; The Specials 'Why?' lyrics (case 14),,,Q54365,,,
+M-106,Skiffle,music genre,1,OBJ-004,Skiffle Concert Poster at the Metropolitan Club (case 2),,,Q606089,,,
+M-107,Paper,material,5,OBJ-028 OBJ-032 OBJ-037 OBJ-038 OBJ-050,Ziggy Stardust comic (case 10) ; Lyrics to 'I Want To Break Free' (case 11) ; Concert poster advertising Suzi Quatro at Torquay Town Hall (case 12) ; 'Can The Can' sheet music (case 12) ; +1 more,,,Q11472,,,
+M-108,Fabric,material,3,OBJ-042 OBJ-045 OBJ-049,Lynval Golding blue suit (case 14) ; Boy George's Colour By Numbers outfit (case 15) ; Bob Geldof Band Aid T-Shirt (case 23),,,Q28823,Q5849500; Q136764162,,
+M-109,Leather,material,1,OBJ-036,Suzi Quatro Black eather jumpsuit (case 12),,,Q286,,,
+M-110,1983,colour,2,OBJ-046 OBJ-047,Colour By Numbers tour programme (case 15) ; Colour By Numbers LP (case 15),,year-like value in a non-year column,,,data_error,
+M-111,1981,colour,1,OBJ-045,Boy George's Colour By Numbers outfit (case 15),,year-like value in a non-year column,,,data_error,
+M-112,Black,colour,1,OBJ-036,Suzi Quatro Black eather jumpsuit (case 12),,,Q23445,,,
+M-113,Blue,colour,1,OBJ-042,Lynval Golding blue suit (case 14),,,Q1088,,,
+M-114,Pink,colour,1,OBJ-015,Puppet on a String Dress (case 5),,,Q429220,,,
+M-115,Turquoise,colour,1,OBJ-010,The Beatles tour programme (case 4),,,Q5960345,,,

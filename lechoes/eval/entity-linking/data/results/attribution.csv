@@ -1,0 +1,5 @@
+system,k,retrieval_miss,validator_rejection,llm_misselection,llm_false_abstention,spurious_link
+S0,5,3.0,0,22.0,0,16.0
+S1,10,1.0,0,2.0,0,9.0
+S2,10,1.0,0,4.0,1.0,13.33
+S3,10,1.0,0,1.0,1.33,4.0

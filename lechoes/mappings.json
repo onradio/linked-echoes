@@ -1,0 +1,221 @@
+{
+  "type": {
+    "_type_uri": ["http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object"],
+    "notation": {
+      "_type_uri": ["http://schema.org/Music"],
+      "sheet music": ["https://schema.org/SheetMusic"],
+      "lyrics": ["http://schema.org/Lyrics"]
+    },
+    "instrument": {
+      "_type_uri": ["http://schema.org/MusicInstrument"],
+      "piano": ["http://dbpedia.org/resource/Piano"],
+      "drums": ["http://dbpedia.org/resource/Drum"],
+      "trumpet": ["http://dbpedia.org/resource/Trumpet"],
+      "guitar": ["http://dbpedia.org/resource/Guitar"],
+      "violin": ["http://dbpedia.org/resource/Violin"],
+      "saxophone": ["http://dbpedia.org/resource/Saxophone"],
+      "flute": ["http://dbpedia.org/resource/Flute"],
+      "clarinet": ["http://dbpedia.org/resource/Clarinet"],
+      "bass guitar": ["http://dbpedia.org/resource/Bass_guitar"],
+      "synthesizer": ["http://dbpedia.org/resource/Synthesizer"]
+    },
+    "costume": {
+      "_type_uri": ["http://schema.org/Clothing"],
+      "t-shirt": ["http://dbpedia.org/resource/T-shirt"],
+      "dress": ["http://dbpedia.org/resource/Dress"],
+      "suit": ["http://dbpedia.org/resource/Suit_(clothing)"],
+      "hat": ["http://dbpedia.org/resource/Hat"],
+      "shoes": ["http://dbpedia.org/resource/Shoe"],
+      "gloves": ["http://dbpedia.org/resource/Glove"]
+    },
+    "graphicart": {
+      "_type_uri": ["http://schema.org/VisualArtwork"],
+      "poster": ["http://dbpedia.org/resource/Poster"],
+      "painting": ["http://dbpedia.org/resource/Painting"],
+      "photograph": ["http://dbpedia.org/resource/Photograph"],
+      "drawing": ["http://dbpedia.org/resource/Drawing"],
+      "sculpture": ["http://dbpedia.org/resource/Sculpture"]
+    },
+    "record": {
+      "_type_uri": ["http://schema.org/MediaObject"],
+      "lp": ["http://dbpedia.org/resource/LP_record"],
+      "cd": ["http://dbpedia.org/resource/Compact_disc"],
+      "cassette": ["http://dbpedia.org/resource/Cassette_tape"],
+      "digital": ["http://schema.org/DigitalDocument"]
+    },
+    "document": {
+      "_type_uri": ["http://schema.org/CreativeWork"]
+    },
+    "writtensource": {
+      "_type_uri": [
+        "http://schema.org/CreativeWork",
+        "http://schema.org/SheetMusic",
+        "http://schema.org/MediaObject"
+      ]
+    }
+  },
+  "name": {
+    "_type_uri": ["http://www.w3.org/2001/XMLSchema#string"],
+    "_relation_uri": ["http://schema.org/name"]
+  },
+  "lender": {
+    "_type_uri": ["http://www.w3.org/2001/XMLSchema#string"],
+    "_relation_uri": ["http://schema.org/lender"]
+  },
+  "lend_start": {
+    "_type_uri": ["http://www.w3.org/2001/XMLSchema#string"],
+    "_relation_uri": ["http://schema.org/startDate"]
+  },
+  "lend_end": {
+    "_type_uri": ["http://www.w3.org/2001/XMLSchema#string"],
+    "_relation_uri": ["http://schema.org/endDate"]
+  },
+  "image": {
+    "_type_uri": ["http://schema.org/ImageObject"],
+    "_relation_uri": ["http://schema.org/image"]
+  },
+  "audio": {
+    "_type_uri": ["http://schema.org/AudioObject"],
+    "_relation_uri": ["http://schema.org/audio"]
+  },
+  "video": {
+    "_type_uri": ["http://schema.org/VideoObject"],
+    "_relation_uri": ["http://schema.org/video"]
+  },
+  "description": {
+    "_type_uri": ["http://schema.org/Text"],
+    "_relation_uri": ["http://schema.org/description"]
+  },
+  "caption": {
+    "_type_uri": ["http://schema.org/Text"],
+    "_relation_uri": ["http://schema.org/caption"]
+  },
+  "genre": {
+    "_type_uri": ["http://schema.org/DefinedTerm"],
+    "_relation_uri": ["http://schema.org/genre"],
+    "rock": ["http://www.wikidata.org/entity/Q11399"],
+    "blues": ["http://www.wikidata.org/entity/Q9759"],
+    "jazz": ["http://www.wikidata.org/entity/Q8341"],
+    "pop": ["http://www.wikidata.org/entity/Q37073"],
+    "classical": ["http://www.wikidata.org/entity/Q9730"],
+    "hip hop": ["http://www.wikidata.org/entity/Q11401"],
+    "electronic": ["http://www.wikidata.org/entity/Q9778"],
+    "folk": ["http://www.wikidata.org/entity/Q43343"],
+    "country": ["http://www.wikidata.org/entity/Q83440"],
+    "metal": ["http://www.wikidata.org/entity/Q12326776"],
+    "punk": ["http://www.wikidata.org/entity/Q3071"],
+    "skiffle": ["http://www.wikidata.org/entity/Q606089"]
+  },
+  "music_work": {
+    "_type_uri": ["http://schema.org/MusicComposition"],
+    "_relation_uri": ["http://schema.org/about"],
+    "Yesterday": ["http://www.wikidata.org/entity/Q202698"],
+    "Bohemian Rhapsody": ["http://www.wikidata.org/entity/Q187745"],
+    "Hey Jude": ["http://www.wikidata.org/entity/Q607742"],
+    "Let It Be": ["http://www.wikidata.org/entity/Q184259"],
+    "Stairway to Heaven": ["http://www.wikidata.org/entity/Q192023"],
+    "Like a Rolling Stone": ["http://www.wikidata.org/entity/Q214430"],
+    "Smells Like Teen Spirit": ["http://www.wikidata.org/entity/Q485907"],
+    "Billie Jean": ["http://www.wikidata.org/entity/Q193319"]
+  },
+  "music_artist": {
+    "_type_uri": ["http://schema.org/Person"],
+    "_relation_uri": ["http://schema.org/about"],
+    "The Beatles": ["http://www.wikidata.org/entity/Q1299"],
+    "The Rolling Stones": ["http://www.wikidata.org/entity/Q11036"],
+    "Queen": ["http://www.wikidata.org/entity/Q15862"],
+    "David Bowie": ["http://www.wikidata.org/entity/Q5383"],
+    "Elton John": ["http://www.wikidata.org/entity/Q2808"],
+    "Led Zeppelin": ["http://www.wikidata.org/entity/Q2331"],
+    "The Who": ["http://www.wikidata.org/entity/Q93346"],
+    "Pink Floyd": ["http://www.wikidata.org/entity/Q2306"],
+    "The Kinks": ["http://www.wikidata.org/entity/Q188713"],
+    "Oasis": ["http://www.wikidata.org/entity/Q382890"],
+    "Spice Girls": ["http://www.wikidata.org/entity/Q55641"],
+    "Radiohead": ["http://www.wikidata.org/entity/Q44190"],
+    "Coldplay": ["http://www.wikidata.org/entity/Q45188"],
+    "Arctic Monkeys": ["http://www.wikidata.org/entity/Q170599"],
+    "Blur": ["http://www.wikidata.org/entity/Q485820"],
+    "The Smiths": ["http://www.wikidata.org/entity/Q180598"],
+    "Joy Division": ["https://www.wikidata.org/wiki/Q172763"],
+    "New Order": ["http://www.wikidata.org/entity/Q214990"],
+    "The Cure": ["http://www.wikidata.org/entity/Q484427"],
+    "Humphrey Lyttelton": ["https://www.wikidata.org/wiki/Q1622068"],
+    "Chris Barber": ["https://www.wikidata.org/wiki/Q491092"],
+    "Sister Rosetta Tharpe ": ["https://www.wikidata.org/wiki/Q438106"],
+    "Lonnie Donegan": ["https://www.wikidata.org/wiki/Q27743"],
+    "The Vipers Skiffle Group": ["https://www.wikidata.org/wiki/Q7772770"],
+    "Jim Dale": ["https://www.wikidata.org/wiki/Q1689081"],
+    "Marty Wilde": ["https://www.wikidata.org/wiki/Q1905851"],
+    "Cliff Richard": ["https://www.wikidata.org/wiki/Q82238"],
+    "Tommy Steele": ["https://www.wikidata.org/wiki/Q1284241"],
+    "Billy Fury": ["https://www.wikidata.org/wiki/Q863103"],
+    "Roger Daltrey": ["https://www.wikidata.org/wiki/Q311672"],
+    "Pete Townshend": ["https://www.wikidata.org/wiki/Q26933"],
+    "Jimmy Page": ["https://wikidata.org/wiki/Q165467"],
+    "Nick Mason": ["https://www.wikidata.org/wiki/Q192936"],
+    "Duran Duran": ["https://www.wikidata.org/wiki/Q58381"],
+    "Judas Priest": ["https://www.wikidata.org/wiki/Q83468"],
+    "Rob Halford": ["https://www.wikidata.org/wiki/Q271576"],
+    "Def Leppard": ["https://www.wikidata.org/wiki/Q182890"],
+    "Joe Elliott": ["https://www.wikidata.org/wiki/Q541573"],
+    "City Ramblers Skiffle Group": ["https://musicbrainz.org/artist/5b4545f9-5429-417f-a367-c801b09d957e"],
+    "Johnny Kidd & the Pirates": ["https://www.wikidata.org/wiki/Q6669284"],
+    "Ian Kilminster": ["https://www.wikidata.org/wiki/Q309926"]
+  },
+  "publisher": {
+    "_type_uri": ["http://schema.org/Organization"],
+    "_relation_uri": ["http://schema.org/publisher"],
+    "emi": ["http://www.wikidata.org/entity/Q183412"],
+    "sony music": ["http://www.wikidata.org/entity/Q330629"],
+    "universal music group": ["http://www.wikidata.org/entity/Q4043197"]
+  },
+  "event": {
+    "_type_uri": ["http://schema.org/Event"],
+    "_relation_uri": ["http://schema.org/about"],
+    "concert": ["http://schema.org/MusicEvent"],
+    "festival": ["http://schema.org/Festival"],
+    "exhibition": ["http://schema.org/ExhibitionEvent"]
+  },
+  "country": {
+    "_type_uri": ["http://schema.org/Country"],
+    "_relation_uri": ["http://schema.org/countryOfOrigin"],
+    "uk": ["http://www.wikidata.org/entity/Q145"],
+    "usa": ["http://www.wikidata.org/entity/Q30"],
+    "germany": ["http://www.wikidata.org/entity/Q183"]
+  },
+  "city": {
+    "_type_uri": ["http://schema.org/City"],
+    "london": ["http://www.wikidata.org/entity/Q84"],
+    "new york": ["http://www.wikidata.org/entity/Q60"],
+    "berlin": ["http://www.wikidata.org/entity/Q64"],
+    "manchester": ["http://www.wikidata.org/entity/Q18125"],
+    "liverpool": ["http://www.wikidata.org/entity/Q24826"],
+    "glasgow": ["http://www.wikidata.org/entity/Q4093"],
+    "stockport": ["https://www.wikidata.org/wiki/Q18655"]
+  },
+  "venue": {
+    "_type_uri": ["http://schema.org/Place"],
+    "_relation_uri": ["http://schema.org/location"],
+    "Wembley Stadium": ["http://www.wikidata.org/entity/Q43279"],
+    "O2 Arena": ["http://www.wikidata.org/entity/Q5364202"],
+    "Royal Albert Hall": ["http://www.wikidata.org/entity/Q193639"],
+    "Brixton Academy": ["http://www.wikidata.org/entity/Q2239788"],
+    "Barrowland ballroom": ["http://www.wikidata.org/entity/Q808992"]
+  },
+  "material": {
+    "_type_uri": ["http://www.wikidata.org/entity/Q214609"],
+    "_relation_uri": ["http://schema.org/material"],
+    "wood": ["http://www.wikidata.org/entity/Q287"],
+    "metal": ["http://www.wikidata.org/entity/Q11426"],
+    "plastic": ["http://www.wikidata.org/entity/Q11474"],
+    "glass": ["http://www.wikidata.org/entity/Q11469"],
+    "paper": ["http://www.wikidata.org/entity/Q11472"],
+    "fabric": ["http://www.wikidata.org/entity/Q28823"],
+    "ceramic": ["http://www.wikidata.org/entity/Q45621"],
+    "stone": ["http://www.wikidata.org/entity/Q22731"],
+    "textile": ["http://www.wikidata.org/entity/Q28823"],
+    "leather": ["http://www.wikidata.org/entity/Q286"],
+    "snakeskin": ["http://www.wikidata.org/entity/Q1910620"]
+  }
+}

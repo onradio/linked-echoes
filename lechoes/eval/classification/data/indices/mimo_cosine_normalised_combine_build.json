@@ -1,0 +1,14 @@
+{
+  "vocabulary_name": "mimo_cosine_normalised_combine",
+  "model_name": "all-MiniLM-L6-v2",
+  "index_strategy": "combine",
+  "similarity": "cosine_normalised",
+  "normalise_embeddings": true,
+  "faiss_index": "IndexFlatIP",
+  "embedding_dimension": 384,
+  "n_terms": 2324,
+  "subset": [
+    "MIMO"
+  ],
+  "built_at": "2026-08-11T14:09:18+00:00"
+}

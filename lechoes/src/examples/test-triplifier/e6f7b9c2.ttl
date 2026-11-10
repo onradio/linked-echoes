@@ -1,0 +1,40 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix scho: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix dbp: <http://dbpedia.org/resource/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix mimo: <http://www.mimo-db.eu/InstrumentsKeywords/> .
+@prefix euf: <http://thesaurus.europeanafashion.eu/thesaurus/> .
+@prefix pbcore: <http://pbcore.org/pbcore-controlled-vocabularies/titletype-vocabulary#> .
+
+<http://radio.liv.ac.uk/bme/HumanMadeObject/e6f7b9c2> a crm:E22_Human_Made_Object ;
+    scho:identifier "e6f7b9c2" ;
+    scho:name "Spice Girls 'Spice World' Lunchbox" ;
+    scho:description "A mass-produced metal lunchbox with matching plastic thermos, featuring a promotional image of the Spice Girls for their 1997 film 'Spice World'." ;
+    scho:caption "A symbol of 'Girl Power' fan mania which could be found in school playgrounds across the UK. A quintessential piece of 90s pop merchandise." ;
+    scho:category wd:Q28877 ;
+    scho:additionalType aat:300199751 ;
+    scho:itemLocation "5" ;
+    scho:isPartOf <http://radio.liv.ac.uk/bme/Exhibition/Zone7> ;
+    scho:image <https://metro.co.uk/wp-content/uploads/2015/01/spice-girls.jpg?quality=90&strip=all&w=570> ;
+    scho:audio <https://open.spotify.com/album/3x2jF7blR6bFHtk4MccsyJ?si=BrygJ0cRQiWpu9H4cMRslA> ;
+    scho:about wd:Q55641, wd:Q145, wd:Q818781, wd:Q84 ;
+    scho:genre wd:Q37073 ;
+    scho:material wd:Q1096, wd:Q11474 ;
+    scho:color wd:Q429220, wd:Q317802 .
+
+wd:Q28877 a scho:DefinedTerm, skos:Concept ; rdfs:label "Merchandise"@en .
+aat:300199751 a scho:DefinedTerm ; rdfs:label "Lunchbox"@en .
+wd:Q55641 a scho:MusicGroup ; rdfs:label "Spice Girls"@en .
+wd:Q145 a scho:Country ; rdfs:label "United Kingdom"@en .
+wd:Q818781 a scho:MusicAlbum ; rdfs:label "Spice"@en .
+wd:Q84 a scho:City ; rdfs:label "London"@en .
+wd:Q37073 a scho:MusicGenre ; rdfs:label "Pop music"@en .
+wd:Q1096 a scho:Product ; rdfs:label "Tin"@en .
+wd:Q11474 a scho:Product ; rdfs:label "Plastic"@en .
+wd:Q429220 a scho:Color ; rdfs:label "Pink"@en .
+wd:Q317802 a scho:Color ; rdfs:label "Silver"@en .

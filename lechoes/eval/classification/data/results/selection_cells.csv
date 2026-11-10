@@ -1,0 +1,17 @@
+configuration,system,k,model,model_label,index_strategy,query,n_objects,runs,TP,WT,FA,TA,TA_weak,SA,error_malformed,accuracy,accuracy_lo,accuracy_hi,term_precision,term_precision_lo,term_precision_hi,term_recall,term_recall_lo,term_recall_hi,term_f1,term_f1_lo,term_f1_hi,precision_strong,recall_strong,f1_strong,abstention_accuracy,abstention_denominator,hit_at_k
+combine_name,T0,5,-,,combine,name_description,65.0,1,17.0,47.0,0.0,0.0,0.0,1.0,0.0,0.2615,,,0.2615,,,0.2656,,,0.2636,,,0.34,0.34,0.34,0.0,15.0,0.5312
+combine_name,T0,10,-,,combine,name_description,65.0,1,17.0,47.0,0.0,0.0,0.0,1.0,0.0,0.2615,,,0.2615,,,0.2656,,,0.2636,,,0.34,0.34,0.34,0.0,15.0,0.625
+combine_name,T0,20,-,,combine,name_description,65.0,1,17.0,47.0,0.0,0.0,0.0,1.0,0.0,0.2615,,,0.2615,,,0.2656,,,0.2636,,,0.34,0.34,0.34,0.0,15.0,0.7188
+combine_name,T0,50,-,,combine,name_description,65.0,1,17.0,47.0,0.0,0.0,0.0,1.0,0.0,0.2615,,,0.2615,,,0.2656,,,0.2636,,,0.34,0.34,0.34,0.0,15.0,0.8281
+combine_name,T1,5,google-gemini-2-5-flash,Gemini 2.5 Flash,combine,name_description,65.0,3,31.0,12.0,15.0,1.0,6.0,0.0,0.0,0.5846,,,0.7209,,,0.5345,,,0.6139,,,0.7429,0.52,0.6118,0.7,10.0,0.5312
+combine_name,T1,10,google-gemini-2-5-flash,Gemini 2.5 Flash,combine,name_description,65.0,3,35.6667,11.0,12.3333,1.0,5.0,0.0,0.0,0.641,,,0.7643,,,0.6045,,,0.6751,,,0.7876,0.5933,0.6768,0.6667,9.0,0.625
+combine_name,T1,20,google-gemini-2-5-flash,Gemini 2.5 Flash,combine,name_description,65.0,3,36.6667,12.3333,11.0,1.0,4.0,0.0,0.0,0.641,,,0.7483,,,0.6111,,,0.6728,,,0.7607,0.5933,0.6667,0.625,8.0,0.7188
+combine_name,T1,50,google-gemini-2-5-flash,Gemini 2.5 Flash,combine,name_description,65.0,3,43.3333,14.0,4.3333,1.0,2.3333,0.0,0.0,0.7179,,,0.7558,,,0.7027,,,0.7283,,,0.7737,0.7067,0.7387,0.4762,7.0,0.8281
+term_hint,T0,5,-,,term,hint_description,65.0,1,29.0,35.0,0.0,0.0,0.0,1.0,0.0,0.4462,,,0.4462,,,0.4531,,,0.4496,,,0.58,0.58,0.58,0.0,15.0,0.6875
+term_hint,T0,10,-,,term,hint_description,65.0,1,29.0,35.0,0.0,0.0,0.0,1.0,0.0,0.4462,,,0.4462,,,0.4531,,,0.4496,,,0.58,0.58,0.58,0.0,15.0,0.7188
+term_hint,T0,20,-,,term,hint_description,65.0,1,29.0,35.0,0.0,0.0,0.0,1.0,0.0,0.4462,,,0.4462,,,0.4531,,,0.4496,,,0.58,0.58,0.58,0.0,15.0,0.7656
+term_hint,T0,50,-,,term,hint_description,65.0,1,29.0,35.0,0.0,0.0,0.0,1.0,0.0,0.4462,,,0.4462,,,0.4531,,,0.4496,,,0.58,0.58,0.58,0.0,15.0,0.7812
+term_hint,T1,5,google-gemini-2-5-flash,Gemini 2.5 Flash,term,hint_description,65.0,3,40.0,11.0,5.0,1.0,8.0,0.0,0.0,0.7538,,,0.7843,,,0.7143,,,0.7477,,,0.8889,0.8,0.8421,0.6,15.0,0.6875
+term_hint,T1,10,google-gemini-2-5-flash,Gemini 2.5 Flash,term,hint_description,65.0,3,40.3333,14.0,2.6667,1.0,7.0,0.0,0.0,0.7436,,,0.7423,,,0.7076,,,0.7246,,,0.8521,0.8067,0.8288,0.5333,15.0,0.7188
+term_hint,T1,20,google-gemini-2-5-flash,Gemini 2.5 Flash,term,hint_description,65.0,3,41.0,16.3333,2.6667,1.0,4.0,0.0,0.0,0.7077,,,0.7151,,,0.6833,,,0.6989,,,0.8451,0.8,0.8219,0.3571,14.0,0.7656
+term_hint,T1,50,google-gemini-2-5-flash,Gemini 2.5 Flash,term,hint_description,65.0,3,42.0,18.6667,2.3333,0.6667,1.0,0.3333,0.0,0.6718,,,0.6885,,,0.6667,,,0.6774,,,0.8392,0.8,0.8191,0.1282,13.0,0.7812

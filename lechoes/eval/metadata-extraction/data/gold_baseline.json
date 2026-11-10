@@ -1,0 +1,84 @@
+{
+  "sheet": "gold_objects.csv",
+  "sheet_sha256": "80a810e4e2876f4244fa2c2e215b8455a2080016ee1c04845f625aef4719a7d7",
+  "aliases_sha256": "483416b9f68696da90f76a47d420992e1da0d4914119657b680eb731bd30708c",
+  "objects": 62,
+  "cases": 21,
+  "gold_values": 209,
+  "gold_per_field": {
+    "music_genres": 24,
+    "music_works": 26,
+    "music_albums": 14,
+    "music_artists": 73,
+    "events": 1,
+    "countries": 9,
+    "places": 6,
+    "venues": 9,
+    "years": 35,
+    "colours": 3,
+    "materials": 9
+  },
+  "supported": 173,
+  "inference_only": 36,
+  "supported_per_field": {
+    "music_genres": 9,
+    "music_artists": 71,
+    "years": 35,
+    "colours": 3,
+    "materials": 1,
+    "places": 6,
+    "venues": 8,
+    "music_works": 26,
+    "music_albums": 11,
+    "countries": 2,
+    "events": 1
+  },
+  "cells": {
+    "total": 682,
+    "empty": 496,
+    "non_empty": 186
+  },
+  "distractors": {
+    "triples": 139,
+    "objects": 49,
+    "by_field": {
+      "music_artists": 45,
+      "music_works": 32,
+      "years": 25,
+      "music_albums": 13,
+      "venues": 7,
+      "places": 6,
+      "countries": 4,
+      "materials": 2,
+      "colours": 2,
+      "music_genres": 2,
+      "events": 1
+    }
+  },
+  "ceilings": {
+    "E1": {
+      "asserted": 103,
+      "tp": 97,
+      "precision": 0.9417,
+      "recall": 0.4641,
+      "recall_supported": 0.5607,
+      "f1": 0.6218
+    },
+    "E2": {
+      "asserted": 231,
+      "tp": 167,
+      "precision": 0.7229,
+      "recall": 0.799,
+      "recall_supported": 0.9653,
+      "f1": 0.7591
+    },
+    "E3": {
+      "asserted": 392,
+      "tp": 173,
+      "precision": 0.4413,
+      "recall": 0.8278,
+      "recall_supported": 1.0,
+      "f1": 0.5757
+    }
+  }
+}

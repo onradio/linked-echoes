@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+Retrieval & Sys. & $k$ & Acc. & Term P & Term R & F1 & Abst. & hit@$k$ & $p$ vs T0 \\
+\midrule
+term + hint & T0 & -- & 44.6 & 44.6 & 45.3 & 45.0 & -- & -- & -- \\
+term + hint & T1 & 5 & 75.4 & 78.4 & 71.4 & 74.8 & 60.0 & 68.8 & $<$0.001 \\
+term + hint & T1 & 10 & 74.4 & 74.2 & 70.8 & 72.5 & 53.3 & 71.9 & $<$0.001 \\
+term + hint & T1 & 20 & 70.8 & 71.5 & 68.3 & 69.9 & 35.7 & 76.6 & $<$0.001 \\
+term + hint & T1 & 50 & 67.2 & 68.8 & 66.7 & 67.7 & 12.8 & 78.1 & $<$0.001 \\
+combine + name & T0 & -- & 26.2 & 26.2 & 26.6 & 26.4 & -- & -- & -- \\
+combine + name & T1 & 5 & 58.5 & 72.1 & 53.4 & 61.4 & 70.0 & 53.1 & $<$0.001 \\
+combine + name & T1 & 10 & 64.1 & 76.4 & 60.5 & 67.5 & 66.7 & 62.5 & $<$0.001 \\
+combine + name & T1 & 20 & 64.1 & 74.8 & 61.1 & 67.3 & 62.5 & 71.9 & $<$0.001 \\
+combine + name & T1 & 50 & 71.8 & 75.6 & 70.3 & 72.8 & 47.6 & 82.8 & $<$0.001 \\
+\bottomrule
+\end{tabular}
+\caption{Type classification. T0 is the top-ranked retrieved term and never abstains, so it is independent of $k$. Term precision is computed over everything asserted; recall excludes correct abstentions on the weak tier. Abstention accuracy is over the weak and NIL rows only ($n=15$) and is indicative.}
+\label{tab:type}
+\end{table}

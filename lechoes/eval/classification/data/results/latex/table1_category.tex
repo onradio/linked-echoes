@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrrrrrr}
+\toprule
+System & Acc. & Strict & Macro-P & Macro-R & Macro-F1 & McNemar $p$ \\
+\midrule
+C0 majority class & 60.0 & 60.0 & 15.0 & 25.0 & 18.8 & -- \\
+C1 nearest definition & 26.2 & 24.6 & 59.9 & 37.0 & 37.2 & -- \\
+C2 LLM (ours) & 98.0 & 97.4 & 100.0 & 98.4 & 99.2 & -- \\
+\bottomrule
+\end{tabular}
+\caption{Category classification on the 65-object gold standard. Accuracy credits a match against either gold category; strict accuracy against the primary only. Macro averages are over the four attested classes. C2's accuracy is at ceiling, so its bootstrap interval is degenerate and the sample cannot separate it from a perfect classifier.}
+\label{tab:category}
+\end{table}

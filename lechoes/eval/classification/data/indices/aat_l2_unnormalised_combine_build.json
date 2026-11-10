@@ -1,0 +1,14 @@
+{
+  "vocabulary_name": "aat_l2_unnormalised_combine",
+  "model_name": "all-MiniLM-L6-v2",
+  "index_strategy": "combine",
+  "similarity": "l2_unnormalised",
+  "normalise_embeddings": false,
+  "faiss_index": "IndexFlatL2",
+  "embedding_dimension": 384,
+  "n_terms": 46403,
+  "subset": [
+    "AAT"
+  ],
+  "built_at": "2026-08-11T14:10:21+00:00"
+}

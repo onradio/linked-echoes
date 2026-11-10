@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+Index & Query & @5 & @10 & @20 & @30 & @40 & @50 & MRR@50 & Selection \\
+\midrule
+term & description & 54.7 & 57.8 & 67.2 & 70.3 & 71.9 & 71.9 & 0.388 & -- \\
+term & name + description & 57.8 & 62.5 & 68.8 & 75.0 & 78.1 & 78.1 & 0.478 & -- \\
+term & hint + description & 68.8 & 71.9 & 76.6 & 76.6 & 78.1 & 78.1 & 0.602 & yes \\
+combine & description & 45.3 & 54.7 & 62.5 & 68.8 & 75.0 & 76.6 & 0.345 & -- \\
+combine & name + description & 53.1 & 62.5 & 71.9 & 78.1 & 78.1 & 82.8 & 0.370 & yes \\
+combine & hint + description & 62.5 & 70.3 & 76.6 & 78.1 & 78.1 & 79.7 & 0.481 & -- \\
+\bottomrule
+\end{tabular}
+\caption{Type retrieval over the full grid: hit@$k$ for each index strategy and query formulation, with the AAT fallback pool included, on the 64 objects whose gold term is reachable. The two configurations marked in the last column are those carried into the selection experiment: the deployed pipeline (term + hint) and the configuration that retrieves best at depth (combine + name). MRR is at $k=50$.}
+\label{tab:retrieval_grid}
+\end{table}

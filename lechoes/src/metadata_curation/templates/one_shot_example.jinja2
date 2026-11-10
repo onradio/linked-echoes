@@ -1,0 +1,21 @@
+---
+**Example Item (One-Shot):**
+
+**Item Description:**
+{{ one_shot_example.example.item_description }}
+
+**Caption:**
+{{ one_shot_example.example.caption }}
+
+{% if schema_block.schema_style == "python" %}
+Expected Output:
+record_item_data(
+    {% for k, v in one_shot_example.example_output.items() %}
+    {{ k }}={{ v | tojson }},
+    {% endfor %}
+)
+{% elif schema_block.schema_style == "json" %}
+Expected Output:
+{{ one_shot_example.example_output | tojson(indent=2) }}
+{% endif %}
+---

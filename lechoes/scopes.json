@@ -1,0 +1,5 @@
+{
+  "admin": ["read:all", "write:all"],
+  "lender": ["read:article"],
+  "testing": ["read:all", "write:all"]
+}

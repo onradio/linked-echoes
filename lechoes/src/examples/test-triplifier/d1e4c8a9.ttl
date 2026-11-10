@@ -1,0 +1,48 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix scho: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix dbp: <http://dbpedia.org/resource/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix mimo: <http://www.mimo-db.eu/InstrumentsKeywords/> .
+@prefix euf: <http://thesaurus.europeanafashion.eu/thesaurus/> .
+@prefix pbcore: <http://pbcore.org/pbcore-controlled-vocabularies/titletype-vocabulary#> .
+
+<http://radio.liv.ac.uk/bme/HumanMadeObject/d1e4c8a9> a crm:E22_Human_Made_Object ;
+    scho:identifier "d1e4c8a9" ;
+    scho:name "Handwritten Lyrics for 'Wonderwall'" ;
+    scho:description "Noel Gallagher's original handwritten lyrics for 'Wonderwall', written on a sheet of hotel stationery in 1995. Includes crossed-out lines and annotations." ;
+    scho:caption "The draft of a generation-defining anthem. These handwritten lyrics by Noel Gallagher capture the raw emotion and introspection that made 'Wonderwall' an enduring classic of the Britpop era. Written during a stay at the Midland Hotel in Manchester, they offer a glimpse into the creative process behind one of Oasis's most beloved songs." ;
+    scho:category wd:Q49848 ;
+    scho:additionalType wd:Q169123 ;
+    scho:itemLocation "4" ;
+    scho:isPartOf <http://radio.liv.ac.uk/bme/Exhibition/Zone7> ;
+    scho:image <https://news.justcollecting.com/wp-content/uploads/2020/02/58267_0.jpg> ;
+    scho:audio <https://open.spotify.com/track/1qPbGZqppFwLwcBC1JQ6Vr?si=e867c6046c164016> ;
+    scho:video <https://www.youtube.com/shorts/mAcHpVbdtKI> ;
+    scho:about wd:Q382890, wd:Q193459, <http://radio.liv.ac.uk/bme/Event/e1e4c8a9>, wd:Q19841, wd:Q145, wd:Q8360, wd:Q1045517 ;
+    scho:genre wd:Q189045 ;
+    scho:material wd:Q11472 ;
+    scho:color wd:Q23442, wd:Q1088 ;
+    scho:hasPart [
+        a scho:BorrowAction ;
+        scho:lender "Noel Gallagher" ;
+        scho:startTime "2019-08-11"^^xsd:date
+    ] .
+
+wd:Q49848 a scho:DefinedTerm, skos:Concept ; rdfs:label "Textual and Graphic Works"@en .
+wd:Q169123 a scho:DefinedTerm ; rdfs:label "Lyrics"@en .
+wd:Q382890 a scho:MusicGroup ; rdfs:label "Oasis"@en .
+wd:Q193459 a scho:MusicArtist ; rdfs:label "Noel Gallagher"@en .
+<http://radio.liv.ac.uk/bme/Event/e1e4c8a9> a scho:Event ; rdfs:label "Oasis live at Knebworth 1996"@en .
+wd:Q19841 a scho:EventVenue ; rdfs:label "Knebworth House"@en .
+wd:Q145 a scho:Country ; rdfs:label "United Kingdom"@en .
+wd:Q8360 a scho:MusicAlbum ; rdfs:label "(What's the Story) Morning Glory?"@en .
+wd:Q1045517 a scho:MusicComposition ; rdfs:label "Wonderwall"@en .
+wd:Q189045 a scho:MusicGenre ; rdfs:label "Britpop"@en .
+wd:Q11472 a scho:Product ; rdfs:label "Paper"@en .
+wd:Q23442 a scho:Color ; rdfs:label "White"@en .
+wd:Q1088 a scho:Color ; rdfs:label "Blue"@en .

@@ -1,0 +1,2785 @@
+{
+ "91c3d5d4eab852febc3edaffa7db7f030de077af": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"glam rock\",\n      \"quote\": \"play glam rock\"\n    }\n  ],\n  \"music_works\": [\n    {\n      \"value\": \"Can The Can\",\n      \"quote\": \"\u2018Can The Can\u2019\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Suzi Quatro\",\n      \"quote\": \"Suzi Quatro Black leather jumpsuit\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"Top of the Pops\",\n      \"quote\": \"Top of the Pops\"\n    },\n    {\n      \"value\": \"Elvis\u2019 68 Comeback Special\",\n      \"quote\": \"Elvis\u2019 68 Comeback Special\"\n    }\n  ],\n  \"countries\": [\n    {\n      \"value\": \"UK\",\n      \"quote\": \"moved to the UK\"\n    },\n    {\n      \"value\": \"American\",\n      \"quote\": \"American singer-songwriter\"\n    }\n  ],\n  \"places\": [\n    {\n      \"value\": \"Detroit\",\n      \"quote\": \"hometown Detroit\"\n    }\n  ],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1971\",\n      \"quote\": \"1971\"\n    },\n    {\n      \"value\": \"1973\",\n      \"quote\": \"1973\"\n    },\n    {\n      \"value\": \"68\",\n      \"quote\": \"68 Comeback Special\"\n    }\n  ],\n  \"colours\": [\n    {\n      \"value\": \"Black\",\n      \"quote\": \"Black leather jumpsuit\"\n    }\n  ],\n  \"materials\": [\n    {\n      \"value\": \"leather\",\n      \"quote\": \"Black leather jumpsuit\"\n    },\n    {\n      \"value\": \"leather\",\n      \"quote\": \"wear leather\"\n    },\n    {\n      \"value\": \"leather\",\n      \"quote\": \"leather jumpsuit\"\n    }\n  ],\n  \"item_title\": \"Suzi Quatro Black leather jumpsuit\",\n  \"specific_type\": \"Jumpsuit\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "glam rock",
+     "quote": "play glam rock"
+    }
+   ],
+   "music_works": [
+    {
+     "value": "Can The Can",
+     "quote": "\u2018Can The Can\u2019"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Suzi Quatro",
+     "quote": "Suzi Quatro Black leather jumpsuit"
+    }
+   ],
+   "events": [
+    {
+     "value": "Top of the Pops",
+     "quote": "Top of the Pops"
+    },
+    {
+     "value": "Elvis\u2019 68 Comeback Special",
+     "quote": "Elvis\u2019 68 Comeback Special"
+    }
+   ],
+   "countries": [
+    {
+     "value": "UK",
+     "quote": "moved to the UK"
+    },
+    {
+     "value": "American",
+     "quote": "American singer-songwriter"
+    }
+   ],
+   "places": [
+    {
+     "value": "Detroit",
+     "quote": "hometown Detroit"
+    }
+   ],
+   "venues": [],
+   "years": [
+    {
+     "value": "1971",
+     "quote": "1971"
+    },
+    {
+     "value": "1973",
+     "quote": "1973"
+    },
+    {
+     "value": "68",
+     "quote": "68 Comeback Special"
+    }
+   ],
+   "colours": [
+    {
+     "value": "Black",
+     "quote": "Black leather jumpsuit"
+    }
+   ],
+   "materials": [
+    {
+     "value": "leather",
+     "quote": "Black leather jumpsuit"
+    },
+    {
+     "value": "leather",
+     "quote": "wear leather"
+    },
+    {
+     "value": "leather",
+     "quote": "leather jumpsuit"
+    }
+   ],
+   "item_title": "Suzi Quatro Black leather jumpsuit",
+   "specific_type": "Jumpsuit",
+   "cardinality": 1
+  }
+ },
+ "872066633f7d9cb60a0cb4bfc49c79e72174ddf0": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Suzi Quatro\",\n      \"quote\": \"Suzi Quatro Concert poster advertising Suzi Quatro\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"Concert\",\n      \"quote\": \"Concert poster advertising Suzi Quatro\"\n    }\n  ],\n  \"countries\": [],\n  \"places\": [\n    {\n      \"value\": \"Torquay\",\n      \"quote\": \"at Torquay Town Hall\"\n    }\n  ],\n  \"venues\": [\n    {\n      \"value\": \"Town Hall\",\n      \"quote\": \"at Torquay Town Hall\"\n    }\n  ],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Concert poster advertising Suzi Quatro at Torquay Town Hall\",\n  \"specific_type\": \"Poster\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Suzi Quatro",
+     "quote": "Suzi Quatro Concert poster advertising Suzi Quatro"
+    }
+   ],
+   "events": [
+    {
+     "value": "Concert",
+     "quote": "Concert poster advertising Suzi Quatro"
+    }
+   ],
+   "countries": [],
+   "places": [
+    {
+     "value": "Torquay",
+     "quote": "at Torquay Town Hall"
+    }
+   ],
+   "venues": [
+    {
+     "value": "Town Hall",
+     "quote": "at Torquay Town Hall"
+    }
+   ],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Concert poster advertising Suzi Quatro at Torquay Town Hall",
+   "specific_type": "Poster",
+   "cardinality": 1
+  }
+ },
+ "139c21127f4e7edbcda01cb90cf02a385ac0f5b2": {
+  "text": "{\"music_genres\": [],\"music_works\": [{\"value\": \"Can The Can\",\"quote\": \"Suzi Quatro - \u2018Can The Can\u2019 sheet music\"}],\"music_albums\": [],\"music_artists\": [{\"value\": \"Suzi Quatro\",\"quote\": \"Suzi Quatro - \u2018Can The Can\u2019 sheet music\"}],\"events\": [],\"countries\": [],\"places\": [],\"venues\": [],\"years\": [{\"value\": \"1973\",\"quote\": \"sheet music 1973\"}],\"colours\": [],\"materials\": [],\"item_title\": \"\u2018Can The Can\u2019 sheet music\",\"specific_type\": \"Sheet music\",\"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Can The Can",
+     "quote": "Suzi Quatro - \u2018Can The Can\u2019 sheet music"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Suzi Quatro",
+     "quote": "Suzi Quatro - \u2018Can The Can\u2019 sheet music"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1973",
+     "quote": "sheet music 1973"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "\u2018Can The Can\u2019 sheet music",
+   "specific_type": "Sheet music",
+   "cardinality": 1
+  }
+ },
+ "9430d3a902527315ae98526de6aa1121c6aa7d16": {
+  "text": "{\"music_genres\": [],\"music_works\": [{\"value\": \"Anarchy in the UK\", \"quote\": \"Anarchy in the UK tour poster\"}],\"music_albums\": [],\"music_artists\": [{\"value\": \"Sex Pistols\", \"quote\": \"Sex Pistols Anarchy in the UK tour poster\"}],\"events\": [{\"value\": \"Anarchy in the UK tour\", \"quote\": \"Anarchy in the UK tour poster\"}],\"countries\": [],\"places\": [],\"venues\": [],\"years\": [{\"value\": \"1976\", \"quote\": \"Anarchy in the UK tour poster 1976\"}],\"colours\": [],\"materials\": [],\"item_title\": \"Anarchy in the UK tour poster\",\"specific_type\": \"Poster\",\"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Anarchy in the UK",
+     "quote": "Anarchy in the UK tour poster"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Sex Pistols",
+     "quote": "Sex Pistols Anarchy in the UK tour poster"
+    }
+   ],
+   "events": [
+    {
+     "value": "Anarchy in the UK tour",
+     "quote": "Anarchy in the UK tour poster"
+    }
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1976",
+     "quote": "Anarchy in the UK tour poster 1976"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Anarchy in the UK tour poster",
+   "specific_type": "Poster",
+   "cardinality": 1
+  }
+ },
+ "a7f69753139d8af4ef7fd239523bbcf2cef4297d": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"punk rock\",\n      \"quote\": \"The Sex Pistols were an English punk rock band\"\n    },\n    {\n      \"value\": \"punk\",\n      \"quote\": \"initiating the punk movement in the United Kingdom\"\n    },\n    {\n      \"value\": \"alternative rock\",\n      \"quote\": \"inspiring many later punk and alternative rock musicians\"\n    }\n  ],\n  \"music_works\": [],\n  \"music_albums\": [\n    {\n      \"value\": \"Never Mind the Bollocks, Here's the Sex Pistols\",\n      \"quote\": \"released only one studio album, Never Mind the Bollocks, Here's the Sex Pistols\"\n    }\n  ],\n  \"music_artists\": [\n    {\n      \"value\": \"Sex Pistols\",\n      \"quote\": \"Sex Pistols flyer\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [\n    {\n      \"value\": \"England\",\n      \"quote\": \"English punk rock band\"\n    },\n    {\n      \"value\": \"United Kingdom\",\n      \"quote\": \"punk movement in the United Kingdom\"\n    }\n  ],\n  \"places\": [\n    {\n      \"value\": \"London\",\n      \"quote\": \"formed in London in 1975\"\n    }\n  ],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1975\",\n      \"quote\": \"formed in London in 1975\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Sex Pistols flyer\",\n  \"specific_type\": \"flyer\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "punk rock",
+     "quote": "The Sex Pistols were an English punk rock band"
+    },
+    {
+     "value": "punk",
+     "quote": "initiating the punk movement in the United Kingdom"
+    },
+    {
+     "value": "alternative rock",
+     "quote": "inspiring many later punk and alternative rock musicians"
+    }
+   ],
+   "music_works": [],
+   "music_albums": [
+    {
+     "value": "Never Mind the Bollocks, Here's the Sex Pistols",
+     "quote": "released only one studio album, Never Mind the Bollocks, Here's the Sex Pistols"
+    }
+   ],
+   "music_artists": [
+    {
+     "value": "Sex Pistols",
+     "quote": "Sex Pistols flyer"
+    }
+   ],
+   "events": [],
+   "countries": [
+    {
+     "value": "England",
+     "quote": "English punk rock band"
+    },
+    {
+     "value": "United Kingdom",
+     "quote": "punk movement in the United Kingdom"
+    }
+   ],
+   "places": [
+    {
+     "value": "London",
+     "quote": "formed in London in 1975"
+    }
+   ],
+   "venues": [],
+   "years": [
+    {
+     "value": "1975",
+     "quote": "formed in London in 1975"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Sex Pistols flyer",
+   "specific_type": "flyer",
+   "cardinality": 1
+  }
+ },
+ "7ef89564554247cd213cb17590231aa52cbf74a7": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"Pretty Vacant\",\n      \"quote\": \"Lyrics to \u2018Pretty Vacant\u2019\"\n    },\n    {\n      \"value\": \"Anarchy In The UK\",\n      \"quote\": \"\u2018Anarchy In The UK\u2019\"\n    }\n  ],\n  \"music_albums\": [\n    {\n      \"value\": \"Never Mind The Bollocks Here\u2019s The Sex Pistols\",\n      \"quote\": \"Never Mind The Bollocks Here\u2019s The Sex Pistols\"\n    }\n  ],\n  \"music_artists\": [\n    {\n      \"value\": \"Glen Matlock\",\n      \"quote\": \"Bass guitar played by Glen Matlock\"\n    },\n    {\n      \"value\": \"Sex Pistols\",\n      \"quote\": \"Sex Pistols Bass guitar played by Glen Matlock\"\n    },\n    {\n      \"value\": \"Johnny Rotten\",\n      \"quote\": \"Johnny Rotten\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1977\",\n      \"quote\": \"early 1977\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Bass guitar played by Glen Matlock\",\n  \"specific_type\": \"Bass guitar\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Pretty Vacant",
+     "quote": "Lyrics to \u2018Pretty Vacant\u2019"
+    },
+    {
+     "value": "Anarchy In The UK",
+     "quote": "\u2018Anarchy In The UK\u2019"
+    }
+   ],
+   "music_albums": [
+    {
+     "value": "Never Mind The Bollocks Here\u2019s The Sex Pistols",
+     "quote": "Never Mind The Bollocks Here\u2019s The Sex Pistols"
+    }
+   ],
+   "music_artists": [
+    {
+     "value": "Glen Matlock",
+     "quote": "Bass guitar played by Glen Matlock"
+    },
+    {
+     "value": "Sex Pistols",
+     "quote": "Sex Pistols Bass guitar played by Glen Matlock"
+    },
+    {
+     "value": "Johnny Rotten",
+     "quote": "Johnny Rotten"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1977",
+     "quote": "early 1977"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Bass guitar played by Glen Matlock",
+   "specific_type": "Bass guitar",
+   "cardinality": 1
+  }
+ },
+ "01581f7fb4a71872386226018315e27822be0971": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"ska\",\n      \"quote\": \"British ska revival\"\n    }\n  ],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Lynval Golding\",\n      \"quote\": \"Lynval Golding blue suit\"\n    },\n    {\n      \"value\": \"The Specials\",\n      \"quote\": \"The Specials Blue suit and hat worn by Lynval Golding\"\n    },\n    {\n      \"value\": \"The Clash\",\n      \"quote\": \"on their 1978 tour with The Clash\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"tour with The Clash\",\n      \"quote\": \"on their 1978 tour with The Clash\"\n    }\n  ],\n  \"countries\": [\n    {\n      \"value\": \"British\",\n      \"quote\": \"British ska revival\"\n    },\n    {\n      \"value\": \"UK\",\n      \"quote\": \"youth of the UK\u2019s \u2018concrete jungle\u2019\"\n    }\n  ],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1978\",\n      \"quote\": \"on their 1978 tour with The Clash\"\n    }\n  ],\n  \"colours\": [\n    {\n      \"value\": \"blue\",\n      \"quote\": \"Lynval Golding blue suit\"\n    }\n  ],\n  \"materials\": [],\n  \"item_title\": \"Lynval Golding blue suit\",\n  \"specific_type\": \"suit\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "ska",
+     "quote": "British ska revival"
+    }
+   ],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Lynval Golding",
+     "quote": "Lynval Golding blue suit"
+    },
+    {
+     "value": "The Specials",
+     "quote": "The Specials Blue suit and hat worn by Lynval Golding"
+    },
+    {
+     "value": "The Clash",
+     "quote": "on their 1978 tour with The Clash"
+    }
+   ],
+   "events": [
+    {
+     "value": "tour with The Clash",
+     "quote": "on their 1978 tour with The Clash"
+    }
+   ],
+   "countries": [
+    {
+     "value": "British",
+     "quote": "British ska revival"
+    },
+    {
+     "value": "UK",
+     "quote": "youth of the UK\u2019s \u2018concrete jungle\u2019"
+    }
+   ],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1978",
+     "quote": "on their 1978 tour with The Clash"
+    }
+   ],
+   "colours": [
+    {
+     "value": "blue",
+     "quote": "Lynval Golding blue suit"
+    }
+   ],
+   "materials": [],
+   "item_title": "Lynval Golding blue suit",
+   "specific_type": "suit",
+   "cardinality": 1
+  }
+ },
+ "8777c4c986095e769080029318ea29051c34df7c": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"ska\",\n      \"quote\": \"Leaders of the British ska revival, The Specials\"\n    }\n  ],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Lynval Golding\",\n      \"quote\": \"Lynval Golding Trilby hat\"\n    },\n    {\n      \"value\": \"The Specials\",\n      \"quote\": \"5 The Specials Blue suit and hat worn by Lynval Golding\"\n    },\n    {\n      \"value\": \"The Clash\",\n      \"quote\": \"on their 1978 tour with The Clash\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"1978 tour with The Clash\",\n      \"quote\": \"worn by Lynval Golding on their 1978 tour with The Clash\"\n    }\n  ],\n  \"countries\": [\n    {\n      \"value\": \"UK\",\n      \"quote\": \"youth of the UK\u2019s \u2018concrete jungle\u2019\"\n    }\n  ],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1978\",\n      \"quote\": \"worn by Lynval Golding on their 1978 tour with The Clash\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Lynval Golding Trilby hat\",\n  \"specific_type\": \"Hat\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "ska",
+     "quote": "Leaders of the British ska revival, The Specials"
+    }
+   ],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Lynval Golding",
+     "quote": "Lynval Golding Trilby hat"
+    },
+    {
+     "value": "The Specials",
+     "quote": "5 The Specials Blue suit and hat worn by Lynval Golding"
+    },
+    {
+     "value": "The Clash",
+     "quote": "on their 1978 tour with The Clash"
+    }
+   ],
+   "events": [
+    {
+     "value": "1978 tour with The Clash",
+     "quote": "worn by Lynval Golding on their 1978 tour with The Clash"
+    }
+   ],
+   "countries": [
+    {
+     "value": "UK",
+     "quote": "youth of the UK\u2019s \u2018concrete jungle\u2019"
+    }
+   ],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1978",
+     "quote": "worn by Lynval Golding on their 1978 tour with The Clash"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Lynval Golding Trilby hat",
+   "specific_type": "Hat",
+   "cardinality": 1
+  }
+ },
+ "541f3b694d2e42d674fc650e009d9ce171bdb60f": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"ska\",\n      \"quote\": \"Leaders of the British ska revival\"\n    }\n  ],\n  \"music_works\": [\n    {\n      \"value\": \"Why?\",\n      \"quote\": \"\u2018Why?\u2019 lyrics\"\n    }\n  ],\n  \"music_albums\": [\n    {\n      \"value\": \"Specials debut LP\",\n      \"quote\": \"\u2018Why?\u2019 lyrics Specials debut LP\"\n    }\n  ],\n  \"music_artists\": [\n    {\n      \"value\": \"The Specials\",\n      \"quote\": \"The Specials \u2018Why?\u2019 lyrics\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [\n    {\n      \"value\": \"British\",\n      \"quote\": \"Leaders of the British ska revival\"\n    },\n    {\n      \"value\": \"UK\",\n      \"quote\": \"produced seven consecutive UK Top 10 hits from 1979-1981. The songs capture the disillusionment and anger felt by the youth of the UK\u2019s \u2018concrete jungle\u2019.\"\n    }\n  ],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1979-1981\",\n      \"quote\": \"produced seven consecutive UK Top 10 hits from 1979-1981.\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"The Specials 'Why?' lyrics\",\n  \"specific_type\": \"lyrics\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "ska",
+     "quote": "Leaders of the British ska revival"
+    }
+   ],
+   "music_works": [
+    {
+     "value": "Why?",
+     "quote": "\u2018Why?\u2019 lyrics"
+    }
+   ],
+   "music_albums": [
+    {
+     "value": "Specials debut LP",
+     "quote": "\u2018Why?\u2019 lyrics Specials debut LP"
+    }
+   ],
+   "music_artists": [
+    {
+     "value": "The Specials",
+     "quote": "The Specials \u2018Why?\u2019 lyrics"
+    }
+   ],
+   "events": [],
+   "countries": [
+    {
+     "value": "British",
+     "quote": "Leaders of the British ska revival"
+    },
+    {
+     "value": "UK",
+     "quote": "produced seven consecutive UK Top 10 hits from 1979-1981. The songs capture the disillusionment and anger felt by the youth of the UK\u2019s \u2018concrete jungle\u2019."
+    }
+   ],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1979-1981",
+     "quote": "produced seven consecutive UK Top 10 hits from 1979-1981."
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "The Specials 'Why?' lyrics",
+   "specific_type": "lyrics",
+   "cardinality": 1
+  }
+ },
+ "e3c59cf4fe11b95787b9a9d47d9afa529103e3e0": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"New Romantic\",\n      \"quote\": \"central to the emerging \u2018New Romantic\u2019 movement\"\n    }\n  ],\n  \"music_works\": [\n    {\n      \"value\": \"Do You Really Want To Hurt Me?\",\n      \"quote\": \"reached the top spot with \u2018Do You Really Want To Hurt Me?\u2019 in 1982\"\n    },\n    {\n      \"value\": \"Karma Chameleon\",\n      \"quote\": \"including the iconic \u2018Karma Chameleon\u2019\"\n    }\n  ],\n  \"music_albums\": [\n    {\n      \"value\": \"Colour By Numbers\",\n      \"quote\": \"their follow-up Colour By Numbers - an album\"\n    }\n  ],\n  \"music_artists\": [\n    {\n      \"value\": \"Boy George\",\n      \"quote\": \"Colour By Numbers outfit worn by Boy George\"\n    },\n    {\n      \"value\": \"Culture Club\",\n      \"quote\": \"Culture Club Colour By Numbers outfit worn by Boy George\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [\n    {\n      \"value\": \"Blitz Club\",\n      \"quote\": \"attendant at the Blitz Club\"\n    }\n  ],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1981\",\n      \"quote\": \"formed his own group Culture Club in 1981\"\n    },\n    {\n      \"value\": \"1982\",\n      \"quote\": \"\u2018Do You Really Want To Hurt Me?\u2019 in 1982\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Colour By Numbers outfit\",\n  \"specific_type\": \"Outfit\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "New Romantic",
+     "quote": "central to the emerging \u2018New Romantic\u2019 movement"
+    }
+   ],
+   "music_works": [
+    {
+     "value": "Do You Really Want To Hurt Me?",
+     "quote": "reached the top spot with \u2018Do You Really Want To Hurt Me?\u2019 in 1982"
+    },
+    {
+     "value": "Karma Chameleon",
+     "quote": "including the iconic \u2018Karma Chameleon\u2019"
+    }
+   ],
+   "music_albums": [
+    {
+     "value": "Colour By Numbers",
+     "quote": "their follow-up Colour By Numbers - an album"
+    }
+   ],
+   "music_artists": [
+    {
+     "value": "Boy George",
+     "quote": "Colour By Numbers outfit worn by Boy George"
+    },
+    {
+     "value": "Culture Club",
+     "quote": "Culture Club Colour By Numbers outfit worn by Boy George"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [
+    {
+     "value": "Blitz Club",
+     "quote": "attendant at the Blitz Club"
+    }
+   ],
+   "venues": [],
+   "years": [
+    {
+     "value": "1981",
+     "quote": "formed his own group Culture Club in 1981"
+    },
+    {
+     "value": "1982",
+     "quote": "\u2018Do You Really Want To Hurt Me?\u2019 in 1982"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Colour By Numbers outfit",
+   "specific_type": "Outfit",
+   "cardinality": 1
+  }
+ },
+ "44f82c0288c7a4abfd704dacf265558bd87265da": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [],\n  \"events\": [\n    {\n      \"value\": \"Colour By Numbers tour\",\n      \"quote\": \"Colour By Numbers tour programme\"\n    }\n  ],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1983\",\n      \"quote\": \"LP 1983\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Colour By Numbers tour programme\",\n  \"specific_type\": \"Programme\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [],
+   "events": [
+    {
+     "value": "Colour By Numbers tour",
+     "quote": "Colour By Numbers tour programme"
+    }
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1983",
+     "quote": "LP 1983"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Colour By Numbers tour programme",
+   "specific_type": "Programme",
+   "cardinality": 1
+  }
+ },
+ "4e6abf950c294f2761a66492a2f7dfbf813bbd7e": {
+  "text": "{\"music_genres\": [], \"music_works\": [], \"music_albums\": [{\"value\": \"Colour By Numbers\", \"quote\": \"Colour By Numbers tour programme and LP\"}], \"music_artists\": [], \"events\": [], \"countries\": [], \"places\": [], \"venues\": [], \"years\": [{\"value\": \"1983\", \"quote\": \"LP 1983\"}], \"colours\": [], \"materials\": [], \"item_title\": \"Colour By Numbers 12\u201d LP\", \"specific_type\": \"LP\", \"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [
+    {
+     "value": "Colour By Numbers",
+     "quote": "Colour By Numbers tour programme and LP"
+    }
+   ],
+   "music_artists": [],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1983",
+     "quote": "LP 1983"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Colour By Numbers 12\u201d LP",
+   "specific_type": "LP",
+   "cardinality": 1
+  }
+ },
+ "667b36208adc507d2ec9da5de01a2b10b195a859": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"Do They Know It\u2019s Christmas?\",\n      \"quote\": \"Band Aid \u2018Do They Know It\u2019s Christmas?\u2019 Single and Picture Disc\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Band Aid\",\n      \"quote\": \"Band Aid \u2018Do They Know It\u2019s Christmas?\u2019 Single and Picture Disc\"\n    },\n    {\n      \"value\": \"Bob Geldof\",\n      \"quote\": \"Bob Geldof formed Band Aid - a super-group to record a charity single. \u2018Do They Know It\u2019s Christmas?\u2019 was co-written by Geldof\"\n    },\n    {\n      \"value\": \"Midge Ure\",\n      \"quote\": \"co-written by Geldof and Midge Ure\"\n    },\n    {\n      \"value\": \"Sir Peter Blake\",\n      \"quote\": \"the sleeve was designed by Sir Peter Blake\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"famine in Ethiopia\",\n      \"quote\": \"highlighting a famine in Ethiopia\"\n    },\n    {\n      \"value\": \"Christmas\",\n      \"quote\": \"released just four days later in time for Christmas\"\n    }\n  ],\n  \"countries\": [\n    {\n      \"value\": \"Ethiopia\",\n      \"quote\": \"famine in Ethiopia\"\n    }\n  ],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1984\",\n      \"quote\": \"recorded on the 25th November 1984\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Do They Know It's Christmas Single and Picture Disc\",\n  \"specific_type\": \"Single\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Do They Know It\u2019s Christmas?",
+     "quote": "Band Aid \u2018Do They Know It\u2019s Christmas?\u2019 Single and Picture Disc"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Band Aid",
+     "quote": "Band Aid \u2018Do They Know It\u2019s Christmas?\u2019 Single and Picture Disc"
+    },
+    {
+     "value": "Bob Geldof",
+     "quote": "Bob Geldof formed Band Aid - a super-group to record a charity single. \u2018Do They Know It\u2019s Christmas?\u2019 was co-written by Geldof"
+    },
+    {
+     "value": "Midge Ure",
+     "quote": "co-written by Geldof and Midge Ure"
+    },
+    {
+     "value": "Sir Peter Blake",
+     "quote": "the sleeve was designed by Sir Peter Blake"
+    }
+   ],
+   "events": [
+    {
+     "value": "famine in Ethiopia",
+     "quote": "highlighting a famine in Ethiopia"
+    },
+    {
+     "value": "Christmas",
+     "quote": "released just four days later in time for Christmas"
+    }
+   ],
+   "countries": [
+    {
+     "value": "Ethiopia",
+     "quote": "famine in Ethiopia"
+    }
+   ],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1984",
+     "quote": "recorded on the 25th November 1984"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Do They Know It's Christmas Single and Picture Disc",
+   "specific_type": "Single",
+   "cardinality": 1
+  }
+ },
+ "7b2cba551c64090b949aa00eded6f41aa3d69d1d": {
+  "text": "{\"music_genres\": [], \"music_works\": [], \"music_albums\": [], \"music_artists\": [{\"value\": \"Bob Geldof\", \"quote\": \"designed and worn by Bob Geldof\"}, {\"value\": \"Band Aid\", \"quote\": \"Bob Geldof Band Aid T-Shirt\"}], \"events\": [{\"value\": \"Ethiopian famine\", \"quote\": \"raise money for the Ethiopian famine\"}], \"countries\": [{\"value\": \"Ethiopia\", \"quote\": \"Ethiopian famine\"}], \"places\": [], \"venues\": [], \"years\": [{\"value\": \"1984\", \"quote\": \"in 1984\"}], \"colours\": [], \"materials\": [], \"item_title\": \"Bob Geldof Band Aid T-Shirt\", \"specific_type\": \"T-Shirt\", \"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Bob Geldof",
+     "quote": "designed and worn by Bob Geldof"
+    },
+    {
+     "value": "Band Aid",
+     "quote": "Bob Geldof Band Aid T-Shirt"
+    }
+   ],
+   "events": [
+    {
+     "value": "Ethiopian famine",
+     "quote": "raise money for the Ethiopian famine"
+    }
+   ],
+   "countries": [
+    {
+     "value": "Ethiopia",
+     "quote": "Ethiopian famine"
+    }
+   ],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1984",
+     "quote": "in 1984"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Bob Geldof Band Aid T-Shirt",
+   "specific_type": "T-Shirt",
+   "cardinality": 1
+  }
+ },
+ "368f601a6d72e0f12d6011c20ae1326d82251d9a": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"Do They Know It\u2019s Christmas?\",\n      \"quote\": \"\u2018Do They Know It\u2019s Christmas?\u2019\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Band Aid\",\n      \"quote\": \"Band Aid Promotional Poster\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Band Aid Promotional Poster\",\n  \"specific_type\": \"Poster\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Do They Know It\u2019s Christmas?",
+     "quote": "\u2018Do They Know It\u2019s Christmas?\u2019"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Band Aid",
+     "quote": "Band Aid Promotional Poster"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Band Aid Promotional Poster",
+   "specific_type": "Poster",
+   "cardinality": 1
+  }
+ },
+ "b0ff85f2e45c4e505746ade72356c4c8b6814c3b": {
+  "text": "{\"music_genres\": [], \"music_works\": [], \"music_albums\": [], \"music_artists\": [{\"value\": \"Saxon\", \"quote\": \"2 Saxon Fender Stratocaster guitar played by Paul Quinn\"}, {\"value\": \"Paul Quinn\", \"quote\": \"Fender Stratocaster guitar played by Paul Quinn\"}], \"events\": [], \"countries\": [], \"places\": [], \"venues\": [], \"years\": [{\"value\": \"1980s\", \"quote\": \"used by Saxon guitarist Paul Quinn in the 1980s.\"}], \"colours\": [], \"materials\": [], \"item_title\": \"Fender Stratocaster guitar\", \"specific_type\": \"Guitar\", \"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Saxon",
+     "quote": "2 Saxon Fender Stratocaster guitar played by Paul Quinn"
+    },
+    {
+     "value": "Paul Quinn",
+     "quote": "Fender Stratocaster guitar played by Paul Quinn"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1980s",
+     "quote": "used by Saxon guitarist Paul Quinn in the 1980s."
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Fender Stratocaster guitar",
+   "specific_type": "Guitar",
+   "cardinality": 1
+  }
+ },
+ "b013fe82849a6421b38c8f54342c0081b91ae730": {
+  "text": "{\"music_genres\": [],\"music_works\": [],\"music_albums\": [{\"value\": \"Strong Arm Of The Law\", \"quote\": \"Strong Arm Of The Law LP 1980\"}],\"music_artists\": [{\"value\": \"Saxon\", \"quote\": \"Saxon Strong Arm Of The Law LP 1980\"}],\"events\": [],\"countries\": [],\"places\": [],\"venues\": [],\"years\": [{\"value\": \"1980\", \"quote\": \"LP 1980\"}],\"colours\": [],\"materials\": [],\"item_title\": \"Strong Arm Of The Law 12\u201d LP\",\"specific_type\": \"LP\",\"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [
+    {
+     "value": "Strong Arm Of The Law",
+     "quote": "Strong Arm Of The Law LP 1980"
+    }
+   ],
+   "music_artists": [
+    {
+     "value": "Saxon",
+     "quote": "Saxon Strong Arm Of The Law LP 1980"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1980",
+     "quote": "LP 1980"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Strong Arm Of The Law 12\u201d LP",
+   "specific_type": "LP",
+   "cardinality": 1
+  }
+ },
+ "27fc7fa68b777e44bf9630afdf6e4e8a81b6a130": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"Denim and Leather\",\n      \"quote\": \"Denim and leather\"\n    }\n  ],\n  \"music_albums\": [\n    {\n      \"value\": \"Denim and Leather\",\n      \"quote\": \"Denim and leather\"\n    }\n  ],\n  \"music_artists\": [\n    {\n      \"value\": \"Saxon\",\n      \"quote\": \"Saxon\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"Denim and Leather tour\",\n      \"quote\": \"Denim and Leather tour programme\"\n    }\n  ],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1981\",\n      \"quote\": \"1981\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Saxon Denim and Leather tour programme\",\n  \"specific_type\": \"Tour programme\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Denim and Leather",
+     "quote": "Denim and leather"
+    }
+   ],
+   "music_albums": [
+    {
+     "value": "Denim and Leather",
+     "quote": "Denim and leather"
+    }
+   ],
+   "music_artists": [
+    {
+     "value": "Saxon",
+     "quote": "Saxon"
+    }
+   ],
+   "events": [
+    {
+     "value": "Denim and Leather tour",
+     "quote": "Denim and Leather tour programme"
+    }
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1981",
+     "quote": "1981"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Saxon Denim and Leather tour programme",
+   "specific_type": "Tour programme",
+   "cardinality": 1
+  }
+ },
+ "5578b3e557f6139791983490f759098808fd1877": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"electronic\",\n      \"quote\": \"more electronic and dance-based music\"\n    },\n    {\n      \"value\": \"dance-based music\",\n      \"quote\": \"more electronic and dance-based music\"\n    }\n  ],\n  \"music_works\": [\n    {\n      \"value\": \"Blue Monday\",\n      \"quote\": \"New Order - \u2018Blue Monday\u2019 lyrics\"\n    },\n    {\n      \"value\": \"Blue Monday\",\n      \"quote\": \"Their 1983 hit \u2018Blue Monday\u2019 is still the biggest-selling 12\u201d single\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"New Order\",\n      \"quote\": \"New Order - \u2018Blue Monday\u2019 lyrics\"\n    },\n    {\n      \"value\": \"Joy Division\",\n      \"quote\": \"New Order formed out of the band Joy Division in 1980\"\n    },\n    {\n      \"value\": \"Ian Curtis\",\n      \"quote\": \"following the death of lead singer Ian Curtis\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [\n    {\n      \"value\": \"New York City\",\n      \"quote\": \"After taking in the New York City club scene\"\n    }\n  ],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1980\",\n      \"quote\": \"New Order formed out of the band Joy Division in 1980\"\n    },\n    {\n      \"value\": \"1983\",\n      \"quote\": \"Their 1983 hit \u2018Blue Monday\u2019 is still the biggest-selling 12\u201d single\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Blue Monday lyrics\",\n  \"specific_type\": \"Lyrics\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "electronic",
+     "quote": "more electronic and dance-based music"
+    },
+    {
+     "value": "dance-based music",
+     "quote": "more electronic and dance-based music"
+    }
+   ],
+   "music_works": [
+    {
+     "value": "Blue Monday",
+     "quote": "New Order - \u2018Blue Monday\u2019 lyrics"
+    },
+    {
+     "value": "Blue Monday",
+     "quote": "Their 1983 hit \u2018Blue Monday\u2019 is still the biggest-selling 12\u201d single"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "New Order",
+     "quote": "New Order - \u2018Blue Monday\u2019 lyrics"
+    },
+    {
+     "value": "Joy Division",
+     "quote": "New Order formed out of the band Joy Division in 1980"
+    },
+    {
+     "value": "Ian Curtis",
+     "quote": "following the death of lead singer Ian Curtis"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [
+    {
+     "value": "New York City",
+     "quote": "After taking in the New York City club scene"
+    }
+   ],
+   "venues": [],
+   "years": [
+    {
+     "value": "1980",
+     "quote": "New Order formed out of the band Joy Division in 1980"
+    },
+    {
+     "value": "1983",
+     "quote": "Their 1983 hit \u2018Blue Monday\u2019 is still the biggest-selling 12\u201d single"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Blue Monday lyrics",
+   "specific_type": "Lyrics",
+   "cardinality": 1
+  }
+ },
+ "1a154e7b4034e59f56d93ccf13afb5ee4f0c29ae": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"electronic\",\n      \"quote\": \"more electronic and dance-based music\"\n    },\n    {\n      \"value\": \"dance-based music\",\n      \"quote\": \"more electronic and dance-based music\"\n    }\n  ],\n  \"music_works\": [\n    {\n      \"value\": \"Blue Monday\",\n      \"quote\": \"\u2018Blue Monday\u2019 recording schedule\"\n    },\n    {\n      \"value\": \"Blue Monday\",\n      \"quote\": \"Their 1983 hit \u2018Blue Monday\u2019\"\n    }\n  ],\n  \"music_albums\": [\n    {\n      \"value\": \"Movement\",\n      \"quote\": \"from the Movement LP\"\n    }\n  ],\n  \"music_artists\": [\n    {\n      \"value\": \"New Order\",\n      \"quote\": \"New Order - \u2018Blue Monday\u2019 recording schedule\"\n    },\n    {\n      \"value\": \"Joy Division\",\n      \"quote\": \"New Order formed out of the band Joy Division\"\n    },\n    {\n      \"value\": \"Ian Curtis\",\n      \"quote\": \"lead singer Ian Curtis\"\n    },\n    {\n      \"value\": \"Peter Saville\",\n      \"quote\": \"designed by Peter Saville\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [\n    {\n      \"value\": \"New York City\",\n      \"quote\": \"the New York City club scene\"\n    }\n  ],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1980\",\n      \"quote\": \"Joy Division in 1980\"\n    },\n    {\n      \"value\": \"1983\",\n      \"quote\": \"Their 1983 hit \u2018Blue Monday\u2019\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"New Order - \u2018Blue Monday\u2019 recording schedule\",\n  \"specific_type\": \"Recording Schedule\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "electronic",
+     "quote": "more electronic and dance-based music"
+    },
+    {
+     "value": "dance-based music",
+     "quote": "more electronic and dance-based music"
+    }
+   ],
+   "music_works": [
+    {
+     "value": "Blue Monday",
+     "quote": "\u2018Blue Monday\u2019 recording schedule"
+    },
+    {
+     "value": "Blue Monday",
+     "quote": "Their 1983 hit \u2018Blue Monday\u2019"
+    }
+   ],
+   "music_albums": [
+    {
+     "value": "Movement",
+     "quote": "from the Movement LP"
+    }
+   ],
+   "music_artists": [
+    {
+     "value": "New Order",
+     "quote": "New Order - \u2018Blue Monday\u2019 recording schedule"
+    },
+    {
+     "value": "Joy Division",
+     "quote": "New Order formed out of the band Joy Division"
+    },
+    {
+     "value": "Ian Curtis",
+     "quote": "lead singer Ian Curtis"
+    },
+    {
+     "value": "Peter Saville",
+     "quote": "designed by Peter Saville"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [
+    {
+     "value": "New York City",
+     "quote": "the New York City club scene"
+    }
+   ],
+   "venues": [],
+   "years": [
+    {
+     "value": "1980",
+     "quote": "Joy Division in 1980"
+    },
+    {
+     "value": "1983",
+     "quote": "Their 1983 hit \u2018Blue Monday\u2019"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "New Order - \u2018Blue Monday\u2019 recording schedule",
+   "specific_type": "Recording Schedule",
+   "cardinality": 1
+  }
+ },
+ "19d39fdfff5bf54f3a5e03f279047c2c30b3c0ce": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"electronic music\",\n      \"quote\": \"more electronic and dance-based music\"\n    },\n    {\n      \"value\": \"dance-based music\",\n      \"quote\": \"more electronic and dance-based music\"\n    }\n  ],\n  \"music_works\": [\n    {\n      \"value\": \"Blue Monday\",\n      \"quote\": \"New Order - 'Blue Monday' 7\\\" single\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"New Order\",\n      \"quote\": \"New Order - 'Blue Monday' 7\\\" single\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [\n    {\n      \"value\": \"New York City\",\n      \"quote\": \"After taking in the New York City club scene\"\n    }\n  ],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1980\",\n      \"quote\": \"New Order formed out of the band Joy Division in 1980\"\n    },\n    {\n      \"value\": \"1983\",\n      \"quote\": \"Their 1983 hit \u2018Blue Monday\u2019 is still the biggest-selling 12\u201d single\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Blue Monday 7\\\" single\",\n  \"specific_type\": \"Single\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "electronic music",
+     "quote": "more electronic and dance-based music"
+    },
+    {
+     "value": "dance-based music",
+     "quote": "more electronic and dance-based music"
+    }
+   ],
+   "music_works": [
+    {
+     "value": "Blue Monday",
+     "quote": "New Order - 'Blue Monday' 7\" single"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "New Order",
+     "quote": "New Order - 'Blue Monday' 7\" single"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [
+    {
+     "value": "New York City",
+     "quote": "After taking in the New York City club scene"
+    }
+   ],
+   "venues": [],
+   "years": [
+    {
+     "value": "1980",
+     "quote": "New Order formed out of the band Joy Division in 1980"
+    },
+    {
+     "value": "1983",
+     "quote": "Their 1983 hit \u2018Blue Monday\u2019 is still the biggest-selling 12\u201d single"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Blue Monday 7\" single",
+   "specific_type": "Single",
+   "cardinality": 1
+  }
+ },
+ "7a39d9c2965e457e195a1583fdad0c7d37346623": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"Beautiful Ones\",\n      \"quote\": \"Lyrics to \u2018Beautiful Ones\u2019\"\n    },\n    {\n      \"value\": \"Lazy\",\n      \"quote\": \"including \u2018Lazy\u2019 and \u2018Beautiful Ones\u2019\"\n    }\n  ],\n  \"music_albums\": [\n    {\n      \"value\": \"Coming Up\",\n      \"quote\": \"chart-topping album Coming Up spawned five Top 10 singles\"\n    }\n  ],\n  \"music_artists\": [\n    {\n      \"value\": \"Suede\",\n      \"quote\": \"Suede - Lyrics to \u2018Beautiful Ones\u2019\"\n    },\n    {\n      \"value\": \"Brett Anderson\",\n      \"quote\": \"By kind permission of Brett Anderson\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Lyrics to \u2018Beautiful Ones\u2019\",\n  \"specific_type\": \"Lyrics\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Beautiful Ones",
+     "quote": "Lyrics to \u2018Beautiful Ones\u2019"
+    },
+    {
+     "value": "Lazy",
+     "quote": "including \u2018Lazy\u2019 and \u2018Beautiful Ones\u2019"
+    }
+   ],
+   "music_albums": [
+    {
+     "value": "Coming Up",
+     "quote": "chart-topping album Coming Up spawned five Top 10 singles"
+    }
+   ],
+   "music_artists": [
+    {
+     "value": "Suede",
+     "quote": "Suede - Lyrics to \u2018Beautiful Ones\u2019"
+    },
+    {
+     "value": "Brett Anderson",
+     "quote": "By kind permission of Brett Anderson"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Lyrics to \u2018Beautiful Ones\u2019",
+   "specific_type": "Lyrics",
+   "cardinality": 1
+  }
+ },
+ "ad432a296fcd389d5b479d42be2d41aad99e1857": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"So Young\",\n      \"quote\": \"Lyrics to \u2018So Young\u2019 (Lets chase the dragon from our home)\"\n    }\n  ],\n  \"music_albums\": [\n    {\n      \"value\": \"Suede\",\n      \"quote\": \"Suede catapulted onto the scene in 1993 with their debut album, Suede. The No.1 album included the singles \u2018Animal Nitrate\u2019, \u2018Metal Mickey\u2019, \u2018So Young\u2019 and \u2018The Drowners\u2019\"\n    }\n  ],\n  \"music_artists\": [\n    {\n      \"value\": \"Suede\",\n      \"quote\": \"Suede - Lyrics to \u2018So Young\u2019 (Lets chase the dragon from our home)\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1993\",\n      \"quote\": \"Suede catapulted onto the scene in 1993 with their debut album, Suede.\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Lyrics to \u2018So Young\u2019\",\n  \"specific_type\": \"Lyrics\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "So Young",
+     "quote": "Lyrics to \u2018So Young\u2019 (Lets chase the dragon from our home)"
+    }
+   ],
+   "music_albums": [
+    {
+     "value": "Suede",
+     "quote": "Suede catapulted onto the scene in 1993 with their debut album, Suede. The No.1 album included the singles \u2018Animal Nitrate\u2019, \u2018Metal Mickey\u2019, \u2018So Young\u2019 and \u2018The Drowners\u2019"
+    }
+   ],
+   "music_artists": [
+    {
+     "value": "Suede",
+     "quote": "Suede - Lyrics to \u2018So Young\u2019 (Lets chase the dragon from our home)"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1993",
+     "quote": "Suede catapulted onto the scene in 1993 with their debut album, Suede."
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Lyrics to \u2018So Young\u2019",
+   "specific_type": "Lyrics",
+   "cardinality": 1
+  }
+ },
+ "dfebcbc82d7b4e2aed38e68f9bdb947e5a853787": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"The Drowners\",\n      \"quote\": \"Lyrics to \u2018The Drowners\u2019\"\n    }\n  ],\n  \"music_albums\": [\n    {\n      \"value\": \"Suede\",\n      \"quote\": \"their debut album, Suede. The No.1 album included the singles \u2018Animal Nitrate\u2019, \u2018Metal Mickey\u2019, \u2018So Young\u2019 and \u2018The Drowners\u2019\"\n    }\n  ],\n  \"music_artists\": [\n    {\n      \"value\": \"Suede\",\n      \"quote\": \"Suede - Lyrics to \u2018The Drowners\u2019\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1993\",\n      \"quote\": \"Suede catapulted onto the scene in 1993 with their debut album, Suede.\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Lyrics to \u2018The Drowners\u2019\",\n  \"specific_type\": \"Lyrics\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "The Drowners",
+     "quote": "Lyrics to \u2018The Drowners\u2019"
+    }
+   ],
+   "music_albums": [
+    {
+     "value": "Suede",
+     "quote": "their debut album, Suede. The No.1 album included the singles \u2018Animal Nitrate\u2019, \u2018Metal Mickey\u2019, \u2018So Young\u2019 and \u2018The Drowners\u2019"
+    }
+   ],
+   "music_artists": [
+    {
+     "value": "Suede",
+     "quote": "Suede - Lyrics to \u2018The Drowners\u2019"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1993",
+     "quote": "Suede catapulted onto the scene in 1993 with their debut album, Suede."
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Lyrics to \u2018The Drowners\u2019",
+   "specific_type": "Lyrics",
+   "cardinality": 1
+  }
+ },
+ "307b7daac384ac9f9080b641d76098adc409bdd6": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Spice Girls\",\n      \"quote\": \"Spice Girls Pink boxing robe\"\n    },\n    {\n      \"value\": \"Emma Bunton\",\n      \"quote\": \"Pink boxing robe worn by Emma Bunton\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"Spice Girls reunion world tour\",\n      \"quote\": \"This boxing robe was commissioned for the Spice Girls reunion world tour of 2007.\"\n    }\n  ],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"2007\",\n      \"quote\": \"Spice Girls reunion world tour of 2007.\"\n    }\n  ],\n  \"colours\": [\n    {\n      \"value\": \"Pink\",\n      \"quote\": \"Pink boxing robe worn by Emma Bunton\"\n    }\n  ],\n  \"materials\": [],\n  \"item_title\": \"Pink boxing robe\",\n  \"specific_type\": \"boxing robe\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Spice Girls",
+     "quote": "Spice Girls Pink boxing robe"
+    },
+    {
+     "value": "Emma Bunton",
+     "quote": "Pink boxing robe worn by Emma Bunton"
+    }
+   ],
+   "events": [
+    {
+     "value": "Spice Girls reunion world tour",
+     "quote": "This boxing robe was commissioned for the Spice Girls reunion world tour of 2007."
+    }
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "2007",
+     "quote": "Spice Girls reunion world tour of 2007."
+    }
+   ],
+   "colours": [
+    {
+     "value": "Pink",
+     "quote": "Pink boxing robe worn by Emma Bunton"
+    }
+   ],
+   "materials": [],
+   "item_title": "Pink boxing robe",
+   "specific_type": "boxing robe",
+   "cardinality": 1
+  }
+ },
+ "629250ee774c2a31441cf48fa875488ea7e52556": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Take That\",\n      \"quote\": \"Take That Pops tour programme\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"Pops tour\",\n      \"quote\": \"Take That Pops tour programme\"\n    }\n  ],\n  \"countries\": [\n    {\n      \"value\": \"UK\",\n      \"quote\": \"selling out venues across the UK.\"\n    }\n  ],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1993\",\n      \"quote\": \"This programme is from the band\u2019s 1993 tour\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Take That Pops tour programme\",\n  \"specific_type\": \"programme\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Take That",
+     "quote": "Take That Pops tour programme"
+    }
+   ],
+   "events": [
+    {
+     "value": "Pops tour",
+     "quote": "Take That Pops tour programme"
+    }
+   ],
+   "countries": [
+    {
+     "value": "UK",
+     "quote": "selling out venues across the UK."
+    }
+   ],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1993",
+     "quote": "This programme is from the band\u2019s 1993 tour"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Take That Pops tour programme",
+   "specific_type": "programme",
+   "cardinality": 1
+  }
+ },
+ "d7219ca81f92d4e186a3e9cb5935837369cb0ce7": {
+  "text": "{\"music_genres\": [], \"music_works\": [{\"value\": \"Everything Changes\", \"quote\": \"Take That Everything Changes Tour official programme\"}], \"music_albums\": [{\"value\": \"Everything Changes\", \"quote\": \"Take That Everything Changes Tour official programme\"}], \"music_artists\": [{\"value\": \"Take That\", \"quote\": \"Take That Everything Changes Tour official programme\"}], \"events\": [{\"value\": \"Everything Changes Tour\", \"quote\": \"Take That Everything Changes Tour official programme\"}], \"countries\": [], \"places\": [], \"venues\": [], \"years\": [], \"colours\": [], \"materials\": [], \"item_title\": \"Take That Everything Changes Tour official programme\", \"specific_type\": \"official programme\", \"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Everything Changes",
+     "quote": "Take That Everything Changes Tour official programme"
+    }
+   ],
+   "music_albums": [
+    {
+     "value": "Everything Changes",
+     "quote": "Take That Everything Changes Tour official programme"
+    }
+   ],
+   "music_artists": [
+    {
+     "value": "Take That",
+     "quote": "Take That Everything Changes Tour official programme"
+    }
+   ],
+   "events": [
+    {
+     "value": "Everything Changes Tour",
+     "quote": "Take That Everything Changes Tour official programme"
+    }
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Take That Everything Changes Tour official programme",
+   "specific_type": "official programme",
+   "cardinality": 1
+  }
+ },
+ "aaf0fe9052e6eaa62e263266de2a4685d707b34f": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [\n    {\n      \"value\": \"Made Of Bricks\",\n      \"quote\": \"Made Of Bricks poster\"\n    }\n  ],\n  \"music_artists\": [\n    {\n      \"value\": \"Kate Nash\",\n      \"quote\": \"Kate Nash - 'Made Of Bricks' poster\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Made Of Bricks poster\",\n  \"specific_type\": \"Poster\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [
+    {
+     "value": "Made Of Bricks",
+     "quote": "Made Of Bricks poster"
+    }
+   ],
+   "music_artists": [
+    {
+     "value": "Kate Nash",
+     "quote": "Kate Nash - 'Made Of Bricks' poster"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Made Of Bricks poster",
+   "specific_type": "Poster",
+   "cardinality": 1
+  }
+ },
+ "0b8d4b410024596535fb6a6f5e07d84a1d0e4a98": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"keyboard-pop\",\n      \"quote\": \"Nash explains that her lyrics on keyboard-pop songs like \u2018Foundations\u2019 are inspired by looking through her diary\"\n    }\n  ],\n  \"music_works\": [\n    {\n      \"value\": \"Foundations\",\n      \"quote\": \"Lyrics to \u2018Foundations\u2019\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Kate Nash\",\n      \"quote\": \"Kate Nash - Lyrics to \u2018Foundations\u2019\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"BRIT Awards\",\n      \"quote\": \"she went on to win Best Female Solo Artist at the 2008 BRIT Awards.\"\n    }\n  ],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"2007\",\n      \"quote\": \"Lyrics to \u2018Foundations\u2019 2007\"\n    },\n    {\n      \"value\": \"2008\",\n      \"quote\": \"Best Female Solo Artist at the 2008 BRIT Awards.\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Lyrics to \u2018Foundations\u2019\",\n  \"specific_type\": \"Lyrics\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "keyboard-pop",
+     "quote": "Nash explains that her lyrics on keyboard-pop songs like \u2018Foundations\u2019 are inspired by looking through her diary"
+    }
+   ],
+   "music_works": [
+    {
+     "value": "Foundations",
+     "quote": "Lyrics to \u2018Foundations\u2019"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Kate Nash",
+     "quote": "Kate Nash - Lyrics to \u2018Foundations\u2019"
+    }
+   ],
+   "events": [
+    {
+     "value": "BRIT Awards",
+     "quote": "she went on to win Best Female Solo Artist at the 2008 BRIT Awards."
+    }
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "2007",
+     "quote": "Lyrics to \u2018Foundations\u2019 2007"
+    },
+    {
+     "value": "2008",
+     "quote": "Best Female Solo Artist at the 2008 BRIT Awards."
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Lyrics to \u2018Foundations\u2019",
+   "specific_type": "Lyrics",
+   "cardinality": 1
+  }
+ },
+ "1f054d1eae9218dd8f80c6d44ebbf540c12cf23c": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"black soul\",\n      \"quote\": \"powerful mix of black soul, R&B and jazz\"\n    },\n    {\n      \"value\": \"R&B\",\n      \"quote\": \"powerful mix of black soul, R&B and jazz\"\n    },\n    {\n      \"value\": \"jazz\",\n      \"quote\": \"powerful mix of black soul, R&B and jazz\"\n    }\n  ],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Amy Winehouse\",\n      \"quote\": \"Amy Winehouse - Tour poster for the Shepherd\u2019s Bush Empire, London\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [\n    {\n      \"value\": \"London\",\n      \"quote\": \"Shepherd\u2019s Bush Empire, London\"\n    }\n  ],\n  \"venues\": [\n    {\n      \"value\": \"Shepherd\u2019s Bush Empire\",\n      \"quote\": \"Shepherd\u2019s Bush Empire, London\"\n    }\n  ],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Amy Winehouse Tour Poster for Shepherd\u2019s Bush Empire\",\n  \"specific_type\": \"Tour poster\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "black soul",
+     "quote": "powerful mix of black soul, R&B and jazz"
+    },
+    {
+     "value": "R&B",
+     "quote": "powerful mix of black soul, R&B and jazz"
+    },
+    {
+     "value": "jazz",
+     "quote": "powerful mix of black soul, R&B and jazz"
+    }
+   ],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Amy Winehouse",
+     "quote": "Amy Winehouse - Tour poster for the Shepherd\u2019s Bush Empire, London"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [
+    {
+     "value": "London",
+     "quote": "Shepherd\u2019s Bush Empire, London"
+    }
+   ],
+   "venues": [
+    {
+     "value": "Shepherd\u2019s Bush Empire",
+     "quote": "Shepherd\u2019s Bush Empire, London"
+    }
+   ],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Amy Winehouse Tour Poster for Shepherd\u2019s Bush Empire",
+   "specific_type": "Tour poster",
+   "cardinality": 1
+  }
+ },
+ "6f9eff6fda69a43de4ccb1cc775d6ad9fb93c266": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"Jazz\",\n      \"quote\": \"Ken Colyer\u2019s Jazzmen\"\n    },\n    {\n      \"value\": \"Jazz\",\n      \"quote\": \"Acker Bilk\u2019s Paramount Jazz Band\"\n    }\n  ],\n  \"music_works\": [\n    {\n      \"value\": \"New Orleans Joys\",\n      \"quote\": \"\u2018New Orleans Joys\u2019 concert\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Ken Colyer\",\n      \"quote\": \"Ken Colyer\u2019s Jazzmen\"\n    },\n    {\n      \"value\": \"Ken Colyer\u2019s Jazzmen\",\n      \"quote\": \"Ken Colyer\u2019s Jazzmen\"\n    },\n    {\n      \"value\": \"Acker Bilk\",\n      \"quote\": \"Acker Bilk\u2019s Paramount Jazz Band\"\n    },\n    {\n      \"value\": \"Acker Bilk\u2019s Paramount Jazz Band\",\n      \"quote\": \"Acker Bilk\u2019s Paramount Jazz Band\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"New Orleans Joys concert\",\n      \"quote\": \"\u2018New Orleans Joys\u2019 concert\"\n    }\n  ],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Souvenir programme for the \u2018New Orleans Joys\u2019 concert\",\n  \"specific_type\": \"Souvenir programme\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "Jazz",
+     "quote": "Ken Colyer\u2019s Jazzmen"
+    },
+    {
+     "value": "Jazz",
+     "quote": "Acker Bilk\u2019s Paramount Jazz Band"
+    }
+   ],
+   "music_works": [
+    {
+     "value": "New Orleans Joys",
+     "quote": "\u2018New Orleans Joys\u2019 concert"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Ken Colyer",
+     "quote": "Ken Colyer\u2019s Jazzmen"
+    },
+    {
+     "value": "Ken Colyer\u2019s Jazzmen",
+     "quote": "Ken Colyer\u2019s Jazzmen"
+    },
+    {
+     "value": "Acker Bilk",
+     "quote": "Acker Bilk\u2019s Paramount Jazz Band"
+    },
+    {
+     "value": "Acker Bilk\u2019s Paramount Jazz Band",
+     "quote": "Acker Bilk\u2019s Paramount Jazz Band"
+    }
+   ],
+   "events": [
+    {
+     "value": "New Orleans Joys concert",
+     "quote": "\u2018New Orleans Joys\u2019 concert"
+    }
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Souvenir programme for the \u2018New Orleans Joys\u2019 concert",
+   "specific_type": "Souvenir programme",
+   "cardinality": 1
+  }
+ },
+ "4f7a049bc843629813171b837e0fb0877c173785": {
+  "text": "{\"music_genres\": [{\"value\": \"Jazz\", \"quote\": \"Jazz News\"}], \"music_works\": [], \"music_albums\": [], \"music_artists\": [], \"events\": [], \"countries\": [], \"places\": [], \"venues\": [], \"years\": [{\"value\": \"1962\", \"quote\": \"25th July 1962\"}], \"colours\": [], \"materials\": [], \"item_title\": \"Jazz News, 25th July 1962\", \"specific_type\": \"Newspaper\", \"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "Jazz",
+     "quote": "Jazz News"
+    }
+   ],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1962",
+     "quote": "25th July 1962"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Jazz News, 25th July 1962",
+   "specific_type": "Newspaper",
+   "cardinality": 1
+  }
+ },
+ "c92b7ee993393829f921c6d9e6c3b4d65f5578ad": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"skiffle\",\n      \"quote\": \"introducing skiffle with the Chas McDevitt Skiffle Group\"\n    }\n  ],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Chas McDevitt\",\n      \"quote\": \"Chas McDevitt Concert poster\"\n    },\n    {\n      \"value\": \"Chas McDevitt Skiffle Group\",\n      \"quote\": \"Chas McDevitt Skiffle Group\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"Concert\",\n      \"quote\": \"Concert poster\"\n    }\n  ],\n  \"countries\": [],\n  \"places\": [\n    {\n      \"value\": \"Edgware Road\",\n      \"quote\": \"at the Metropolitan Club in Edgware Road, London\"\n    },\n    {\n      \"value\": \"London\",\n      \"quote\": \"in Edgware Road, London\"\n    }\n  ],\n  \"venues\": [\n    {\n      \"value\": \"Metropolitan Club\",\n      \"quote\": \"at the Metropolitan Club in Edgware Road\"\n    }\n  ],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Chas McDevitt Concert poster\",\n  \"specific_type\": \"Concert poster\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "skiffle",
+     "quote": "introducing skiffle with the Chas McDevitt Skiffle Group"
+    }
+   ],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Chas McDevitt",
+     "quote": "Chas McDevitt Concert poster"
+    },
+    {
+     "value": "Chas McDevitt Skiffle Group",
+     "quote": "Chas McDevitt Skiffle Group"
+    }
+   ],
+   "events": [
+    {
+     "value": "Concert",
+     "quote": "Concert poster"
+    }
+   ],
+   "countries": [],
+   "places": [
+    {
+     "value": "Edgware Road",
+     "quote": "at the Metropolitan Club in Edgware Road, London"
+    },
+    {
+     "value": "London",
+     "quote": "in Edgware Road, London"
+    }
+   ],
+   "venues": [
+    {
+     "value": "Metropolitan Club",
+     "quote": "at the Metropolitan Club in Edgware Road"
+    }
+   ],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Chas McDevitt Concert poster",
+   "specific_type": "Concert poster",
+   "cardinality": 1
+  }
+ },
+ "54f79afb0ba81beed16e1a9e2d95d21dc889b2f7": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"skiffle\",\n      \"quote\": \"This skiffle hit was a transatlantic smash\"\n    }\n  ],\n  \"music_works\": [\n    {\n      \"value\": \"Freight Train\",\n      \"quote\": \"Chas McDevitt \u2018Freight Train\u2019 78rpm record\"\n    }\n  ],\n  \"music_albums\": [\n    {\n      \"value\": \"Freight Train\",\n      \"quote\": \"Chas McDevitt \u2018Freight Train\u2019 78rpm record\"\n    }\n  ],\n  \"music_artists\": [\n    {\n      \"value\": \"Chas McDevitt\",\n      \"quote\": \"Chas McDevitt \u2018Freight Train\u2019 78rpm record\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"The Ed Sullivan Show\",\n      \"quote\": \"appearances on both The Ed Sullivan Show in America\"\n    },\n    {\n      \"value\": \"The Tommy Steele Story\",\n      \"quote\": \"and The Tommy Steele Story in Britain.\"\n    }\n  ],\n  \"countries\": [\n    {\n      \"value\": \"America\",\n      \"quote\": \"The Ed Sullivan Show in America\"\n    },\n    {\n      \"value\": \"Britain\",\n      \"quote\": \"and The Tommy Steele Story in Britain.\"\n    }\n  ],\n  \"places\": [\n    {\n      \"value\": \"Soho\",\n      \"quote\": \"opened his own coffee bar in Soho\"\n    }\n  ],\n  \"venues\": [\n    {\n      \"value\": \"The Freight Train\",\n      \"quote\": \"appropriately called The Freight Train.\"\n    }\n  ],\n  \"years\": [\n    {\n      \"value\": \"1957\",\n      \"quote\": \"7 Chas McDevitt \u2018Freight Train\u2019 78rpm record and sheet music 1957\"\n    },\n    {\n      \"value\": \"1957\",\n      \"quote\": \"This skiffle hit was a transatlantic smash in 1957\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Freight Train 10\\\" LP\",\n  \"specific_type\": \"LP\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "skiffle",
+     "quote": "This skiffle hit was a transatlantic smash"
+    }
+   ],
+   "music_works": [
+    {
+     "value": "Freight Train",
+     "quote": "Chas McDevitt \u2018Freight Train\u2019 78rpm record"
+    }
+   ],
+   "music_albums": [
+    {
+     "value": "Freight Train",
+     "quote": "Chas McDevitt \u2018Freight Train\u2019 78rpm record"
+    }
+   ],
+   "music_artists": [
+    {
+     "value": "Chas McDevitt",
+     "quote": "Chas McDevitt \u2018Freight Train\u2019 78rpm record"
+    }
+   ],
+   "events": [
+    {
+     "value": "The Ed Sullivan Show",
+     "quote": "appearances on both The Ed Sullivan Show in America"
+    },
+    {
+     "value": "The Tommy Steele Story",
+     "quote": "and The Tommy Steele Story in Britain."
+    }
+   ],
+   "countries": [
+    {
+     "value": "America",
+     "quote": "The Ed Sullivan Show in America"
+    },
+    {
+     "value": "Britain",
+     "quote": "and The Tommy Steele Story in Britain."
+    }
+   ],
+   "places": [
+    {
+     "value": "Soho",
+     "quote": "opened his own coffee bar in Soho"
+    }
+   ],
+   "venues": [
+    {
+     "value": "The Freight Train",
+     "quote": "appropriately called The Freight Train."
+    }
+   ],
+   "years": [
+    {
+     "value": "1957",
+     "quote": "7 Chas McDevitt \u2018Freight Train\u2019 78rpm record and sheet music 1957"
+    },
+    {
+     "value": "1957",
+     "quote": "This skiffle hit was a transatlantic smash in 1957"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Freight Train 10\" LP",
+   "specific_type": "LP",
+   "cardinality": 1
+  }
+ },
+ "2a2abb67fcd6a17f1d36b4d0a69771c7f79ad717": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"skiffle\",\n      \"quote\": \"This skiffle hit was a transatlantic smash\"\n    }\n  ],\n  \"music_works\": [\n    {\n      \"value\": \"Freight Train\",\n      \"quote\": \"Chas McDevitt \u2018Freight Train\u2019 78rpm record\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Chas McDevitt\",\n      \"quote\": \"7 Chas McDevitt \u2018Freight Train\u2019 78rpm record\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"The Ed Sullivan Show\",\n      \"quote\": \"appearances on both The Ed Sullivan Show in America\"\n    },\n    {\n      \"value\": \"The Tommy Steele Story\",\n      \"quote\": \"and The Tommy Steele Story in Britain.\"\n    }\n  ],\n  \"countries\": [\n    {\n      \"value\": \"America\",\n      \"quote\": \"The Ed Sullivan Show in America\"\n    },\n    {\n      \"value\": \"Britain\",\n      \"quote\": \"The Tommy Steele Story in Britain.\"\n    }\n  ],\n  \"places\": [\n    {\n      \"value\": \"Soho\",\n      \"quote\": \"opened his own coffee bar in Soho\"\n    }\n  ],\n  \"venues\": [\n    {\n      \"value\": \"The Freight Train\",\n      \"quote\": \"appropriately called The Freight Train.\"\n    }\n  ],\n  \"years\": [\n    {\n      \"value\": \"1957\",\n      \"quote\": \"sheet music 1957 This skiffle hit was a transatlantic smash in 1957\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Freight Train sheet music\",\n  \"specific_type\": \"Sheet Music\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "skiffle",
+     "quote": "This skiffle hit was a transatlantic smash"
+    }
+   ],
+   "music_works": [
+    {
+     "value": "Freight Train",
+     "quote": "Chas McDevitt \u2018Freight Train\u2019 78rpm record"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Chas McDevitt",
+     "quote": "7 Chas McDevitt \u2018Freight Train\u2019 78rpm record"
+    }
+   ],
+   "events": [
+    {
+     "value": "The Ed Sullivan Show",
+     "quote": "appearances on both The Ed Sullivan Show in America"
+    },
+    {
+     "value": "The Tommy Steele Story",
+     "quote": "and The Tommy Steele Story in Britain."
+    }
+   ],
+   "countries": [
+    {
+     "value": "America",
+     "quote": "The Ed Sullivan Show in America"
+    },
+    {
+     "value": "Britain",
+     "quote": "The Tommy Steele Story in Britain."
+    }
+   ],
+   "places": [
+    {
+     "value": "Soho",
+     "quote": "opened his own coffee bar in Soho"
+    }
+   ],
+   "venues": [
+    {
+     "value": "The Freight Train",
+     "quote": "appropriately called The Freight Train."
+    }
+   ],
+   "years": [
+    {
+     "value": "1957",
+     "quote": "sheet music 1957 This skiffle hit was a transatlantic smash in 1957"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Freight Train sheet music",
+   "specific_type": "Sheet Music",
+   "cardinality": 1
+  }
+ },
+ "187b3225322556075b8b151c2fd0e370c5aec9be": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"I've Come Of Age\",\n      \"quote\": \"\u2018I\u2019ve Come Of Age\u2019 sheet music\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Terry Dene\",\n      \"quote\": \"Terry Dene \u2018I\u2019ve Come Of Age\u2019 sheet music\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1959\",\n      \"quote\": \"sheet music 1959\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"I've Come Of Age' sheet music\",\n  \"specific_type\": \"Sheet Music\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "I've Come Of Age",
+     "quote": "\u2018I\u2019ve Come Of Age\u2019 sheet music"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Terry Dene",
+     "quote": "Terry Dene \u2018I\u2019ve Come Of Age\u2019 sheet music"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1959",
+     "quote": "sheet music 1959"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "I've Come Of Age' sheet music",
+   "specific_type": "Sheet Music",
+   "cardinality": 1
+  }
+ },
+ "af98498322cb175dd41d1a5e8349eb7888db019d": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Marty Wilde\",\n      \"quote\": \"Picturegoer magazine featuring Marty Wilde\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1959\",\n      \"quote\": \"23rd May 1959\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Picturegoer magazine featuring Marty Wilde\",\n  \"specific_type\": \"Magazine\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Marty Wilde",
+     "quote": "Picturegoer magazine featuring Marty Wilde"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1959",
+     "quote": "23rd May 1959"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Picturegoer magazine featuring Marty Wilde",
+   "specific_type": "Magazine",
+   "cardinality": 1
+  }
+ },
+ "32e71295b32ce0f373a4b0c29983766c6194203e": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"A Girl Like You\",\n      \"quote\": \"featuring \u2018A Girl Like You\u2019, \u2018Kon-tiki\u2019, \u2018Apache\u2019, \u2018Man Of Mystery\u2019, \u2018I\u2019ll String Along With You\u2019 and \u2018That\u2019s My Desire\u2019\"\n    },\n    {\n      \"value\": \"Kon-tiki\",\n      \"quote\": \"\u2018Kon-tiki\u2019, \u2018Apache\u2019, \u2018Man Of Mystery\u2019, \u2018I\u2019ll String Along With You\u2019 and \u2018That\u2019s My Desire\u2019\"\n    },\n    {\n      \"value\": \"Apache\",\n      \"quote\": \"\u2018Apache\u2019, \u2018Man Of Mystery\u2019, \u2018I\u2019ll String Along With You\u2019 and \u2018That\u2019s My Desire\u2019\"\n    },\n    {\n      \"value\": \"Man Of Mystery\",\n      \"quote\": \"\u2018Man Of Mystery\u2019, \u2018I\u2019ll String Along With You\u2019 and \u2018That\u2019s My Desire\u2019\"\n    },\n    {\n      \"value\": \"I\u2019ll String Along With You\",\n      \"quote\": \"\u2018I\u2019ll String Along With You\u2019 and \u2018That\u2019s My Desire\u2019\"\n    },\n    {\n      \"value\": \"That\u2019s My Desire\",\n      \"quote\": \"\u2018That\u2019s My Desire\u2019\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Cliff Richard and The Shadows\",\n      \"quote\": \"Cliff Richard and The Shadows sheet music\"\n    },\n    {\n      \"value\": \"Cliff and The Shadows\",\n      \"quote\": \"11 Cliff and The Shadows Sheet music featuring\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Cliff Richard and The Shadows Sheet Music\",\n  \"specific_type\": \"Sheet music\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "A Girl Like You",
+     "quote": "featuring \u2018A Girl Like You\u2019, \u2018Kon-tiki\u2019, \u2018Apache\u2019, \u2018Man Of Mystery\u2019, \u2018I\u2019ll String Along With You\u2019 and \u2018That\u2019s My Desire\u2019"
+    },
+    {
+     "value": "Kon-tiki",
+     "quote": "\u2018Kon-tiki\u2019, \u2018Apache\u2019, \u2018Man Of Mystery\u2019, \u2018I\u2019ll String Along With You\u2019 and \u2018That\u2019s My Desire\u2019"
+    },
+    {
+     "value": "Apache",
+     "quote": "\u2018Apache\u2019, \u2018Man Of Mystery\u2019, \u2018I\u2019ll String Along With You\u2019 and \u2018That\u2019s My Desire\u2019"
+    },
+    {
+     "value": "Man Of Mystery",
+     "quote": "\u2018Man Of Mystery\u2019, \u2018I\u2019ll String Along With You\u2019 and \u2018That\u2019s My Desire\u2019"
+    },
+    {
+     "value": "I\u2019ll String Along With You",
+     "quote": "\u2018I\u2019ll String Along With You\u2019 and \u2018That\u2019s My Desire\u2019"
+    },
+    {
+     "value": "That\u2019s My Desire",
+     "quote": "\u2018That\u2019s My Desire\u2019"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Cliff Richard and The Shadows",
+     "quote": "Cliff Richard and The Shadows sheet music"
+    },
+    {
+     "value": "Cliff and The Shadows",
+     "quote": "11 Cliff and The Shadows Sheet music featuring"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Cliff Richard and The Shadows Sheet Music",
+   "specific_type": "Sheet music",
+   "cardinality": 1
+  }
+ },
+ "7c9f5dba5c73fc2062fb3c4ee73d6cedafe33446": {
+  "text": "{\"music_genres\": [],\"music_works\": [],\"music_albums\": [],\"music_artists\": [{\"value\": \"The Beatles\",\"quote\": \"The Beatles tour programme (turquoise)\"}],\"events\": [],\"countries\": [],\"places\": [],\"venues\": [],\"years\": [],\"colours\": [{\"value\": \"turquoise\",\"quote\": \"turquoise\"}],\"materials\": [],\"item_title\": \"The Beatles tour programme\",\"specific_type\": \"tour programme\",\"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "The Beatles",
+     "quote": "The Beatles tour programme (turquoise)"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [
+    {
+     "value": "turquoise",
+     "quote": "turquoise"
+    }
+   ],
+   "materials": [],
+   "item_title": "The Beatles tour programme",
+   "specific_type": "tour programme",
+   "cardinality": 1
+  }
+ },
+ "92562271f952f2bce09f6e840b22c74527e271c9": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"The Beatles\",\n      \"quote\": \"The Beatles - Selcol \u2018New Beat\u2019 toy guitar\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"The Beatles - Selcol \u2018New Beat\u2019 toy guitar\",\n  \"specific_type\": \"toy guitar\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "The Beatles",
+     "quote": "The Beatles - Selcol \u2018New Beat\u2019 toy guitar"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "The Beatles - Selcol \u2018New Beat\u2019 toy guitar",
+   "specific_type": "toy guitar",
+   "cardinality": 1
+  }
+ },
+ "cefed6072be57d298f1aebaa0007d8d812f788f5": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"The Beatles\",\n      \"quote\": \"The Beatles - Selcol \u2018New Beat\u2019 toy drum\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"The Beatles Selcol \u2018New Beat\u2019 toy drum\",\n  \"specific_type\": \"toy drum\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "The Beatles",
+     "quote": "The Beatles - Selcol \u2018New Beat\u2019 toy drum"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "The Beatles Selcol \u2018New Beat\u2019 toy drum",
+   "specific_type": "toy drum",
+   "cardinality": 1
+  }
+ },
+ "e2255f57b0173d815a4d35986f9253bc060239fc": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"Puppet On A String\",\n      \"quote\": \"\u2018Puppet On A String\u2019 sheet music and LP\"\n    }\n  ],\n  \"music_albums\": [\n    {\n      \"value\": \"Puppet On A String\",\n      \"quote\": \"\u2018Puppet On A String\u2019 sheet music and LP\"\n    }\n  ],\n  \"music_artists\": [\n    {\n      \"value\": \"Sandie Shaw\",\n      \"quote\": \"Sandie Shaw - Puppet on a String 12\\\"LP\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1967\",\n      \"quote\": \"LP 1967\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Puppet on a String 12\\\"LP\",\n  \"specific_type\": \"LP\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Puppet On A String",
+     "quote": "\u2018Puppet On A String\u2019 sheet music and LP"
+    }
+   ],
+   "music_albums": [
+    {
+     "value": "Puppet On A String",
+     "quote": "\u2018Puppet On A String\u2019 sheet music and LP"
+    }
+   ],
+   "music_artists": [
+    {
+     "value": "Sandie Shaw",
+     "quote": "Sandie Shaw - Puppet on a String 12\"LP"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1967",
+     "quote": "LP 1967"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Puppet on a String 12\"LP",
+   "specific_type": "LP",
+   "cardinality": 1
+  }
+ },
+ "70810b23907debe59f9ff6ab2d209a255452da41": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"Puppet On A String\",\n      \"quote\": \"\u2018Puppet On A String\u2019 sheet music\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Sandie Shaw\",\n      \"quote\": \"Sandie Shaw \u2018Puppet On A String\u2019 sheet music\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1967\",\n      \"quote\": \"sheet music and LP 1967\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Puppet on a String sheet music\",\n  \"specific_type\": \"sheet music\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Puppet On A String",
+     "quote": "\u2018Puppet On A String\u2019 sheet music"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Sandie Shaw",
+     "quote": "Sandie Shaw \u2018Puppet On A String\u2019 sheet music"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1967",
+     "quote": "sheet music and LP 1967"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Puppet on a String sheet music",
+   "specific_type": "sheet music",
+   "cardinality": 1
+  }
+ },
+ "511d76ae6fddc1ff67349bfb1ef9823a537c4b71": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"The Rolling Stones\",\n      \"quote\": \"Official Rolling Stones Fan Club newsletter and photograph of the band\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [\n    {\n      \"value\": \"Scandinavia\",\n      \"quote\": \"The Official Rolling Stones Fan Club started in June 1964 in Scandinavia and the UK\"\n    },\n    {\n      \"value\": \"UK\",\n      \"quote\": \"in Scandinavia and the UK\"\n    },\n    {\n      \"value\": \"US\",\n      \"quote\": \"soon opened a branch in the US to meet rising demand across the Atlantic\"\n    }\n  ],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1964\",\n      \"quote\": \"23rd October 1964 The Official Rolling Stones Fan Club started in June 1964\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Official Rolling Stones Fan Club newsletter and photograph of the band\",\n  \"specific_type\": \"Newsletter\",\n  \"cardinality\": 2\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "The Rolling Stones",
+     "quote": "Official Rolling Stones Fan Club newsletter and photograph of the band"
+    }
+   ],
+   "events": [],
+   "countries": [
+    {
+     "value": "Scandinavia",
+     "quote": "The Official Rolling Stones Fan Club started in June 1964 in Scandinavia and the UK"
+    },
+    {
+     "value": "UK",
+     "quote": "in Scandinavia and the UK"
+    },
+    {
+     "value": "US",
+     "quote": "soon opened a branch in the US to meet rising demand across the Atlantic"
+    }
+   ],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1964",
+     "quote": "23rd October 1964 The Official Rolling Stones Fan Club started in June 1964"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Official Rolling Stones Fan Club newsletter and photograph of the band",
+   "specific_type": "Newsletter",
+   "cardinality": 2
+  }
+ },
+ "5e3f1fbeebc44bedc428393d03cfec9d81af29ae": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"The Detours\",\n      \"quote\": \"Flyer for The Detours at the White Hart Hotel\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [\n    {\n      \"value\": \"Acton\",\n      \"quote\": \"Hotel in Acton\"\n    }\n  ],\n  \"venues\": [\n    {\n      \"value\": \"White Hart Hotel\",\n      \"quote\": \"at the White Hart Hotel in Acton\"\n    }\n  ],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Flyer for The Detours\",\n  \"specific_type\": \"Flyer\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "The Detours",
+     "quote": "Flyer for The Detours at the White Hart Hotel"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [
+    {
+     "value": "Acton",
+     "quote": "Hotel in Acton"
+    }
+   ],
+   "venues": [
+    {
+     "value": "White Hart Hotel",
+     "quote": "at the White Hart Hotel in Acton"
+    }
+   ],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Flyer for The Detours",
+   "specific_type": "Flyer",
+   "cardinality": 1
+  }
+ },
+ "879317a4711a191fa0ada281cf07a258d8b7ab41": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"The High Numbers\",\n      \"quote\": \"Flyer for The High Numbers at the Railway Hotel in Harrow\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [\n    {\n      \"value\": \"Harrow\",\n      \"quote\": \"at the Railway Hotel in Harrow\"\n    }\n  ],\n  \"venues\": [\n    {\n      \"value\": \"Railway Hotel\",\n      \"quote\": \"at the Railway Hotel in Harrow\"\n    }\n  ],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Flyer for The High Numbers\",\n  \"specific_type\": \"Flyer\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "The High Numbers",
+     "quote": "Flyer for The High Numbers at the Railway Hotel in Harrow"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [
+    {
+     "value": "Harrow",
+     "quote": "at the Railway Hotel in Harrow"
+    }
+   ],
+   "venues": [
+    {
+     "value": "Railway Hotel",
+     "quote": "at the Railway Hotel in Harrow"
+    }
+   ],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Flyer for The High Numbers",
+   "specific_type": "Flyer",
+   "cardinality": 1
+  }
+ },
+ "d7a5623cd2a6a98c68c0c11253e0c50ffc2b2db3": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"rock\",\n      \"quote\": \"Cream were the ultimate in rock mix when they formed in 1966.\"\n    },\n    {\n      \"value\": \"blues\",\n      \"quote\": \"the resulting music was a rock hybrid of blues and psychedelia.\"\n    },\n    {\n      \"value\": \"jazz\",\n      \"quote\": \"the jazz-inspired drumming of Ginger Baker\"\n    },\n    {\n      \"value\": \"psychedelia\",\n      \"quote\": \"rock hybrid of blues and psychedelia.\"\n    }\n  ],\n  \"music_works\": [\n    {\n      \"value\": \"White Room\",\n      \"quote\": \"Cream - Lyrics to 'White Room'\"\n    },\n    {\n      \"value\": \"Sunshine Of Your Love\",\n      \"quote\": \"scoring hit songs with \u2018Sunshine Of Your Love\u2019 and \u2018White Room\u2019.\"\n    }\n  ],\n  \"music_albums\": [\n    {\n      \"value\": \"Fresh Cream\",\n      \"quote\": \"Their debut album Fresh Cream contained their first hit singles\"\n    }\n  ],\n  \"music_artists\": [\n    {\n      \"value\": \"Cream\",\n      \"quote\": \"Cream - Lyrics to 'White Room'\"\n    },\n    {\n      \"value\": \"Eric Clapton\",\n      \"quote\": \"virtuoso blues guitarist Eric Clapton\"\n    },\n    {\n      \"value\": \"Jack Bruce\",\n      \"quote\": \"Jack Bruce\u2019s bass\"\n    },\n    {\n      \"value\": \"Ginger Baker\",\n      \"quote\": \"jazz-inspired drumming of Ginger Baker\"\n    },\n    {\n      \"value\": \"Pete Brown\",\n      \"quote\": \"poet and lyricist Pete Brown\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1966\",\n      \"quote\": \"Cream were the ultimate in rock mix when they formed in 1966.\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Lyrics to 'White Room'\",\n  \"specific_type\": \"Lyrics\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "rock",
+     "quote": "Cream were the ultimate in rock mix when they formed in 1966."
+    },
+    {
+     "value": "blues",
+     "quote": "the resulting music was a rock hybrid of blues and psychedelia."
+    },
+    {
+     "value": "jazz",
+     "quote": "the jazz-inspired drumming of Ginger Baker"
+    },
+    {
+     "value": "psychedelia",
+     "quote": "rock hybrid of blues and psychedelia."
+    }
+   ],
+   "music_works": [
+    {
+     "value": "White Room",
+     "quote": "Cream - Lyrics to 'White Room'"
+    },
+    {
+     "value": "Sunshine Of Your Love",
+     "quote": "scoring hit songs with \u2018Sunshine Of Your Love\u2019 and \u2018White Room\u2019."
+    }
+   ],
+   "music_albums": [
+    {
+     "value": "Fresh Cream",
+     "quote": "Their debut album Fresh Cream contained their first hit singles"
+    }
+   ],
+   "music_artists": [
+    {
+     "value": "Cream",
+     "quote": "Cream - Lyrics to 'White Room'"
+    },
+    {
+     "value": "Eric Clapton",
+     "quote": "virtuoso blues guitarist Eric Clapton"
+    },
+    {
+     "value": "Jack Bruce",
+     "quote": "Jack Bruce\u2019s bass"
+    },
+    {
+     "value": "Ginger Baker",
+     "quote": "jazz-inspired drumming of Ginger Baker"
+    },
+    {
+     "value": "Pete Brown",
+     "quote": "poet and lyricist Pete Brown"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1966",
+     "quote": "Cream were the ultimate in rock mix when they formed in 1966."
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Lyrics to 'White Room'",
+   "specific_type": "Lyrics",
+   "cardinality": 1
+  }
+ },
+ "18ca31127e9ac667cf454f1437c2ed978c7e95f6": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"rock\",\n      \"quote\": \"Cream were the ultimate in rock mix\"\n    },\n    {\n      \"value\": \"blues\",\n      \"quote\": \"rock hybrid of blues\"\n    },\n    {\n      \"value\": \"jazz\",\n      \"quote\": \"jazz-inspired drumming of Ginger Baker\"\n    },\n    {\n      \"value\": \"psychedelia\",\n      \"quote\": \"rock hybrid of blues and psychedelia\"\n    }\n  ],\n  \"music_works\": [\n    {\n      \"value\": \"I Feel Free\",\n      \"quote\": \"Lyrics to 'I Feel Free'\"\n    }\n  ],\n  \"music_albums\": [\n    {\n      \"value\": \"Fresh Cream\",\n      \"quote\": \"Their debut album Fresh Cream contained their first hit singles, including \u2018I Feel Free\u2019\"\n    }\n  ],\n  \"music_artists\": [\n    {\n      \"value\": \"Cream\",\n      \"quote\": \"Cream - Lyrics to 'I Feel Free'\"\n    },\n    {\n      \"value\": \"Eric Clapton\",\n      \"quote\": \"virtuoso blues guitarist Eric Clapton\"\n    },\n    {\n      \"value\": \"Jack Bruce\",\n      \"quote\": \"Jack Bruce\u2019s bass\"\n    },\n    {\n      \"value\": \"Ginger Baker\",\n      \"quote\": \"jazz-inspired drumming of Ginger Baker\"\n    },\n    {\n      \"value\": \"Pete Brown\",\n      \"quote\": \"poet and lyricist Pete Brown\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1966\",\n      \"quote\": \"when they formed in 1966\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Lyrics to 'I Feel Free'\",\n  \"specific_type\": \"Lyrics\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "rock",
+     "quote": "Cream were the ultimate in rock mix"
+    },
+    {
+     "value": "blues",
+     "quote": "rock hybrid of blues"
+    },
+    {
+     "value": "jazz",
+     "quote": "jazz-inspired drumming of Ginger Baker"
+    },
+    {
+     "value": "psychedelia",
+     "quote": "rock hybrid of blues and psychedelia"
+    }
+   ],
+   "music_works": [
+    {
+     "value": "I Feel Free",
+     "quote": "Lyrics to 'I Feel Free'"
+    }
+   ],
+   "music_albums": [
+    {
+     "value": "Fresh Cream",
+     "quote": "Their debut album Fresh Cream contained their first hit singles, including \u2018I Feel Free\u2019"
+    }
+   ],
+   "music_artists": [
+    {
+     "value": "Cream",
+     "quote": "Cream - Lyrics to 'I Feel Free'"
+    },
+    {
+     "value": "Eric Clapton",
+     "quote": "virtuoso blues guitarist Eric Clapton"
+    },
+    {
+     "value": "Jack Bruce",
+     "quote": "Jack Bruce\u2019s bass"
+    },
+    {
+     "value": "Ginger Baker",
+     "quote": "jazz-inspired drumming of Ginger Baker"
+    },
+    {
+     "value": "Pete Brown",
+     "quote": "poet and lyricist Pete Brown"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1966",
+     "quote": "when they formed in 1966"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Lyrics to 'I Feel Free'",
+   "specific_type": "Lyrics",
+   "cardinality": 1
+  }
+ },
+ "d0531d03ba51d51a2b52cb59eb3bd7446822f179": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"rock\",\n      \"quote\": \"rock mix\"\n    },\n    {\n      \"value\": \"blues\",\n      \"quote\": \"virtuoso blues guitarist Eric Clapton\"\n    },\n    {\n      \"value\": \"jazz\",\n      \"quote\": \"jazz-inspired drumming of Ginger Baker\"\n    },\n    {\n      \"value\": \"psychedelia\",\n      \"quote\": \"rock hybrid of blues and psychedelia\"\n    }\n  ],\n  \"music_works\": [],\n  \"music_albums\": [\n    {\n      \"value\": \"Disraeli Gears\",\n      \"quote\": \"Disraeli Gears LP\"\n    }\n  ],\n  \"music_artists\": [\n    {\n      \"value\": \"Cream\",\n      \"quote\": \"Cream - Disraeli Gears 12\\\" LP\"\n    },\n    {\n      \"value\": \"Eric Clapton\",\n      \"quote\": \"virtuoso blues guitarist Eric Clapton\"\n    },\n    {\n      \"value\": \"Jack Bruce\",\n      \"quote\": \"Jack Bruce\u2019s bass\"\n    },\n    {\n      \"value\": \"Ginger Baker\",\n      \"quote\": \"jazz-inspired drumming of Ginger Baker\"\n    },\n    {\n      \"value\": \"Pete Brown\",\n      \"quote\": \"poet and lyricist Pete Brown\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1966\",\n      \"quote\": \"when they formed in 1966\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Disraeli Gears\",\n  \"specific_type\": \"LP\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "rock",
+     "quote": "rock mix"
+    },
+    {
+     "value": "blues",
+     "quote": "virtuoso blues guitarist Eric Clapton"
+    },
+    {
+     "value": "jazz",
+     "quote": "jazz-inspired drumming of Ginger Baker"
+    },
+    {
+     "value": "psychedelia",
+     "quote": "rock hybrid of blues and psychedelia"
+    }
+   ],
+   "music_works": [],
+   "music_albums": [
+    {
+     "value": "Disraeli Gears",
+     "quote": "Disraeli Gears LP"
+    }
+   ],
+   "music_artists": [
+    {
+     "value": "Cream",
+     "quote": "Cream - Disraeli Gears 12\" LP"
+    },
+    {
+     "value": "Eric Clapton",
+     "quote": "virtuoso blues guitarist Eric Clapton"
+    },
+    {
+     "value": "Jack Bruce",
+     "quote": "Jack Bruce\u2019s bass"
+    },
+    {
+     "value": "Ginger Baker",
+     "quote": "jazz-inspired drumming of Ginger Baker"
+    },
+    {
+     "value": "Pete Brown",
+     "quote": "poet and lyricist Pete Brown"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1966",
+     "quote": "when they formed in 1966"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Disraeli Gears",
+   "specific_type": "LP",
+   "cardinality": 1
+  }
+ },
+ "5dfd20bdd167f2c338134e293526a0c54c5af1a5": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"Psychedelic\",\n      \"quote\": \"underground psychedelic community\"\n    }\n  ],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Hapshash and the Coloured Coat\",\n      \"quote\": \"Hapshash and the Coloured Coat - Pink Floyd at the UFO poster\"\n    },\n    {\n      \"value\": \"Pink Floyd\",\n      \"quote\": \"Pink Floyd at the UFO poster\"\n    },\n    {\n      \"value\": \"Michael English\",\n      \"quote\": \"Michael English and Nigel Waymouth joined forces to become poster designer Hapshash and the Coloured Coat.\"\n    },\n    {\n      \"value\": \"Nigel Waymouth\",\n      \"quote\": \"Nigel Waymouth joined forces to become poster designer Hapshash and the Coloured Coat.\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"Pink Floyd at the UFO club\",\n      \"quote\": \"Pink Floyd at the UFO club poster\"\n    }\n  ],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [\n    {\n      \"value\": \"UFO club\",\n      \"quote\": \"Pink Floyd at the UFO club poster\"\n    }\n  ],\n  \"years\": [\n    {\n      \"value\": \"1967\",\n      \"quote\": \"In early 1967, Michael English and Nigel Waymouth joined forces to become poster designer Hapshash and the Coloured Coat.\"\n    },\n    {\n      \"value\": \"late 1960s\",\n      \"quote\": \"underground psychedelic community in the late 1960s\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [\n    {\n      \"value\": \"silkscreen\",\n      \"quote\": \"Their silkscreen designs became a statement\"\n    }\n  ],\n  \"item_title\": \"Pink Floyd at the UFO poster\",\n  \"specific_type\": \"Poster\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "Psychedelic",
+     "quote": "underground psychedelic community"
+    }
+   ],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Hapshash and the Coloured Coat",
+     "quote": "Hapshash and the Coloured Coat - Pink Floyd at the UFO poster"
+    },
+    {
+     "value": "Pink Floyd",
+     "quote": "Pink Floyd at the UFO poster"
+    },
+    {
+     "value": "Michael English",
+     "quote": "Michael English and Nigel Waymouth joined forces to become poster designer Hapshash and the Coloured Coat."
+    },
+    {
+     "value": "Nigel Waymouth",
+     "quote": "Nigel Waymouth joined forces to become poster designer Hapshash and the Coloured Coat."
+    }
+   ],
+   "events": [
+    {
+     "value": "Pink Floyd at the UFO club",
+     "quote": "Pink Floyd at the UFO club poster"
+    }
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [
+    {
+     "value": "UFO club",
+     "quote": "Pink Floyd at the UFO club poster"
+    }
+   ],
+   "years": [
+    {
+     "value": "1967",
+     "quote": "In early 1967, Michael English and Nigel Waymouth joined forces to become poster designer Hapshash and the Coloured Coat."
+    },
+    {
+     "value": "late 1960s",
+     "quote": "underground psychedelic community in the late 1960s"
+    }
+   ],
+   "colours": [],
+   "materials": [
+    {
+     "value": "silkscreen",
+     "quote": "Their silkscreen designs became a statement"
+    }
+   ],
+   "item_title": "Pink Floyd at the UFO poster",
+   "specific_type": "Poster",
+   "cardinality": 1
+  }
+ },
+ "74fee2d81ed4a9be1e20f3231bfc4964aa486ad4": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"psychedelic\",\n      \"quote\": \"underground psychedelic community\"\n    }\n  ],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [\n    {\n      \"value\": \"Oxford Street\",\n      \"quote\": \"Membership cards to the UFO club on Oxford Street\"\n    }\n  ],\n  \"venues\": [\n    {\n      \"value\": \"UFO club\",\n      \"quote\": \"Membership cards to the UFO club on Oxford Street\"\n    }\n  ],\n  \"years\": [\n    {\n      \"value\": \"1967\",\n      \"quote\": \"Oxford Street 1967\"\n    },\n    {\n      \"value\": \"1960s\",\n      \"quote\": \"late 1960s\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Membership cards to the UFO club on Oxford Street\",\n  \"specific_type\": \"Membership cards\",\n  \"cardinality\": 2\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "psychedelic",
+     "quote": "underground psychedelic community"
+    }
+   ],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [],
+   "events": [],
+   "countries": [],
+   "places": [
+    {
+     "value": "Oxford Street",
+     "quote": "Membership cards to the UFO club on Oxford Street"
+    }
+   ],
+   "venues": [
+    {
+     "value": "UFO club",
+     "quote": "Membership cards to the UFO club on Oxford Street"
+    }
+   ],
+   "years": [
+    {
+     "value": "1967",
+     "quote": "Oxford Street 1967"
+    },
+    {
+     "value": "1960s",
+     "quote": "late 1960s"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Membership cards to the UFO club on Oxford Street",
+   "specific_type": "Membership cards",
+   "cardinality": 2
+  }
+ },
+ "50a2ed251c3c3ff22b8cf600273d49ebd3b9f967": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [\n    {\n      \"value\": \"Covent Garden, London\",\n      \"quote\": \"Original artwork for the Middle Earth underground club in Covent Garden, London\"\n    }\n  ],\n  \"venues\": [\n    {\n      \"value\": \"Middle Earth underground club\",\n      \"quote\": \"Original artwork for the Middle Earth underground club in Covent Garden, London\"\n    }\n  ],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Original artwork for the Middle Earth underground club\",\n  \"specific_type\": \"Artwork\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [],
+   "events": [],
+   "countries": [],
+   "places": [
+    {
+     "value": "Covent Garden, London",
+     "quote": "Original artwork for the Middle Earth underground club in Covent Garden, London"
+    }
+   ],
+   "venues": [
+    {
+     "value": "Middle Earth underground club",
+     "quote": "Original artwork for the Middle Earth underground club in Covent Garden, London"
+    }
+   ],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Original artwork for the Middle Earth underground club",
+   "specific_type": "Artwork",
+   "cardinality": 1
+  }
+ },
+ "bab00d75724f8189f99ba8710c44538901c97670": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [],\n  \"events\": [\n    {\n      \"value\": \"European tour\",\n      \"quote\": \"European tour poster, 1970\"\n    }\n  ],\n  \"countries\": [\n    {\n      \"value\": \"Europe\",\n      \"quote\": \"European tour poster, 1970\"\n    }\n  ],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1970\",\n      \"quote\": \"European tour poster, 1970\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"European tour poster\",\n  \"specific_type\": \"Poster\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [],
+   "events": [
+    {
+     "value": "European tour",
+     "quote": "European tour poster, 1970"
+    }
+   ],
+   "countries": [
+    {
+     "value": "Europe",
+     "quote": "European tour poster, 1970"
+    }
+   ],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1970",
+     "quote": "European tour poster, 1970"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "European tour poster",
+   "specific_type": "Poster",
+   "cardinality": 1
+  }
+ },
+ "dfdcfd4cec26426352538ad509cddc1302768f8b": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"R&B\",\n      \"quote\": \"Bill Wyman joined R&B band The Rolling Stones on bass guitar\"\n    }\n  ],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Bill Wyman\",\n      \"quote\": \"Bass guitar played by Bill Wyman\"\n    },\n    {\n      \"value\": \"The Rolling Stones\",\n      \"quote\": \"The Rolling Stones Bass guitar played by Bill Wyman\"\n    },\n    {\n      \"value\": \"Dick Taylor\",\n      \"quote\": \"replacement for Dick Taylor\"\n    },\n    {\n      \"value\": \"The Cliftons\",\n      \"quote\": \"with his band The Cliftons on the London circuit\"\n    },\n    {\n      \"value\": \"Charlie Watts\",\n      \"quote\": \"coupled with Charlie Watts\u2019 drumming provided the distinctive pulsating sound\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"US tours\",\n      \"quote\": \"played by Wyman on the 1975 and 1978 US tours\"\n    }\n  ],\n  \"countries\": [\n    {\n      \"value\": \"US\",\n      \"quote\": \"played by Wyman on the 1975 and 1978 US tours\"\n    }\n  ],\n  \"places\": [\n    {\n      \"value\": \"London\",\n      \"quote\": \"on the London circuit\"\n    }\n  ],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1962\",\n      \"quote\": \"on bass guitar in 1962 as a replacement for Dick Taylor\"\n    },\n    {\n      \"value\": \"1975\",\n      \"quote\": \"played by Wyman on the 1975 and 1978 US tours\"\n    },\n    {\n      \"value\": \"1978\",\n      \"quote\": \"and 1978 US tours\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Bass guitar played by Bill Wyman\",\n  \"specific_type\": \"Dan Armstrong bass guitar\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "R&B",
+     "quote": "Bill Wyman joined R&B band The Rolling Stones on bass guitar"
+    }
+   ],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Bill Wyman",
+     "quote": "Bass guitar played by Bill Wyman"
+    },
+    {
+     "value": "The Rolling Stones",
+     "quote": "The Rolling Stones Bass guitar played by Bill Wyman"
+    },
+    {
+     "value": "Dick Taylor",
+     "quote": "replacement for Dick Taylor"
+    },
+    {
+     "value": "The Cliftons",
+     "quote": "with his band The Cliftons on the London circuit"
+    },
+    {
+     "value": "Charlie Watts",
+     "quote": "coupled with Charlie Watts\u2019 drumming provided the distinctive pulsating sound"
+    }
+   ],
+   "events": [
+    {
+     "value": "US tours",
+     "quote": "played by Wyman on the 1975 and 1978 US tours"
+    }
+   ],
+   "countries": [
+    {
+     "value": "US",
+     "quote": "played by Wyman on the 1975 and 1978 US tours"
+    }
+   ],
+   "places": [
+    {
+     "value": "London",
+     "quote": "on the London circuit"
+    }
+   ],
+   "venues": [],
+   "years": [
+    {
+     "value": "1962",
+     "quote": "on bass guitar in 1962 as a replacement for Dick Taylor"
+    },
+    {
+     "value": "1975",
+     "quote": "played by Wyman on the 1975 and 1978 US tours"
+    },
+    {
+     "value": "1978",
+     "quote": "and 1978 US tours"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Bass guitar played by Bill Wyman",
+   "specific_type": "Dan Armstrong bass guitar",
+   "cardinality": 1
+  }
+ },
+ "9ebbda3d77c13a707e9a8662c66387fa71bbb608": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Mick Jagger\",\n      \"quote\": \"worn by Mick Jagger\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Mick Jagger's Jumpsuit\",\n  \"specific_type\": \"Jumpsuit\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Mick Jagger",
+     "quote": "worn by Mick Jagger"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Mick Jagger's Jumpsuit",
+   "specific_type": "Jumpsuit",
+   "cardinality": 1
+  }
+ },
+ "67f680f5831e894b7b67c710a7346842f8a502bd": {
+  "text": "{\"music_genres\": [], \"music_works\": [], \"music_albums\": [], \"music_artists\": [{\"value\": \"David Bowie\", \"quote\": \"David Bowie Ziggy Stardust comic\"}], \"events\": [], \"countries\": [], \"places\": [], \"venues\": [], \"years\": [{\"value\": \"1973\", \"quote\": \"September 1973\"}], \"colours\": [], \"materials\": [], \"item_title\": \"Ziggy Stardust comic\", \"specific_type\": \"Comic\", \"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "David Bowie",
+     "quote": "David Bowie Ziggy Stardust comic"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1973",
+     "quote": "September 1973"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Ziggy Stardust comic",
+   "specific_type": "Comic",
+   "cardinality": 1
+  }
+ },
+ "62584d071664e16056cef722d336096ff30b3488": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"David Bowie\",\n      \"quote\": \"5 David Bowie Ziggy Stardust Costume 1973\"\n    },\n    {\n      \"value\": \"Ziggy Stardust\",\n      \"quote\": \"Ziggy Stardust Wool Multi-coloured Suit with feather boa\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"UK tour\",\n      \"quote\": \"These were the flamboyant outfits Bowie wore as Ziggy for the UK tour in 1973.\"\n    }\n  ],\n  \"countries\": [\n    {\n      \"value\": \"UK\",\n      \"quote\": \"for the UK tour in 1973\"\n    }\n  ],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1973\",\n      \"quote\": \"5 David Bowie Ziggy Stardust Costume 1973\"\n    }\n  ],\n  \"colours\": [\n    {\n      \"value\": \"Multi-coloured\",\n      \"quote\": \"Ziggy Stardust Wool Multi-coloured Suit with feather boa\"\n    }\n  ],\n  \"materials\": [\n    {\n      \"value\": \"Wool\",\n      \"quote\": \"Ziggy Stardust Wool Multi-coloured Suit with feather boa\"\n    },\n    {\n      \"value\": \"feather\",\n      \"quote\": \"feather boa\"\n    }\n  ],\n  \"item_title\": \"Ziggy Stardust Suit\",\n  \"specific_type\": \"Suit\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "David Bowie",
+     "quote": "5 David Bowie Ziggy Stardust Costume 1973"
+    },
+    {
+     "value": "Ziggy Stardust",
+     "quote": "Ziggy Stardust Wool Multi-coloured Suit with feather boa"
+    }
+   ],
+   "events": [
+    {
+     "value": "UK tour",
+     "quote": "These were the flamboyant outfits Bowie wore as Ziggy for the UK tour in 1973."
+    }
+   ],
+   "countries": [
+    {
+     "value": "UK",
+     "quote": "for the UK tour in 1973"
+    }
+   ],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1973",
+     "quote": "5 David Bowie Ziggy Stardust Costume 1973"
+    }
+   ],
+   "colours": [
+    {
+     "value": "Multi-coloured",
+     "quote": "Ziggy Stardust Wool Multi-coloured Suit with feather boa"
+    }
+   ],
+   "materials": [
+    {
+     "value": "Wool",
+     "quote": "Ziggy Stardust Wool Multi-coloured Suit with feather boa"
+    },
+    {
+     "value": "feather",
+     "quote": "feather boa"
+    }
+   ],
+   "item_title": "Ziggy Stardust Suit",
+   "specific_type": "Suit",
+   "cardinality": 1
+  }
+ },
+ "92aa79ac5e8cd24b3f592e7a108d013197c7c01a": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Ziggy Stardust\",\n      \"quote\": \"Ziggy Stardust Kimono with Carp Design\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Ziggy Stardust Kimono with Carp Design\",\n  \"specific_type\": \"Kimono\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Ziggy Stardust",
+     "quote": "Ziggy Stardust Kimono with Carp Design"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Ziggy Stardust Kimono with Carp Design",
+   "specific_type": "Kimono",
+   "cardinality": 1
+  }
+ },
+ "01f1e794f595f179c26d3804c720e5670963ab7f": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"rock\",\n      \"quote\": \"rock band Queen\"\n    }\n  ],\n  \"music_works\": [\n    {\n      \"value\": \"Radio Ga Ga\",\n      \"quote\": \"many of their hits including, \u2018Radio Ga Ga\u2019, \u2018We Will Rock You\u2019\"\n    },\n    {\n      \"value\": \"We Will Rock You\",\n      \"quote\": \"\u2018Radio Ga Ga\u2019, \u2018We Will Rock You\u2019 and \u2018We Are The Champions\u2019\"\n    },\n    {\n      \"value\": \"We Are The Champions\",\n      \"quote\": \"\u2018We Will Rock You\u2019 and \u2018We Are The Champions\u2019. By kind permission\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Queen\",\n      \"quote\": \"Queen - Roger Taylor drum head\"\n    },\n    {\n      \"value\": \"Roger Taylor\",\n      \"quote\": \"Roger Taylor drum head and drumsticks\"\n    },\n    {\n      \"value\": \"John Deacon\",\n      \"quote\": \"drummer Roger Taylor and bassist John Deacon is explosive, a colossal sonic volcano whose eruption maketh the earth tremble.\u201d Their percussive partnership for the rock band Queen was strong and formed the powerful backing for many of their hits\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Roger Taylor drum head and drumsticks\",\n  \"specific_type\": \"Drum head and drumsticks\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "rock",
+     "quote": "rock band Queen"
+    }
+   ],
+   "music_works": [
+    {
+     "value": "Radio Ga Ga",
+     "quote": "many of their hits including, \u2018Radio Ga Ga\u2019, \u2018We Will Rock You\u2019"
+    },
+    {
+     "value": "We Will Rock You",
+     "quote": "\u2018Radio Ga Ga\u2019, \u2018We Will Rock You\u2019 and \u2018We Are The Champions\u2019"
+    },
+    {
+     "value": "We Are The Champions",
+     "quote": "\u2018We Will Rock You\u2019 and \u2018We Are The Champions\u2019. By kind permission"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Queen",
+     "quote": "Queen - Roger Taylor drum head"
+    },
+    {
+     "value": "Roger Taylor",
+     "quote": "Roger Taylor drum head and drumsticks"
+    },
+    {
+     "value": "John Deacon",
+     "quote": "drummer Roger Taylor and bassist John Deacon is explosive, a colossal sonic volcano whose eruption maketh the earth tremble.\u201d Their percussive partnership for the rock band Queen was strong and formed the powerful backing for many of their hits"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Roger Taylor drum head and drumsticks",
+   "specific_type": "Drum head and drumsticks",
+   "cardinality": 1
+  }
+ },
+ "145b25aab88f28e67d33382aca5b7bc1fe33cc30": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"rock\",\n      \"quote\": \"rock band Queen\"\n    }\n  ],\n  \"music_works\": [\n    {\n      \"value\": \"I Want To Break Free\",\n      \"quote\": \"Lyrics to \u2018I Want To Break Free\u2019 written by John Deacon\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"John Deacon\",\n      \"quote\": \"Lyrics to \u2018I Want To Break Free\u2019 written by John Deacon\"\n    },\n    {\n      \"value\": \"Queen\",\n      \"quote\": \"rock band Queen\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Lyrics to 'I Want To Break Free'\",\n  \"specific_type\": \"Lyrics\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "rock",
+     "quote": "rock band Queen"
+    }
+   ],
+   "music_works": [
+    {
+     "value": "I Want To Break Free",
+     "quote": "Lyrics to \u2018I Want To Break Free\u2019 written by John Deacon"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "John Deacon",
+     "quote": "Lyrics to \u2018I Want To Break Free\u2019 written by John Deacon"
+    },
+    {
+     "value": "Queen",
+     "quote": "rock band Queen"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Lyrics to 'I Want To Break Free'",
+   "specific_type": "Lyrics",
+   "cardinality": 1
+  }
+ },
+ "863f1770ad3b1a9de45a3d3e2e3e09dff1697d50": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Freddie Mercury\",\n      \"quote\": \"Freddie Mercury trousers and jacket\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Freddie Mercury trousers and jacket\",\n  \"specific_type\": \"trousers and jacket\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Freddie Mercury",
+     "quote": "Freddie Mercury trousers and jacket"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Freddie Mercury trousers and jacket",
+   "specific_type": "trousers and jacket",
+   "cardinality": 1
+  }
+ },
+ "6bdb8d2b6405a8a37b1d8377580a95d99b24f0ed": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Brian May\",\n      \"quote\": \"Brian May would play the guitar with a Vox AC30 amplifier distorting at full power. This, combined with his unusual choice of a sixpence as a plectrum, helped to create his legendary guitar sound.\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [\n    {\n      \"value\": \"sixpence\",\n      \"quote\": \"his unusual choice of a sixpence as a plectrum\"\n    }\n  ],\n  \"item_title\": \"Sixpence plectrum\",\n  \"specific_type\": \"Plectrum\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Brian May",
+     "quote": "Brian May would play the guitar with a Vox AC30 amplifier distorting at full power. This, combined with his unusual choice of a sixpence as a plectrum, helped to create his legendary guitar sound."
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [
+    {
+     "value": "sixpence",
+     "quote": "his unusual choice of a sixpence as a plectrum"
+    }
+   ],
+   "item_title": "Sixpence plectrum",
+   "specific_type": "Plectrum",
+   "cardinality": 1
+  }
+ }
+}

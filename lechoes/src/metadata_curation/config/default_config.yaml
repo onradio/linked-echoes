@@ -1,0 +1,318 @@
+# ----------------------
+# Gemini Model Settings
+# ----------------------
+gemini:
+  mode: balanced         # Options: strict | balanced | creative
+  model_name: gemini-2.0-flash
+  temperature: null      # Overrides preset if set
+  top_p: null
+  max_output_tokens: null
+
+# ----------------------
+# Prompt Configuration
+# ----------------------
+prompt_variant: base_prompt
+prompt_mode: few-shot
+output_mode: tool_call
+
+role_block:
+  enabled: true
+  variant: contextual_historian  # switch this to try other role personas
+
+  variants:
+    strict_archivist:
+      persona: meticulous museum archivist
+      specialization: music history
+      task: extract structured metadata from item description and caption
+      tone: strict
+      allow_creativity: false
+      output_format: tool_call
+
+    creative_archivist:
+      persona: meticulous museum archivist
+      specialization: music history
+      task: extract structured metadata from item description and caption
+      tone: strict
+      allow_creativity: true
+      output_format: tool_call
+
+    soft_curator:
+      persona: friendly exhibition curator
+      specialization: British pop and rock artifacts
+      task: gently enrich item details using exhibition context
+      tone: supportive
+      allow_creativity: true
+      output_format: tool_call
+
+    exploratory_ai_researcher:
+      persona: AI researcher studying museum metadata extraction
+      specialization: multimodal knowledge extraction
+      task: benchmark model output against schema constraints
+      tone: neutral
+      allow_creativity: true
+      output_format: tool_call
+
+    contextual_historian:
+      persona: cultural historian with deep context of British music and fashion
+      specialization: narrative artifact contextualization
+      task: identify and relate metadata using context clues from the item's era and genre
+      tone: reflective
+      allow_creativity: moderately_limited
+      output_format: tool_call
+
+    exhibit_storyteller:
+      persona: exhibition narrator bringing artifacts to life
+      specialization: engaging storytelling with factual grounding
+      task: enrich metadata with inferred or stylistic elements while remaining faithful
+      tone: expressive
+      allow_creativity: high
+      output_format: tool_call
+
+    data_validation_bot:
+      persona: strict metadata validator bot
+      specialization: Pydantic-style validation of schema fields
+      task: only return values that match exactly with known metadata fields
+      tone: dry
+      allow_creativity: false
+      output_format: tool_call
+
+    schema_filler_ai:
+      persona: metadata autofill assistant
+      specialization: maximizing schema population from minimal cues
+      task: ensure as many fields as possible are populated, using context-based inference
+      tone: efficient
+      allow_creativity: true
+      output_format: tool_call
+
+    ner_aware_annotator:
+      persona: expert metadata annotator with a background in named entity recognition
+      specialization: museum collection indexing and cultural heritage tagging
+      task: identify and extract metadata fields as named entities based on the schema
+      tone: analytical
+      allow_creativity: false
+      output_format: tool_call
+
+instruction_block:
+  enabled: true
+  variant: strict_schema_extraction
+
+  variants:
+    strict_schema_extraction:
+      emphasis: every field must be extracted
+      fallback: default values must be used when information is missing
+      inference: only allowed for `music_genres`, never for any other field
+      phrasing: |
+        You MUST populate all fields from the schema. 
+        If data is missing, use "", [], or 0 according to the schema specification.
+        Only infer genres, and ONLY if artists or instruments suggest a clear genre.
+
+    relaxed_extraction:
+      emphasis: focus on key fields only
+      fallback: skip non-essential fields if data is missing
+      inference: allowed for genre, title, and materials
+      phrasing: |
+        You should extract as many fields as possible, prioritizing `item_title`, `base_type`, and `music_artists`.
+        Use your best judgment for genre or material inference, but do not hallucinate details.
+
+    explanation_friendly:
+      emphasis: explain extraction rules to the model
+      fallback: always mention defaults for transparency
+      inference: allowed when context is strong
+      phrasing: |
+        For each field, explain your reasoning briefly.
+        If a field cannot be populated confidently, assign its default value and state why.
+
+    ner_hint_with_schema:
+      emphasis: extract every schema field using entity cues
+      fallback: apply schema defaults where data is missing
+      inference: only allowed for `music_genres` and `materials` when cues exist
+      phrasing: |
+        You MUST extract and populate all fields from the schema.
+
+        You MUST populate all fields from the schema. 
+        If data is missing, use "", [], or 0 according to the schema specification.
+        Only infer genres, and ONLY if artists or instruments suggest a clear genre.
+
+        Use the following named entity categories to guide extraction:
+        - People and artists → `music_artists`
+        - Events (concerts, festivals) → `events`, `music_works`
+        - Locations (places, venues, countries) → `places`, `venues`, `countries`
+        - Works (songs, albums, sheet music) → `music_albums`, `music_works`
+        - Temporal cues (years, decades) → `years`
+        - Materials or media → `materials`
+
+        Avoid hallucination. Follow the schema and entity types exactly.
+
+    ner_hint_with_schema_notes:
+      phrasing: |
+        You MUST populate all fields from the schema. 
+        If data is missing, use "", [], or 0 according to the schema specification.
+        Only infer genres, and ONLY if artists or instruments suggest a clear genre.
+
+        Use the following named entity categories to guide extraction:
+        - People and artists → `music_artists`
+        - Events (concerts, festivals) → `events`, `music_works`
+        - Locations (places, venues, countries) → `places`, `venues`, `countries`
+        - Works (songs, albums, sheet music) → `music_albums`, `music_works`
+        - Temporal cues (years, decades) → `years`
+        - Materials or media → `materials`
+
+        ## Field-Specific Notes
+        - `music_artists`: Include all explicitly mentioned performers or bands.
+        - `years`: May be inferred from date mentions in the caption or description.
+        - `materials`: Look for words describing what the object is made of (e.g., vinyl, paper).
+        - `music_genres`: Only infer genres when clearly supported.
+        - `base_type` / `specific_type`: Use descriptive nouns that categorize the item.
+
+
+
+schema_block:
+  enabled: true
+  include_schema_comment: true
+  schema_style: python   # or json, or none
+
+input_block:
+  enabled: true
+  mode: batch
+  independent_mode: true
+
+output_block:
+  enabled: true
+  variant: tool_call
+
+  variants:
+    tool_call:
+      output_format: tool_call
+      notes: Output must be a function call to `record_item_data` with all fields present.
+
+    json:
+      output_format: json
+      notes: Output should be a valid JSON object matching the schema.
+
+    plain_text:
+      output_format: plain_text
+      notes: Output should describe each field in human-readable text, suitable for non-technical users.
+
+
+
+one_shot_example:
+  example:
+    item_description: "German promotional leaflet for Ken Colyer's Jazzmen issued by The National Jazz Federation"
+    caption: "16 Ken Colyer German promotional leaflet for Ken Colyer's Jazzmen issued by The National Jazz Federation"
+  example_output:
+    base_type: "Written Source"
+    specific_type: "Event Programme"
+    item_title: "Programme for the New Orleans Joys concert"
+    music_genres: [ "Jazz" ]
+    music_artists:
+      - "Ken Colyer"
+      - "Acker Bilk"
+      - "Acker Bilk And His Paramount Jazz Band"
+      - "Ken Colyer's jazzmen"
+    events: [ "New Orleans Joys" ]
+    countries: [ ]
+    places: [ ]
+    venues: [ ]
+    years: [ ]
+    colours: [ ]
+    materials: [ ]
+    cardinality: 1
+
+few_shot_examples:
+  examples:
+    - input:
+        item_description: |
+          German promotional leaflet for Ken Colyer’s Jazzmen issued by The National Jazz Federation
+        caption: |
+          16 Ken Colyer German promotional leaflet for Ken Colyer’s Jazzmen issued by The National Jazz Federation
+      output:
+        base_type: "Written Source"
+        specific_type: "Leaflet"
+        item_title: "Ken Colyer’s Jazzmen promotional leaflet"
+        music_genres:
+          - "Jazz"
+        music_works: [ ]
+        music_albums: [ ]
+        music_artists:
+          - "Ken Colyer"
+          - "Ken Colyer's jazzmen"
+        publisher: "The National Jazz Federation"
+        events: [ ]
+        countries:
+          - "Germany"
+        places: [ ]
+        venues: [ ]
+        years: [ ]
+        colours: [ ]
+        cardinality: 1
+        materials: [ ]
+
+    - input:
+        item_description: "Sandie Shaw - Puppet on a String Dress"
+        caption: |
+          15 Sandie Shaw Pink dress 1967 Sandie Shaw’s style is epitomized by this mini-dress, dress epitomizes the Sandie Shaw’s dress, featured here, epitomises the singer’s trademark ‘Swinging Sixties’ style, as seen on her album covers. Sandie Shaw became the first UK artist to win the Eurovision Song Contest after her memorable barefoot performance of ‘Puppet On A String’ in 1967. The song was a smash hit and gave Shaw her third UK No.1 single – a record for a female artist at that time. V&A Theatre and Performance
+      output:
+        base_type: "Costume"
+        specific_type: "Dress"
+        item_title: "Puppet on a String Dress"
+        music_genres: [ ]
+        music_works:
+          - "Puppet on a string"
+        music_albums: [ ]
+        music_artists:
+          - "Sandie Shaw"
+        publisher: ""
+        events:
+          - "Eurovision Song Contest"
+        countries:
+          - "UK"
+        places: [ ]
+        venues: [ ]
+        years:
+          - "1967"
+        colours:
+          - "Pink"
+        cardinality: 1
+        materials: [ ]
+
+    - input:
+        item_description: "Queen - 'Red Special' guitar played by Brian May and coil cable"
+        caption: |
+          6 Queen ‘John Birch’ electric guitar and amp played by Brian May The first and probably most talked-about replica of Brian’s home made guitar, affectionately known as the Red Special, is simply called ‘the John Birch’. It was the main live backup to the Red Special during the late 1970s/early 1980s and famously appeared in Queen’s We Will Rock You and Spread Your Wings video shoots in 1977, before meeting an ignominious end at a show in New Jersey in 1982. “I wasn’t somebody who habitually smashed up his guitar or set alight to it, but there was one night, where I had broken a string and I had picked up a spare, which was the John Birch replica of my guitar, a pale brown-coloured Red Special, and the thing just didn’t cooperate – it wouldn’t play properly – I couldn’t get any sound out of it. It didn’t seem to be close to in tune and it sounded like a wet blanket to me; so in total frustration I lobbed it up in the air and had no idea where it would land.” Brian May In 2004, the guitar was rediscovered in bits and shipped back to Brian and repaired by Andrew Guyton Brian May would play the guitar with a Vox AC30 amplifier distorting at full power. This, combined with his unusual choice of a sixpence as a plectrum, helped to create his legendary guitar sound. By kind permission of Brian May
+      output:
+        base_type: "Instrument"
+        specific_type: "Electric Guitar"
+        item_title: "Brian May's Red Special"
+        music_genres: [ ]
+        music_works:
+          - "We Will Rock You"
+          - "Spread Your Wings"
+        music_albums: [ ]
+        music_artists:
+          - "Queen"
+          - "Brian May"
+        publisher: "John Birch"
+        events: [ ]
+        countries: [ ]
+        places:
+          - "New Jersey"
+        venues: [ ]
+        years:
+          - "1977"
+          - "1982"
+          - "2004"
+        colours:
+          - "pale brown"
+        cardinality: 1
+        materials: [ ]
+
+field_nudges:
+  enabled: false
+  hints:
+    - "`music_artists`: Include all named performers, bands, or creators."
+    - "`music_works`: List specific compositions, songs, or featured works."
+    - "`years`: Extract years from any date mentioned in the text."
+    - "`events`: Capture concert names, festivals, or commemorative occasions."
+    - "`venues`: Identify locations where music events took place or were recorded."
+    - "`countries`, `places`: Extract from geographic cues in description or caption."
+    - "`cardinality`: Use 0 if no quantity or count is mentioned."

@@ -1,0 +1,32 @@
+{% if evaluation.type == "row_by_row" %}
+---
+**Item Description:**
+{{ input_data.item_description }}
+
+**Caption:**
+{{ input_data.caption }}
+
+{% elif evaluation.type == "case_by_case" %}
+{% if input_block.case_info %}
+Shared Exhibition Context: {{ input_block.case_info }}
+{% endif %}
+
+This prompt contains multiple items. Each entry has its own description and caption.
+{% if input_block.independent_mode %}
+Extract data for each independently.
+{% else %}
+Extract data for each item, and you may use information from other items as reference if helpful.
+{% endif %}
+
+{% for item in input_data %}
+---
+**Item {{ loop.index }}**
+
+**Item Description:**
+{{ item.item_description }}
+
+**Caption:**
+{{ item.caption }}
+
+{% endfor %}
+{% endif %}

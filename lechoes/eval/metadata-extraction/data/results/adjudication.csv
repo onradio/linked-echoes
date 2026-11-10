@@ -1,0 +1,10 @@
+field,judged,correct,incorrect,unverifiable,rate_correct
+materials,23,20,3,0,0.870
+music_genres,23,8,0,15,1.000
+countries,20,9,3,8,0.750
+events,13,2,11,0,0.154
+years,7,1,2,4,0.333
+places,2,0,0,2,—
+music_albums,2,0,0,2,—
+colours,1,1,0,0,1.000
+ALL,91,41,19,31,0.683

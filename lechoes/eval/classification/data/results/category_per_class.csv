@@ -1,0 +1,29 @@
+system,model,category,support,predicted,precision,recall,f1
+C0,-,Musical Instrument,8.0,0.0,,0.0,
+C0,-,Clothing,11.0,0.0,,0.0,
+C0,-,Audiovisual Media,7.0,0.0,,0.0,
+C0,-,Textual & Graphic Work,39.0,65.0,0.6,1.0,0.75
+C0,-,Merchandise,0.0,0.0,,,
+C0,-,Personal Effects,0.0,0.0,,,
+C0,-,Award & Recognition,0.0,0.0,,,
+C1,-,Musical Instrument,8.0,8.0,0.375,0.375,0.375
+C1,-,Clothing,11.0,13.0,0.7692,0.9091,0.8333
+C1,-,Audiovisual Media,7.0,4.0,0.25,0.1429,0.1818
+C1,-,Textual & Graphic Work,39.0,2.0,1.0,0.0513,0.0976
+C1,-,Merchandise,0.0,28.0,0.0,,
+C1,-,Personal Effects,0.0,7.0,0.0,,
+C1,-,Award & Recognition,0.0,3.0,0.0,,
+C2,google-gemini-2-5-flash,Musical Instrument,8.0,8.0,1.0,1.0,1.0
+C2,google-gemini-2-5-flash,Clothing,11.0,10.6667,1.0,0.9697,0.9846
+C2,google-gemini-2-5-flash,Audiovisual Media,7.0,7.0,1.0,1.0,1.0
+C2,google-gemini-2-5-flash,Textual & Graphic Work,39.0,37.6667,1.0,0.9658,0.9826
+C2,google-gemini-2-5-flash,Merchandise,0.0,0.6667,0.0,,
+C2,google-gemini-2-5-flash,Personal Effects,0.0,1.0,0.0,,
+C2,google-gemini-2-5-flash,Award & Recognition,0.0,0.0,,,
+C2-scoped,google-gemini-2-5-flash,Musical Instrument,8.0,6.0,1.0,0.75,0.8571
+C2-scoped,google-gemini-2-5-flash,Clothing,11.0,11.0,1.0,1.0,1.0
+C2-scoped,google-gemini-2-5-flash,Audiovisual Media,7.0,7.0,1.0,1.0,1.0
+C2-scoped,google-gemini-2-5-flash,Textual & Graphic Work,39.0,39.0,1.0,1.0,1.0
+C2-scoped,google-gemini-2-5-flash,Merchandise,0.0,1.0,0.0,,
+C2-scoped,google-gemini-2-5-flash,Personal Effects,0.0,1.0,0.0,,
+C2-scoped,google-gemini-2-5-flash,Award & Recognition,0.0,0.0,,,

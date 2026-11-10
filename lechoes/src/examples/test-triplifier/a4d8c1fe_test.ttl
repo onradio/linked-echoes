@@ -1,0 +1,91 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix mimo: <http://www.mimo-db.eu/InstrumentsKeywords/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix scho: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://radio.liv.ac.uk/bme/HumanMadeObject/a4d8c1fe> a crm:E22_Human-Made_Object ;
+    scho:about wd:Q145,
+        wd:Q15862,
+        wd:Q15873,
+        wd:Q187745,
+        wd:Q193740,
+        wd:Q43279,
+        wd:Q84 ;
+    scho:additionalType mimo:3236 ;
+    scho:audio <http://museum.example.org/audio/a4d8c1fe_guitarsolo.mp3> ;
+    scho:caption "Famously crafted from an 18th-century fireplace mantel, it was instrumental in creating Queen's unique sound. The guitar that powered the sound of Queen, displayed in the Hard Rock exhibit." ;
+    scho:category wd:Q34379 ;
+    scho:color wd:Q23445,
+        wd:Q3142 ;
+    scho:description "The iconic homemade electric guitar built by Queen's guitarist Brian May and his father." ;
+    scho:genre wd:Q76092,
+        wd:Q83270 ;
+    scho:hasPart [ a scho:BorrowAction ;
+            scho:endTime "2028-12-31"^^xsd:date ;
+            scho:lender "Brian May" ;
+            scho:startTime "2018-01-01"^^xsd:date ] ;
+    scho:identifier "a4d8c1fe" ;
+    scho:image <https://media.musicarts.com/is/image/MMGS7/L85963000001000-09-2000x2000.jpg> ;
+    scho:isPartOf <http://radio.liv.ac.uk/bme/Exhibition/Zone6> ;
+    scho:itemLocation "1" ;
+    scho:material wd:Q2075708,
+        wd:Q215865,
+        wd:Q239788 ;
+    scho:name "Bryan May's Red Special" ;
+    scho:video <https://www.youtube.com/watch?v=IIVbUJnoduQ> .
+
+<http://radio.liv.ac.uk/bme/Exhibition/Zone6> a scho:ExhibitionEvent ;
+    rdfs:label "Zone 6"@en .
+
+mimo:3236 a scho:DefinedTerm ;
+    rdfs:label "Electric Guitar"@en .
+
+wd:Q145 a scho:Country ;
+    rdfs:label "United Kingdom"@en .
+
+wd:Q15862 a scho:MusicArtist ;
+    rdfs:label "Queen"@en .
+
+wd:Q15873 a scho:MusicArtist ;
+    rdfs:label "Brian May"@en .
+
+wd:Q187745 a scho:MusicComposition ;
+    rdfs:label "Bohemian Rhapsody"@en .
+
+wd:Q193740 a scho:Event ;
+    rdfs:label "Live Aid 1985"@en .
+
+wd:Q2075708 a wd:Q214609 ;
+    rdfs:label "Oak"@en .
+
+wd:Q215865 a wd:Q214609 ;
+    rdfs:label "Mother of pearl"@en .
+
+wd:Q23445 a scho:Color ;
+    rdfs:label "Black"@en .
+
+wd:Q239788 a wd:Q214609 ;
+    rdfs:label "Mahogany"@en .
+
+wd:Q3142 a scho:Color ;
+    rdfs:label "Red"@en .
+
+wd:Q34379 a scho:DefinedTerm,
+        skos:Concept ;
+    rdfs:label "Musical Instrument"@en .
+
+wd:Q43279 a scho:EventVenue ;
+    rdfs:label "Wembley Stadium"@en .
+
+wd:Q76092 a scho:MusicGenre ;
+    rdfs:label "Glam Rock"@en .
+
+wd:Q83270 a scho:MusicGenre ;
+    rdfs:label "Hard Rock"@en .
+
+wd:Q84 a scho:Place ;
+    rdfs:label "London"@en .
+

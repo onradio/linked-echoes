@@ -1,0 +1,48 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix scho: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix dbp: <http://dbpedia.org/resource/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix mimo: <http://www.mimo-db.eu/InstrumentsKeywords/> .
+@prefix euf: <http://thesaurus.europeanafashion.eu/thesaurus/> .
+@prefix pbcore: <http://pbcore.org/pbcore-controlled-vocabularies/titletype-vocabulary#> .
+
+<http://radio.liv.ac.uk/bme/HumanMadeObject/b9e1f3a0> a crm:E22_Human_Made_Object ;
+    scho:identifier "b9e1f3a0" ;
+    scho:name "Sex Pistols 'Anarchy' Muslin Shirt" ;
+    scho:description "An original muslin shirt designed by Vivienne Westwood and Malcolm McLaren, worn by Johnny Rotten." ;
+    scho:caption "A wearable manifesto of the punk movement. The deliberately offensive imagery and slogans defined the punk aesthetic. Worn by Johnny Rotten during the infamous Today show interview with Bill Grundy in 1976." ;
+    scho:category wd:Q11460 ;
+    scho:additionalType euf:10025 ;
+    scho:itemLocation "2" ;
+    scho:isPartOf <http://radio.liv.ac.uk/bme/Exhibition/Zone5> ;
+    scho:image <http://museum.example.org/images/b9e1f3a0.jpg> ;
+    scho:audio <https://open.spotify.com/track/2n26ggxLD72OSLjlHHdAZq?si=aa770611b8804751> ;
+    scho:video <https://www.youtube.com/watch?v=boQGEyAcZwo> ;
+    scho:about wd:Q82545, wd:Q106662, wd:Q84, wd:Q145, <http://radio.liv.ac.uk/bme/Event/e9e1f3a0>, wd:Q457275 ;
+    scho:genre wd:Q3071 ;
+    scho:material wd:Q34320, wd:Q11463 ;
+    scho:color wd:Q23444, wd:Q23445 ;
+    scho:hasPart [
+        a scho:BorrowAction ;
+        scho:lender "Victoria and Albert Museum" ;
+        scho:startTime "2020-03-10"^^xsd:date
+    ] .
+
+wd:Q11460 a scho:DefinedTerm, skos:Concept ; rdfs:label "Clothing"@en .
+euf:10025 a scho:DefinedTerm ; rdfs:label "Shirt"@en .
+wd:Q82545 a scho:MusicGroup ; rdfs:label "Sex Pistols"@en .
+wd:Q106662 a scho:MusicArtist ; rdfs:label "John Lydon"@en .
+wd:Q84 a scho:Place ; rdfs:label "London"@en .
+wd:Q145 a scho:Country ; rdfs:label "United Kingdom"@en .
+<http://radio.liv.ac.uk/bme/Event/e9e1f3a0> a scho:Event ; rdfs:label "Today (Bill Grundy show) interview"@en .
+wd:Q457275 a scho:MusicAlbum ; rdfs:label "Never Mind the Bollocks, Here's the Sex Pistols"@en .
+wd:Q3071 a scho:MusicGenre ; rdfs:label "Punk Rock"@en .
+wd:Q34320 a scho:Product ; rdfs:label "Cotton"@en .
+wd:Q11463 a scho:Product ; rdfs:label "Ink"@en .
+wd:Q23444 a scho:Color ; rdfs:label "White"@en .
+wd:Q23445 a scho:Color ; rdfs:label "Black"@en .

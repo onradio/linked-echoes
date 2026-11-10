@@ -1,0 +1,20 @@
+field,canonical,variant,source,note
+countries,United Kingdom,UK,seed,spec §2.5 example
+countries,United Kingdom,U.K.,seed,punctuation survives normalisation as separate tokens
+countries,United Kingdom,Great Britain,seed,spec §2.5 example
+countries,United Kingdom,Britain,seed,commonest short form in museum prose
+countries,United States,USA,seed,spec §2.5 example
+countries,United States,US,seed,
+countries,United States,United States of America,seed,
+countries,United States,America,seed,
+music_genres,New Romantics,New Romantic,seed,singular form of the same movement
+music_genres,Britpop,Brit Pop,seed,spacing variant
+music_genres,Britpop,Brit-pop,seed,hyphenation variant
+music_genres,Glam rock,Glam,seed,elliptical form used of the same genre
+music_genres,Hard Rock,Hard-Rock,seed,hyphenation variant
+music_genres,Punk,Punk Rock,seed,the same genre under its longer name
+music_genres,Skiffle,Skiffle music,seed,
+music_genres,Rock and Roll,Rock 'n' Roll,seed,spec §2.5 example; not attested in this gold but a standard variant
+music_genres,Rock and Roll,Rock n Roll,seed,
+materials,Fabric,Textile,seed,
+materials,Fabric,Cloth,seed,

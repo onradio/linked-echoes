@@ -1,0 +1,181 @@
+{
+    "_type_uri": ["http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object"],
+    "_type_shorthand": "HumanMadeObject",
+    "_description": "Object",
+
+    "category": {
+        "_relation_uri": ["http://schema.org/category"],
+        "_type_uri": ["http://schema.org/DefinedTerm"],
+        "_description": "Broad object category",
+        "_note": "skos:Concept was dropped: it types nothing in the released KG. Categories are NOT identified by their type when read back — scho:DefinedTerm also types the object types, genres and materials below — but by being the object of scho:category.",
+        "MusicalInstrument": {
+            "_type_uri": ["http://www.wikidata.org/entity/Q34379"],
+            "_description": "Musical Instrument"
+        },
+        "Clothing": {
+            "_type_uri": ["http://www.wikidata.org/entity/Q11460"],
+            "_description": "Clothing"
+        },
+        "AudiovisualMedia": {
+            "_type_uri": ["http://www.wikidata.org/entity/Q758901"],
+            "_description": "Audiovisual Media"
+        },
+        "Textual&GraphicWork": {
+            "_type_uri": ["http://www.wikidata.org/entity/Q49848"],
+            "_description": "Textual and Graphic Works"
+        },
+        "Merchandise": {
+            "_type_uri": ["http://www.wikidata.org/entity/Q28877"],
+            "_description": "Merchandise"
+        },
+        "PersonalEffects": {
+            "_type_uri": ["http://www.wikidata.org/entity/Q115866017"],
+            "_description": "Personal Effects"
+        },
+        "Award&Recognition": {
+            "_type_uri": ["http://www.wikidata.org/entity/Q190573"],
+            "_description": "Award and Recognition"
+        }
+    },
+
+    "type": {
+        "_type_uri": ["http://schema.org/DefinedTerm"],
+        "_relation_uri": ["http://schema.org/additionalType"],
+        "_description": "A specific object type"
+    },
+
+    "name": {
+        "_type_uri": ["http://www.w3.org/2001/XMLSchema#string"],
+        "_relation_uri": ["http://schema.org/name"],
+        "_description": "Main object name"
+    },
+    "description": {
+        "_type_uri": ["http://schema.org/Text"],
+        "_relation_uri": ["http://schema.org/description"],
+        "_description": "Object description"
+    },
+    "caption": {
+        "_type_uri": ["http://schema.org/Text"],
+        "_relation_uri": ["http://schema.org/caption"],
+        "_description": "Object caption"
+    },
+    "identifier": {
+        "_type_uri": ["http://www.w3.org/2001/XMLSchema#string"],
+        "_relation_uri": ["http://schema.org/identifier"],
+        "_description": "Object identifier"
+    },
+
+    "case_number": {
+        "_type_uri": ["http://schema.org/Place"],
+        "_relation_uri": ["http://schema.org/location"],
+        "_description": "Museum case number, if applicable",
+        "_note": "Not emitted by the generic field loop, which skips case_number: Triplifier._add_location_info builds the whole hierarchy (item -> scho:location -> bme:Case/{n} -> scho:containedInPlace -> bme:Zone/{z}) because the zone comes from the case lookup rather than from the item. Recorded here so the file describes the KG; the superseded shape was the literal scho:itemLocation \"15\"."
+    },
+
+    "location": {
+        "_description": "The exhibition zone containing the object's display case",
+        "_note": "Derived, not stored: the API reconstructs it on read via scho:location/scho:containedInPlace. Deliberately has no _relation_uri, so the triplifier emits nothing for it directly — the zone comes from case_number's location hierarchy instead."
+    },
+
+    "exhibition": {
+        "_description": "The real museum exhibition (core.ttl scho:ExhibitionEvent) hosted in the object's zone",
+        "_note": "Derived, not stored: reconstructed on read by reversing the ExhibitionEvent's scho:location link against the item's zone. Deliberately has no _relation_uri — core.ttl's exhibitions are curated content, not something an item insert should ever write."
+    },
+
+    "image": {
+        "_type_uri": ["http://schema.org/ImageObject"],
+        "_relation_uri": ["http://schema.org/image"],
+        "_description": "Image associated to the object"
+    },
+    "audio": {
+        "_type_uri": ["http://schema.org/AudioObject"],
+        "_relation_uri": ["http://schema.org/audio"],
+        "_description": "Audio associated to the object"
+    },
+    "video": {
+        "_type_uri": ["http://schema.org/VideoObject"],
+        "_relation_uri": ["http://schema.org/video"],
+        "_description": "Video associated to the object"
+    },
+    "url": {
+        "_relation_uri": ["http://schema.org/url"],
+        "__type_uri": ["http://schema.org/URL"],
+        "_description": "A URL associated with the object"
+    },
+
+    "genre": {
+        "_type_uri": ["http://schema.org/DefinedTerm"],
+        "_relation_uri": ["http://schema.org/genre"],
+        "_description": "Music genre associated to the object"
+    },
+
+    "music_work": {
+        "_type_uri": ["http://schema.org/MusicComposition"],
+        "_relation_uri": ["http://schema.org/about"],
+        "_description": "Music work associated to the object"
+    },
+    "music_album": {
+        "_type_uri": ["http://schema.org/MusicAlbum"],
+        "_relation_uri": ["http://schema.org/about"],
+        "_description": "Music album associated to the object"
+    },
+    "music_artist": {
+        "_type_uri": ["http://schema.org/Person"],
+        "_relation_uri": ["http://schema.org/about"],
+        "_description": "Music artist associated to the object",
+        "_note": "The KG types solo artists scho:Person and bands scho:MusicGroup, and the read query matches either. Only one type can be written here, so a newly minted band is typed scho:Person — still retrievable, but worth correcting in the KG rather than adding MusicGroup here, which would type every artist as both."
+    },
+    "event": {
+        "_type_uri": ["http://schema.org/Event"],
+        "_relation_uri": ["http://schema.org/about"],
+        "_description": "Event associated to the object"
+    },
+    "country": {
+        "_type_uri": ["http://schema.org/Country"],
+        "_relation_uri": ["http://schema.org/about"],
+        "_description": "Country associated to the object"
+    },
+    "place": {
+        "_type_uri": ["http://schema.org/Place"],
+        "_relation_uri": ["http://schema.org/about"],
+        "_description": "Place associated to the object"
+    },
+    "venue": {
+        "_type_uri": ["http://schema.org/EventVenue"],
+        "_relation_uri": ["http://schema.org/about"],
+        "_description": "Venue associated to the object"
+    },
+
+    "colour": {
+        "_type_uri": ["http://www.w3.org/2001/XMLSchema#string"],
+        "_relation_uri": ["http://schema.org/color"],
+        "_description": "A colour associated to the object"
+    },
+    "material": {
+        "_type_uri": ["http://schema.org/DefinedTerm"],
+        "_relation_uri": ["http://schema.org/material"],
+        "_description": "Material",
+        "_note": "wd:Q214609 (the superseded type) types nothing in the released KG; all 21 materials are scho:DefinedTerm, as are the genres and object types."
+    },
+
+    "lend": {
+        "_type_uri": ["http://schema.org/BorrowAction"],
+        "_relation_uri": ["http://schema.org/hasPart"],
+        "_description": "Lending information"
+    },
+    "lender": {
+        "_type_uri": ["http://www.w3.org/2001/XMLSchema#string"],
+        "_relation_uri": ["http://schema.org/lender"],
+        "_description": "Lending party"
+    },
+    "lend_start": {
+        "_type_uri": ["http://www.w3.org/2001/XMLSchema#string"],
+        "_relation_uri": ["http://schema.org/startTime"],
+        "_description": "Lending start date"
+    },
+    "lend_end": {
+        "_type_uri": ["http://www.w3.org/2001/XMLSchema#string"],
+        "_relation_uri": ["http://schema.org/endTime"],
+        "_description": "Lending end date"
+    }
+}

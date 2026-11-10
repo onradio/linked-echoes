@@ -1,0 +1,1444 @@
+{
+  "Q5": {
+    "p31_label": "human",
+    "normalized_type": "Person",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q215380": {
+    "p31_label": "rock band",
+    "normalized_type": "MusicGroup",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q5741069": {
+    "p31_label": "music group",
+    "normalized_type": "MusicGroup",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q2088357": {
+    "p31_label": "musical ensemble",
+    "normalized_type": "MusicGroup",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q9212979": {
+    "p31_label": "musical duo",
+    "normalized_type": "MusicGroup",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Added from unmatched session review"
+  },
+  "Q56816954": {
+    "p31_label": "heavy metal band",
+    "normalized_type": "MusicGroup",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Genre-specific band subtype — maps to MusicGroup"
+  },
+  "Q64514668": {
+    "p31_label": "ska band",
+    "normalized_type": "MusicGroup",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Genre-specific band subtype — maps to MusicGroup"
+  },
+  "Q1684430": {
+    "p31_label": "jazz band",
+    "normalized_type": "MusicGroup",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Genre-specific band subtype — maps to MusicGroup"
+  },
+  "Q641066": {
+    "p31_label": "girl group",
+    "normalized_type": "MusicGroup",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q216337": {
+    "p31_label": "boy band",
+    "normalized_type": "MusicGroup",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q54982412": {
+    "p31_label": "songwriting team",
+    "normalized_type": "MusicGroup",
+    "role": "enrichment_target",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": "Collaborative entity; treat as MusicGroup for expansion purposes"
+  },
+  "Q84310035": {
+    "p31_label": "record production team",
+    "normalized_type": "MusicGroup",
+    "role": "enrichment_target",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": "Collaborative entity; treat as MusicGroup for expansion purposes"
+  },
+  "Q134556": {
+    "p31_label": "single (music release)",
+    "normalized_type": "MusicAlbum",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Music single — physical/digital release type; maps to MusicAlbum pending MusicComposition schema decision"
+  },
+  "Q6128115": {
+    "p31_label": "double A-side single",
+    "normalized_type": "MusicAlbum",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Double-A-side release; treat as MusicAlbum release"
+  },
+  "Q169930": {
+    "p31_label": "extended play",
+    "normalized_type": "MusicAlbum",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "EP — treat as MusicAlbum release"
+  },
+  "Q108352496": {
+    "p31_label": "compilation of singles",
+    "normalized_type": "MusicAlbum",
+    "role": "enrichment_target",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q482994": {
+    "p31_label": "studio album",
+    "normalized_type": "MusicAlbum",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q841983": {
+    "p31_label": "LP record",
+    "normalized_type": "MusicAlbum",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Physical format; conceptually equivalent to album for KG purposes"
+  },
+  "Q108352648": {
+    "p31_label": "album release",
+    "normalized_type": "MusicAlbum",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q67911299": {
+    "p31_label": "compilation album series",
+    "normalized_type": "MusicAlbum",
+    "role": "enrichment_target",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": "Series of compilations; map to MusicAlbum pending schema decision"
+  },
+  "Q59191021": {
+    "p31_label": "Wikimedia albums discography",
+    "normalized_type": "MusicAlbum",
+    "role": "review_needed",
+    "confidence": "low",
+    "source": "reviewed 2026-07-01",
+    "notes": "Meta-entity; keep_review_needed in practice — left here as placeholder"
+  },
+  "Q55850593": {
+    "p31_label": "audio track",
+    "normalized_type": "MusicRecording",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q7366": {
+    "p31_label": "song",
+    "normalized_type": "MusicRecording",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": "Pending MusicComposition schema decision — may split"
+  },
+  "Q105543609": {
+    "p31_label": "musical work/composition",
+    "normalized_type": "MusicRecording",
+    "role": "enrichment_target",
+    "confidence": "medium",
+    "source": "original TYPE_PRIORITY",
+    "notes": "Pending MusicComposition schema decision"
+  },
+  "Q7302866": {
+    "p31_label": "audio track",
+    "normalized_type": "MusicRecording",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q55850643": {
+    "p31_label": "music track without lyrics",
+    "normalized_type": "MusicRecording",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Instrumental track; MusicRecording"
+  },
+  "Q115211517": {
+    "p31_label": "musical concept",
+    "normalized_type": "MusicRecording",
+    "role": "review_needed",
+    "confidence": "low",
+    "source": "reviewed 2026-07-01",
+    "notes": "Ambiguous — may be MusicRecording or MusicComposition; pending schema decision"
+  },
+  "Q1573906": {
+    "p31_label": "concert tour",
+    "normalized_type": "ConcertTour",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q3267702": {
+    "p31_label": "concert",
+    "normalized_type": "Event",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q182832": {
+    "p31_label": "concert",
+    "normalized_type": "Event",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Duplicate label variant of Q3267702"
+  },
+  "Q1850936": {
+    "p31_label": "benefit concert",
+    "normalized_type": "Event",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Subtype of concert"
+  },
+  "Q41176": {
+    "p31_label": "building",
+    "normalized_type": "Place",
+    "role": "terminal_context",
+    "confidence": "medium",
+    "source": "original TYPE_PRIORITY",
+    "notes": "Generic building — terminal; use specific venue subclass instead"
+  },
+  "Q483110": {
+    "p31_label": "venue",
+    "normalized_type": "Venue",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q17350442": {
+    "p31_label": "venue",
+    "normalized_type": "Venue",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Duplicate label variant"
+  },
+  "Q12819564": {
+    "p31_label": "nightclub",
+    "normalized_type": "Venue",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q622425": {
+    "p31_label": "nightclub",
+    "normalized_type": "Venue",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Duplicate label variant of Q12819564"
+  },
+  "Q8719053": {
+    "p31_label": "music venue",
+    "normalized_type": "Venue",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Confirmed built venue per policy"
+  },
+  "Q1060829": {
+    "p31_label": "concert hall",
+    "normalized_type": "Venue",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Confirmed built venue per policy"
+  },
+  "Q1763828": {
+    "p31_label": "multi-purpose hall",
+    "normalized_type": "Venue",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Confirmed built venue per policy; previously misrouted to terminal_context"
+  },
+  "Q27951514": {
+    "p31_label": "indoor arena",
+    "normalized_type": "Venue",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Confirmed built venue per policy; previously misrouted to terminal_context (venue routing bug)"
+  },
+  "Q641226": {
+    "p31_label": "arena",
+    "normalized_type": "Venue",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q74539696": {
+    "p31_label": "defunct sports venue",
+    "normalized_type": "Venue",
+    "role": "enrichment_target",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": "Historical venue; enrichment still useful for KG provenance"
+  },
+  "Q1154710": {
+    "p31_label": "association football venue",
+    "normalized_type": "Venue",
+    "role": "enrichment_target",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": "Sports venue used for concerts/events in BME context"
+  },
+  "Q121252873": {
+    "p31_label": "sports venue type",
+    "normalized_type": "Venue",
+    "role": "review_needed",
+    "confidence": "low",
+    "source": "reviewed 2026-07-01",
+    "notes": "Abstract type-of-type; ambiguous — review individual entities"
+  },
+  "Q11183017": {
+    "p31_label": "sylvan theater",
+    "normalized_type": "Venue",
+    "role": "enrichment_target",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": "Open-air performance venue"
+  },
+  "Q24354": {
+    "p31_label": "theatre",
+    "normalized_type": "Venue",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q207694": {
+    "p31_label": "art museum",
+    "normalized_type": "ArtMuseum",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q746369": {
+    "p31_label": "recording studio",
+    "normalized_type": "Venue",
+    "role": "enrichment_target",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": "Functional venue; enrichment useful"
+  },
+  "Q188913": {
+    "p31_label": "music genre",
+    "normalized_type": "MusicGenre",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q83267": {
+    "p31_label": "rock music",
+    "normalized_type": "MusicGenre",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q6030099": {
+    "p31_label": "music genre",
+    "normalized_type": "MusicGenre",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q188451": {
+    "p31_label": "music genre",
+    "normalized_type": "MusicGenre",
+    "role": "terminal_context",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": "Genre concept node — terminal unless enrichment needed; currently in conflict list"
+  },
+  "Q868557": {
+    "p31_label": "music festival",
+    "normalized_type": "Event",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q1955280": {
+    "p31_label": "music competition",
+    "normalized_type": "Event",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q107655869": {
+    "p31_label": "group of awards",
+    "normalized_type": "Event",
+    "role": "enrichment_target",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": "Award ceremony series (Grammy Awards class); see entity_type_overrides for specific entities"
+  },
+  "Q1364556": {
+    "p31_label": "music award",
+    "normalized_type": "Event",
+    "role": "enrichment_target",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": "Award entity; see entity_type_overrides for specific entities"
+  },
+  "Q49773": {
+    "p31_label": "social movement",
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "low",
+    "source": "reviewed 2026-07-01",
+    "notes": "Cultural/social movement — terminal, label+description only"
+  },
+  "Q2198855": {
+    "p31_label": "cultural movement",
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "low",
+    "source": "reviewed 2026-07-01",
+    "notes": "Cultural/social movement — terminal, label+description only"
+  },
+  "Q6256": {
+    "p31_label": "sovereign state",
+    "normalized_type": "Country",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q3624078": {
+    "p31_label": "sovereign state",
+    "normalized_type": "Country",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q515": {
+    "p31_label": "city",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q486972": {
+    "p31_label": "human settlement",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q23442": {
+    "p31_label": "island",
+    "normalized_type": "Island",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q208511": {
+    "p31_label": "gulf",
+    "normalized_type": "Gulf",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q107390": {
+    "p31_label": "federated state",
+    "normalized_type": "FederalState",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q35657": {
+    "p31_label": "U.S. state",
+    "normalized_type": "USState",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q184188": {
+    "p31_label": "district",
+    "normalized_type": "District",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "original TYPE_PRIORITY",
+    "notes": ""
+  },
+  "Q2755753": {
+    "p31_label": "area of London",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q3957": {
+    "p31_label": "town",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q1115575": {
+    "p31_label": "civil parish",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q82794": {
+    "p31_label": "region",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q7897276": {
+    "p31_label": "unparished area",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q1549591": {
+    "p31_label": "big city",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q34442": {
+    "p31_label": "road",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Infrastructure; terminal"
+  },
+  "Q18511725": {
+    "p31_label": "market town",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q1093829": {
+    "p31_label": "city in the United States",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q3301053": {
+    "p31_label": "consolidated city-county",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q1221156": {
+    "p31_label": "federated state of Germany",
+    "normalized_type": "FederalState",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q707813": {
+    "p31_label": "Hanseatic city",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q200250": {
+    "p31_label": "metropolis",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q15974307": {
+    "p31_label": "unitary municipality in Germany",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q42744322": {
+    "p31_label": "urban municipality in Germany",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q133442": {
+    "p31_label": "city-state",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q5107": {
+    "p31_label": "continent",
+    "normalized_type": "Country",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q62049": {
+    "p31_label": "county seat",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q7631958": {
+    "p31_label": "subregion",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q67123843": {
+    "p31_label": "town divided by border",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q79007": {
+    "p31_label": "street",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Infrastructure; terminal"
+  },
+  "Q165": {
+    "p31_label": "sea",
+    "normalized_type": "Island",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Geographic feature; terminal"
+  },
+  "Q166620": {
+    "p31_label": "drainage basin",
+    "normalized_type": "Island",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Geographic feature; terminal"
+  },
+  "Q532": {
+    "p31_label": "village",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q57318": {
+    "p31_label": "free imperial city",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Historical city; terminal"
+  },
+  "Q2264924": {
+    "p31_label": "port city",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q85636199": {
+    "p31_label": "urban district of Hamburg",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q188509": {
+    "p31_label": "suburb",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q16884952": {
+    "p31_label": "country house",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": "Geographic/architectural; terminal unless confirmed venue"
+  },
+  "Q2221906": {
+    "p31_label": "geographic location",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Abstract geo; terminal"
+  },
+  "Q21010817": {
+    "p31_label": "city of Pennsylvania",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q5888666": {
+    "p31_label": "home rule municipality of Pennsylvania",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q21000333": {
+    "p31_label": "shopping street",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q1002812": {
+    "p31_label": "metropolitan borough",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q1901835": {
+    "p31_label": "seat of government",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q1307779": {
+    "p31_label": "integrated municipality",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q114401982": {
+    "p31_label": "independent city in Berlin",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q51929311": {
+    "p31_label": "largest city",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q257391": {
+    "p31_label": "federal capital",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q902814": {
+    "p31_label": "border city",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q769603": {
+    "p31_label": "non-metropolitan county",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q56061": {
+    "p31_label": "administrative territorial entity",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q27095213": {
+    "p31_label": "shopping district",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q644371": {
+    "p31_label": "international airport",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": "Infrastructure; terminal unless confirmed venue (Heathrow in conflict list)"
+  },
+  "Q22746": {
+    "p31_label": "urban park",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": "Geographic; terminal"
+  },
+  "Q11707": {
+    "p31_label": "restaurant",
+    "normalized_type": "Restaurant",
+    "role": "review_needed",
+    "confidence": "medium",
+    "source": "original TYPE_PRIORITY",
+    "notes": "Appears in BME KG; low enrichment value"
+  },
+  "Q11424": {
+    "p31_label": "film",
+    "normalized_type": "Film",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Films appear as cultural context objects; terminal"
+  },
+  "Q5398426": {
+    "p31_label": "television series",
+    "normalized_type": "TVShow",
+    "role": "terminal_context",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": "TV context objects; terminal"
+  },
+  "Q15416": {
+    "p31_label": "television show",
+    "normalized_type": "TVShow",
+    "role": "terminal_context",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q21191270": {
+    "p31_label": "television series episode",
+    "normalized_type": "TVShow",
+    "role": "terminal_context",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q101352": {
+    "p31_label": "person",
+    "normalized_type": "Person",
+    "role": "enrichment_target",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": "Generic person class — treat as Person when Q5 absent"
+  },
+  "Q2338524": {
+    "p31_label": "musical artist",
+    "normalized_type": "Person",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q22808320": {
+    "p31_label": "singer-songwriter",
+    "normalized_type": "Person",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q17343829": {
+    "p31_label": "concert series",
+    "normalized_type": "Event",
+    "role": "enrichment_target",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q17633526": {
+    "p31_label": "charity event",
+    "normalized_type": "Event",
+    "role": "enrichment_target",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": "Live 8 etc."
+  },
+  "Q6056746": {
+    "p31_label": "sporting event",
+    "normalized_type": "Event",
+    "role": "terminal_context",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": "Sport Aid context; terminal"
+  },
+  "Q618779": {
+    "p31_label": "award",
+    "normalized_type": "Event",
+    "role": "enrichment_target",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": "Mercury Prize etc."
+  },
+  "Q22698": {
+    "p31_label": "park",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Geographic; terminal"
+  },
+  "Q14562709": {
+    "p31_label": "underground station",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q55491": {
+    "p31_label": "station",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q212198": {
+    "p31_label": "public house",
+    "normalized_type": "Venue",
+    "role": "enrichment_target",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": "Pub venues in music context"
+  },
+  "Q1048525": {
+    "p31_label": "hotel",
+    "normalized_type": "Place",
+    "role": "terminal_context",
+    "confidence": "low",
+    "source": "reviewed 2026-07-01",
+    "notes": "Hotel — not a music venue; terminal"
+  },
+  "Q58483083": {
+    "p31_label": "musical film",
+    "normalized_type": "Film",
+    "role": "terminal_context",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q25550691": {
+    "p31_label": "guildhall",
+    "normalized_type": "Venue",
+    "role": "enrichment_target",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": "Historic civic hall — venue in context"
+  },
+  "Q168247": {
+    "p31_label": "famine",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "Historical event context; terminal"
+  },
+  "Q108586636": {
+    "p31_label": "concert",
+    "normalized_type": "Event",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "WD concert variant QID"
+  },
+  "Q483394": {
+    "p31_label": "concert",
+    "normalized_type": "Event",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-01",
+    "notes": "WD concert variant QID"
+  },
+  "Q201662": {
+    "p31_label": "fictional character",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": "Fictional persons/characters; terminal unless schema adds fictional entities scope"
+  },
+  "Q65115256": {
+    "p31_label": "stage persona",
+    "normalized_type": "Person",
+    "role": "enrichment_target",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": "Stage persona (Ziggy Stardust etc.) — treat as Person enrichment target"
+  },
+  "Q89050960": {
+    "p31_label": "alter ego",
+    "normalized_type": "Person",
+    "role": "enrichment_target",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-01",
+    "notes": ""
+  },
+  "Q1077857": {
+    "p31_label": "concept album character",
+    "normalized_type": "MusicRecording",
+    "role": "review_needed",
+    "confidence": "low",
+    "source": "reviewed 2026-07-01",
+    "notes": "Ambiguous; keep under review"
+  },
+  "Q214609": {
+    "p31_label": "material",
+    "normalized_type": "Material",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-02",
+    "notes": "Physical material/substance — exhibition context only, terminal"
+  },
+  "Q1783121": {
+    "p31_label": "organic matter",
+    "normalized_type": "Material",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-02",
+    "notes": "Organic substance — terminal"
+  },
+  "Q197204": {
+    "p31_label": "fur",
+    "normalized_type": "Material",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-02",
+    "notes": "Material subtype — terminal"
+  },
+  "Q119896085": {
+    "p31_label": "type of polymer",
+    "normalized_type": "Material",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-02",
+    "notes": "Metaclass for polymers — terminal"
+  },
+  "Q1969448": {
+    "p31_label": "term",
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-02",
+    "notes": "Specialised term — terminal"
+  },
+  "Q29028649": {
+    "p31_label": "economic concept",
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-02",
+    "notes": "Economic concept — terminal"
+  },
+  "Q64513524": {
+    "p31_label": "economic term",
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-02",
+    "notes": "Economic term — terminal"
+  },
+  "Q137425179": {
+    "p31_label": "type of good",
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-02",
+    "notes": "Metaclass for goods — terminal"
+  },
+  "Q123588392": {
+    "p31_label": "type of tool",
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-02",
+    "notes": "Metaclass for tools/instruments — terminal"
+  },
+  "Q63981612": {
+    "p31_label": "product category",
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-02",
+    "notes": "Product category — terminal"
+  },
+  "Q58901077": {
+    "p31_label": "publication format",
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-02",
+    "notes": "Publication format type — terminal"
+  },
+  "Q217616": {
+    "p31_label": "meromorphic function",
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "low",
+    "source": "reviewed 2026-07-02",
+    "notes": "Mathematical function class — unlikely in BME context, terminal"
+  },
+  "Q867707": {
+    "p31_label": "special function",
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "low",
+    "source": "reviewed 2026-07-02",
+    "notes": "Mathematical special function — terminal"
+  },
+  "Q132241": {
+    "p31_label": "festival",
+    "normalized_type": "Event",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-02",
+    "notes": "Festival — enrichment target"
+  },
+  "Q12020884": {
+    "p31_label": "musical movement",
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-02",
+    "notes": "Cultural/social movement — terminal, label+description only"
+  },
+  "Q28820001": {
+    "p31_label": "musical scene",
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-02",
+    "notes": "Cultural/social movement — terminal, label+description only"
+  },
+  "Q29023906": {
+    "p31_label": "temporary exhibition",
+    "normalized_type": "Event",
+    "role": "enrichment_target",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-02",
+    "notes": "Temporary exhibition — treat as Event in BME context"
+  },
+  "Q14092": {
+    "p31_label": "gym",
+    "normalized_type": "Place",
+    "role": "terminal_context",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-02",
+    "notes": "Gym — not a music venue; terminal"
+  },
+  "Q4830453": {
+    "p31_label": "business",
+    "normalized_type": "Organisation",
+    "role": "terminal_context",
+    "confidence": "low",
+    "source": "reviewed 2026-07-02",
+    "notes": "Generic business — terminal; too broad to classify as Venue"
+  },
+  "Q3918": {
+    "p31_label": "university",
+    "normalized_type": "Organisation",
+    "role": "terminal_context",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-02",
+    "notes": "University — not a music venue; terminal"
+  },
+  "Q5341295": {
+    "p31_label": "educational organization",
+    "normalized_type": "Organisation",
+    "role": "terminal_context",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-02",
+    "notes": "Educational organisation — not a music venue; terminal"
+  },
+  "Q96083918": {
+    "p31_label": "former movie theater",
+    "normalized_type": "Venue",
+    "role": "enrichment_target",
+    "confidence": "high",
+    "source": "reviewed 2026-07-02",
+    "notes": "Former cinema used as music venue"
+  },
+  "1941779": {
+    "p31_label": "fashion house",
+    "normalized_type": "Organisation",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-02",
+    "notes": "Fashion house — Organisation, terminal"
+  },
+  "Q16560": {
+    "p31_label": "palace",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-02",
+    "notes": "Palace — geographic/architectural, terminal unless confirmed venue"
+  },
+  "Q23413": {
+    "p31_label": "castle",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-02",
+    "notes": "Castle — geographic/architectural, terminal"
+  },
+  "Q53536964": {
+    "p31_label": "royal palace",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-02",
+    "notes": "Royal palace — terminal"
+  },
+  "Q131986827": {
+    "p31_label": "royal residence",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-02",
+    "notes": "Royal residence — terminal"
+  },
+  "Q1343246": {
+    "p31_label": "English country house",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-02",
+    "notes": "Country house — terminal"
+  },
+  "Q2087181": {
+    "p31_label": "historic house museum",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "medium",
+    "source": "reviewed 2026-07-02",
+    "notes": "Historic house museum — terminal"
+  },
+  "Q570116": {
+    "p31_label": "tourist attraction",
+    "normalized_type": "City",
+    "role": "terminal_context",
+    "confidence": "low",
+    "source": "reviewed 2026-07-02",
+    "notes": "Tourist attraction — terminal unless confirmed venue"
+  },
+  "Q1941779": {
+    "p31_label": "fashion house",
+    "normalized_type": "Organisation",
+    "role": "terminal_context",
+    "confidence": "high",
+    "source": "reviewed 2026-07-02",
+    "notes": "Fashion house — Organisation, terminal"
+  },
+  "Q18127": {
+    "normalized_type": "Organisation",
+    "role": "terminal_context",
+    "confidence": "high",
+    "label": "record label"
+  },
+  "Q12737077": {
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "high",
+    "label": "occupation"
+  },
+  "Q28640": {
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "high",
+    "label": "profession"
+  },
+  "Q66715801": {
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "high",
+    "label": "musical profession"
+  },
+  "Q88789639": {
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "high",
+    "label": "artistic profession"
+  },
+  "Q135106813": {
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "high",
+    "label": "musical occupation"
+  },
+  "Q108300140": {
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "high",
+    "label": "occupation group (ISCO-08)"
+  },
+  "Q15839299": {
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "high",
+    "label": "theatrical occupation"
+  },
+  "Q4220920": {
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "high",
+    "label": "filmmaking occupation"
+  },
+  "Q4369513": {
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "high",
+    "label": "sex of humans"
+  },
+  "Q48264": {
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "high",
+    "label": "gender identity"
+  },
+  "Q38033430": {
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "high",
+    "label": "class of award"
+  },
+  "Q96474678": {
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "high",
+    "label": "award for best original song"
+  },
+  "Q41254": {
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "high",
+    "label": "Grammy Awards"
+  },
+  "Q1063547": {
+    "normalized_type": "DefinedTerm",
+    "role": "terminal_context",
+    "confidence": "high",
+    "label": "voice type"
+  }
+}

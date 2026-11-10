@@ -1,0 +1,31 @@
+gemini:
+  model_name: gemini-2.5-pro
+  temperature: 0.5
+  top_p: 0.95
+  top_k: 80
+  max_output_tokens: 8000
+
+
+prompt_mode: few-shot
+
+role_block:
+  variant: strict_archivist
+
+schema_block:
+  enabled: false # Passing the schema through the pydantic model
+
+instruction_block:
+  variant: strict_schema_extraction
+
+input_block:
+  enabled: true
+  mode: sync  # or batch
+  independent_mode: true
+
+output_block:
+  enabled: true
+  variant: tool_call
+
+evaluation:
+  ground_truth_path: inputs/item_descriptions_with_captions_all_but_examples.csv
+  type: row_by_row

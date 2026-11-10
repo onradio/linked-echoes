@@ -1,0 +1,474 @@
+{
+  "seed": 20260814,
+  "sample_size": 200,
+  "min_per_field": 5,
+  "pool_size": 91,
+  "drawn": 91,
+  "by_field": {
+    "countries": 20,
+    "years": 7,
+    "materials": 23,
+    "music_genres": 23,
+    "places": 2,
+    "events": 13,
+    "music_albums": 2,
+    "colours": 1
+  },
+  "keys": [
+    [
+      "OBJ-001",
+      "countries",
+      "usa"
+    ],
+    [
+      "OBJ-001",
+      "years",
+      "1968"
+    ],
+    [
+      "OBJ-005",
+      "countries",
+      "england"
+    ],
+    [
+      "OBJ-005",
+      "materials",
+      "paper"
+    ],
+    [
+      "OBJ-005",
+      "music_genres",
+      "punk rock"
+    ],
+    [
+      "OBJ-005",
+      "places",
+      "london"
+    ],
+    [
+      "OBJ-005",
+      "places",
+      "san francisco"
+    ],
+    [
+      "OBJ-005",
+      "years",
+      "1975"
+    ],
+    [
+      "OBJ-005",
+      "years",
+      "1978"
+    ],
+    [
+      "OBJ-006",
+      "materials",
+      "metal"
+    ],
+    [
+      "OBJ-006",
+      "materials",
+      "wood"
+    ],
+    [
+      "OBJ-008",
+      "years",
+      "1980"
+    ],
+    [
+      "OBJ-011",
+      "materials",
+      "paper"
+    ],
+    [
+      "OBJ-011",
+      "materials",
+      "vinyl"
+    ],
+    [
+      "OBJ-012",
+      "countries",
+      "uk"
+    ],
+    [
+      "OBJ-012",
+      "materials",
+      "vinyl"
+    ],
+    [
+      "OBJ-012",
+      "music_genres",
+      "new wave"
+    ],
+    [
+      "OBJ-012",
+      "music_genres",
+      "pop"
+    ],
+    [
+      "OBJ-013",
+      "events",
+      "band aid formation"
+    ],
+    [
+      "OBJ-013",
+      "materials",
+      "vinyl"
+    ],
+    [
+      "OBJ-013",
+      "music_genres",
+      "pop"
+    ],
+    [
+      "OBJ-014",
+      "events",
+      "ethiopian famine relief"
+    ],
+    [
+      "OBJ-014",
+      "events",
+      "live aid"
+    ],
+    [
+      "OBJ-014",
+      "years",
+      "1985"
+    ],
+    [
+      "OBJ-016",
+      "materials",
+      "metal"
+    ],
+    [
+      "OBJ-016",
+      "materials",
+      "plastic"
+    ],
+    [
+      "OBJ-016",
+      "materials",
+      "wood"
+    ],
+    [
+      "OBJ-016",
+      "music_genres",
+      "heavy metal"
+    ],
+    [
+      "OBJ-017",
+      "countries",
+      "uk"
+    ],
+    [
+      "OBJ-017",
+      "materials",
+      "vinyl"
+    ],
+    [
+      "OBJ-017",
+      "music_genres",
+      "heavy metal"
+    ],
+    [
+      "OBJ-018",
+      "music_genres",
+      "heavy metal"
+    ],
+    [
+      "OBJ-019",
+      "countries",
+      "uk"
+    ],
+    [
+      "OBJ-019",
+      "materials",
+      "paper"
+    ],
+    [
+      "OBJ-019",
+      "music_genres",
+      "electronic"
+    ],
+    [
+      "OBJ-019",
+      "music_genres",
+      "electronic music"
+    ],
+    [
+      "OBJ-019",
+      "music_genres",
+      "new wave"
+    ],
+    [
+      "OBJ-019",
+      "music_genres",
+      "synth pop"
+    ],
+    [
+      "OBJ-020",
+      "countries",
+      "uk"
+    ],
+    [
+      "OBJ-020",
+      "countries",
+      "usa"
+    ],
+    [
+      "OBJ-020",
+      "events",
+      "death of ian curtis"
+    ],
+    [
+      "OBJ-020",
+      "music_genres",
+      "dance music"
+    ],
+    [
+      "OBJ-020",
+      "music_genres",
+      "electronic music"
+    ],
+    [
+      "OBJ-021",
+      "countries",
+      "usa"
+    ],
+    [
+      "OBJ-021",
+      "events",
+      "death of ian curtis"
+    ],
+    [
+      "OBJ-021",
+      "events",
+      "new order formation"
+    ],
+    [
+      "OBJ-021",
+      "events",
+      "new york city club scene experience"
+    ],
+    [
+      "OBJ-021",
+      "materials",
+      "vinyl"
+    ],
+    [
+      "OBJ-021",
+      "music_genres",
+      "dance music"
+    ],
+    [
+      "OBJ-021",
+      "music_genres",
+      "electronic music"
+    ],
+    [
+      "OBJ-021",
+      "music_genres",
+      "new wave"
+    ],
+    [
+      "OBJ-021",
+      "music_genres",
+      "synth pop"
+    ],
+    [
+      "OBJ-025",
+      "music_genres",
+      "pop"
+    ],
+    [
+      "OBJ-027",
+      "music_genres",
+      "pop"
+    ],
+    [
+      "OBJ-027",
+      "years",
+      "1994"
+    ],
+    [
+      "OBJ-028",
+      "countries",
+      "uk"
+    ],
+    [
+      "OBJ-035",
+      "materials",
+      "paper"
+    ],
+    [
+      "OBJ-037",
+      "materials",
+      "paper"
+    ],
+    [
+      "OBJ-038",
+      "materials",
+      "paper"
+    ],
+    [
+      "OBJ-041",
+      "countries",
+      "uk"
+    ],
+    [
+      "OBJ-043",
+      "materials",
+      "paper"
+    ],
+    [
+      "OBJ-044",
+      "music_genres",
+      "rock and roll"
+    ],
+    [
+      "OBJ-044",
+      "years",
+      "1963"
+    ],
+    [
+      "OBJ-045",
+      "countries",
+      "uk"
+    ],
+    [
+      "OBJ-045",
+      "events",
+      "performance by the detours"
+    ],
+    [
+      "OBJ-045",
+      "materials",
+      "paper"
+    ],
+    [
+      "OBJ-046",
+      "countries",
+      "uk"
+    ],
+    [
+      "OBJ-046",
+      "events",
+      "concert by the high numbers"
+    ],
+    [
+      "OBJ-046",
+      "events",
+      "gig by the high numbers"
+    ],
+    [
+      "OBJ-046",
+      "materials",
+      "paper"
+    ],
+    [
+      "OBJ-049",
+      "materials",
+      "vinyl"
+    ],
+    [
+      "OBJ-049",
+      "music_genres",
+      "psychedelic rock"
+    ],
+    [
+      "OBJ-049",
+      "music_genres",
+      "rock"
+    ],
+    [
+      "OBJ-050",
+      "countries",
+      "uk"
+    ],
+    [
+      "OBJ-050",
+      "materials",
+      "paper"
+    ],
+    [
+      "OBJ-051",
+      "countries",
+      "uk"
+    ],
+    [
+      "OBJ-051",
+      "countries",
+      "united kingdom"
+    ],
+    [
+      "OBJ-051",
+      "events",
+      "ufo club events"
+    ],
+    [
+      "OBJ-052",
+      "countries",
+      "uk"
+    ],
+    [
+      "OBJ-052",
+      "countries",
+      "united kingdom"
+    ],
+    [
+      "OBJ-053",
+      "materials",
+      "paper"
+    ],
+    [
+      "OBJ-054",
+      "events",
+      "1975 us tour"
+    ],
+    [
+      "OBJ-054",
+      "events",
+      "1975 us tours"
+    ],
+    [
+      "OBJ-055",
+      "countries",
+      "uk"
+    ],
+    [
+      "OBJ-056",
+      "music_albums",
+      "rise and fall of ziggy stardust and the spiders from mars"
+    ],
+    [
+      "OBJ-056",
+      "music_genres",
+      "glam rock"
+    ],
+    [
+      "OBJ-058",
+      "music_albums",
+      "rise and fall of ziggy stardust and the spiders from mars"
+    ],
+    [
+      "OBJ-062",
+      "colours",
+      "silver"
+    ],
+    [
+      "OBJ-062",
+      "countries",
+      "uk"
+    ],
+    [
+      "OBJ-062",
+      "countries",
+      "usa"
+    ],
+    [
+      "OBJ-062",
+      "materials",
+      "metal"
+    ]
+  ]
+}

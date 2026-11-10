@@ -1,0 +1,26 @@
+{
+  "run_at": "2026-08-13T13:31:54+00:00",
+  "n_objects": 2,
+  "similarities": [
+    "cosine_normalised"
+  ],
+  "index_strategies": [
+    "term"
+  ],
+  "queries": [
+    "description"
+  ],
+  "k_grid": [
+    5,
+    10,
+    20,
+    30,
+    40,
+    50
+  ],
+  "k_max": 50,
+  "embedding_model": "all-MiniLM-L6-v2",
+  "note": "files at k < k_max are slices of the same retrieval, not re-queries",
+  "files_written": 0,
+  "files_skipped": 6
+}

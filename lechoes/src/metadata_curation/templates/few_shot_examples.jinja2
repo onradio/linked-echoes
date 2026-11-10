@@ -1,0 +1,24 @@
+---
+{% for example in few_shot_examples.examples %}
+**Example {{ loop.index }}:**
+
+**Item Description:**
+{{ example.input.item_description }}
+
+**Caption:**
+{{ example.input.caption }}
+
+{% if schema_block.schema_style == "python" %}
+Expected Output:
+record_item_data(
+    {% for k, v in example.output.items() %}
+    {{ k }}={{ v | tojson }},
+    {% endfor %}
+)
+{% elif schema_block.schema_style == "json" %}
+Expected Output:
+{{ example.output | tojson(indent=2) }}
+{% endif %}
+
+---
+{% endfor %}

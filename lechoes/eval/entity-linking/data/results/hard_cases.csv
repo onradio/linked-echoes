@@ -1,0 +1,14 @@
+mention_id,label,entity_type,gold,S2_predicted,S2_label,S2_outcome,S3_predicted,S3_label,S3_outcome
+M-037,Peter Blake,music artist,NIL/out_of_scope,Q504611,Peter Blake,SL,-,,TN
+M-049,A Girl Like You,music work,NIL/out_of_scope,Q4657027,A Girl Like You,SL,-,,TN
+M-050,Apache,music work,Q616563,Q111812450,Apache,WL,Q616563,Apache,TP
+M-052,Can The Can,music work,NIL/out_of_scope,Q588027,Can the Can,SL,-,,TN
+M-053,Do They Know It's Christmas,music work,Q1188494,Q131190821,Do They Know It's Christmas? / Feed the World,WL,Q1188494,Do They Know It's Christmas?,TP
+M-054,Everything Changes,music work,Q1403847,Q2608151,Everything Changes,WL,Q1403847,Everything Changes,TP
+M-059,Kon-tiki,music work,NIL/out_of_scope,Q6428677,Kon-Tiki,SL,-,,TN
+M-064,The Drowners,music work,NIL/out_of_scope,Q4051056,The Drowners,SL,-,,TN
+M-066,White Room,music work,NIL/out_of_scope,Q3122019,White Room,SL,-,,TN
+M-075,Foundations,music album,NIL/out_of_scope,Q1172554,Foundations,SL,-,,TN
+M-084,Railway Hotel,venue,NIL/out_of_scope,Q26388360,Railway Hotel,SL,-,,TN
+M-095,Scandinavia,country,NIL/out_of_scope,Q21195,Scandinavia,SL,-,,TN
+M-101,Madchester,music genre,Q4841596,Q502886,Madchester,WL,Q4841596,baggy,TP

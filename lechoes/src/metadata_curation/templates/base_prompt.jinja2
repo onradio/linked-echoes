@@ -1,0 +1,26 @@
+{% if role_block.enabled %}
+{% include 'role_block.jinja2' %}
+{% endif %}
+
+{% if instruction_block.enabled %}
+{% include 'instruction_block.jinja2' %}
+{% endif %}
+
+{% if schema_block.enabled %}
+{% include 'schema_block.jinja2' %}
+{% endif %}
+
+{# Insert examples BEFORE input, as the LLM uses them to learn the pattern #}
+{% if prompt_mode == "one-shot" %}
+  {% include 'one_shot_example.jinja2' %}
+{% elif prompt_mode == "few-shot" %}
+  {% include 'few_shot_examples.jinja2' %}
+{% endif %}
+
+{% if input_block.enabled %}
+{% include 'input_block.jinja2' %}
+{% endif %}
+
+{% if output_block.enabled %}
+{% include 'output_block.jinja2' %}
+{% endif %}

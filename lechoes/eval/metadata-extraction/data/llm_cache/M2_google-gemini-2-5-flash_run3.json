@@ -1,0 +1,1826 @@
+{
+ "0c8f611623cc2b54313b1d87749619e8ec050d99": {
+  "text": "{\"music_genres\": [], \"music_works\": [], \"music_albums\": [], \"music_artists\": [{\"value\": \"Suzi Quatro\", \"quote\": \"Suzi Quatro Black leather jumpsuit\"}], \"events\": [], \"countries\": [], \"places\": [], \"venues\": [], \"years\": [], \"colours\": [{\"value\": \"Black\", \"quote\": \"Black leather jumpsuit\"}], \"materials\": [{\"value\": \"leather\", \"quote\": \"Black leather jumpsuit\"}], \"item_title\": \"Suzi Quatro's Black leather jumpsuit\", \"specific_type\": \"Jumpsuit\", \"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Suzi Quatro",
+     "quote": "Suzi Quatro Black leather jumpsuit"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [
+    {
+     "value": "Black",
+     "quote": "Black leather jumpsuit"
+    }
+   ],
+   "materials": [
+    {
+     "value": "leather",
+     "quote": "Black leather jumpsuit"
+    }
+   ],
+   "item_title": "Suzi Quatro's Black leather jumpsuit",
+   "specific_type": "Jumpsuit",
+   "cardinality": 1
+  }
+ },
+ "5b5a98146f56df0327a068aefa1f007dc17bd23b": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Suzi Quatro\",\n      \"quote\": \"Suzi Quatro at Torquay Town Hall\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"Concert\",\n      \"quote\": \"Concert poster advertising\"\n    }\n  ],\n  \"countries\": [],\n  \"places\": [\n    {\n      \"value\": \"Torquay\",\n      \"quote\": \"Torquay Town Hall\"\n    }\n  ],\n  \"venues\": [\n    {\n      \"value\": \"Torquay Town Hall\",\n      \"quote\": \"Torquay Town Hall\"\n    }\n  ],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Suzi Quatro concert poster\",\n  \"specific_type\": \"Poster\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Suzi Quatro",
+     "quote": "Suzi Quatro at Torquay Town Hall"
+    }
+   ],
+   "events": [
+    {
+     "value": "Concert",
+     "quote": "Concert poster advertising"
+    }
+   ],
+   "countries": [],
+   "places": [
+    {
+     "value": "Torquay",
+     "quote": "Torquay Town Hall"
+    }
+   ],
+   "venues": [
+    {
+     "value": "Torquay Town Hall",
+     "quote": "Torquay Town Hall"
+    }
+   ],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Suzi Quatro concert poster",
+   "specific_type": "Poster",
+   "cardinality": 1
+  }
+ },
+ "1662d4a0ffcdf402a53cd9568a957aba5c7d4edb": {
+  "text": "{\"music_genres\": [],\"music_works\": [{\"value\": \"Can The Can\", \"quote\": \"\u2018Can The Can\u2019 sheet music\"}],\"music_albums\": [],\"music_artists\": [{\"value\": \"Suzi Quatro\", \"quote\": \"Suzi Quatro - \u2018Can The Can\u2019 sheet music\"}],\"events\": [],\"countries\": [],\"places\": [],\"venues\": [],\"years\": [],\"colours\": [],\"materials\": [],\"item_title\": \"Can The Can sheet music\",\"specific_type\": \"Sheet Music\",\"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Can The Can",
+     "quote": "\u2018Can The Can\u2019 sheet music"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Suzi Quatro",
+     "quote": "Suzi Quatro - \u2018Can The Can\u2019 sheet music"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Can The Can sheet music",
+   "specific_type": "Sheet Music",
+   "cardinality": 1
+  }
+ },
+ "8e57049620ee9ed354114f5d15fa7718b2e26498": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"Anarchy in the UK\",\n      \"quote\": \"Anarchy in the UK tour poster\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [],\n  \"events\": [\n    {\n      \"value\": \"Anarchy in the UK tour\",\n      \"quote\": \"Anarchy in the UK tour poster\"\n    }\n  ],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Anarchy in the UK tour poster\",\n  \"specific_type\": \"Poster\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Anarchy in the UK",
+     "quote": "Anarchy in the UK tour poster"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [],
+   "events": [
+    {
+     "value": "Anarchy in the UK tour",
+     "quote": "Anarchy in the UK tour poster"
+    }
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Anarchy in the UK tour poster",
+   "specific_type": "Poster",
+   "cardinality": 1
+  }
+ },
+ "502813024055c58943ce94f1c115f54569629a36": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Sex Pistols\",\n      \"quote\": \"Sex Pistols flyer\"\n    },\n    {\n      \"value\": \"Sex Pistols\",\n      \"quote\": \"Poster artwork for the Sex Pistols\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Sex Pistols flyer\",\n  \"specific_type\": \"Flyer\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Sex Pistols",
+     "quote": "Sex Pistols flyer"
+    },
+    {
+     "value": "Sex Pistols",
+     "quote": "Poster artwork for the Sex Pistols"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Sex Pistols flyer",
+   "specific_type": "Flyer",
+   "cardinality": 1
+  }
+ },
+ "11d9beed6174ef5aa1b77b1f718515762314c424": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Glen Matlock\",\n      \"quote\": \"Glen Matlock\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Glen Matlock's Bass guitar\",\n  \"specific_type\": \"Bass Guitar\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Glen Matlock",
+     "quote": "Glen Matlock"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Glen Matlock's Bass guitar",
+   "specific_type": "Bass Guitar",
+   "cardinality": 1
+  }
+ },
+ "cdffcaa08ce2e8d5afc122d0d1263f987f8097de": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Lynval Golding\",\n      \"quote\": \"Lynval Golding blue suit\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [\n    {\n      \"value\": \"blue\",\n      \"quote\": \"blue suit\"\n    }\n  ],\n  \"materials\": [],\n  \"item_title\": \"Lynval Golding blue suit\",\n  \"specific_type\": \"Suit\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Lynval Golding",
+     "quote": "Lynval Golding blue suit"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [
+    {
+     "value": "blue",
+     "quote": "blue suit"
+    }
+   ],
+   "materials": [],
+   "item_title": "Lynval Golding blue suit",
+   "specific_type": "Suit",
+   "cardinality": 1
+  }
+ },
+ "76844b81a6697c80c0b936fdd936f0f01b05a378": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Lynval Golding\",\n      \"quote\": \"Lynval Golding Trilby hat\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Lynval Golding's Trilby hat\",\n  \"specific_type\": \"Trilby hat\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Lynval Golding",
+     "quote": "Lynval Golding Trilby hat"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Lynval Golding's Trilby hat",
+   "specific_type": "Trilby hat",
+   "cardinality": 1
+  }
+ },
+ "349e6bc6be1f47c3a6dabf1fdbab2d03d73eaa15": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"Why?\",\n      \"quote\": \"\u2018Why?\u2019 lyrics\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"The Specials\",\n      \"quote\": \"The Specials \u2018Why?\u2019 lyrics\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"The Specials 'Why?' lyrics\",\n  \"specific_type\": \"Lyrics\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Why?",
+     "quote": "\u2018Why?\u2019 lyrics"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "The Specials",
+     "quote": "The Specials \u2018Why?\u2019 lyrics"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "The Specials 'Why?' lyrics",
+   "specific_type": "Lyrics",
+   "cardinality": 1
+  }
+ },
+ "91fa8aba36cd657b7d25498beaaeee8003840e45": {
+  "text": "{\"music_genres\": [],\"music_works\": [],\"music_albums\": [{\"value\": \"Colour By Numbers\",\"quote\": \"Colour By Numbers outfit worn by Boy George\"}],\"music_artists\": [{\"value\": \"Boy George\",\"quote\": \"outfit worn by Boy George\"}],\"events\": [],\"countries\": [],\"places\": [],\"venues\": [],\"years\": [],\"colours\": [],\"materials\": [],\"item_title\": \"Colour By Numbers outfit\",\"specific_type\": \"Outfit\",\"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [
+    {
+     "value": "Colour By Numbers",
+     "quote": "Colour By Numbers outfit worn by Boy George"
+    }
+   ],
+   "music_artists": [
+    {
+     "value": "Boy George",
+     "quote": "outfit worn by Boy George"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Colour By Numbers outfit",
+   "specific_type": "Outfit",
+   "cardinality": 1
+  }
+ },
+ "e52876a92a7d15a4bb2c443ec39624e80673d1bc": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [],\n  \"events\": [\n    {\n      \"value\": \"Colour By Numbers tour\",\n      \"quote\": \"Colour By Numbers tour programme\"\n    }\n  ],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Colour By Numbers tour programme\",\n  \"specific_type\": \"programme\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [],
+   "events": [
+    {
+     "value": "Colour By Numbers tour",
+     "quote": "Colour By Numbers tour programme"
+    }
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Colour By Numbers tour programme",
+   "specific_type": "programme",
+   "cardinality": 1
+  }
+ },
+ "0decc79cd4e44de5d9151761bb20e7fce5cdd05f": {
+  "text": "{\"music_genres\": [], \"music_works\": [], \"music_albums\": [{\"value\": \"Colour By Numbers\", \"quote\": \"Colour By Numbers 12\u201d LP\"}], \"music_artists\": [], \"events\": [], \"countries\": [], \"places\": [], \"venues\": [], \"years\": [], \"colours\": [], \"materials\": [], \"item_title\": \"Colour By Numbers LP\", \"specific_type\": \"LP Record\", \"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [
+    {
+     "value": "Colour By Numbers",
+     "quote": "Colour By Numbers 12\u201d LP"
+    }
+   ],
+   "music_artists": [],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Colour By Numbers LP",
+   "specific_type": "LP Record",
+   "cardinality": 1
+  }
+ },
+ "02d1ba8998400eca948b56ae5ffd8b44e6437e01": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"Do They Know It's Christmas\",\n      \"quote\": \"Do They Know It's Christmas Single and Picture Disc\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Do They Know It's Christmas Single\",\n  \"specific_type\": \"Picture Disc\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Do They Know It's Christmas",
+     "quote": "Do They Know It's Christmas Single and Picture Disc"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Do They Know It's Christmas Single",
+   "specific_type": "Picture Disc",
+   "cardinality": 1
+  }
+ },
+ "c0786097c2bdfccdb1f2d15ea992ae29e5afa559": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Bob Geldof\",\n      \"quote\": \"Bob Geldof Band Aid T-Shirt\"\n    },\n    {\n      \"value\": \"Band Aid\",\n      \"quote\": \"Bob Geldof Band Aid T-Shirt\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"Band Aid\",\n      \"quote\": \"Bob Geldof Band Aid T-Shirt\"\n    }\n  ],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Band Aid T-Shirt\",\n  \"specific_type\": \"T-Shirt\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Bob Geldof",
+     "quote": "Bob Geldof Band Aid T-Shirt"
+    },
+    {
+     "value": "Band Aid",
+     "quote": "Bob Geldof Band Aid T-Shirt"
+    }
+   ],
+   "events": [
+    {
+     "value": "Band Aid",
+     "quote": "Bob Geldof Band Aid T-Shirt"
+    }
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Band Aid T-Shirt",
+   "specific_type": "T-Shirt",
+   "cardinality": 1
+  }
+ },
+ "d39a8902c72d3787ac4d678962e4ed5955cda236": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Band Aid\",\n      \"quote\": \"Band Aid Promotional Poster\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Band Aid Promotional Poster\",\n  \"specific_type\": \"Poster\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Band Aid",
+     "quote": "Band Aid Promotional Poster"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Band Aid Promotional Poster",
+   "specific_type": "Poster",
+   "cardinality": 1
+  }
+ },
+ "c42885f62f8deb89b8da58fde5be1fe23bd20cf7": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Saxon\",\n      \"quote\": \"Saxon - Fender Stratocaster guitar\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Saxon's Fender Stratocaster guitar\",\n  \"specific_type\": \"Electric Guitar\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Saxon",
+     "quote": "Saxon - Fender Stratocaster guitar"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Saxon's Fender Stratocaster guitar",
+   "specific_type": "Electric Guitar",
+   "cardinality": 1
+  }
+ },
+ "44af83fd4e0c0c8a07da7e10650250405e5071f4": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [\n    {\n      \"value\": \"Strong Arm Of The Law\",\n      \"quote\": \"Strong Arm Of The Law 12\u201d LP\"\n    }\n  ],\n  \"music_artists\": [\n    {\n      \"value\": \"Saxon\",\n      \"quote\": \"Saxon - Strong Arm Of The Law 12\u201d LP\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Strong Arm Of The Law LP\",\n  \"specific_type\": \"LP\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [
+    {
+     "value": "Strong Arm Of The Law",
+     "quote": "Strong Arm Of The Law 12\u201d LP"
+    }
+   ],
+   "music_artists": [
+    {
+     "value": "Saxon",
+     "quote": "Saxon - Strong Arm Of The Law 12\u201d LP"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Strong Arm Of The Law LP",
+   "specific_type": "LP",
+   "cardinality": 1
+  }
+ },
+ "a19b19c606d1012d9d9ec60d96b5c9f0813b3379": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"Denim and leather\",\n      \"quote\": \"Denim and leather\"\n    }\n  ],\n  \"music_albums\": [\n    {\n      \"value\": \"Denim and leather\",\n      \"quote\": \"Denim and leather\"\n    }\n  ],\n  \"music_artists\": [\n    {\n      \"value\": \"Saxon\",\n      \"quote\": \"Saxon tour programme\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"tour\",\n      \"quote\": \"Saxon tour programme\"\n    }\n  ],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Saxon 'Denim and Leather' tour programme\",\n  \"specific_type\": \"Tour programme\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Denim and leather",
+     "quote": "Denim and leather"
+    }
+   ],
+   "music_albums": [
+    {
+     "value": "Denim and leather",
+     "quote": "Denim and leather"
+    }
+   ],
+   "music_artists": [
+    {
+     "value": "Saxon",
+     "quote": "Saxon tour programme"
+    }
+   ],
+   "events": [
+    {
+     "value": "tour",
+     "quote": "Saxon tour programme"
+    }
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Saxon 'Denim and Leather' tour programme",
+   "specific_type": "Tour programme",
+   "cardinality": 1
+  }
+ },
+ "b73e7d814f455e1c85f3b6d125f3b6218a65eba9": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"Blue Monday\",\n      \"quote\": \"\u2018Blue Monday\u2019 lyrics\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"New Order\",\n      \"quote\": \"New Order - \u2018Blue Monday\u2019 lyrics\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Blue Monday lyrics\",\n  \"specific_type\": \"Lyrics\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Blue Monday",
+     "quote": "\u2018Blue Monday\u2019 lyrics"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "New Order",
+     "quote": "New Order - \u2018Blue Monday\u2019 lyrics"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Blue Monday lyrics",
+   "specific_type": "Lyrics",
+   "cardinality": 1
+  }
+ },
+ "12715a71b8956423f543d2f2ed5866b20d4b32c8": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"Blue Monday\",\n      \"quote\": \"\u2018Blue Monday\u2019 recording schedule\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"New Order\",\n      \"quote\": \"New Order - \u2018Blue Monday\u2019 recording schedule\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"New Order's 'Blue Monday' recording schedule\",\n  \"specific_type\": \"Recording Schedule\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Blue Monday",
+     "quote": "\u2018Blue Monday\u2019 recording schedule"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "New Order",
+     "quote": "New Order - \u2018Blue Monday\u2019 recording schedule"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "New Order's 'Blue Monday' recording schedule",
+   "specific_type": "Recording Schedule",
+   "cardinality": 1
+  }
+ },
+ "9673e6a98032f7f1f292ad6e76fc1714c592cfc1": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"Blue Monday\",\n      \"quote\": \"'Blue Monday' 7\\\" single\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"New Order\",\n      \"quote\": \"New Order - 'Blue Monday' 7\\\" single\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Blue Monday 7\\\" single\",\n  \"specific_type\": \"Single (record)\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Blue Monday",
+     "quote": "'Blue Monday' 7\" single"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "New Order",
+     "quote": "New Order - 'Blue Monday' 7\" single"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Blue Monday 7\" single",
+   "specific_type": "Single (record)",
+   "cardinality": 1
+  }
+ },
+ "18cf21dca7ae8d99d2129fe16b0929d889c5ba56": {
+  "text": "{\"music_genres\": [],\"music_works\": [{\"value\": \"Beautiful Ones\",\"quote\": \"Lyrics to \u2018Beautiful Ones\u2019\"}],\"music_albums\": [],\"music_artists\": [{\"value\": \"Suede\",\"quote\": \"Suede - Lyrics to \u2018Beautiful Ones\u2019\"}],\"events\": [],\"countries\": [],\"places\": [],\"venues\": [],\"years\": [],\"colours\": [],\"materials\": [],\"item_title\": \"Lyrics to \u2018Beautiful Ones\u2019\",\"specific_type\": \"Lyrics\",\"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Beautiful Ones",
+     "quote": "Lyrics to \u2018Beautiful Ones\u2019"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Suede",
+     "quote": "Suede - Lyrics to \u2018Beautiful Ones\u2019"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Lyrics to \u2018Beautiful Ones\u2019",
+   "specific_type": "Lyrics",
+   "cardinality": 1
+  }
+ },
+ "be87fcb975811d5bdd6814e77698b1e3a180c612": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"So Young\",\n      \"quote\": \"Lyrics to \u2018So Young\u2019\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Suede\",\n      \"quote\": \"Suede - Lyrics to \u2018So Young\u2019\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Lyrics to So Young\",\n  \"specific_type\": \"Lyrics\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "So Young",
+     "quote": "Lyrics to \u2018So Young\u2019"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Suede",
+     "quote": "Suede - Lyrics to \u2018So Young\u2019"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Lyrics to So Young",
+   "specific_type": "Lyrics",
+   "cardinality": 1
+  }
+ },
+ "88401f5dc01deb41eb1fbb6e1da666b3e7f42159": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"The Drowners\",\n      \"quote\": \"Lyrics to \u2018The Drowners\u2019\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Suede\",\n      \"quote\": \"Suede - Lyrics to \u2018The Drowners\u2019\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Lyrics to 'The Drowners'\",\n  \"specific_type\": \"Lyrics\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "The Drowners",
+     "quote": "Lyrics to \u2018The Drowners\u2019"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Suede",
+     "quote": "Suede - Lyrics to \u2018The Drowners\u2019"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Lyrics to 'The Drowners'",
+   "specific_type": "Lyrics",
+   "cardinality": 1
+  }
+ },
+ "56d3010d51064ac45b3361230a2d1a9c1ecb3f27": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Emma Bunton\",\n      \"quote\": \"Emma Bunton outfit\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Emma Bunton outfit\",\n  \"specific_type\": \"Outfit\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Emma Bunton",
+     "quote": "Emma Bunton outfit"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Emma Bunton outfit",
+   "specific_type": "Outfit",
+   "cardinality": 1
+  }
+ },
+ "e5d4d3ff6535bfb9fc4cf53e6cea8d57bca77754": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"Pops\",\n      \"quote\": \"Pops tour programme\"\n    }\n  ],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Take That\",\n      \"quote\": \"Take That Pops tour programme\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"Pops tour\",\n      \"quote\": \"Pops tour programme\"\n    }\n  ],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Take That Pops tour programme\",\n  \"specific_type\": \"programme\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "Pops",
+     "quote": "Pops tour programme"
+    }
+   ],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Take That",
+     "quote": "Take That Pops tour programme"
+    }
+   ],
+   "events": [
+    {
+     "value": "Pops tour",
+     "quote": "Pops tour programme"
+    }
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Take That Pops tour programme",
+   "specific_type": "programme",
+   "cardinality": 1
+  }
+ },
+ "51048a2bfec579f509b78c7a6a2f864610fa89a8": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Take That\",\n      \"quote\": \"Take That Everything Changes Tour official programme\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"Everything Changes Tour\",\n      \"quote\": \"Take That Everything Changes Tour official programme\"\n    }\n  ],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Everything Changes Tour official programme\",\n  \"specific_type\": \"programme\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Take That",
+     "quote": "Take That Everything Changes Tour official programme"
+    }
+   ],
+   "events": [
+    {
+     "value": "Everything Changes Tour",
+     "quote": "Take That Everything Changes Tour official programme"
+    }
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Everything Changes Tour official programme",
+   "specific_type": "programme",
+   "cardinality": 1
+  }
+ },
+ "b607aec1fec6ac2a58292cad772b1455c4bb7cf0": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [\n    {\n      \"value\": \"Made Of Bricks\",\n      \"quote\": \"'Made Of Bricks' poster\"\n    }\n  ],\n  \"music_artists\": [\n    {\n      \"value\": \"Kate Nash\",\n      \"quote\": \"Kate Nash - 'Made Of Bricks' poster\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Kate Nash 'Made Of Bricks' poster\",\n  \"specific_type\": \"Poster\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [
+    {
+     "value": "Made Of Bricks",
+     "quote": "'Made Of Bricks' poster"
+    }
+   ],
+   "music_artists": [
+    {
+     "value": "Kate Nash",
+     "quote": "Kate Nash - 'Made Of Bricks' poster"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Kate Nash 'Made Of Bricks' poster",
+   "specific_type": "Poster",
+   "cardinality": 1
+  }
+ },
+ "af9be65baa48253513b6f197cd3420530e4833c0": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"Foundations\",\n      \"quote\": \"Lyrics to \u2018Foundations\u2019\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Kate Nash\",\n      \"quote\": \"Kate Nash - Lyrics to \u2018Foundations\u2019\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Lyrics to \u2018Foundations\u2019\",\n  \"specific_type\": \"Lyrics\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Foundations",
+     "quote": "Lyrics to \u2018Foundations\u2019"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Kate Nash",
+     "quote": "Kate Nash - Lyrics to \u2018Foundations\u2019"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Lyrics to \u2018Foundations\u2019",
+   "specific_type": "Lyrics",
+   "cardinality": 1
+  }
+ },
+ "f045d5785944ec3458da7ecdf8bd7dafb3aa8d94": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Amy Winehouse\",\n      \"quote\": \"Amy Winehouse - Tour poster\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"Tour\",\n      \"quote\": \"Tour poster\"\n    }\n  ],\n  \"countries\": [],\n  \"places\": [\n    {\n      \"value\": \"London\",\n      \"quote\": \"Shepherd\u2019s Bush Empire, London\"\n    }\n  ],\n  \"venues\": [\n    {\n      \"value\": \"Shepherd\u2019s Bush Empire\",\n      \"quote\": \"Shepherd\u2019s Bush Empire, London\"\n    }\n  ],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Amy Winehouse Tour poster\",\n  \"specific_type\": \"Poster\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Amy Winehouse",
+     "quote": "Amy Winehouse - Tour poster"
+    }
+   ],
+   "events": [
+    {
+     "value": "Tour",
+     "quote": "Tour poster"
+    }
+   ],
+   "countries": [],
+   "places": [
+    {
+     "value": "London",
+     "quote": "Shepherd\u2019s Bush Empire, London"
+    }
+   ],
+   "venues": [
+    {
+     "value": "Shepherd\u2019s Bush Empire",
+     "quote": "Shepherd\u2019s Bush Empire, London"
+    }
+   ],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Amy Winehouse Tour poster",
+   "specific_type": "Poster",
+   "cardinality": 1
+  }
+ },
+ "69dbf38566c0eb7d45664efae5bebd1a9c5db787": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"Jazz\",\n      \"quote\": \"Jazzmen\"\n    },\n    {\n      \"value\": \"Jazz\",\n      \"quote\": \"Jazz Band\"\n    }\n  ],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Ken Colyer\u2019s Jazzmen\",\n      \"quote\": \"Ken Colyer\u2019s Jazzmen\"\n    },\n    {\n      \"value\": \"Acker Bilk\u2019s Paramount Jazz Band\",\n      \"quote\": \"Acker Bilk\u2019s Paramount Jazz Band\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"New Orleans Joys\u2019 concert\",\n      \"quote\": \"\u2018New Orleans Joys\u2019 concert\"\n    }\n  ],\n  \"countries\": [],\n  \"places\": [\n    {\n      \"value\": \"New Orleans\",\n      \"quote\": \"New Orleans Joys\u2019 concert\"\n    }\n  ],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"New Orleans Joys concert programme\",\n  \"specific_type\": \"Programme\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "Jazz",
+     "quote": "Jazzmen"
+    },
+    {
+     "value": "Jazz",
+     "quote": "Jazz Band"
+    }
+   ],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Ken Colyer\u2019s Jazzmen",
+     "quote": "Ken Colyer\u2019s Jazzmen"
+    },
+    {
+     "value": "Acker Bilk\u2019s Paramount Jazz Band",
+     "quote": "Acker Bilk\u2019s Paramount Jazz Band"
+    }
+   ],
+   "events": [
+    {
+     "value": "New Orleans Joys\u2019 concert",
+     "quote": "\u2018New Orleans Joys\u2019 concert"
+    }
+   ],
+   "countries": [],
+   "places": [
+    {
+     "value": "New Orleans",
+     "quote": "New Orleans Joys\u2019 concert"
+    }
+   ],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "New Orleans Joys concert programme",
+   "specific_type": "Programme",
+   "cardinality": 1
+  }
+ },
+ "beea49522eb0ebca6de20b8a1d4926ad06f9e2ba": {
+  "text": "{\n  \"music_genres\": [\n    {\n      \"value\": \"Jazz\",\n      \"quote\": \"Jazz News\"\n    }\n  ],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1962\",\n      \"quote\": \"25th July 1962\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Jazz News\",\n  \"specific_type\": \"Newspaper\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "Jazz",
+     "quote": "Jazz News"
+    }
+   ],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1962",
+     "quote": "25th July 1962"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Jazz News",
+   "specific_type": "Newspaper",
+   "cardinality": 1
+  }
+ },
+ "3493a94bea96dde1b631e057bfeef226f1dc8ab3": {
+  "text": "{\"music_genres\": [{\"value\": \"skiffle\", \"quote\": \"introducing skiffle at the Metropolitan Club\"}], \"music_works\": [], \"music_albums\": [], \"music_artists\": [{\"value\": \"Chas McDevitt\", \"quote\": \"Chas McDevitt - Concert poster\"}], \"events\": [{\"value\": \"Concert\", \"quote\": \"Concert poster introducing skiffle\"}], \"countries\": [], \"places\": [{\"value\": \"Edgware Road\", \"quote\": \"Metropolitan Club in Edgware Road\"}], \"venues\": [{\"value\": \"Metropolitan Club\", \"quote\": \"at the Metropolitan Club in Edgware Road\"}], \"years\": [], \"colours\": [], \"materials\": [], \"item_title\": \"Chas McDevitt Concert poster\", \"specific_type\": \"Poster\", \"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [
+    {
+     "value": "skiffle",
+     "quote": "introducing skiffle at the Metropolitan Club"
+    }
+   ],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Chas McDevitt",
+     "quote": "Chas McDevitt - Concert poster"
+    }
+   ],
+   "events": [
+    {
+     "value": "Concert",
+     "quote": "Concert poster introducing skiffle"
+    }
+   ],
+   "countries": [],
+   "places": [
+    {
+     "value": "Edgware Road",
+     "quote": "Metropolitan Club in Edgware Road"
+    }
+   ],
+   "venues": [
+    {
+     "value": "Metropolitan Club",
+     "quote": "at the Metropolitan Club in Edgware Road"
+    }
+   ],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Chas McDevitt Concert poster",
+   "specific_type": "Poster",
+   "cardinality": 1
+  }
+ },
+ "97b5608c739142c2465091457266eb09f54966cc": {
+  "text": "{\"music_genres\": [], \"music_works\": [], \"music_albums\": [{\"value\": \"Freight Train\", \"quote\": \"Freight Train 10\\\" LP\"}], \"music_artists\": [{\"value\": \"Chas McDevitt\", \"quote\": \"Chas McDevitt - Freight Train 10\\\" LP\"}], \"events\": [], \"countries\": [], \"places\": [], \"venues\": [], \"years\": [], \"colours\": [], \"materials\": [], \"item_title\": \"Freight Train 10\\\" LP\", \"specific_type\": \"LP\", \"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [
+    {
+     "value": "Freight Train",
+     "quote": "Freight Train 10\" LP"
+    }
+   ],
+   "music_artists": [
+    {
+     "value": "Chas McDevitt",
+     "quote": "Chas McDevitt - Freight Train 10\" LP"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Freight Train 10\" LP",
+   "specific_type": "LP",
+   "cardinality": 1
+  }
+ },
+ "ff3d237e9b4912d55c0c3f38dec1d5f9fb5f5b74": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"Freight Train\",\n      \"quote\": \"Freight Train sheet music\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Chas McDevitt\",\n      \"quote\": \"Chas McDevitt - Freight Train sheet music\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Freight Train sheet music\",\n  \"specific_type\": \"Sheet Music\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Freight Train",
+     "quote": "Freight Train sheet music"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Chas McDevitt",
+     "quote": "Chas McDevitt - Freight Train sheet music"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Freight Train sheet music",
+   "specific_type": "Sheet Music",
+   "cardinality": 1
+  }
+ },
+ "e361a5e46a2e462002c28d914e6130841c14396e": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"I've Come Of Age\",\n      \"quote\": \"'I've Come Of Age' sheet music\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Terry Dene\",\n      \"quote\": \"Terry Dene - 'I've Come Of Age' sheet music\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"I've Come Of Age' sheet music\",\n  \"specific_type\": \"Sheet music\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "I've Come Of Age",
+     "quote": "'I've Come Of Age' sheet music"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Terry Dene",
+     "quote": "Terry Dene - 'I've Come Of Age' sheet music"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "I've Come Of Age' sheet music",
+   "specific_type": "Sheet music",
+   "cardinality": 1
+  }
+ },
+ "b5fc8a108cdb3220f7355c1c92b76b3415871c6f": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Marty Wilde\",\n      \"quote\": \"featuring Marty Wilde\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Picturegoer magazine featuring Marty Wilde\",\n  \"specific_type\": \"Magazine\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Marty Wilde",
+     "quote": "featuring Marty Wilde"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Picturegoer magazine featuring Marty Wilde",
+   "specific_type": "Magazine",
+   "cardinality": 1
+  }
+ },
+ "79c3fbc6f961a6f91e13890edc99ba56cf61b53a": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Cliff Richard\",\n      \"quote\": \"Cliff Richard and The Shadows sheet music\"\n    },\n    {\n      \"value\": \"The Shadows\",\n      \"quote\": \"Cliff Richard and The Shadows sheet music\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Cliff Richard and The Shadows sheet music\",\n  \"specific_type\": \"Sheet Music\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Cliff Richard",
+     "quote": "Cliff Richard and The Shadows sheet music"
+    },
+    {
+     "value": "The Shadows",
+     "quote": "Cliff Richard and The Shadows sheet music"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Cliff Richard and The Shadows sheet music",
+   "specific_type": "Sheet Music",
+   "cardinality": 1
+  }
+ },
+ "f1c7cd7bd3dfd848f8fefb82f45ee7914b41d224": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"The Beatles\",\n      \"quote\": \"The Beatles tour programme\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"tour\",\n      \"quote\": \"The Beatles tour programme\"\n    }\n  ],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [\n    {\n      \"value\": \"turquoise\",\n      \"quote\": \"(turquoise)\"\n    }\n  ],\n  \"materials\": [],\n  \"item_title\": \"The Beatles tour programme\",\n  \"specific_type\": \"Programme\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "The Beatles",
+     "quote": "The Beatles tour programme"
+    }
+   ],
+   "events": [
+    {
+     "value": "tour",
+     "quote": "The Beatles tour programme"
+    }
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [
+    {
+     "value": "turquoise",
+     "quote": "(turquoise)"
+    }
+   ],
+   "materials": [],
+   "item_title": "The Beatles tour programme",
+   "specific_type": "Programme",
+   "cardinality": 1
+  }
+ },
+ "36209356db7577df0828e4945163fb6cd8ea4765": {
+  "text": "{\"music_genres\": [],\"music_works\": [],\"music_albums\": [],\"music_artists\": [{\"value\": \"The Beatles\", \"quote\": \"The Beatles - Selcol \u2018New Beat\u2019 toy guitar\"}],\"events\": [],\"countries\": [],\"places\": [],\"venues\": [],\"years\": [],\"colours\": [],\"materials\": [],\"item_title\": \"The Beatles Selcol \u2018New Beat\u2019 toy guitar\",\"specific_type\": \"Toy Guitar\",\"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "The Beatles",
+     "quote": "The Beatles - Selcol \u2018New Beat\u2019 toy guitar"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "The Beatles Selcol \u2018New Beat\u2019 toy guitar",
+   "specific_type": "Toy Guitar",
+   "cardinality": 1
+  }
+ },
+ "311e507a0333d1d0614528deb0bb48979fe52bd3": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"The Beatles\",\n      \"quote\": \"The Beatles - Selcol \u2018New Beat\u2019 toy drum\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"The Beatles Selcol \u2018New Beat\u2019 toy drum\",\n  \"specific_type\": \"Toy Drum\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "The Beatles",
+     "quote": "The Beatles - Selcol \u2018New Beat\u2019 toy drum"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "The Beatles Selcol \u2018New Beat\u2019 toy drum",
+   "specific_type": "Toy Drum",
+   "cardinality": 1
+  }
+ },
+ "4c21b4d0daee4211087a2c2001a3f7530939e9b0": {
+  "text": "{\"music_genres\": [], \"music_works\": [{\"value\": \"Puppet on a String\", \"quote\": \"Sandie Shaw - Puppet on a String 12\\\"LP\"}], \"music_albums\": [], \"music_artists\": [{\"value\": \"Sandie Shaw\", \"quote\": \"Sandie Shaw - Puppet on a String 12\\\"LP\"}], \"events\": [], \"countries\": [], \"places\": [], \"venues\": [], \"years\": [], \"colours\": [], \"materials\": [], \"item_title\": \"Puppet on a String 12\\\"LP\", \"specific_type\": \"LP\", \"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Puppet on a String",
+     "quote": "Sandie Shaw - Puppet on a String 12\"LP"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Sandie Shaw",
+     "quote": "Sandie Shaw - Puppet on a String 12\"LP"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Puppet on a String 12\"LP",
+   "specific_type": "LP",
+   "cardinality": 1
+  }
+ },
+ "41b34e194e3f53f775bf234aec0f86892990c268": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"Puppet on a String\",\n      \"quote\": \"Puppet on a String sheet music\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Sandie Shaw\",\n      \"quote\": \"Sandie Shaw - Puppet on a String sheet music\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Puppet on a String sheet music\",\n  \"specific_type\": \"Sheet Music\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Puppet on a String",
+     "quote": "Puppet on a String sheet music"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Sandie Shaw",
+     "quote": "Sandie Shaw - Puppet on a String sheet music"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Puppet on a String sheet music",
+   "specific_type": "Sheet Music",
+   "cardinality": 1
+  }
+ },
+ "48b09ea352249e5929abf0f3a6ca22eb3c60259b": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Rolling Stones\",\n      \"quote\": \"Official Rolling Stones Fan Club newsletter\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Rolling Stones Fan Club newsletter and photograph\",\n  \"specific_type\": \"Newsletter and Photograph\",\n  \"cardinality\": 2\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Rolling Stones",
+     "quote": "Official Rolling Stones Fan Club newsletter"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Rolling Stones Fan Club newsletter and photograph",
+   "specific_type": "Newsletter and Photograph",
+   "cardinality": 2
+  }
+ },
+ "c1c5e20994a137c2b99180f2463a97832959f118": {
+  "text": "{\"music_genres\": [],\"music_works\": [],\"music_albums\": [],\"music_artists\": [{\"value\": \"The Detours\",\"quote\": \"The Detours at the White Hart Hotel\"}],\"events\": [],\"countries\": [],\"places\": [{\"value\": \"Acton\",\"quote\": \"in Acton\"}],\"venues\": [{\"value\": \"White Hart Hotel\",\"quote\": \"the White Hart Hotel in Acton\"}],\"years\": [],\"colours\": [],\"materials\": [],\"item_title\": \"Flyer for The Detours\",\"specific_type\": \"Flyer\",\"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "The Detours",
+     "quote": "The Detours at the White Hart Hotel"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [
+    {
+     "value": "Acton",
+     "quote": "in Acton"
+    }
+   ],
+   "venues": [
+    {
+     "value": "White Hart Hotel",
+     "quote": "the White Hart Hotel in Acton"
+    }
+   ],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Flyer for The Detours",
+   "specific_type": "Flyer",
+   "cardinality": 1
+  }
+ },
+ "17f1b20c388a0861eb880abead1d076f9ed03a5a": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"The High Numbers\",\n      \"quote\": \"Flyer for The High Numbers at the Railway Hotel in Harrow\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [\n    {\n      \"value\": \"Harrow\",\n      \"quote\": \"at the Railway Hotel in Harrow\"\n    }\n  ],\n  \"venues\": [\n    {\n      \"value\": \"The Railway Hotel\",\n      \"quote\": \"at The Railway Hotel in Harrow\"\n    }\n  ],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"The High Numbers at the Railway Hotel Flyer\",\n  \"specific_type\": \"Flyer\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "The High Numbers",
+     "quote": "Flyer for The High Numbers at the Railway Hotel in Harrow"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [
+    {
+     "value": "Harrow",
+     "quote": "at the Railway Hotel in Harrow"
+    }
+   ],
+   "venues": [
+    {
+     "value": "The Railway Hotel",
+     "quote": "at The Railway Hotel in Harrow"
+    }
+   ],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "The High Numbers at the Railway Hotel Flyer",
+   "specific_type": "Flyer",
+   "cardinality": 1
+  }
+ },
+ "4d0e93a72f0d6983aeeff117605bd627ebbdc717": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"White Room\",\n      \"quote\": \"'White Room'\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Cream\",\n      \"quote\": \"Cream - Lyrics to 'White Room'\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Lyrics to 'White Room'\",\n  \"specific_type\": \"Lyrics\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "White Room",
+     "quote": "'White Room'"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Cream",
+     "quote": "Cream - Lyrics to 'White Room'"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Lyrics to 'White Room'",
+   "specific_type": "Lyrics",
+   "cardinality": 1
+  }
+ },
+ "4f85f354ed2b27e708a3218f57c060835863c9a5": {
+  "text": "{\"music_genres\": [], \"music_works\": [{\"value\": \"I Feel Free\", \"quote\": \"Lyrics to 'I Feel Free'\"}], \"music_albums\": [], \"music_artists\": [{\"value\": \"Cream\", \"quote\": \"Cream - Lyrics to 'I Feel Free'\"}], \"events\": [], \"countries\": [], \"places\": [], \"venues\": [], \"years\": [], \"colours\": [], \"materials\": [], \"item_title\": \"I Feel Free Lyrics\", \"specific_type\": \"Lyrics\", \"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "I Feel Free",
+     "quote": "Lyrics to 'I Feel Free'"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Cream",
+     "quote": "Cream - Lyrics to 'I Feel Free'"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "I Feel Free Lyrics",
+   "specific_type": "Lyrics",
+   "cardinality": 1
+  }
+ },
+ "32caddf184f6f953336bd3b61763353ceb803541": {
+  "text": "{\"music_genres\": [],\"music_works\": [],\"music_albums\": [{\"value\": \"Disraeli Gears\", \"quote\": \"Disraeli Gears 12\\\" LP\"}],\"music_artists\": [{\"value\": \"Cream\", \"quote\": \"Cream - Disraeli Gears 12\\\" LP\"}],\"events\": [],\"countries\": [],\"places\": [],\"venues\": [],\"years\": [],\"colours\": [],\"materials\": [],\"item_title\": \"Disraeli Gears LP\",\"specific_type\": \"LP\",\"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [
+    {
+     "value": "Disraeli Gears",
+     "quote": "Disraeli Gears 12\" LP"
+    }
+   ],
+   "music_artists": [
+    {
+     "value": "Cream",
+     "quote": "Cream - Disraeli Gears 12\" LP"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Disraeli Gears LP",
+   "specific_type": "LP",
+   "cardinality": 1
+  }
+ },
+ "db13356c274eea52b1dbf3c777bcd3f056e5bf41": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Hapshash and the Coloured Coat\",\n      \"quote\": \"Hapshash and the Coloured Coat - Pink Floyd at the UFO poster\"\n    },\n    {\n      \"value\": \"Pink Floyd\",\n      \"quote\": \"Pink Floyd at the UFO poster\"\n    }\n  ],\n  \"events\": [\n    {\n      \"value\": \"Pink Floyd at the UFO\",\n      \"quote\": \"Pink Floyd at the UFO poster\"\n    }\n  ],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [\n    {\n      \"value\": \"UFO\",\n      \"quote\": \"UFO poster\"\n    }\n  ],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Hapshash and the Coloured Coat - Pink Floyd at the UFO poster\",\n  \"specific_type\": \"Poster\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Hapshash and the Coloured Coat",
+     "quote": "Hapshash and the Coloured Coat - Pink Floyd at the UFO poster"
+    },
+    {
+     "value": "Pink Floyd",
+     "quote": "Pink Floyd at the UFO poster"
+    }
+   ],
+   "events": [
+    {
+     "value": "Pink Floyd at the UFO",
+     "quote": "Pink Floyd at the UFO poster"
+    }
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [
+    {
+     "value": "UFO",
+     "quote": "UFO poster"
+    }
+   ],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Hapshash and the Coloured Coat - Pink Floyd at the UFO poster",
+   "specific_type": "Poster",
+   "cardinality": 1
+  }
+ },
+ "15b1b8176aff582912b7375a40b48ee18b605088": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [\n    {\n      \"value\": \"Oxford Street\",\n      \"quote\": \"UFO club on Oxford Street\"\n    }\n  ],\n  \"venues\": [\n    {\n      \"value\": \"UFO club\",\n      \"quote\": \"Membership cards to the UFO club\"\n    }\n  ],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"UFO club membership cards\",\n  \"specific_type\": \"Membership cards\",\n  \"cardinality\": 2\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [],
+   "events": [],
+   "countries": [],
+   "places": [
+    {
+     "value": "Oxford Street",
+     "quote": "UFO club on Oxford Street"
+    }
+   ],
+   "venues": [
+    {
+     "value": "UFO club",
+     "quote": "Membership cards to the UFO club"
+    }
+   ],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "UFO club membership cards",
+   "specific_type": "Membership cards",
+   "cardinality": 2
+  }
+ },
+ "7f5c935401f060fa8cb8d5819c69fad43104b732": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [\n    {\n      \"value\": \"Covent Garden\",\n      \"quote\": \"Covent Garden, London\"\n    },\n    {\n      \"value\": \"London\",\n      \"quote\": \"Covent Garden, London\"\n    }\n  ],\n  \"venues\": [\n    {\n      \"value\": \"Middle Earth underground club\",\n      \"quote\": \"Middle Earth underground club in Covent Garden\"\n    }\n  ],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Original artwork for the Middle Earth underground club\",\n  \"specific_type\": \"Artwork\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [],
+   "events": [],
+   "countries": [],
+   "places": [
+    {
+     "value": "Covent Garden",
+     "quote": "Covent Garden, London"
+    },
+    {
+     "value": "London",
+     "quote": "Covent Garden, London"
+    }
+   ],
+   "venues": [
+    {
+     "value": "Middle Earth underground club",
+     "quote": "Middle Earth underground club in Covent Garden"
+    }
+   ],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Original artwork for the Middle Earth underground club",
+   "specific_type": "Artwork",
+   "cardinality": 1
+  }
+ },
+ "03edea3abafb2487163af792bf3e5a0db7360511": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [],\n  \"events\": [\n    {\n      \"value\": \"European tour\",\n      \"quote\": \"European tour poster\"\n    }\n  ],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    {\n      \"value\": \"1970\",\n      \"quote\": \"poster, 1970\"\n    }\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"European tour poster\",\n  \"specific_type\": \"Poster\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [],
+   "events": [
+    {
+     "value": "European tour",
+     "quote": "European tour poster"
+    }
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    {
+     "value": "1970",
+     "quote": "poster, 1970"
+    }
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "European tour poster",
+   "specific_type": "Poster",
+   "cardinality": 1
+  }
+ },
+ "202758d7b01d0e8ac575e4bd392ffefaacc37d32": {
+  "text": "{\"music_genres\": [], \"music_works\": [], \"music_albums\": [], \"music_artists\": [{\"value\": \"Bill Wyman\", \"quote\": \"Bill Wyman\"}], \"events\": [], \"countries\": [], \"places\": [], \"venues\": [], \"years\": [], \"colours\": [], \"materials\": [], \"item_title\": \"Bill Wyman's Bass Guitar\", \"specific_type\": \"Bass Guitar\", \"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Bill Wyman",
+     "quote": "Bill Wyman"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Bill Wyman's Bass Guitar",
+   "specific_type": "Bass Guitar",
+   "cardinality": 1
+  }
+ },
+ "a5fb7979845be48f48e147dd49189bb6c4eebed8": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Mick Jagger\",\n      \"quote\": \"worn by Mick Jagger\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Mick Jagger's Jumpsuit\",\n  \"specific_type\": \"Jumpsuit\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Mick Jagger",
+     "quote": "worn by Mick Jagger"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Mick Jagger's Jumpsuit",
+   "specific_type": "Jumpsuit",
+   "cardinality": 1
+  }
+ },
+ "fd2f153667310d054bc5ff8688186f77ea54227d": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"Ziggy Stardust\",\n      \"quote\": \"Ziggy Stardust comic\"\n    }\n  ],\n  \"music_albums\": [\n    {\n      \"value\": \"Ziggy Stardust\",\n      \"quote\": \"Ziggy Stardust comic\"\n    }\n  ],\n  \"music_artists\": [],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Ziggy Stardust comic\",\n  \"specific_type\": \"Comic\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "Ziggy Stardust",
+     "quote": "Ziggy Stardust comic"
+    }
+   ],
+   "music_albums": [
+    {
+     "value": "Ziggy Stardust",
+     "quote": "Ziggy Stardust comic"
+    }
+   ],
+   "music_artists": [],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Ziggy Stardust comic",
+   "specific_type": "Comic",
+   "cardinality": 1
+  }
+ },
+ "ef421e32670815eb2d93c418a504b7607f7cd16b": {
+  "text": "{\"music_genres\": [], \"music_works\": [], \"music_albums\": [{\"value\": \"Ziggy Stardust\", \"quote\": \"Ziggy Stardust Wool Multi-coloured Suit\"}], \"music_artists\": [], \"events\": [], \"countries\": [], \"places\": [], \"venues\": [], \"years\": [], \"colours\": [{\"value\": \"Multi-coloured\", \"quote\": \"Multi-coloured Suit\"}], \"materials\": [{\"value\": \"Wool\", \"quote\": \"Wool Multi-coloured Suit\"}, {\"value\": \"feather\", \"quote\": \"feather boa\"}], \"item_title\": \"Ziggy Stardust Suit with feather boa\", \"specific_type\": \"Suit\", \"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [
+    {
+     "value": "Ziggy Stardust",
+     "quote": "Ziggy Stardust Wool Multi-coloured Suit"
+    }
+   ],
+   "music_artists": [],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [
+    {
+     "value": "Multi-coloured",
+     "quote": "Multi-coloured Suit"
+    }
+   ],
+   "materials": [
+    {
+     "value": "Wool",
+     "quote": "Wool Multi-coloured Suit"
+    },
+    {
+     "value": "feather",
+     "quote": "feather boa"
+    }
+   ],
+   "item_title": "Ziggy Stardust Suit with feather boa",
+   "specific_type": "Suit",
+   "cardinality": 1
+  }
+ },
+ "8a57709090ee519936beb45d3d39717189863468": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [\n    {\n      \"value\": \"Ziggy Stardust\",\n      \"quote\": \"Ziggy Stardust Kimono with Carp Design\"\n    }\n  ],\n  \"music_artists\": [],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Ziggy Stardust Kimono with Carp Design\",\n  \"specific_type\": \"Kimono\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [
+    {
+     "value": "Ziggy Stardust",
+     "quote": "Ziggy Stardust Kimono with Carp Design"
+    }
+   ],
+   "music_artists": [],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Ziggy Stardust Kimono with Carp Design",
+   "specific_type": "Kimono",
+   "cardinality": 1
+  }
+ },
+ "5ebe5c121b9766686bdb132c34b61e452d0afffb": {
+  "text": "{\"music_genres\": [],\"music_works\": [],\"music_albums\": [],\"music_artists\": [{\"value\": \"Queen\", \"quote\": \"Queen - Roger Taylor drum head and drumsticks\"}, {\"value\": \"Roger Taylor\", \"quote\": \"Roger Taylor drum head and drumsticks\"}],\"events\": [],\"countries\": [],\"places\": [],\"venues\": [],\"years\": [],\"colours\": [],\"materials\": [],\"item_title\": \"Roger Taylor's drum head and drumsticks\",\"specific_type\": \"Drum head and drumsticks\",\"cardinality\": 2}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Queen",
+     "quote": "Queen - Roger Taylor drum head and drumsticks"
+    },
+    {
+     "value": "Roger Taylor",
+     "quote": "Roger Taylor drum head and drumsticks"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Roger Taylor's drum head and drumsticks",
+   "specific_type": "Drum head and drumsticks",
+   "cardinality": 2
+  }
+ },
+ "e29c4be118dae8d5078368b5a23a50b37b78c7e0": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    {\n      \"value\": \"I Want To Break Free\",\n      \"quote\": \"'I Want To Break Free'\"\n    }\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"John Deacon\",\n      \"quote\": \"written by John Deacon\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Lyrics to 'I Want To Break Free'\",\n  \"specific_type\": \"Lyrics\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    {
+     "value": "I Want To Break Free",
+     "quote": "'I Want To Break Free'"
+    }
+   ],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "John Deacon",
+     "quote": "written by John Deacon"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Lyrics to 'I Want To Break Free'",
+   "specific_type": "Lyrics",
+   "cardinality": 1
+  }
+ },
+ "66cbaa1e68495e1ba3596756773fb2d9c9dd55ad": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\n    {\n      \"value\": \"Freddie Mercury\",\n      \"quote\": \"Freddie Mercury trousers and jacket\"\n    }\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Freddie Mercury trousers and jacket\",\n  \"specific_type\": \"Outfit\",\n  \"cardinality\": 2\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    {
+     "value": "Freddie Mercury",
+     "quote": "Freddie Mercury trousers and jacket"
+    }
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Freddie Mercury trousers and jacket",
+   "specific_type": "Outfit",
+   "cardinality": 2
+  }
+ },
+ "649cf7c471d4b6869bf94ecf5a0b96816a2c2e22": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [\n    {\n      \"value\": \"metal\",\n      \"quote\": \"Sixpence\"\n    }\n  ],\n  \"item_title\": \"Sixpence plectrum\",\n  \"specific_type\": \"Plectrum\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [
+    {
+     "value": "metal",
+     "quote": "Sixpence"
+    }
+   ],
+   "item_title": "Sixpence plectrum",
+   "specific_type": "Plectrum",
+   "cardinality": 1
+  }
+ }
+}

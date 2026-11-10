@@ -1,0 +1,14 @@
+Output format: tool_call
+
+
+{% if schema_block.schema_style != "none" %}
+{% if evaluation.type == "case_by_case" %}
+Output MUST be a series of distinct `record_item_data(...)` function calls — one per item.
+Each call should contain ALL required fields as per schema. Use default values when data is missing.
+{% else %}
+Output must be a function call to `record_item_data` with all fields present.
+{% endif %}
+{% endif %}
+
+
+

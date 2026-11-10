@@ -1,0 +1,489 @@
+{
+  "reference_system": "M3",
+  "gold": {
+    "sheet_sha256": "80a810e4e2876f4244fa2c2e215b8455a2080016ee1c04845f625aef4719a7d7",
+    "aliases_sha256": "483416b9f68696da90f76a47d420992e1da0d4914119657b680eb731bd30708c",
+    "gold_values": 209,
+    "supported": 173,
+    "inference_only": 36
+  },
+  "resamples": 10000,
+  "systems": {
+    "M0a": {
+      "evidence_scope": "E2",
+      "assertion_policy": "n/a",
+      "runs": 1,
+      "precision": 0.3142857142857143,
+      "recall": 0.5789473684210527,
+      "f1": 0.40740740740740744,
+      "precision_sd": null,
+      "f1_sd": null,
+      "ci": {
+        "precision": [
+          0.23958044623059868,
+          0.4155480666309873
+        ],
+        "recall": [
+          0.49145299145299143,
+          0.6666666666666666
+        ],
+        "f1": [
+          0.3305473791601988,
+          0.4934098949258145
+        ]
+      },
+      "recall_supported": 0.6705202312138728,
+      "inference_yield": 0.1388888888888889,
+      "hallucination_share": 0.0,
+      "misattribution_share": 0.08333333333333333,
+      "cells_differing_across_runs": 0,
+      "mcnemar_vs_reference": {
+        "cells": 682,
+        "system_only": 68,
+        "reference_only": 66,
+        "discordant": 134,
+        "p_value": 0.9312017456335958
+      },
+      "years_discarded": 0.0,
+      "failures": 0,
+      "adjudicated_precision": {
+        "lower": 0.3142857142857143,
+        "point": 0.3142857142857143,
+        "upper": 0.3142857142857143,
+        "hallucinations_judged_correct": 0.0,
+        "hallucinations_unverifiable": 0.0
+      }
+    },
+    "M0b": {
+      "evidence_scope": "E2",
+      "assertion_policy": "n/a",
+      "runs": 1,
+      "precision": 0.38047138047138046,
+      "recall": 0.5406698564593302,
+      "f1": 0.4466403162055336,
+      "precision_sd": null,
+      "f1_sd": null,
+      "ci": {
+        "precision": [
+          0.27976190476190477,
+          0.511202640642939
+        ],
+        "recall": [
+          0.454166211790393,
+          0.638095238095238
+        ],
+        "f1": [
+          0.3531421537816886,
+          0.5521479061082956
+        ]
+      },
+      "recall_supported": 0.6184971098265896,
+      "inference_yield": 0.16666666666666666,
+      "hallucination_share": 0.0,
+      "misattribution_share": 0.07065217391304347,
+      "cells_differing_across_runs": 0,
+      "mcnemar_vs_reference": {
+        "cells": 682,
+        "system_only": 53,
+        "reference_only": 66,
+        "discordant": 119,
+        "p_value": 0.27124833775940516
+      },
+      "years_discarded": 0.0,
+      "failures": 0,
+      "adjudicated_precision": {
+        "lower": 0.38047138047138046,
+        "point": 0.38047138047138046,
+        "upper": 0.38047138047138046,
+        "hallucinations_judged_correct": 0.0,
+        "hallucinations_unverifiable": 0.0
+      }
+    },
+    "M1": {
+      "evidence_scope": "E1",
+      "assertion_policy": "free",
+      "runs": 3,
+      "precision": 0.6672937259864783,
+      "recall": 0.543859649122807,
+      "f1": 0.5992686778027093,
+      "precision_sd": 0.004069514332564413,
+      "f1_sd": 0.007465619309733876,
+      "ci": {
+        "precision": [
+          0.5735271139705882,
+          0.7627533672781538
+        ],
+        "recall": [
+          0.4848484848484848,
+          0.6179348183192063
+        ],
+        "f1": [
+          0.5459226372952615,
+          0.6574857730319263
+        ]
+      },
+      "recall_supported": 0.6204238921001927,
+      "inference_yield": 0.17592592592592593,
+      "hallucination_share": 0.3588235294117647,
+      "misattribution_share": 0.07058823529411765,
+      "cells_differing_across_runs": 24,
+      "mcnemar_vs_reference": {
+        "cells": 682,
+        "system_only": 103,
+        "reference_only": 44,
+        "discordant": 147,
+        "p_value": 1.255080378394861e-06
+      },
+      "years_discarded": 0.0,
+      "failures": 0,
+      "adjudicated_precision": {
+        "lower": 0.735780004788453,
+        "point": 0.7783706338619633,
+        "upper": 0.7826612397532807,
+        "hallucinations_judged_correct": 11.666666666666666,
+        "hallucinations_unverifiable": 8.0
+      }
+    },
+    "M2": {
+      "evidence_scope": "E1",
+      "assertion_policy": "quote",
+      "runs": 3,
+      "precision": 0.7140151515151515,
+      "recall": 0.441786283891547,
+      "f1": 0.5458142253394479,
+      "precision_sd": 0.00820099814189807,
+      "f1_sd": 0.000311491917555784,
+      "ci": {
+        "precision": [
+          0.5970855673090856,
+          0.8248762690355329
+        ],
+        "recall": [
+          0.3675204918032787,
+          0.5282092198581559
+        ],
+        "f1": [
+          0.4656993626291227,
+          0.6246194902381583
+        ]
+      },
+      "recall_supported": 0.5221579961464354,
+      "inference_yield": 0.05555555555555555,
+      "hallucination_share": 0.0,
+      "misattribution_share": 0.02702702702702703,
+      "cells_differing_across_runs": 7,
+      "mcnemar_vs_reference": {
+        "cells": 682,
+        "system_only": 100,
+        "reference_only": 46,
+        "discordant": 146,
+        "p_value": 9.236846495694582e-06
+      },
+      "years_discarded": 0.0,
+      "failures": 0,
+      "adjudicated_precision": {
+        "lower": 0.7140151515151515,
+        "point": 0.7140151515151515,
+        "upper": 0.7140151515151515,
+        "hallucinations_judged_correct": 0.0,
+        "hallucinations_unverifiable": 0.0
+      }
+    },
+    "M3": {
+      "evidence_scope": "E2",
+      "assertion_policy": "free",
+      "runs": 3,
+      "precision": 0.41365564934172266,
+      "recall": 0.7830940988835726,
+      "f1": 0.5413427132186903,
+      "precision_sd": 0.002366280237635006,
+      "f1_sd": 0.002793871538990559,
+      "ci": {
+        "precision": [
+          0.3267809412476974,
+          0.5324978979584973
+        ],
+        "recall": [
+          0.7134489260534513,
+          0.8574330361091944
+        ],
+        "f1": [
+          0.4609282673203457,
+          0.6371060686079167
+        ]
+      },
+      "recall_supported": 0.9036608863198459,
+      "inference_yield": 0.2037037037037037,
+      "hallucination_share": 0.02442528735632184,
+      "misattribution_share": 0.13793103448275862,
+      "cells_differing_across_runs": 10,
+      "mcnemar_vs_reference": null,
+      "years_discarded": 3.0,
+      "failures": 0,
+      "adjudicated_precision": {
+        "lower": 0.41365564934172266,
+        "point": 0.41954265568476745,
+        "upper": 0.42290919522668063,
+        "hallucinations_judged_correct": 0.0,
+        "hallucinations_unverifiable": 3.6666666666666665
+      }
+    },
+    "M3-zeroshot": {
+      "evidence_scope": "E2",
+      "assertion_policy": "free",
+      "runs": 3,
+      "precision": 0.371057070922927,
+      "recall": 0.784688995215311,
+      "f1": 0.5038474303173589,
+      "precision_sd": 0.0029084764505952934,
+      "f1_sd": 0.002772976382972558,
+      "ci": {
+        "precision": [
+          0.2941933860540741,
+          0.46935333520257544
+        ],
+        "recall": [
+          0.7189527423872774,
+          0.8538834529245488
+        ],
+        "f1": [
+          0.42674096232987335,
+          0.5912877481963864
+        ]
+      },
+      "recall_supported": 0.8998073217726397,
+      "inference_yield": 0.2314814814814815,
+      "hallucination_share": 0.12949640287769784,
+      "misattribution_share": 0.11510791366906475,
+      "cells_differing_across_runs": 36,
+      "mcnemar_vs_reference": {
+        "cells": 682,
+        "system_only": 16,
+        "reference_only": 54,
+        "discordant": 70,
+        "p_value": 5.85395552938811e-06
+      },
+      "years_discarded": 3.0,
+      "failures": 0,
+      "adjudicated_precision": {
+        "lower": 0.4140415257139242,
+        "point": 0.42726100954411467,
+        "upper": 0.43136926702581846,
+        "hallucinations_judged_correct": 19.0,
+        "hallucinations_unverifiable": 7.666666666666667
+      }
+    },
+    "M4": {
+      "evidence_scope": "E2",
+      "assertion_policy": "quote",
+      "runs": 3,
+      "precision": 0.40435334465436473,
+      "recall": 0.7719298245614036,
+      "f1": 0.5307001440170711,
+      "precision_sd": 0.004361892839050379,
+      "f1_sd": 0.005477465710677588,
+      "ci": {
+        "precision": [
+          0.32242251486301093,
+          0.5127168230976551
+        ],
+        "recall": [
+          0.7092543859649123,
+          0.8416227284576638
+        ],
+        "f1": [
+          0.4551417602000471,
+          0.6184541068246107
+        ]
+      },
+      "recall_supported": 0.9017341040462428,
+      "inference_yield": 0.14814814814814814,
+      "hallucination_share": 0.0,
+      "misattribution_share": 0.14025245441795234,
+      "cells_differing_across_runs": 15,
+      "mcnemar_vs_reference": {
+        "cells": 682,
+        "system_only": 11,
+        "reference_only": 18,
+        "discordant": 29,
+        "p_value": 0.26493089646101
+      },
+      "years_discarded": 8.666666666666666,
+      "failures": 0,
+      "adjudicated_precision": {
+        "lower": 0.40435334465436473,
+        "point": 0.40435334465436473,
+        "upper": 0.40435334465436473,
+        "hallucinations_judged_correct": 0.0,
+        "hallucinations_unverifiable": 0.0
+      }
+    },
+    "M5": {
+      "evidence_scope": "E3",
+      "assertion_policy": "free",
+      "runs": 3,
+      "precision": 0.5063632961646111,
+      "recall": 0.7655502392344498,
+      "f1": 0.6095242702789873,
+      "precision_sd": 0.004224940443930553,
+      "f1_sd": 0.0032995434934415544,
+      "ci": {
+        "precision": [
+          0.41226057747284167,
+          0.6111850629306801
+        ],
+        "recall": [
+          0.6982618275546687,
+          0.8395076150917272
+        ],
+        "f1": [
+          0.5365154734847137,
+          0.6854408005815589
+        ]
+      },
+      "recall_supported": 0.8689788053949904,
+      "inference_yield": 0.2685185185185185,
+      "hallucination_share": 0.0641025641025641,
+      "misattribution_share": 0.05982905982905983,
+      "cells_differing_across_runs": 23,
+      "mcnemar_vs_reference": {
+        "cells": 682,
+        "system_only": 48,
+        "reference_only": 19,
+        "discordant": 67,
+        "p_value": 0.000521612756811516
+      },
+      "years_discarded": 1.0,
+      "failures": 0,
+      "adjudicated_precision": {
+        "lower": 0.5169303633689458,
+        "point": 0.5265449795104501,
+        "upper": 0.5326895385691269,
+        "hallucinations_judged_correct": 3.3333333333333335,
+        "hallucinations_unverifiable": 5.0
+      }
+    },
+    "M6": {
+      "evidence_scope": "E3",
+      "assertion_policy": "quote",
+      "runs": 3,
+      "precision": 0.4811305732484077,
+      "recall": 0.7320574162679425,
+      "f1": 0.580633035381885,
+      "precision_sd": 0.00020685320154087305,
+      "f1_sd": 0.0027671043418456592,
+      "ci": {
+        "precision": [
+          0.38427829821160014,
+          0.5948520388367037
+        ],
+        "recall": [
+          0.6699021346776202,
+          0.802886164825046
+        ],
+        "f1": [
+          0.5027450776776994,
+          0.6639501375569268
+        ]
+      },
+      "recall_supported": 0.8497109826589595,
+      "inference_yield": 0.16666666666666666,
+      "hallucination_share": 0.0,
+      "misattribution_share": 0.048484848484848485,
+      "cells_differing_across_runs": 23,
+      "mcnemar_vs_reference": {
+        "cells": 682,
+        "system_only": 40,
+        "reference_only": 18,
+        "discordant": 58,
+        "p_value": 0.005354859650800294
+      },
+      "years_discarded": 4.666666666666667,
+      "failures": 0,
+      "adjudicated_precision": {
+        "lower": 0.4811305732484077,
+        "point": 0.4811305732484077,
+        "upper": 0.4811305732484077,
+        "hallucinations_judged_correct": 0.0,
+        "hallucinations_unverifiable": 0.0
+      }
+    }
+  },
+  "fp_diagnosis": {
+    "hallucination_share_threshold": 0.15,
+    "max_hallucination_share": 0.3588235294117647,
+    "max_system": "M1",
+    "adjudication_required": true
+  },
+  "adjudication": {
+    "pool_size": 91,
+    "judged": 91,
+    "whole_pool": true,
+    "seed": 20260814,
+    "by_field": {
+      "materials": {
+        "judged": 23,
+        "correct": 20,
+        "incorrect": 3,
+        "unverifiable": 0,
+        "rate_correct": "0.870"
+      },
+      "music_genres": {
+        "judged": 23,
+        "correct": 8,
+        "incorrect": 0,
+        "unverifiable": 15,
+        "rate_correct": "1.000"
+      },
+      "countries": {
+        "judged": 20,
+        "correct": 9,
+        "incorrect": 3,
+        "unverifiable": 8,
+        "rate_correct": "0.750"
+      },
+      "events": {
+        "judged": 13,
+        "correct": 2,
+        "incorrect": 11,
+        "unverifiable": 0,
+        "rate_correct": "0.154"
+      },
+      "years": {
+        "judged": 7,
+        "correct": 1,
+        "incorrect": 2,
+        "unverifiable": 4,
+        "rate_correct": "0.333"
+      },
+      "places": {
+        "judged": 2,
+        "correct": 0,
+        "incorrect": 0,
+        "unverifiable": 2,
+        "rate_correct": "\u2014"
+      },
+      "music_albums": {
+        "judged": 2,
+        "correct": 0,
+        "incorrect": 0,
+        "unverifiable": 2,
+        "rate_correct": "\u2014"
+      },
+      "colours": {
+        "judged": 1,
+        "correct": 1,
+        "incorrect": 0,
+        "unverifiable": 0,
+        "rate_correct": "1.000"
+      },
+      "ALL": {
+        "judged": 91,
+        "correct": 41,
+        "incorrect": 19,
+        "unverifiable": 31,
+        "rate_correct": "0.683"
+      }
+    }
+  }
+}

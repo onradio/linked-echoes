@@ -1,0 +1,13 @@
+@prefix scho: <http://schema.org/> .
+@prefix bme: <http://radio.liv.ac.uk/bme/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://radio.liv.ac.uk/bme/GraphicArt/RollingStonesPoster> a scho:VisualArtwork ;
+    scho:name "Concert Poster" ;
+    scho:about <http://www.wikidata.org/entity/Q11036>
+    scho:caption "Vintage concert poster." ;
+    scho:description "A poster advertising a Rolling Stones concert." ;
+    scho:image "https://example.com/images/stones_poster.jpg" ;
+    scho:color <http://www.wikidata.org/entity/Q943> ;
+    bme:caseNumber 4 ;
+    bme:year "1975"^^xsd:gYear ;

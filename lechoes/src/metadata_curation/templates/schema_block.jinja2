@@ -1,0 +1,87 @@
+{% if schema_block.schema_style == 'python' %}
+The `record_item_data` tool expects the following Python-style schema:
+
+{% if evaluation.type == 'case_by_case' %}
+
+[START_SCHEMA]
+record_items_data(
+    items: List[
+        record_item_data(
+            base_type: str,
+            specific_type: str,
+            music_genres: List[str],
+            music_works: List[str],
+            music_albums: List[str],
+            music_artists: List[str],
+            events: List[str],
+            countries: List[str],
+            cities: List[str],
+            venues: List[str],
+            years: List[str],
+            colours: List[str],
+            cardinality: int,
+            materials: List[str],
+            item_title: str,
+            item_description: str
+        )
+    ]
+)
+[END_SCHEMA]
+
+{% elif evaluation.type == 'row_by_row' %}
+
+[START_SCHEMA]
+record_item_data(
+    base_type: str,
+    specific_type: str,
+    music_genres: List[str],
+    music_works: List[str],
+    music_albums: List[str],
+    music_artists: List[str],
+    events: List[str],
+    countries: List[str],
+    cities: List[str],
+    venues: List[str],
+    years: List[str],
+    colours: List[str],
+    cardinality: int,
+    materials: List[str],
+    item_title: str,
+    item_description: str
+)
+[END_SCHEMA]
+
+{% endif %}
+
+
+
+
+{% elif schema_block.schema_style == 'json' %}
+The `record_item_data` tool expects the following JSON-style schema:
+
+[START_SCHEMA]
+{
+  "item_title": "string",
+  "item_description": "string",
+  "caption": "string",
+  "base_type": "string",
+  "specific_type": "string",
+  "item_model": "string",
+  "model_type": "string",
+  "publisher": "string",
+  "music_artists": ["string"],
+  "music_genres": ["string"],
+  "music_works": ["string"],
+  "music_albums": ["string"],
+  "events": ["string"],
+  "countries": ["string"],
+  "localities": ["string"],
+  "venues": ["string"],
+  "years": [2023],
+  "colours": ["string"],
+  "materials": ["string"],
+  "cardinality": 0
+}
+[END_SCHEMA]
+
+{% endif %}

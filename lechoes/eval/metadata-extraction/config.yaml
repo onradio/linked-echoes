@@ -1,0 +1,171 @@
+# Configuration for the metadata-extraction evaluation (spec §7).
+# Every stage reads its parameters from here; nothing is hard-coded in a runner.
+#
+# This pack is self-contained: it imports nothing from eval/classification or
+# eval/entity-linking. Where it needs the same capability it carries its own copy,
+# so a change made for one evaluation cannot alter another's published numbers.
+# The only shared import is src/llm.py, which is pipeline code rather than another
+# evaluation's artefact.
+
+objects:
+  sheet: data/gold_objects.csv
+  n_expected: 62
+  # The sheet is NOT sorted by case, and case numbers are NOT contiguous
+  # ({1..17, 19, 20, 21, 23} — 18 and 22 are absent). gold.py --verify asserts both,
+  # as a regression guard against the alignment defects of spec §6.12 and §6.13.
+  assume_sorted_by_case: false
+  assume_contiguous_cases: false
+  # The three objects held out as in-context examples, excluded from scoring (§0.8).
+  # Matched against item_description after normalisation, never by exact string: the
+  # sheet uses curly quotes where other copies of the sample use straight ones, and an
+  # exact join silently loses 15 of 62 rows.
+  held_out_examples:
+    - "German promotional leaflet for Ken Colyer's Jazzmen issued by The National Jazz Federation"
+    - "Sandie Shaw - Puppet on a String Dress"
+    - "Queen - 'Red Special' guitar played by Brian May and coil cable"
+
+fields:
+  scored: [music_genres, music_works, music_albums, music_artists, events,
+           countries, places, venues, years, colours, materials]
+  extracted_unscored: [item_title, specific_type, cardinality]
+  # base_type is the category task (§4.3 of the paper) and is not requested.
+  # publisher, item_model and model_type are in the sheet but are not metamodel
+  # fields (3, 3 and 0 populated values) and are out of scope.
+  indicative_below: 10          # per-field support threshold for the indicative flag
+
+support_classes:
+  # An ANALYSIS layer only (§2.2). It never changes a hit or a miss; it feeds
+  # recall_supported, inference_yield and the ceilings.
+  supported_scope: description_plus_case_captions
+  infer_tags_are_advisory: true   # gold.py --verify prints the disagreements
+
+# The scope at which a sibling's value counts as a distractor (§2.4). Confirmed as
+# description + ALL captions of the display case — the same scope as the support
+# class above, and NOT the object's own caption alone: measured on the corrected
+# sheet, own-caption-only yields 35 distractors over 22 objects where the case-wide
+# scope yields 139 over 49. The wider scope is the one the section's argument rests
+# on, so it is named here rather than left to a reading of the prose.
+distractor_scope: description_plus_case_captions
+
+evidence_scopes:
+  E1: {description: true, own_caption: false, siblings: false}
+  E2: {description: true, own_caption: true,  siblings: false}
+  E3: {description: true, own_caption: true,  siblings: true, attribution_block: true}
+
+systems:
+  - {id: M0a, kind: spacy,  scope: E2, model: en_core_web_trf}
+  - {id: M0b, kind: gliner, scope: E2, model: urchade/gliner_medium-v2.1, threshold: 0.5}
+  - {id: M1,  kind: llm, scope: E1, policy: free}
+  - {id: M2,  kind: llm, scope: E1, policy: quote}
+  - {id: M3,  kind: llm, scope: E2, policy: free}     # reference cell
+  - {id: M4,  kind: llm, scope: E2, policy: quote}
+  - {id: M5,  kind: llm, scope: E3, policy: free}
+  - {id: M6,  kind: llm, scope: E3, policy: quote}
+reference_system: M3
+ablation: {id: M3-zeroshot, of: M3, change: {prompt_mode: zero-shot}}   # prose only (§3.8)
+
+spacy_label_map:
+  PERSON: music_artists
+  ORG: music_artists
+  WORK_OF_ART: music_works
+  GPE: places            # promoted to countries when the form is a known country alias
+  LOC: venues
+  FAC: venues
+  DATE: years
+  EVENT: events
+
+# The labels are what GLiNER is asked for at inference time; the map is how its answers
+# become fields. Both are explicit: deriving the field from the label by pluralising the
+# string gets `country` -> `countrys` and silently drops the field, so nothing here is
+# inferred from spelling.
+gliner_labels: ["music genre", "music work", "music album", "music artist", "event",
+                "country", "place", "venue", "year", "colour", "material"]
+gliner_label_map:
+  music genre: music_genres
+  music work: music_works
+  music album: music_albums
+  music artist: music_artists
+  event: events
+  country: countries
+  place: places
+  venue: venues
+  year: years
+  colour: colours
+  material: materials
+
+llm:
+  temperature: 0.0
+  prompt_mode: few-shot          # fixed, see §3.6
+  # Dated ids are pinned rather than `-latest` aliases, which drift and would make
+  # the reported numbers unreproducible. models[0] is the reference model.
+  models:
+    - id: google:gemini-2.5-flash
+      label: Gemini 2.5 Flash
+runs: 3
+llm_cache: {enabled: true, key: [model, prompt, run_index]}
+
+fewshot:
+  # The three held-out objects, with the gold values the annotators committed to in
+  # src/metadata_curation/config/default_config.yaml, copied into this pack so no
+  # stage reads another evaluation's sheet. base_type and publisher are dropped (§3.5).
+  sheet: data/fewshot_objects.csv
+  # Under the `quote` policy a value with no literal quote in the example text is
+  # omitted from the example, because that is precisely what the policy instructs the
+  # model to do. Demonstrating the rule beats asserting it.
+  drop_unquotable_in_quote_policy: true
+
+matching:
+  normalise: {nfkd: true, lowercase: true, strip_marks: true, strip_apostrophes: true,
+              strip_infer_tags: true}
+  strip_articles_in: [music_artists, music_works, music_albums, venues, places, events]
+  aliases: data/aliases.csv
+  policy:
+    years:          {exact: true, alias: false, fuzzy: null, require: "^\\d{4}$"}
+    music_genres:   {exact: true, alias: true,  fuzzy: null}
+    countries:      {exact: true, alias: true,  fuzzy: null}
+    colours:        {exact: true, alias: true,  fuzzy: null}
+    materials:      {exact: true, alias: true,  fuzzy: null}
+    music_artists:  {exact: true, alias: true,  fuzzy: {scorer: token_sort_ratio, threshold: 85}}
+    music_works:    {exact: true, alias: true,  fuzzy: {scorer: token_sort_ratio, threshold: 85}}
+    music_albums:   {exact: true, alias: true,  fuzzy: {scorer: token_sort_ratio, threshold: 85}}
+    venues:         {exact: true, alias: true,  fuzzy: {scorer: token_sort_ratio, threshold: 85}}
+    places:         {exact: true, alias: true,  fuzzy: {scorer: token_sort_ratio, threshold: 85}}
+    events:         {exact: true, alias: true,  fuzzy: {scorer: token_sort_ratio, threshold: 85}}
+  assignment: optimal            # scipy.optimize.linear_sum_assignment, threshold after (§4.1)
+
+scoring:
+  # Standard micro P/R/F1 over the gold as annotated. No exclusions (§0.4).
+  # The denominator is whatever gold.py --verify reports for the current sheet; it is
+  # not hard-coded here, because a re-annotation must not require a config edit to
+  # stay correct. It was 212 values / 173 supported / 39 inference-only when the
+  # corrected sheet was frozen.
+  recall_denominator: all_gold_values
+  also_report:
+    - recall_supported                         # over the supported values (§4.4.2)
+    - inference_yield                          # over the inference-only values (§4.4.3)
+    - assertion_profile                        # §4.4.4
+  join_key: object_id                          # never list position (§6.4, §6.12)
+
+fp_diagnosis:
+  # §4.5. The decomposition always runs. Adjudication runs only if the ambiguous
+  # class is large enough to matter. The threshold is fixed before the systems run.
+  hallucination_share_threshold: 0.15
+
+adjudication:
+  # Applied ONLY if fp_diagnosis fires, and ONLY to the hallucination pool.
+  enabled_if: hallucination_share_exceeds_threshold
+  pool: hallucination_only
+  sample_size: 200
+  stratify_by: field
+  min_per_field: 5
+  seed: 20260814
+  verdicts: [correct, incorrect, unverifiable]
+  exclude_from_rate: [unverifiable]
+  bootstrap: {resamples: 10000, within: field}
+
+bootstrap: {resamples: 10000, cluster_by: case}
+
+paths:
+  predictions: data/predictions
+  results: data/results
+  llm_cache: data/llm_cache

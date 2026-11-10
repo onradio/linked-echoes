@@ -1,0 +1,1932 @@
+{
+ "25890f7d549a1546541baaa07430f120b36251ca": {
+  "text": "{\"music_genres\":[\"glam rock\"],\"music_works\":[\"Can The Can\"],\"music_albums\":[],\"music_artists\":[\"Suzi Quatro\",\"Elvis\"],\"events\":[\"Top of the Pops\",\"Elvis\u2019 68 Comeback Special\"],\"countries\":[\"UK\",\"USA\"],\"places\":[\"Detroit\"],\"venues\":[],\"years\":[\"1971\",\"1973\",\"1968\"],\"colours\":[\"Black\"],\"materials\":[\"leather\"],\"item_title\":\"Suzi Quatro Black leather jumpsuit\",\"specific_type\":\"jumpsuit\",\"cardinality\":1}",
+  "parsed": {
+   "music_genres": [
+    "glam rock"
+   ],
+   "music_works": [
+    "Can The Can"
+   ],
+   "music_albums": [],
+   "music_artists": [
+    "Suzi Quatro",
+    "Elvis"
+   ],
+   "events": [
+    "Top of the Pops",
+    "Elvis\u2019 68 Comeback Special"
+   ],
+   "countries": [
+    "UK",
+    "USA"
+   ],
+   "places": [
+    "Detroit"
+   ],
+   "venues": [],
+   "years": [
+    "1971",
+    "1973",
+    "1968"
+   ],
+   "colours": [
+    "Black"
+   ],
+   "materials": [
+    "leather"
+   ],
+   "item_title": "Suzi Quatro Black leather jumpsuit",
+   "specific_type": "jumpsuit",
+   "cardinality": 1
+  }
+ },
+ "a80dabbe783260b45df003ff54ebb9c2d68b6107": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\"Suzi Quatro\"],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [\"Torquay\"],\n  \"venues\": [\"Torquay Town Hall\"],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Concert poster advertising Suzi Quatro at Torquay Town Hall\",\n  \"specific_type\": \"Concert poster\",\n  \"cardinality\": 2\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    "Suzi Quatro"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [
+    "Torquay"
+   ],
+   "venues": [
+    "Torquay Town Hall"
+   ],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Concert poster advertising Suzi Quatro at Torquay Town Hall",
+   "specific_type": "Concert poster",
+   "cardinality": 2
+  }
+ },
+ "999424f20084a193f5358021a272a99630f3cc69": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\"Can The Can\"],\n  \"music_albums\": [],\n  \"music_artists\": [\"Suzi Quatro\"],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\"1973\"],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Can The Can\",\n  \"specific_type\": \"sheet music\",\n  \"cardinality\": 3\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    "Can The Can"
+   ],
+   "music_albums": [],
+   "music_artists": [
+    "Suzi Quatro"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1973"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Can The Can",
+   "specific_type": "sheet music",
+   "cardinality": 3
+  }
+ },
+ "00bcd936e0247e4badfe865087bd26031b36dc3e": {
+  "text": "{\"music_genres\":[],\"music_works\":[\"Anarchy in the UK\"],\"music_albums\":[],\"music_artists\":[\"Sex Pistols\"],\"events\":[\"Anarchy in the UK tour\"],\"countries\":[],\"places\":[],\"venues\":[],\"years\":[\"1976\"],\"colours\":[],\"materials\":[],\"item_title\":\"Anarchy in the UK tour poster\",\"specific_type\":\"poster\",\"cardinality\":1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    "Anarchy in the UK"
+   ],
+   "music_albums": [],
+   "music_artists": [
+    "Sex Pistols"
+   ],
+   "events": [
+    "Anarchy in the UK tour"
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1976"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Anarchy in the UK tour poster",
+   "specific_type": "poster",
+   "cardinality": 1
+  }
+ },
+ "69a9efb2f7113aa9fd8aad986f0110a602da2522": {
+  "text": "{\"music_genres\": [\"Punk Rock\"], \"music_works\": [], \"music_albums\": [], \"music_artists\": [\"Sex Pistols\"], \"events\": [], \"countries\": [], \"places\": [], \"venues\": [], \"years\": [], \"colours\": [], \"materials\": [\"Paper\"], \"item_title\": \"Sex Pistols flyer\", \"specific_type\": \"flyer\", \"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [
+    "Punk Rock"
+   ],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    "Sex Pistols"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [
+    "Paper"
+   ],
+   "item_title": "Sex Pistols flyer",
+   "specific_type": "flyer",
+   "cardinality": 1
+  }
+ },
+ "08c6ea6debf1e4a05708bd0cebf915134518cb36": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\"Pretty Vacant\", \"Anarchy In The UK\"],\n  \"music_albums\": [\"Never Mind The Bollocks Here\u2019s The Sex Pistols\"],\n  \"music_artists\": [\"Glen Matlock\", \"Sex Pistols\", \"Johnny Rotten\"],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\"1977\"],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Bass guitar played by Glen Matlock\",\n  \"specific_type\": \"Bass guitar\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    "Pretty Vacant",
+    "Anarchy In The UK"
+   ],
+   "music_albums": [
+    "Never Mind The Bollocks Here\u2019s The Sex Pistols"
+   ],
+   "music_artists": [
+    "Glen Matlock",
+    "Sex Pistols",
+    "Johnny Rotten"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1977"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Bass guitar played by Glen Matlock",
+   "specific_type": "Bass guitar",
+   "cardinality": 1
+  }
+ },
+ "fba51c02994e4b9ea2c1726c5b4679469cdac945": {
+  "text": "{\n  \"music_genres\": [\"ska revival\"],\n  \"music_works\": [\"Why?\"],\n  \"music_albums\": [\"Specials debut LP\"],\n  \"music_artists\": [\"The Specials\", \"Lynval Golding\", \"The Clash\"],\n  \"events\": [\"1978 tour with The Clash\"],\n  \"countries\": [\"UK\"],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\"1979\", \"1981\", \"1978\"],\n  \"colours\": [\"Blue\"],\n  \"materials\": [],\n  \"item_title\": \"Lynval Golding blue suit\",\n  \"specific_type\": \"suit\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    "ska revival"
+   ],
+   "music_works": [
+    "Why?"
+   ],
+   "music_albums": [
+    "Specials debut LP"
+   ],
+   "music_artists": [
+    "The Specials",
+    "Lynval Golding",
+    "The Clash"
+   ],
+   "events": [
+    "1978 tour with The Clash"
+   ],
+   "countries": [
+    "UK"
+   ],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1979",
+    "1981",
+    "1978"
+   ],
+   "colours": [
+    "Blue"
+   ],
+   "materials": [],
+   "item_title": "Lynval Golding blue suit",
+   "specific_type": "suit",
+   "cardinality": 1
+  }
+ },
+ "6a1ba340ffbda9ccabf5815b9078880df7919191": {
+  "text": "{\n  \"music_genres\": [\"Ska\"],\n  \"music_works\": [\"Why?\"],\n  \"music_albums\": [\"Specials debut LP\"],\n  \"music_artists\": [\"Lynval Golding\", \"The Specials\", \"The Clash\"],\n  \"events\": [\"1978 tour with The Clash\"],\n  \"countries\": [\"UK\"],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\"1979\", \"1981\", \"1978\"],\n  \"colours\": [\"Blue\"],\n  \"materials\": [],\n  \"item_title\": \"Lynval Golding Trilby hat\",\n  \"specific_type\": \"Trilby hat\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    "Ska"
+   ],
+   "music_works": [
+    "Why?"
+   ],
+   "music_albums": [
+    "Specials debut LP"
+   ],
+   "music_artists": [
+    "Lynval Golding",
+    "The Specials",
+    "The Clash"
+   ],
+   "events": [
+    "1978 tour with The Clash"
+   ],
+   "countries": [
+    "UK"
+   ],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1979",
+    "1981",
+    "1978"
+   ],
+   "colours": [
+    "Blue"
+   ],
+   "materials": [],
+   "item_title": "Lynval Golding Trilby hat",
+   "specific_type": "Trilby hat",
+   "cardinality": 1
+  }
+ },
+ "255498a626208e776230fdb0de0f1951b396694f": {
+  "text": "{\n  \"music_genres\": [\"ska\"],\n  \"music_works\": [\"Why?\"],\n  \"music_albums\": [\"Specials debut LP\"],\n  \"music_artists\": [\"The Specials\", \"Lynval Golding\", \"The Clash\"],\n  \"events\": [\"1978 tour with The Clash\"],\n  \"countries\": [\"UK\"],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\"1979\", \"1981\", \"1978\"],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"The Specials \u2018Why?\u2019 lyrics\",\n  \"specific_type\": \"lyrics\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    "ska"
+   ],
+   "music_works": [
+    "Why?"
+   ],
+   "music_albums": [
+    "Specials debut LP"
+   ],
+   "music_artists": [
+    "The Specials",
+    "Lynval Golding",
+    "The Clash"
+   ],
+   "events": [
+    "1978 tour with The Clash"
+   ],
+   "countries": [
+    "UK"
+   ],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1979",
+    "1981",
+    "1978"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "The Specials \u2018Why?\u2019 lyrics",
+   "specific_type": "lyrics",
+   "cardinality": 1
+  }
+ },
+ "91b4c75a8fb64f4c6ce06c2bb0381de56278def3": {
+  "text": "{\"music_genres\":[\"New Romantic\"],\"music_works\":[\"Do You Really Want To Hurt Me?\",\"Karma Chameleon\"],\"music_albums\":[\"Colour By Numbers\"],\"music_artists\":[\"Boy George\",\"Culture Club\"],\"events\":[],\"countries\":[],\"places\":[\"Blitz Club\"],\"venues\":[\"Blitz Club\"],\"years\":[\"1981\",\"1982\"],\"colours\":[],\"materials\":[],\"item_title\":\"Colour By Numbers outfit worn by Boy George\",\"specific_type\":\"outfit\",\"cardinality\":1}",
+  "parsed": {
+   "music_genres": [
+    "New Romantic"
+   ],
+   "music_works": [
+    "Do You Really Want To Hurt Me?",
+    "Karma Chameleon"
+   ],
+   "music_albums": [
+    "Colour By Numbers"
+   ],
+   "music_artists": [
+    "Boy George",
+    "Culture Club"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [
+    "Blitz Club"
+   ],
+   "venues": [
+    "Blitz Club"
+   ],
+   "years": [
+    "1981",
+    "1982"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Colour By Numbers outfit worn by Boy George",
+   "specific_type": "outfit",
+   "cardinality": 1
+  }
+ },
+ "da306ef09397708d1301f1ab33cee28a5d7843a1": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [\"Colour By Numbers\"],\n  \"music_artists\": [\"Culture Club\"],\n  \"events\": [\"Colour By Numbers tour\"],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\"1983\"],\n  \"colours\": [],\n  \"materials\": [\"paper\", \"vinyl\"],\n  \"item_title\": \"Colour By Numbers tour programme and LP\",\n  \"specific_type\": \"tour programme, LP\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [
+    "Colour By Numbers"
+   ],
+   "music_artists": [
+    "Culture Club"
+   ],
+   "events": [
+    "Colour By Numbers tour"
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1983"
+   ],
+   "colours": [],
+   "materials": [
+    "paper",
+    "vinyl"
+   ],
+   "item_title": "Colour By Numbers tour programme and LP",
+   "specific_type": "tour programme, LP",
+   "cardinality": 1
+  }
+ },
+ "f20c0a466b3388cdb1c0876be0a34af686ae372c": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\n    \"Colour By Numbers\"\n  ],\n  \"music_albums\": [\n    \"Colour By Numbers\"\n  ],\n  \"music_artists\": [],\n  \"events\": [\n    \"Colour By Numbers tour\"\n  ],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    \"1983\"\n  ],\n  \"colours\": [],\n  \"materials\": [\n    \"vinyl\"\n  ],\n  \"item_title\": \"Colour By Numbers\",\n  \"specific_type\": \"LP\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    "Colour By Numbers"
+   ],
+   "music_albums": [
+    "Colour By Numbers"
+   ],
+   "music_artists": [],
+   "events": [
+    "Colour By Numbers tour"
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1983"
+   ],
+   "colours": [],
+   "materials": [
+    "vinyl"
+   ],
+   "item_title": "Colour By Numbers",
+   "specific_type": "LP",
+   "cardinality": 1
+  }
+ },
+ "747673b7d011f447c48e12a21cc04218719191db": {
+  "text": "{\n  \"music_genres\": [\"Pop\"],\n  \"music_works\": [\"Do They Know It's Christmas?\"],\n  \"music_albums\": [],\n  \"music_artists\": [\"Band Aid\", \"Bob Geldof\", \"Midge Ure\"],\n  \"events\": [\"famine in Ethiopia\", \"Christmas\"],\n  \"countries\": [\"Ethiopia\"],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\"1984\"],\n  \"colours\": [],\n  \"materials\": [\"Vinyl\"],\n  \"item_title\": \"Do They Know It's Christmas Single and Picture Disc\",\n  \"specific_type\": \"Single, Picture Disc\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    "Pop"
+   ],
+   "music_works": [
+    "Do They Know It's Christmas?"
+   ],
+   "music_albums": [],
+   "music_artists": [
+    "Band Aid",
+    "Bob Geldof",
+    "Midge Ure"
+   ],
+   "events": [
+    "famine in Ethiopia",
+    "Christmas"
+   ],
+   "countries": [
+    "Ethiopia"
+   ],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1984"
+   ],
+   "colours": [],
+   "materials": [
+    "Vinyl"
+   ],
+   "item_title": "Do They Know It's Christmas Single and Picture Disc",
+   "specific_type": "Single, Picture Disc",
+   "cardinality": 1
+  }
+ },
+ "b3330fe14fd8b4e6ea61a71cdde822739ed9245c": {
+  "text": "{\"music_genres\": [], \"music_works\": [\"Do They Know It's Christmas?\"], \"music_albums\": [], \"music_artists\": [\"Bob Geldof\", \"Band Aid\"], \"events\": [\"recording of 'Do They Know It's Christmas?'\", \"Ethiopian famine\"], \"countries\": [\"Ethiopia\"], \"places\": [], \"venues\": [], \"years\": [\"1984\"], \"colours\": [], \"materials\": [], \"item_title\": \"Bob Geldof Band Aid T-Shirt\", \"specific_type\": \"T-Shirt\", \"cardinality\": 2}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    "Do They Know It's Christmas?"
+   ],
+   "music_albums": [],
+   "music_artists": [
+    "Bob Geldof",
+    "Band Aid"
+   ],
+   "events": [
+    "recording of 'Do They Know It's Christmas?'",
+    "Ethiopian famine"
+   ],
+   "countries": [
+    "Ethiopia"
+   ],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1984"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Bob Geldof Band Aid T-Shirt",
+   "specific_type": "T-Shirt",
+   "cardinality": 2
+  }
+ },
+ "4e1d9eba214175add63a5d3c823842d5a7dcf56c": {
+  "text": "{\"music_genres\": [], \"music_works\": [\"Do They Know It's Christmas?\"], \"music_albums\": [], \"music_artists\": [\"Band Aid\"], \"events\": [], \"countries\": [], \"places\": [], \"venues\": [], \"years\": [], \"colours\": [], \"materials\": [], \"item_title\": \"Band Aid Promotional Poster\", \"specific_type\": \"Promotional poster\", \"cardinality\": 3}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    "Do They Know It's Christmas?"
+   ],
+   "music_albums": [],
+   "music_artists": [
+    "Band Aid"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Band Aid Promotional Poster",
+   "specific_type": "Promotional poster",
+   "cardinality": 3
+  }
+ },
+ "6fc16a26c2b8a824490190f3d81643f22bc4c94a": {
+  "text": "{\"music_genres\": [\"Rock\"], \"music_works\": [], \"music_albums\": [], \"music_artists\": [\"Saxon\", \"Paul Quinn\"], \"events\": [], \"countries\": [], \"places\": [], \"venues\": [], \"years\": [\"1980s\"], \"colours\": [], \"materials\": [], \"item_title\": \"Saxon - Fender Stratocaster guitar\", \"specific_type\": \"guitar\", \"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [
+    "Rock"
+   ],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    "Saxon",
+    "Paul Quinn"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1980s"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Saxon - Fender Stratocaster guitar",
+   "specific_type": "guitar",
+   "cardinality": 1
+  }
+ },
+ "3bf16c0f1ac2e4e992f307b8ea92e3ea83963790": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [\n    \"Strong Arm Of The Law\"\n  ],\n  \"music_artists\": [\n    \"Saxon\"\n  ],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\n    \"1980\"\n  ],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Strong Arm Of The Law\",\n  \"specific_type\": \"Vinyl record\",\n  \"cardinality\": 3\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [
+    "Strong Arm Of The Law"
+   ],
+   "music_artists": [
+    "Saxon"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1980"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Strong Arm Of The Law",
+   "specific_type": "Vinyl record",
+   "cardinality": 3
+  }
+ },
+ "f7ee05fdc1fe94d9fe9a72c54d3ef571a19cf23d": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [\"Denim and Leather\"],\n  \"music_artists\": [\"Saxon\"],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\"1981\"],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Saxon tour programme - Denim and leather\",\n  \"specific_type\": \"tour programme\",\n  \"cardinality\": 4\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [
+    "Denim and Leather"
+   ],
+   "music_artists": [
+    "Saxon"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1981"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Saxon tour programme - Denim and leather",
+   "specific_type": "tour programme",
+   "cardinality": 4
+  }
+ },
+ "82b93a9a4f2db7dcef4a76a3fafe00dc98ff002b": {
+  "text": "{\n  \"music_genres\": [\"electronic\", \"dance-based music\"],\n  \"music_works\": [\"Blue Monday\"],\n  \"music_albums\": [\"Movement\"],\n  \"music_artists\": [\"New Order\", \"Joy Division\", \"Ian Curtis\"],\n  \"events\": [\"death of lead singer Ian Curtis\"],\n  \"countries\": [],\n  \"places\": [\"New York City\"],\n  \"venues\": [],\n  \"years\": [\"1980\", \"1983\"],\n  \"colours\": [\"Gold\"],\n  \"materials\": [],\n  \"item_title\": \"New Order - \u2018Blue Monday\u2019 lyrics, recording schedule and die-cut single Emulator Factory Sales Award\",\n  \"specific_type\": \"lyrics, recording schedule, sales award\",\n  \"cardinality\": 4\n}",
+  "parsed": {
+   "music_genres": [
+    "electronic",
+    "dance-based music"
+   ],
+   "music_works": [
+    "Blue Monday"
+   ],
+   "music_albums": [
+    "Movement"
+   ],
+   "music_artists": [
+    "New Order",
+    "Joy Division",
+    "Ian Curtis"
+   ],
+   "events": [
+    "death of lead singer Ian Curtis"
+   ],
+   "countries": [],
+   "places": [
+    "New York City"
+   ],
+   "venues": [],
+   "years": [
+    "1980",
+    "1983"
+   ],
+   "colours": [
+    "Gold"
+   ],
+   "materials": [],
+   "item_title": "New Order - \u2018Blue Monday\u2019 lyrics, recording schedule and die-cut single Emulator Factory Sales Award",
+   "specific_type": "lyrics, recording schedule, sales award",
+   "cardinality": 4
+  }
+ },
+ "ce4d88b3c3b59e9ce9be6da0f8bc0696ef1b9593": {
+  "text": "{\n  \"music_genres\": [\"electronic music\", \"dance-based music\"],\n  \"music_works\": [\"Blue Monday\"],\n  \"music_albums\": [\"Movement LP\"],\n  \"music_artists\": [\"New Order\", \"Joy Division\", \"Ian Curtis\", \"Peter Saville\"],\n  \"events\": [\"death of lead singer Ian Curtis\", \"Factory Sales Award\"],\n  \"countries\": [\"USA\"],\n  \"places\": [\"New York City\"],\n  \"venues\": [\"club scene\"],\n  \"years\": [\"1980\", \"1983\"],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"New Order - \u2018Blue Monday\u2019 recording schedule\",\n  \"specific_type\": \"recording schedule\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    "electronic music",
+    "dance-based music"
+   ],
+   "music_works": [
+    "Blue Monday"
+   ],
+   "music_albums": [
+    "Movement LP"
+   ],
+   "music_artists": [
+    "New Order",
+    "Joy Division",
+    "Ian Curtis",
+    "Peter Saville"
+   ],
+   "events": [
+    "death of lead singer Ian Curtis",
+    "Factory Sales Award"
+   ],
+   "countries": [
+    "USA"
+   ],
+   "places": [
+    "New York City"
+   ],
+   "venues": [
+    "club scene"
+   ],
+   "years": [
+    "1980",
+    "1983"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "New Order - \u2018Blue Monday\u2019 recording schedule",
+   "specific_type": "recording schedule",
+   "cardinality": 1
+  }
+ },
+ "35942320b8addfb4ff4317ba83a478c86d6762c1": {
+  "text": "{\n  \"music_genres\": [\"electronic music\", \"dance music\"],\n  \"music_works\": [\"Blue Monday\"],\n  \"music_albums\": [\"Movement LP\"],\n  \"music_artists\": [\"New Order\", \"Joy Division\", \"Ian Curtis\", \"Peter Saville\"],\n  \"events\": [\"New Order formation\", \"death of Ian Curtis\"],\n  \"countries\": [\"USA\"],\n  \"places\": [\"New York City\"],\n  \"venues\": [\"club\"],\n  \"years\": [\"1980\", \"1983\"],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"New Order - 'Blue Monday' 7\\\" single, lyrics, recording schedule and Emulator Factory Sales Award\",\n  \"specific_type\": \"collection\",\n  \"cardinality\": 4\n}",
+  "parsed": {
+   "music_genres": [
+    "electronic music",
+    "dance music"
+   ],
+   "music_works": [
+    "Blue Monday"
+   ],
+   "music_albums": [
+    "Movement LP"
+   ],
+   "music_artists": [
+    "New Order",
+    "Joy Division",
+    "Ian Curtis",
+    "Peter Saville"
+   ],
+   "events": [
+    "New Order formation",
+    "death of Ian Curtis"
+   ],
+   "countries": [
+    "USA"
+   ],
+   "places": [
+    "New York City"
+   ],
+   "venues": [
+    "club"
+   ],
+   "years": [
+    "1980",
+    "1983"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "New Order - 'Blue Monday' 7\" single, lyrics, recording schedule and Emulator Factory Sales Award",
+   "specific_type": "collection",
+   "cardinality": 4
+  }
+ },
+ "a2f627204a32ab98f05c62e961891d8f12fd221b": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\"Beautiful Ones\", \"So Young\", \"The Drowners\", \"Lazy\", \"Animal Nitrate\", \"Metal Mickey\"],\n  \"music_albums\": [\"Suede\", \"Coming Up\"],\n  \"music_artists\": [\"Suede\", \"Brett Anderson\"],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\"1993\"],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Suede Lyrics to \u2018Beautiful Ones\u2019, \u2018So Young\u2019, \u2018The Drowners\u2019 and \u2018Lazy\u2019\",\n  \"specific_type\": \"Lyrics\",\n  \"cardinality\": 5\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    "Beautiful Ones",
+    "So Young",
+    "The Drowners",
+    "Lazy",
+    "Animal Nitrate",
+    "Metal Mickey"
+   ],
+   "music_albums": [
+    "Suede",
+    "Coming Up"
+   ],
+   "music_artists": [
+    "Suede",
+    "Brett Anderson"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1993"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Suede Lyrics to \u2018Beautiful Ones\u2019, \u2018So Young\u2019, \u2018The Drowners\u2019 and \u2018Lazy\u2019",
+   "specific_type": "Lyrics",
+   "cardinality": 5
+  }
+ },
+ "c875c63bc764387ed76fb53c404b650f16867a4d": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\"So Young\", \"Beautiful Ones\", \"The Drowners\", \"Lazy\", \"Animal Nitrate\", \"Metal Mickey\"],\n  \"music_albums\": [\"Suede\", \"Coming Up\"],\n  \"music_artists\": [\"Suede\"],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\"1993\"],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Suede - Lyrics to \u2018So Young\u2019 (Lets chase the dragon from our home)\",\n  \"specific_type\": \"Lyrics\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    "So Young",
+    "Beautiful Ones",
+    "The Drowners",
+    "Lazy",
+    "Animal Nitrate",
+    "Metal Mickey"
+   ],
+   "music_albums": [
+    "Suede",
+    "Coming Up"
+   ],
+   "music_artists": [
+    "Suede"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1993"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Suede - Lyrics to \u2018So Young\u2019 (Lets chase the dragon from our home)",
+   "specific_type": "Lyrics",
+   "cardinality": 1
+  }
+ },
+ "40ac9ce5268a9cc7b964194c781bc655d46252e9": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\"The Drowners\", \"Beautiful Ones\", \"So Young\", \"Lazy\", \"Animal Nitrate\", \"Metal Mickey\"],\n  \"music_albums\": [\"Suede\", \"Coming Up\"],\n  \"music_artists\": [\"Suede\", \"Brett Anderson\"],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\"1993\"],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Lyrics to \u2018The Drowners\u2019\",\n  \"specific_type\": \"Lyrics\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    "The Drowners",
+    "Beautiful Ones",
+    "So Young",
+    "Lazy",
+    "Animal Nitrate",
+    "Metal Mickey"
+   ],
+   "music_albums": [
+    "Suede",
+    "Coming Up"
+   ],
+   "music_artists": [
+    "Suede",
+    "Brett Anderson"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1993"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Lyrics to \u2018The Drowners\u2019",
+   "specific_type": "Lyrics",
+   "cardinality": 1
+  }
+ },
+ "3158096abc6a82b8a2dd375befc3a47da48b463c": {
+  "text": "{\"music_genres\": [\"Pop\"], \"music_works\": [], \"music_albums\": [], \"music_artists\": [\"Emma Bunton\", \"Spice Girls\"], \"events\": [\"Spice Girls reunion world tour of 2007\"], \"countries\": [], \"places\": [], \"venues\": [], \"years\": [\"2007\"], \"colours\": [\"Pink\"], \"materials\": [], \"item_title\": \"Emma Bunton outfit\", \"specific_type\": \"boxing robe\", \"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [
+    "Pop"
+   ],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    "Emma Bunton",
+    "Spice Girls"
+   ],
+   "events": [
+    "Spice Girls reunion world tour of 2007"
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    "2007"
+   ],
+   "colours": [
+    "Pink"
+   ],
+   "materials": [],
+   "item_title": "Emma Bunton outfit",
+   "specific_type": "boxing robe",
+   "cardinality": 1
+  }
+ },
+ "510c0f51e2537f0f28c0e280a379559196b88138": {
+  "text": "{\n  \"music_genres\": [\"Pop\"],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\"Take That\"],\n  \"events\": [\"Pops tour\"],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Take That Pops tour programme\",\n  \"specific_type\": \"tour programme\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    "Pop"
+   ],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    "Take That"
+   ],
+   "events": [
+    "Pops tour"
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Take That Pops tour programme",
+   "specific_type": "tour programme",
+   "cardinality": 1
+  }
+ },
+ "ae8ae9b96c268c87e6362f0b4b4957acf0adac42": {
+  "text": "{\n  \"music_genres\": [\"Pop\"],\n  \"music_works\": [],\n  \"music_albums\": [\"Everything Changes\"],\n  \"music_artists\": [\"Take That\"],\n  \"events\": [\"Everything Changes Tour\"],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\"1994\"],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Take That Everything Changes Tour official programme\",\n  \"specific_type\": \"programme\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    "Pop"
+   ],
+   "music_works": [],
+   "music_albums": [
+    "Everything Changes"
+   ],
+   "music_artists": [
+    "Take That"
+   ],
+   "events": [
+    "Everything Changes Tour"
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1994"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Take That Everything Changes Tour official programme",
+   "specific_type": "programme",
+   "cardinality": 1
+  }
+ },
+ "718e3c312106795cda5dd72cf5ed96392da54520": {
+  "text": "{\"music_genres\": [\"keyboard-pop\"], \"music_works\": [\"Foundations\"], \"music_albums\": [\"Made Of Bricks\"], \"music_artists\": [\"Kate Nash\"], \"events\": [\"2008 BRIT Awards\"], \"countries\": [], \"places\": [\"BRIT School\"], \"venues\": [], \"years\": [\"2007\", \"2008\"], \"colours\": [\"Red\"], \"materials\": [], \"item_title\": \"Kate Nash - 'Made Of Bricks' poster\", \"specific_type\": \"poster\", \"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [
+    "keyboard-pop"
+   ],
+   "music_works": [
+    "Foundations"
+   ],
+   "music_albums": [
+    "Made Of Bricks"
+   ],
+   "music_artists": [
+    "Kate Nash"
+   ],
+   "events": [
+    "2008 BRIT Awards"
+   ],
+   "countries": [],
+   "places": [
+    "BRIT School"
+   ],
+   "venues": [],
+   "years": [
+    "2007",
+    "2008"
+   ],
+   "colours": [
+    "Red"
+   ],
+   "materials": [],
+   "item_title": "Kate Nash - 'Made Of Bricks' poster",
+   "specific_type": "poster",
+   "cardinality": 1
+  }
+ },
+ "91454840e27d0514de56a40e4006f2d0a4e52a08": {
+  "text": "{\n  \"music_genres\": [\"keyboard-pop\"],\n  \"music_works\": [\"Foundations\"],\n  \"music_albums\": [\"Made Of Bricks\"],\n  \"music_artists\": [\"Kate Nash\"],\n  \"events\": [\"BRIT Awards\"],\n  \"countries\": [],\n  \"places\": [\"BRIT School\"],\n  \"venues\": [],\n  \"years\": [\"2007\", \"2008\"],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Lyrics to \u2018Foundations\u2019\",\n  \"specific_type\": \"Lyrics\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    "keyboard-pop"
+   ],
+   "music_works": [
+    "Foundations"
+   ],
+   "music_albums": [
+    "Made Of Bricks"
+   ],
+   "music_artists": [
+    "Kate Nash"
+   ],
+   "events": [
+    "BRIT Awards"
+   ],
+   "countries": [],
+   "places": [
+    "BRIT School"
+   ],
+   "venues": [],
+   "years": [
+    "2007",
+    "2008"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Lyrics to \u2018Foundations\u2019",
+   "specific_type": "Lyrics",
+   "cardinality": 1
+  }
+ },
+ "422cf4dc46fcf17a3f19dc2a6cf45fea8395ae2c": {
+  "text": "{\"music_genres\":[\"black soul\",\"R&B\",\"jazz\"],\"music_works\":[\"Frank\",\"Back To Black\"],\"music_albums\":[\"Frank\",\"Back To Black\"],\"music_artists\":[\"Amy Winehouse\"],\"events\":[],\"countries\":[\"United Kingdom\"],\"places\":[\"London\"],\"venues\":[\"Shepherd\u2019s Bush Empire\"],\"years\":[\"2003\"],\"colours\":[],\"materials\":[],\"item_title\":\"Amy Winehouse - Tour poster for the Shepherd\u2019s Bush Empire, London\",\"specific_type\":\"poster\",\"cardinality\":7}",
+  "parsed": {
+   "music_genres": [
+    "black soul",
+    "R&B",
+    "jazz"
+   ],
+   "music_works": [
+    "Frank",
+    "Back To Black"
+   ],
+   "music_albums": [
+    "Frank",
+    "Back To Black"
+   ],
+   "music_artists": [
+    "Amy Winehouse"
+   ],
+   "events": [],
+   "countries": [
+    "United Kingdom"
+   ],
+   "places": [
+    "London"
+   ],
+   "venues": [
+    "Shepherd\u2019s Bush Empire"
+   ],
+   "years": [
+    "2003"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Amy Winehouse - Tour poster for the Shepherd\u2019s Bush Empire, London",
+   "specific_type": "poster",
+   "cardinality": 7
+  }
+ },
+ "052a2e3e53626220c9f959eed74d4ad69cd4a143": {
+  "text": "{\n  \"music_genres\": [\"Jazz\"],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\"Ken Colyer\u2019s Jazzmen\", \"Acker Bilk\u2019s Paramount Jazz Band\"],\n  \"events\": [\"New Orleans Joys concert\"],\n  \"countries\": [],\n  \"places\": [\"New Orleans\"],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Souvenir programme for the \u2018New Orleans Joys\u2019 concert featuring Ken Colyer\u2019s Jazzmen and Acker Bilk\u2019s Paramount Jazz Band\",\n  \"specific_type\": \"Souvenir programme\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    "Jazz"
+   ],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    "Ken Colyer\u2019s Jazzmen",
+    "Acker Bilk\u2019s Paramount Jazz Band"
+   ],
+   "events": [
+    "New Orleans Joys concert"
+   ],
+   "countries": [],
+   "places": [
+    "New Orleans"
+   ],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Souvenir programme for the \u2018New Orleans Joys\u2019 concert featuring Ken Colyer\u2019s Jazzmen and Acker Bilk\u2019s Paramount Jazz Band",
+   "specific_type": "Souvenir programme",
+   "cardinality": 1
+  }
+ },
+ "b7e5f631ff1c630ff30d20426c5910675cc156f2": {
+  "text": "{\n  \"music_genres\": [\"Jazz\"],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\"1962\"],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Jazz News\",\n  \"specific_type\": \"Magazine\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    "Jazz"
+   ],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1962"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Jazz News",
+   "specific_type": "Magazine",
+   "cardinality": 1
+  }
+ },
+ "756e36717f1a5538d28cf86d34ab9e3520412b6c": {
+  "text": "{\n  \"music_genres\": [\"skiffle\"],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\"Chas McDevitt\", \"Chas McDevitt Skiffle Group\"],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [\"Edgware Road\", \"London\"],\n  \"venues\": [\"Metropolitan Club\"],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Chas McDevitt - Concert poster introducing skiffle at the Metropolitan Club in Edgware Road\",\n  \"specific_type\": \"Concert poster\",\n  \"cardinality\": 6\n}",
+  "parsed": {
+   "music_genres": [
+    "skiffle"
+   ],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    "Chas McDevitt",
+    "Chas McDevitt Skiffle Group"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [
+    "Edgware Road",
+    "London"
+   ],
+   "venues": [
+    "Metropolitan Club"
+   ],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Chas McDevitt - Concert poster introducing skiffle at the Metropolitan Club in Edgware Road",
+   "specific_type": "Concert poster",
+   "cardinality": 6
+  }
+ },
+ "7f01ee9f79d77975162297ede3d6614a5c76bda5": {
+  "text": "{\n  \"music_genres\": [\"skiffle\"],\n  \"music_works\": [\"Freight Train\"],\n  \"music_albums\": [],\n  \"music_artists\": [\"Chas McDevitt\"],\n  \"events\": [\"The Ed Sullivan Show\", \"The Tommy Steele Story\"],\n  \"countries\": [\"America\", \"Britain\"],\n  \"places\": [\"Soho\"],\n  \"venues\": [\"The Freight Train\"],\n  \"years\": [\"1957\"],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Chas McDevitt - Freight Train 10\\\" LP\",\n  \"specific_type\": \"LP\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    "skiffle"
+   ],
+   "music_works": [
+    "Freight Train"
+   ],
+   "music_albums": [],
+   "music_artists": [
+    "Chas McDevitt"
+   ],
+   "events": [
+    "The Ed Sullivan Show",
+    "The Tommy Steele Story"
+   ],
+   "countries": [
+    "America",
+    "Britain"
+   ],
+   "places": [
+    "Soho"
+   ],
+   "venues": [
+    "The Freight Train"
+   ],
+   "years": [
+    "1957"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Chas McDevitt - Freight Train 10\" LP",
+   "specific_type": "LP",
+   "cardinality": 1
+  }
+ },
+ "3cc86519d44a54d8a296c8e05787a2ee9e12a456": {
+  "text": "{\"music_genres\": [\"skiffle\"], \"music_works\": [\"Freight Train\"], \"music_albums\": [], \"music_artists\": [\"Chas McDevitt\"], \"events\": [\"The Ed Sullivan Show\", \"The Tommy Steele Story\"], \"countries\": [\"America\", \"Britain\"], \"places\": [\"Soho\"], \"venues\": [\"The Freight Train\"], \"years\": [\"1957\"], \"colours\": [], \"materials\": [\"paper\"], \"item_title\": \"Freight Train\", \"specific_type\": \"sheet music\", \"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [
+    "skiffle"
+   ],
+   "music_works": [
+    "Freight Train"
+   ],
+   "music_albums": [],
+   "music_artists": [
+    "Chas McDevitt"
+   ],
+   "events": [
+    "The Ed Sullivan Show",
+    "The Tommy Steele Story"
+   ],
+   "countries": [
+    "America",
+    "Britain"
+   ],
+   "places": [
+    "Soho"
+   ],
+   "venues": [
+    "The Freight Train"
+   ],
+   "years": [
+    "1957"
+   ],
+   "colours": [],
+   "materials": [
+    "paper"
+   ],
+   "item_title": "Freight Train",
+   "specific_type": "sheet music",
+   "cardinality": 1
+  }
+ },
+ "772808915bb630b17d94985ee7d98b6f39a6023a": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\"I've Come Of Age\"],\n  \"music_albums\": [],\n  \"music_artists\": [\"Terry Dene\"],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\"1959\"],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"I've Come Of Age\",\n  \"specific_type\": \"sheet music\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    "I've Come Of Age"
+   ],
+   "music_albums": [],
+   "music_artists": [
+    "Terry Dene"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1959"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "I've Come Of Age",
+   "specific_type": "sheet music",
+   "cardinality": 1
+  }
+ },
+ "a71fb29a41e0897cbb6e8a60912e8de24b0e34e2": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\"Marty Wilde\"],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\"1959\"],\n  \"colours\": [],\n  \"materials\": [\"paper\"],\n  \"item_title\": \"Picturegoer magazine featuring Marty Wilde\",\n  \"specific_type\": \"magazine\",\n  \"cardinality\": 10\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    "Marty Wilde"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1959"
+   ],
+   "colours": [],
+   "materials": [
+    "paper"
+   ],
+   "item_title": "Picturegoer magazine featuring Marty Wilde",
+   "specific_type": "magazine",
+   "cardinality": 10
+  }
+ },
+ "79ee591b87e468669543fac876b1a0a3d486f4d0": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\"A Girl Like You\", \"Kon-tiki\", \"Apache\", \"Man Of Mystery\", \"I\u2019ll String Along With You\", \"That\u2019s My Desire\"],\n  \"music_albums\": [],\n  \"music_artists\": [\"Cliff Richard\", \"The Shadows\"],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [\"paper\"],\n  \"item_title\": \"Cliff Richard and The Shadows sheet music\",\n  \"specific_type\": \"sheet music\",\n  \"cardinality\": 11\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    "A Girl Like You",
+    "Kon-tiki",
+    "Apache",
+    "Man Of Mystery",
+    "I\u2019ll String Along With You",
+    "That\u2019s My Desire"
+   ],
+   "music_albums": [],
+   "music_artists": [
+    "Cliff Richard",
+    "The Shadows"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [
+    "paper"
+   ],
+   "item_title": "Cliff Richard and The Shadows sheet music",
+   "specific_type": "sheet music",
+   "cardinality": 11
+  }
+ },
+ "22f8d39f476f37b61f553a30bf89573efb53ec15": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\"The Beatles\"],\n  \"events\": [\"tour\"],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [\"turquoise\"],\n  \"materials\": [],\n  \"item_title\": \"The Beatles tour programme\",\n  \"specific_type\": \"tour programme\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    "The Beatles"
+   ],
+   "events": [
+    "tour"
+   ],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [
+    "turquoise"
+   ],
+   "materials": [],
+   "item_title": "The Beatles tour programme",
+   "specific_type": "tour programme",
+   "cardinality": 1
+  }
+ },
+ "cc2f54929c559a42ff792c6c5bce14da092bb15c": {
+  "text": "{\"music_genres\":[],\"music_works\":[],\"music_albums\":[],\"music_artists\":[\"The Beatles\"],\"events\":[],\"countries\":[],\"places\":[],\"venues\":[],\"years\":[],\"colours\":[],\"materials\":[],\"item_title\":\"Selcol \u2018New Beat\u2019 toy guitar\",\"specific_type\":\"toy guitar\",\"cardinality\":1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    "The Beatles"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Selcol \u2018New Beat\u2019 toy guitar",
+   "specific_type": "toy guitar",
+   "cardinality": 1
+  }
+ },
+ "0661e458b829e9c42a21f8a67b111b4419cc307d": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\"The Beatles\"],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Selcol \u2018New Beat\u2019 toy drum\",\n  \"specific_type\": \"toy drum\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    "The Beatles"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Selcol \u2018New Beat\u2019 toy drum",
+   "specific_type": "toy drum",
+   "cardinality": 1
+  }
+ },
+ "f3d734023e8563b6738ad5bbe41670c99140a1c5": {
+  "text": "{\"music_genres\": [], \"music_works\": [\"Puppet on a String\"], \"music_albums\": [\"Puppet on a String\"], \"music_artists\": [\"Sandie Shaw\"], \"events\": [], \"countries\": [], \"places\": [], \"venues\": [], \"years\": [\"1967\"], \"colours\": [], \"materials\": [], \"item_title\": \"Puppet on a String\", \"specific_type\": \"LP\", \"cardinality\": 1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    "Puppet on a String"
+   ],
+   "music_albums": [
+    "Puppet on a String"
+   ],
+   "music_artists": [
+    "Sandie Shaw"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1967"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Puppet on a String",
+   "specific_type": "LP",
+   "cardinality": 1
+  }
+ },
+ "f31dab527645c10a39007f6535bef76061feb6ed": {
+  "text": "{\"music_genres\":[],\"music_works\":[\"Puppet on a String\"],\"music_albums\":[],\"music_artists\":[\"Sandie Shaw\"],\"events\":[],\"countries\":[],\"places\":[],\"venues\":[],\"years\":[\"1967\"],\"colours\":[],\"materials\":[\"paper\"],\"item_title\":\"Puppet on a String\",\"specific_type\":\"sheet music\",\"cardinality\":1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    "Puppet on a String"
+   ],
+   "music_albums": [],
+   "music_artists": [
+    "Sandie Shaw"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1967"
+   ],
+   "colours": [],
+   "materials": [
+    "paper"
+   ],
+   "item_title": "Puppet on a String",
+   "specific_type": "sheet music",
+   "cardinality": 1
+  }
+ },
+ "44a2c8df7da1520da07ffcc94af19f882aad56b4": {
+  "text": "{\n  \"music_genres\": [\"Rock and Roll\"],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\"The Rolling Stones\"],\n  \"events\": [\"Official Rolling Stones Fan Club started\"],\n  \"countries\": [\"Scandinavia\", \"UK\", \"US\"],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\"1964\"],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Official Rolling Stones Fan Club newsletter and photograph of the band\",\n  \"specific_type\": \"newsletter, photograph\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    "Rock and Roll"
+   ],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    "The Rolling Stones"
+   ],
+   "events": [
+    "Official Rolling Stones Fan Club started"
+   ],
+   "countries": [
+    "Scandinavia",
+    "UK",
+    "US"
+   ],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1964"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Official Rolling Stones Fan Club newsletter and photograph of the band",
+   "specific_type": "newsletter, photograph",
+   "cardinality": 1
+  }
+ },
+ "b72739b05691cd346754caa0c57bebf9fc517330": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\"The Detours\"],\n  \"events\": [\"performance by The Detours\"],\n  \"countries\": [],\n  \"places\": [\"Acton\"],\n  \"venues\": [\"White Hart Hotel\"],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [\"paper\"],\n  \"item_title\": \"Flyer for The Detours at the White Hart Hotel in Acton\",\n  \"specific_type\": \"Flyer\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    "The Detours"
+   ],
+   "events": [
+    "performance by The Detours"
+   ],
+   "countries": [],
+   "places": [
+    "Acton"
+   ],
+   "venues": [
+    "White Hart Hotel"
+   ],
+   "years": [],
+   "colours": [],
+   "materials": [
+    "paper"
+   ],
+   "item_title": "Flyer for The Detours at the White Hart Hotel in Acton",
+   "specific_type": "Flyer",
+   "cardinality": 1
+  }
+ },
+ "8289d294fd4c52352ca2944e3cf8dd9ade3ccb8d": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\"The High Numbers\"],\n  \"events\": [\"Concert by The High Numbers\"],\n  \"countries\": [\"United Kingdom\"],\n  \"places\": [\"Harrow\"],\n  \"venues\": [\"The Railway Hotel\"],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [\"Paper\"],\n  \"item_title\": \"Flyer for The High Numbers at the Railway Hotel in Harrow\",\n  \"specific_type\": \"Flyer\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    "The High Numbers"
+   ],
+   "events": [
+    "Concert by The High Numbers"
+   ],
+   "countries": [
+    "United Kingdom"
+   ],
+   "places": [
+    "Harrow"
+   ],
+   "venues": [
+    "The Railway Hotel"
+   ],
+   "years": [],
+   "colours": [],
+   "materials": [
+    "Paper"
+   ],
+   "item_title": "Flyer for The High Numbers at the Railway Hotel in Harrow",
+   "specific_type": "Flyer",
+   "cardinality": 1
+  }
+ },
+ "57b0eb3d57d79911a8cc3f785897589c7dd26f8e": {
+  "text": "{\n  \"music_genres\": [\"rock\", \"blues\", \"psychedelia\"],\n  \"music_works\": [\"White Room\", \"I Feel Free\", \"Sunshine Of Your Love\"],\n  \"music_albums\": [\"Disraeli Gears\", \"Fresh Cream\"],\n  \"music_artists\": [\"Cream\", \"Eric Clapton\", \"Jack Bruce\", \"Ginger Baker\", \"Pete Brown\"],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\"1966\"],\n  \"colours\": [\"White\"],\n  \"materials\": [\"Facsimile\"],\n  \"item_title\": \"Cream - Lyrics to 'White Room'\",\n  \"specific_type\": \"Lyrics\",\n  \"cardinality\": 14\n}",
+  "parsed": {
+   "music_genres": [
+    "rock",
+    "blues",
+    "psychedelia"
+   ],
+   "music_works": [
+    "White Room",
+    "I Feel Free",
+    "Sunshine Of Your Love"
+   ],
+   "music_albums": [
+    "Disraeli Gears",
+    "Fresh Cream"
+   ],
+   "music_artists": [
+    "Cream",
+    "Eric Clapton",
+    "Jack Bruce",
+    "Ginger Baker",
+    "Pete Brown"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1966"
+   ],
+   "colours": [
+    "White"
+   ],
+   "materials": [
+    "Facsimile"
+   ],
+   "item_title": "Cream - Lyrics to 'White Room'",
+   "specific_type": "Lyrics",
+   "cardinality": 14
+  }
+ },
+ "7fdb9a77ce406831d223921232170394d58ceb6f": {
+  "text": "{\"music_genres\": [\"rock\", \"blues\", \"psychedelia\"], \"music_works\": [\"I Feel Free\", \"White Room\", \"Sunshine Of Your Love\"], \"music_albums\": [\"Disraeli Gears\", \"Fresh Cream\"], \"music_artists\": [\"Cream\", \"Eric Clapton\", \"Jack Bruce\", \"Ginger Baker\", \"Pete Brown\"], \"events\": [], \"countries\": [], \"places\": [], \"venues\": [], \"years\": [\"1966\"], \"colours\": [], \"materials\": [\"facsimile\"], \"item_title\": \"Cream - Lyrics to 'I Feel Free'\", \"specific_type\": \"lyrics\", \"cardinality\": 14}",
+  "parsed": {
+   "music_genres": [
+    "rock",
+    "blues",
+    "psychedelia"
+   ],
+   "music_works": [
+    "I Feel Free",
+    "White Room",
+    "Sunshine Of Your Love"
+   ],
+   "music_albums": [
+    "Disraeli Gears",
+    "Fresh Cream"
+   ],
+   "music_artists": [
+    "Cream",
+    "Eric Clapton",
+    "Jack Bruce",
+    "Ginger Baker",
+    "Pete Brown"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1966"
+   ],
+   "colours": [],
+   "materials": [
+    "facsimile"
+   ],
+   "item_title": "Cream - Lyrics to 'I Feel Free'",
+   "specific_type": "lyrics",
+   "cardinality": 14
+  }
+ },
+ "a4643dfa28f1082644b266221a23d1feb3f839c1": {
+  "text": "{\"music_genres\":[\"rock\",\"blues\",\"psychedelia\"],\"music_works\":[\"White Room\",\"I Feel Free\",\"Sunshine Of Your Love\"],\"music_albums\":[\"Disraeli Gears\",\"Fresh Cream\"],\"music_artists\":[\"Cream\",\"Eric Clapton\",\"Jack Bruce\",\"Ginger Baker\",\"Pete Brown\"],\"events\":[],\"countries\":[],\"places\":[],\"venues\":[],\"years\":[\"1966\"],\"colours\":[],\"materials\":[],\"item_title\":\"Cream - Disraeli Gears 12\\\" LP\",\"specific_type\":\"12\\\" LP\",\"cardinality\":1}",
+  "parsed": {
+   "music_genres": [
+    "rock",
+    "blues",
+    "psychedelia"
+   ],
+   "music_works": [
+    "White Room",
+    "I Feel Free",
+    "Sunshine Of Your Love"
+   ],
+   "music_albums": [
+    "Disraeli Gears",
+    "Fresh Cream"
+   ],
+   "music_artists": [
+    "Cream",
+    "Eric Clapton",
+    "Jack Bruce",
+    "Ginger Baker",
+    "Pete Brown"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1966"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Cream - Disraeli Gears 12\" LP",
+   "specific_type": "12\" LP",
+   "cardinality": 1
+  }
+ },
+ "d9918d19f1e6648416d7909078b743d73ca408ab": {
+  "text": "{\"music_genres\": [\"Psychedelic\"], \"music_works\": [], \"music_albums\": [], \"music_artists\": [\"Pink Floyd\", \"Hapshash and the Coloured Coat\"], \"events\": [\"Pink Floyd at the UFO club\"], \"countries\": [], \"places\": [\"Oxford Street\"], \"venues\": [\"UFO club\"], \"years\": [\"1967\", \"late 1960s\"], \"colours\": [], \"materials\": [\"silkscreen\", \"paper\"], \"item_title\": \"Hapshash and the Coloured Coat - Pink Floyd at the UFO poster\", \"specific_type\": \"poster\", \"cardinality\": 3}",
+  "parsed": {
+   "music_genres": [
+    "Psychedelic"
+   ],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    "Pink Floyd",
+    "Hapshash and the Coloured Coat"
+   ],
+   "events": [
+    "Pink Floyd at the UFO club"
+   ],
+   "countries": [],
+   "places": [
+    "Oxford Street"
+   ],
+   "venues": [
+    "UFO club"
+   ],
+   "years": [
+    "1967",
+    "late 1960s"
+   ],
+   "colours": [],
+   "materials": [
+    "silkscreen",
+    "paper"
+   ],
+   "item_title": "Hapshash and the Coloured Coat - Pink Floyd at the UFO poster",
+   "specific_type": "poster",
+   "cardinality": 3
+  }
+ },
+ "438ed4b8a91b76fd49ae4d2bc844596ac21c8936": {
+  "text": "{\n  \"music_genres\": [\"Psychedelic\"],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [],\n  \"events\": [\"UFO club events\"],\n  \"countries\": [\"United Kingdom\"],\n  \"places\": [\"Oxford Street\"],\n  \"venues\": [\"UFO club\"],\n  \"years\": [\"1967\"],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Membership cards to the UFO club on Oxford Street x 2\",\n  \"specific_type\": \"Membership cards\",\n  \"cardinality\": 2\n}",
+  "parsed": {
+   "music_genres": [
+    "Psychedelic"
+   ],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [],
+   "events": [
+    "UFO club events"
+   ],
+   "countries": [
+    "United Kingdom"
+   ],
+   "places": [
+    "Oxford Street"
+   ],
+   "venues": [
+    "UFO club"
+   ],
+   "years": [
+    "1967"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Membership cards to the UFO club on Oxford Street x 2",
+   "specific_type": "Membership cards",
+   "cardinality": 2
+  }
+ },
+ "436f5271c9a1c5fd85552bac708ba22d78a4f969": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\"Peter Golding\"],\n  \"events\": [],\n  \"countries\": [\"United Kingdom\"],\n  \"places\": [\"Covent Garden\", \"London\"],\n  \"venues\": [\"Middle Earth underground club\"],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Original artwork for the Middle Earth underground club in Covent Garden, London\",\n  \"specific_type\": \"artwork\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    "Peter Golding"
+   ],
+   "events": [],
+   "countries": [
+    "United Kingdom"
+   ],
+   "places": [
+    "Covent Garden",
+    "London"
+   ],
+   "venues": [
+    "Middle Earth underground club"
+   ],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Original artwork for the Middle Earth underground club in Covent Garden, London",
+   "specific_type": "artwork",
+   "cardinality": 1
+  }
+ },
+ "a3bf77247300284237c9962e7fa3c103a71d7d80": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [],\n  \"events\": [\n    \"European tour\"\n  ],\n  \"countries\": [],\n  \"places\": [\n    \"Europe\"\n  ],\n  \"venues\": [],\n  \"years\": [\n    \"1970\"\n  ],\n  \"colours\": [],\n  \"materials\": [\n    \"Paper\"\n  ],\n  \"item_title\": \"European tour poster\",\n  \"specific_type\": \"poster\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [],
+   "events": [
+    "European tour"
+   ],
+   "countries": [],
+   "places": [
+    "Europe"
+   ],
+   "venues": [],
+   "years": [
+    "1970"
+   ],
+   "colours": [],
+   "materials": [
+    "Paper"
+   ],
+   "item_title": "European tour poster",
+   "specific_type": "poster",
+   "cardinality": 1
+  }
+ },
+ "94b6932053982d9b699b75e589a58e807f96c6a8": {
+  "text": "{\n  \"music_genres\": [\"R&B\"],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\"Bill Wyman\", \"The Rolling Stones\", \"Dick Taylor\", \"The Cliftons\", \"Charlie Watts\"],\n  \"events\": [\"1975 US tours\", \"1978 US tours\"],\n  \"countries\": [\"US\"],\n  \"places\": [\"London\"],\n  \"venues\": [],\n  \"years\": [\"1962\", \"1975\", \"1978\"],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Bass guitar played by Bill Wyman\",\n  \"specific_type\": \"Dan Armstrong bass guitar\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    "R&B"
+   ],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    "Bill Wyman",
+    "The Rolling Stones",
+    "Dick Taylor",
+    "The Cliftons",
+    "Charlie Watts"
+   ],
+   "events": [
+    "1975 US tours",
+    "1978 US tours"
+   ],
+   "countries": [
+    "US"
+   ],
+   "places": [
+    "London"
+   ],
+   "venues": [],
+   "years": [
+    "1962",
+    "1975",
+    "1978"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Bass guitar played by Bill Wyman",
+   "specific_type": "Dan Armstrong bass guitar",
+   "cardinality": 1
+  }
+ },
+ "3be739c2b2b43a24dc0f10af1caaf6eb0b389f13": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\"The Rolling Stones\", \"Bill Wyman\"],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [\"Chelsea\"],\n  \"venues\": [],\n  \"years\": [\"1970\", \"1969\"],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Jumpsuit\",\n  \"specific_type\": \"stage outfit\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    "The Rolling Stones",
+    "Bill Wyman"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [
+    "Chelsea"
+   ],
+   "venues": [],
+   "years": [
+    "1970",
+    "1969"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "Jumpsuit",
+   "specific_type": "stage outfit",
+   "cardinality": 1
+  }
+ },
+ "8781761bf15d10102f9c9c4972aa772369fac0e5": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [\"Ziggy Stardust\"],\n  \"music_albums\": [\"The Rise and Fall of Ziggy Stardust and the Spiders from Mars\"],\n  \"music_artists\": [\"David Bowie\"],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [\"1973\"],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"David Bowie Ziggy Stardust comic\",\n  \"specific_type\": \"comic\",\n  \"cardinality\": 3\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [
+    "Ziggy Stardust"
+   ],
+   "music_albums": [
+    "The Rise and Fall of Ziggy Stardust and the Spiders from Mars"
+   ],
+   "music_artists": [
+    "David Bowie"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1973"
+   ],
+   "colours": [],
+   "materials": [],
+   "item_title": "David Bowie Ziggy Stardust comic",
+   "specific_type": "comic",
+   "cardinality": 3
+  }
+ },
+ "3e306e7bc45fc3e6c6c180096847c2ac296a8b46": {
+  "text": "{\"music_genres\":[],\"music_works\":[],\"music_albums\":[\"Ziggy Stardust\"],\"music_artists\":[\"David Bowie\"],\"events\":[\"UK tour\"],\"countries\":[\"UK\",\"Japan\"],\"places\":[],\"venues\":[],\"years\":[\"1973\"],\"colours\":[\"Multi-coloured\"],\"materials\":[\"Wool\",\"feather\"],\"item_title\":\"Ziggy Stardust Wool Multi-coloured Suit with feather boa\",\"specific_type\":\"Costume\",\"cardinality\":5}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [
+    "Ziggy Stardust"
+   ],
+   "music_artists": [
+    "David Bowie"
+   ],
+   "events": [
+    "UK tour"
+   ],
+   "countries": [
+    "UK",
+    "Japan"
+   ],
+   "places": [],
+   "venues": [],
+   "years": [
+    "1973"
+   ],
+   "colours": [
+    "Multi-coloured"
+   ],
+   "materials": [
+    "Wool",
+    "feather"
+   ],
+   "item_title": "Ziggy Stardust Wool Multi-coloured Suit with feather boa",
+   "specific_type": "Costume",
+   "cardinality": 5
+  }
+ },
+ "2de7472c14aea8dd5b4e285e6f937b3d782d4648": {
+  "text": "{\"music_genres\":[],\"music_works\":[],\"music_albums\":[],\"music_artists\":[\"David Bowie\"],\"events\":[],\"countries\":[],\"places\":[],\"venues\":[],\"years\":[],\"colours\":[],\"materials\":[],\"item_title\":\"Ziggy Stardust Kimono with Carp Design\",\"specific_type\":\"Kimono\",\"cardinality\":1}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    "David Bowie"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Ziggy Stardust Kimono with Carp Design",
+   "specific_type": "Kimono",
+   "cardinality": 1
+  }
+ },
+ "36bf35353fffb885361d51ad172cb73e2b6d46e3": {
+  "text": "{\n  \"music_genres\": [\"rock\"],\n  \"music_works\": [\"I Want To Break Free\", \"Radio Ga Ga\", \"We Will Rock You\", \"We Are The Champions\"],\n  \"music_albums\": [],\n  \"music_artists\": [\"Queen\", \"Roger Taylor\", \"John Deacon\"],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Queen - Roger Taylor drum head and drumsticks\",\n  \"specific_type\": \"drum head and drumsticks\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    "rock"
+   ],
+   "music_works": [
+    "I Want To Break Free",
+    "Radio Ga Ga",
+    "We Will Rock You",
+    "We Are The Champions"
+   ],
+   "music_albums": [],
+   "music_artists": [
+    "Queen",
+    "Roger Taylor",
+    "John Deacon"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Queen - Roger Taylor drum head and drumsticks",
+   "specific_type": "drum head and drumsticks",
+   "cardinality": 1
+  }
+ },
+ "2e41b81fa43adf753d03dd822f2e95ddd4a757bd": {
+  "text": "{\n  \"music_genres\": [\"rock\"],\n  \"music_works\": [\"I Want To Break Free\", \"Radio Ga Ga\", \"We Will Rock You\", \"We Are The Champions\"],\n  \"music_albums\": [],\n  \"music_artists\": [\"Queen\", \"John Deacon\", \"Roger Taylor\"],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Lyrics to 'I Want To Break Free'\",\n  \"specific_type\": \"Lyrics\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    "rock"
+   ],
+   "music_works": [
+    "I Want To Break Free",
+    "Radio Ga Ga",
+    "We Will Rock You",
+    "We Are The Champions"
+   ],
+   "music_albums": [],
+   "music_artists": [
+    "Queen",
+    "John Deacon",
+    "Roger Taylor"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Lyrics to 'I Want To Break Free'",
+   "specific_type": "Lyrics",
+   "cardinality": 1
+  }
+ },
+ "808579fc25c63223fa3974aceb41551616e60e08": {
+  "text": "{\n  \"music_genres\": [],\n  \"music_works\": [],\n  \"music_albums\": [],\n  \"music_artists\": [\"Freddie Mercury\"],\n  \"events\": [],\n  \"countries\": [],\n  \"places\": [],\n  \"venues\": [],\n  \"years\": [],\n  \"colours\": [],\n  \"materials\": [],\n  \"item_title\": \"Freddie Mercury trousers and jacket\",\n  \"specific_type\": \"trousers and jacket\",\n  \"cardinality\": 2\n}",
+  "parsed": {
+   "music_genres": [],
+   "music_works": [],
+   "music_albums": [],
+   "music_artists": [
+    "Freddie Mercury"
+   ],
+   "events": [],
+   "countries": [],
+   "places": [],
+   "venues": [],
+   "years": [],
+   "colours": [],
+   "materials": [],
+   "item_title": "Freddie Mercury trousers and jacket",
+   "specific_type": "trousers and jacket",
+   "cardinality": 2
+  }
+ },
+ "3e1d205996d5882b2230f9d3ce13f7dd355a68cf": {
+  "text": "{\n  \"music_genres\": [\n    \"Rock\"\n  ],\n  \"music_works\": [\n    \"We Will Rock You\",\n    \"Spread Your Wings\"\n  ],\n  \"music_albums\": [],\n  \"music_artists\": [\n    \"Queen\",\n    \"Brian May\"\n  ],\n  \"events\": [\n    \"show in New Jersey\"\n  ],\n  \"countries\": [\n    \"USA\"\n  ],\n  \"places\": [\n    \"New Jersey\"\n  ],\n  \"venues\": [],\n  \"years\": [\n    \"1977\",\n    \"1982\",\n    \"2004\"\n  ],\n  \"colours\": [\n    \"silver\"\n  ],\n  \"materials\": [\n    \"metal\"\n  ],\n  \"item_title\": \"Sixpence plectrum\",\n  \"specific_type\": \"Plectrum\",\n  \"cardinality\": 1\n}",
+  "parsed": {
+   "music_genres": [
+    "Rock"
+   ],
+   "music_works": [
+    "We Will Rock You",
+    "Spread Your Wings"
+   ],
+   "music_albums": [],
+   "music_artists": [
+    "Queen",
+    "Brian May"
+   ],
+   "events": [
+    "show in New Jersey"
+   ],
+   "countries": [
+    "USA"
+   ],
+   "places": [
+    "New Jersey"
+   ],
+   "venues": [],
+   "years": [
+    "1977",
+    "1982",
+    "2004"
+   ],
+   "colours": [
+    "silver"
+   ],
+   "materials": [
+    "metal"
+   ],
+   "item_title": "Sixpence plectrum",
+   "specific_type": "Plectrum",
+   "cardinality": 1
+  }
+ }
+}

@@ -1,0 +1,17 @@
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.14.1
+
+tqdm
+rdflib
+requests
+
+faiss-cpu==1.7.4
+sentence-transformers
+
+jupyter
+ipykernel
+
+openpyxl
+rank-bm25
+google-genai

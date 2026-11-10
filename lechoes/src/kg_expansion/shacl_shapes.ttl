@@ -1,0 +1,135 @@
+@prefix sh:     <http://www.w3.org/ns/shacl#> .
+@prefix schema: <http://schema.org/> .
+@prefix wd:     <http://www.wikidata.org/entity/> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix bme:    <http://radio.liv.ac.uk/bme/> .
+
+# ---------------------------------------------------------------------------
+# BME Knowledge Graph — SHACL Shapes
+# ---------------------------------------------------------------------------
+
+# --- 1. Every entity must have exactly one rdf:type -----------------------
+bme:SingleTypeShape a sh:NodeShape ;
+    sh:targetSubjectsOf rdf:type ;
+    sh:name "SingleType" ;
+    sh:description "Every entity must have exactly one rdf:type" ;
+    sh:property [
+        sh:path rdf:type ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "Entity has dual (or zero) rdf:type — dual-typed entities must be resolved before merge." ;
+        sh:severity sh:Warning ;
+    ] .
+
+# --- 2. Every entity must have rdfs:label OR schema:name ------------------
+bme:LabelShape a sh:NodeShape ;
+    sh:targetSubjectsOf rdf:type ;
+    sh:name "RequiredLabel" ;
+    sh:description "Every typed entity must have rdfs:label or schema:name" ;
+    sh:or (
+        [ sh:property [ sh:path rdfs:label   ; sh:minCount 1 ] ]
+        [ sh:property [ sh:path schema:name  ; sh:minCount 1 ] ]
+    ) ;
+    sh:message "Entity has neither rdfs:label nor schema:name." ;
+    sh:severity sh:Warning .
+
+# --- 3. No raw Wikidata class URIs as rdf:type ----------------------------
+# Q214609 = newspaper (material) — must be schema:DefinedTerm, not wd:Q214609
+bme:NoRawWDTypeShape a sh:NodeShape ;
+    sh:targetSubjectsOf rdf:type ;
+    sh:name "NoRawWDType" ;
+    sh:description "rdf:type must not be a raw Wikidata entity URI" ;
+    sh:not [
+        sh:property [
+            sh:path rdf:type ;
+            sh:pattern "^http://www\\.wikidata\\.org/entity/" ;
+            sh:message "rdf:type is a raw Wikidata URI — should be a schema.org type." ;
+        ]
+    ] ;
+    sh:severity sh:Violation .
+
+# --- 4. No <infer> tags in literal values ---------------------------------
+bme:NoInferTagShape a sh:NodeShape ;
+    sh:targetSubjectsOf rdf:type ;
+    sh:name "NoInferTag" ;
+    sh:description "Literal values must not contain <infer> or </infer> tags" ;
+    sh:property [
+        sh:path rdfs:label ;
+        sh:not [ sh:pattern "</?infer>" ] ;
+        sh:message "rdfs:label contains an <infer> tag — strip before committing." ;
+        sh:severity sh:Violation ;
+    ] .
+
+# --- 5. Person shape ------------------------------------------------------
+bme:PersonShape a sh:NodeShape ;
+    sh:targetClass schema:Person ;
+    sh:name "Person" ;
+    sh:or (
+        [ sh:property [ sh:path rdfs:label  ; sh:minCount 1 ] ]
+        [ sh:property [ sh:path schema:name ; sh:minCount 1 ] ]
+    ) ;
+    sh:message "schema:Person has neither rdfs:label nor schema:name." ;
+    sh:severity sh:Warning ;
+    sh:property [
+        sh:path rdf:type ;
+        sh:maxCount 1 ;
+        sh:message "schema:Person has multiple rdf:type values." ;
+        sh:severity sh:Warning ;
+    ] .
+
+# --- 6. MusicGroup shape --------------------------------------------------
+bme:MusicGroupShape a sh:NodeShape ;
+    sh:targetClass schema:MusicGroup ;
+    sh:name "MusicGroup" ;
+    sh:or (
+        [ sh:property [ sh:path rdfs:label  ; sh:minCount 1 ] ]
+        [ sh:property [ sh:path schema:name ; sh:minCount 1 ] ]
+    ) ;
+    sh:message "schema:MusicGroup has neither rdfs:label nor schema:name." ;
+    sh:severity sh:Warning .
+
+# --- 7. MusicAlbum shape --------------------------------------------------
+bme:MusicAlbumShape a sh:NodeShape ;
+    sh:targetClass schema:MusicAlbum ;
+    sh:name "MusicAlbum" ;
+    sh:or (
+        [ sh:property [ sh:path rdfs:label  ; sh:minCount 1 ] ]
+        [ sh:property [ sh:path schema:name ; sh:minCount 1 ] ]
+    ) ;
+    sh:message "schema:MusicAlbum has neither rdfs:label nor schema:name." ;
+    sh:severity sh:Warning .
+
+# --- 8. MusicComposition shape --------------------------------------------
+bme:MusicCompositionShape a sh:NodeShape ;
+    sh:targetClass schema:MusicComposition ;
+    sh:name "MusicComposition" ;
+    sh:or (
+        [ sh:property [ sh:path rdfs:label  ; sh:minCount 1 ] ]
+        [ sh:property [ sh:path schema:name ; sh:minCount 1 ] ]
+    ) ;
+    sh:message "schema:MusicRecording has neither rdfs:label nor schema:name." ;
+    sh:severity sh:Warning .
+
+# --- 9. EventVenue shape --------------------------------------------------
+bme:EventVenueShape a sh:NodeShape ;
+    sh:targetClass schema:EventVenue ;
+    sh:name "EventVenue" ;
+    sh:or (
+        [ sh:property [ sh:path rdfs:label  ; sh:minCount 1 ] ]
+        [ sh:property [ sh:path schema:name ; sh:minCount 1 ] ]
+    ) ;
+    sh:message "schema:EventVenue has neither rdfs:label nor schema:name." ;
+    sh:severity sh:Warning .
+
+# --- 10. Event shape ------------------------------------------------------
+bme:EventShape a sh:NodeShape ;
+    sh:targetClass schema:Event ;
+    sh:name "Event" ;
+    sh:or (
+        [ sh:property [ sh:path rdfs:label  ; sh:minCount 1 ] ]
+        [ sh:property [ sh:path schema:name ; sh:minCount 1 ] ]
+    ) ;
+    sh:message "schema:Event has neither rdfs:label nor schema:name." ;
+    sh:severity sh:Warning .

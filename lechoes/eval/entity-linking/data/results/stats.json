@@ -1,0 +1,37 @@
+{
+  "k_headline": 10,
+  "eck_version": "v1",
+  "n_scored": 112,
+  "n_excluded": 3,
+  "mcnemar_S2_vs_S3": {
+    "b_S2correct_S3wrong": 1,
+    "c_S2wrong_S3correct": 13,
+    "p_value": 0.0018310546875,
+    "k": 10,
+    "run": 1
+  },
+  "bootstrap": {
+    "resamples": 10000,
+    "cluster": "object"
+  },
+  "S0_accuracy_ci95": [
+    0.5377358490566038,
+    0.7254901960784313
+  ],
+  "S1_accuracy_ci95": [
+    0.8333333333333334,
+    0.948051948051948
+  ],
+  "S2_accuracy_ci95": [
+    0.7608695652173914,
+    0.9
+  ],
+  "S3_accuracy_ci95": [
+    0.8981481481481481,
+    0.9743589743589743
+  ],
+  "delta_S3_minus_S2_ci95": [
+    0.05217391304347818,
+    0.1637931034482759
+  ]
+}

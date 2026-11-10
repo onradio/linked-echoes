@@ -1,0 +1,20 @@
+@prefix scho: <http://schema.org/> .
+@prefix bme: <http://radio.liv.ac.uk/bme/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://radio.liv.ac.uk/bme/Recording/AbbeyRoad> a scho:MusicRecording ;
+    scho:name "Abbey Road" ;
+    scho:about <http://www.wikidata.org/entity/Q1299> ;
+    scho:caption "Vinyl record of Abbey Road." ;
+    scho:description "The iconic album by The Beatles." ;
+    scho:genre <http://www.wikidata.org/entity/Q11399> ;
+    scho:image "https://example.com/images/abbey_road.jpg" ;
+    scho:publisher <https://www.wikidata.org/wiki/Q183412> ;
+    scho:additionalProperty [
+        a scho:PropertyValue ;
+        scho:name "Condition" ;
+        scho:value "Excellent"
+    ] ;
+    bme:year "1969"^^xsd:gYear ;
+    bme:caseNumber 2 ;
+    scho:caption "Vinyl record of Abbey Road." .

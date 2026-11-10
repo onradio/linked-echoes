@@ -1,0 +1,11 @@
+entity_type,label,n_retrieved,n_validated,n_error,outcome,predicted_label,predicted_qid,latency_s
+music artist,Ken Colyer,3,3,0,linked,Ken Colyer,Q1738588,5.6
+music work,Freight Train,10,2,0,linked,Freight Train,Q106634082,17.0
+music album,Disraeli Gears,1,1,0,linked,Disraeli Gears,Q269211,3.0
+event,New Orleans Joys,0,0,0,abstain_no_candidates,,,0.4
+venue,"Metropolitan Club, Edge Road",0,0,0,abstain_no_candidates,,,0.4
+place,London,10,5,0,linked,London,Q84,42.7
+country,Germany,10,3,0,linked,Germany,Q183,11.4
+music genre,Jazz,10,2,0,linked,jazz,Q8341,5.6
+material,Paper,10,3,0,linked,paper,Q11472,5.9
+colour,Turquoise,10,3,0,linked,turquoise,Q5960345,8.6

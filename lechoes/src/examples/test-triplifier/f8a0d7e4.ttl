@@ -1,0 +1,46 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix scho: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix dbp: <http://dbpedia.org/resource/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix mimo: <http://www.mimo-db.eu/InstrumentsKeywords/> .
+@prefix euf: <http://thesaurus.europeanafashion.eu/thesaurus/> .
+@prefix pbcore: <http://pbcore.org/pbcore-controlled-vocabularies/titletype-vocabulary#> .
+
+<http://radio.liv.ac.uk/bme/HumanMadeObject/f8a0d7e4> a crm:E22_Human_Made_Object ;
+    scho:identifier "f8a0d7e4" ;
+    scho:name "John Lennon's Round 'Granny' Glasses" ;
+    scho:description "A pair of round, nickel-rimmed glasses famously worn by John Lennon during the mid-to-late 1960s. This style became an inseparable part of his public image during the psychedelic era and his subsequent solo career." ;
+    scho:caption "The iconic eyewear of a music and cultural legend. These glasses were a key element of John Lennon's distinctive look, symbolizing his transformation from Beatle to countercultural icon. Worn during the height of The Beatles' fame and throughout his solo career, they remain a powerful emblem of his enduring influence on music and popular culture." ;
+    scho:category wd:Q115866017 ;
+    scho:additionalType aat:300236409 ;
+    scho:itemLocation "6" ;
+    scho:isPartOf <http://radio.liv.ac.uk/bme/Exhibition/Zone3> ;
+    scho:image <https://c.files.bbci.co.uk/c24f/live/b4199d60-4e81-11ef-8b97-e7e1e12cdeb2.jpg> ;
+    scho:video <https://www.youtube.com/watch?v=r8IlMfx3ZeA> ;
+    scho:about wd:Q1203, wd:Q1299, wd:Q24826, wd:Q145, wd:Q169226 ;
+    scho:genre wd:Q206159 ;
+    scho:material wd:Q744, wd:Q11469 ;
+    scho:color wd:Q317802 ;
+    scho:hasPart [
+        a scho:BorrowAction ;
+        scho:lender "The Ono Lennon Estate" ;
+        scho:startTime "2021-10-09"^^xsd:date
+    ] ;
+    scho:url <https://www.beatlesstory.com/blog/john-lennons-spectacles/> .
+
+wd:Q115866017 a scho:DefinedTerm, skos:Concept ; rdfs:label "Personal Effects"@en .
+aat:300236409 a scho:DefinedTerm ; rdfs:label "Spectacles"@en .
+wd:Q1203 a scho:MusicArtist ; rdfs:label "John Lennon"@en .
+wd:Q1299 a scho:MusicGroup ; rdfs:label "The Beatles"@en .
+wd:Q24826 a scho:Place ; rdfs:label "Liverpool"@en .
+wd:Q145 a scho:Country ; rdfs:label "United Kingdom"@en .
+wd:Q169226 a scho:MusicAlbum ; rdfs:label "Sgt. Pepper's Lonely Hearts Club Band"@en .
+wd:Q206159 a scho:MusicGenre ; rdfs:label "Psychedelic Rock"@en .
+wd:Q744 a scho:Product ; rdfs:label "Nickel"@en .
+wd:Q11469 a scho:Product ; rdfs:label "Glass"@en .
+wd:Q317802 a scho:Color ; rdfs:label "Silver"@en .
