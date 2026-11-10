@@ -10,7 +10,7 @@
 <tr>
 <td width="72%">
 
-**From spreadsheets to interconnected cultural assets: a low-barrier knowledge engineering workflow for music heritage ecosystems.**
+**From spreadsheets to interlinked cultural assets: a low-barrier knowledge engineering workflow for music heritage ecosystems.**
 
 Linked Echoes is an end-to-end, AI-assisted workflow that takes a cultural organisation from the data it *actually* has — a collection spreadsheet, caption documents, folders of images and audio — to a published, interconnected knowledge graph, and onwards to the services and applications built upon it.
 
@@ -305,10 +305,10 @@ If you use Linked Echoes, please cite:
 
 ```bibtex
 @article{deberardinis2026linkedechoes,
-  title   = {From Spreadsheets to Interconnected Cultural Assets: a Low-Barrier Knowledge Engineering Workflow for Music Heritage Ecosystems},
+  title   = {From Spreadsheets to Interlinked Cultural Assets: a Low-Barrier Knowledge Engineering Workflow for Music Heritage Ecosystems},
   author  = {de Berardinis, Jacopo and Alharbi, Reham and Barla, Sowjanya Naga and Nandagopal, Prakash and Tripathi, Aradhya, Koravos, Elizabeth and Taylor, Oliver and Tamma, Valentina},
   year    = {2026},
-  note    = {Preprint}
+  note    = {Under review}
 }
 ```
 
