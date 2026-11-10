@@ -23,8 +23,6 @@ It targets small and medium heritage organisations with no in-house knowledge en
 </tr>
 </table>
 
-> [!IMPORTANT]
-> **This repository contains the workflow.** The **BME Knowledge Graph** — the resource produced by applying Linked Echoes to the British Music Experience collection, with its triples and statistics — lives in [`onradio/bme-kg`](https://github.com/onradio/bme-kg) (currently private).
 
 **Contents** · [Overview](#overview) · [What's in this repository](#whats-in-this-repository) · [Quickstart](#quickstart) · [Serving layer](#serving-layer) · [Applying it to your collection](#applying-it-to-your-collection) · [Case study: the BME](#case-study-the-british-music-experience) · [Ecosystem](#ecosystem) · [Citation](#citation)
 
@@ -42,7 +40,7 @@ The workflow is organised in two movements: a **knowledge construction** layer t
 
 | # | Stage | What it does |
 |---|-------|--------------|
-| 0 | **Requirement engineering** | Participatory elicitation via personas, collaborative user stories, and competency questions (expert-driven, pattern-based, and LLM-based), validated on an expert-in-the-loop platform. See [`docs/requirements.md`](docs/requirements.md). |
+| 0 | **Requirement engineering** | Participatory elicitation via personas, collaborative user stories, and competency questions (expert-driven, pattern-based, and LLM-based), validated on an expert-in-the-loop platform. |
 | 1 | **Reconciliation** | Consolidates the collection spreadsheet, caption documents, and case-to-zone mappings into a single tabular representation, one row per object. |
 | 2 | **Metadata completion** | LLMs expand each sparse record against the metamodel — musical context, locations, physical properties — under a structured-output contract, so every predicted value lands in a typed, reviewable field. |
 | 3 | **Category & type classification** | Each object receives one of seven broad categories, then a fine-grained type selected by RAG over harmonised controlled vocabularies. |
@@ -289,12 +287,12 @@ Linked Echoes was developed and validated with the [British Music Experience](ht
 
 ## Ecosystem
 
-Applications built on top of the knowledge layer, each maintained separately. These repositories are currently private.
+Applications built on top of the knowledge layer, each maintained separately:
 
 | Repository | What it is |
 |------------|-----------|
-| [`bme-kg`](https://github.com/onradio/bme-kg) | The BME Knowledge Graph: triples, statistics, releases, and the collection data they are built from |
-| [`bme-linkedechoes`](https://github.com/onradio/bme-linkedechoes) | Deployment of the whole BME ecosystem (API, triplestore, dashboard, CMS) |
+| [`bme-kg`](https://github.com/onradio/bme-kg) | The BME Knowledge Graph: triples, statistics, releases, and the collection data they are built from. *Currently private, subject to curatorial review.* |
+| [`bme-linkedechoes`](https://github.com/onradio/bme-linkedechoes) | Deployment of the whole BME ecosystem (API, triplestore, dashboard, CMS). *Currently private, subject to curatorial review.* |
 | [`bme-dashboard`](https://github.com/onradio/bme-dashboard) | Public web dashboard for browsing and searching the collection, following its links out to Wikidata |
 | [`bme-cms`](https://github.com/onradio/bme-cms) | Curatorial CMS for adding, editing, and removing objects |
 | [`bme-aidt`](https://github.com/onradio/bme-aidt) | AI Digital Timeline: music events from 1945 to the present, connected to collection objects through shared entities |
@@ -316,9 +314,7 @@ If you use Linked Echoes, please cite:
 
 ## Licence
 
-The code is released under the [MIT Licence](LICENSE).
-
-<!-- TODO: state the licence for the harmonised vocabularies and the evaluation data. -->
+The code is released under the [MIT Licence](LICENSE). The licence covers the workflow's own software: the pipeline, the REST API, the evaluation harness, and the mappings and prompts that configure them. It does not cover the third-party and institutional data distributed alongside the code. The harmonised vocabularies in [`lechoes/src/vocabularies/`](lechoes/src/vocabularies/) are derived from Getty AAT, MIMO, PBCore and Europeana Fashion, and remain under the terms of those sources, which should be credited when the data is reused (provenance in [`lechoes/src/vocabularies/README.md`](lechoes/src/vocabularies/README.md)). The evaluation data in `lechoes/eval/*/data/` contains descriptions and captions of objects from the British Music Experience collection, published so that the results reported in the paper can be reproduced. That text remains the museum's: it is not covered by the MIT Licence, and reuse beyond reproducing the evaluation requires the museum's permission.
 
 ## Acknowledgements
 
