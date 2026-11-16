@@ -92,7 +92,14 @@ Fine-grained types resolve to curated, dereferenceable concepts. With the except
 | [Europeana Fashion](http://thesaurus.europeanafashion.eu) | Clothing | 1,481 |
 | [Getty AAT](https://www.getty.edu/research/tools/vocabularies/aat/) | Textual & Graphic Work; Merchandise; Personal Effects; Award & Recognition | 46,403 |
 
-<!-- TODO: add the release location and licence of the harmonised RDF vocabularies. -->
+The harmonised vocabularies are released in RDF as a single SKOS dataset in Turtle,
+[`lechoes/src/vocabularies/harmonised_vocabularies.ttl`](lechoes/src/vocabularies/harmonised_vocabularies.ttl):
+50,298 concepts in one concept scheme per source vocabulary, with labels in other languages where
+the source provides them, and a VoID/DCAT description of the dataset. It is generated from the
+harmonised table (`all_concepts.csv`) by
+[`export_rdf.py`](lechoes/src/vocabularies/export_rdf.py). Concepts keep the URIs of their source
+vocabularies, and their labels and definitions remain subject to the terms of Getty AAT, MIMO,
+PBCore and Europeana Fashion (see [Licence](#licence)).
 
 ---
 
@@ -102,7 +109,7 @@ Fine-grained types resolve to curated, dereferenceable concepts. With the except
 lechoes/
 ├── src/                  # the workflow: extraction, classification, linking, triplification
 │   ├── ingest_pipeline.py    # end-to-end entry point (raw descriptions → TTL)
-│   ├── vocabularies/         # harmonised vocabularies (all_concepts.csv) and their sources
+│   ├── vocabularies/         # harmonised vocabularies (all_concepts.csv, harmonised_vocabularies.ttl) and their sources
 │   ├── kg_expansion/         # Wikidata expansion, enrichment, SHACL and the release gate
 │   ├── metadata_curation/    # extraction prompts and config used by the pipeline
 │   ├── routes/, queries/     # the REST API's endpoints and SPARQL

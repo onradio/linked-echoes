@@ -177,3 +177,32 @@ python classification.py build \
     --vocabulary_name pbcore
  ```
 
+---
+## RDF release
+
+The harmonised vocabularies are released as a single SKOS dataset in Turtle,
+[`harmonised_vocabularies.ttl`](harmonised_vocabularies.ttl), regenerated from `all_concepts.csv` with
+
+```bash
+python lechoes/src/vocabularies/export_rdf.py
+```
+
+Each row of the table becomes a `skos:Concept` under the URI of its source vocabulary, with its label
+as `skos:prefLabel`@en and its definition as `skos:definition`@en, in one `skos:ConceptScheme` per
+source vocabulary (`lev:aat`, `lev:mimo`, `lev:europeana-fashion`, `lev:pbcore`, with
+`lev: <http://radio.liv.ac.uk/vocabularies/>`); the two PBCore vocabularies are kept apart as
+`skos:Collection`s. For MIMO and Europeana Fashion, the labels the source gives in other languages and
+its alternative labels are added from `mimo/mimo_doremus.ttl` and `fashion/fashion.rdf`.
+
+| Scheme | Concepts |
+|--------|----------|
+| Getty AAT | 46,403 |
+| MIMO | 2,323 |
+| Europeana Fashion | 1,479 |
+| PBCore | 93 |
+
+The table's 50,301 rows yield 50,298 concepts: two Europeana Fashion terms are listed twice and are
+merged, and the MIMO row whose URI is MIMO's concept scheme itself ("Musical instruments") is recorded
+as the source of the MIMO scheme rather than as a concept, since SKOS keeps concept schemes and
+concepts disjoint. The concepts, labels and definitions remain subject to the terms of their source
+vocabularies, which should be credited when the data are reused.

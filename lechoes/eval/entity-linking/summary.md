@@ -47,11 +47,11 @@ versus eponymous ensemble (*Ken Colyer* / *Ken Colyer's Jazzmen*), alias drift
 
 ### Gold standard
 
-A single annotator resolved every mention using Wikidata search and the entity pages
-directly, **not** the systems' candidate lists. This matters: because the gold was
-established independently of what retrieval returned, retrieval misses are measurable
-rather than invisible. Where more than one item is defensible, alternates are recorded and
-scoring accepts any of them.
+Three annotators resolved every mention together, reviewing each decision until they agreed
+unanimously, using Wikidata search and the entity pages directly, **not** the systems' candidate
+lists. This matters: because the gold was established independently of what retrieval returned,
+retrieval misses are measurable rather than invisible. Where more than one item is defensible,
+alternates are recorded and scoring accepts any of them.
 
 Mentions with no correct Wikidata item are labelled NIL under one of four codes —
 `no_entity`, `out_of_scope`, `too_vague`, `data_error`. The first three are scored:

@@ -74,7 +74,9 @@ explicit rather than hidden, and every interval reported below is bootstrapped o
 the same reason. The skew the sample exhibits — 39 of 65 objects are Textual & Graphic Work —
 is the skew of the collection, not an artefact of selection.
 
-A single annotator produced the gold standard, so no inter-annotator agreement is available.
+The gold standard was produced by **three annotators working together to a single agreed set of
+labels**, each decision reviewed by all three until they agreed unanimously, not by independent
+parallel annotation, so inter-annotator agreement is undefined by construction rather than missing.
 The full sheet is released so the labels can be audited. All 102 term URIs it records were
 verified to resolve in the indexed vocabulary with labels matching, which catches the failure
 mode where a gold term is a plausible string that no retriever can ever return.
@@ -95,7 +97,7 @@ Nine of the fourteen are song lyrics, for which Getty AAT has no term (`song she
 recorded as the nearest); five are tour programmes (`souvenir programs`). On a weak row,
 **two behaviours are correct**: returning the recorded approximation, and declining to assert
 anything. Only a third term is an error. Scoring these rows as though a single answer were
-required would have penalised the system for exactly the judgement the annotator made.
+required would have penalised the system for exactly the judgement the annotators made.
 
 This tier structure also explains an absence. The original design expected some gold terms to
 be unreachable — lyrics reused from Wikidata, tour programmes minted locally, as the pipeline
@@ -425,7 +427,7 @@ was built with the richer prompt, since it predates this measurement.
 4. **Type figures assume correct categories.** They are an upper bound on end-to-end
    behaviour; the bound is nearly tight here only because category accuracy is at ceiling.
 5. **Small per-cell counts.** Several breakdowns rest on 6–14 objects and are indicative.
-6. **A single annotator**, hence no inter-annotator agreement.
+6. **A consensus gold standard** (three annotators agreeing on every decision), hence no inter-annotator agreement.
 7. **One collection, one language, one embedding model.** Whether the depth/abstention
    interaction of §5.3 generalises is untested.
 
