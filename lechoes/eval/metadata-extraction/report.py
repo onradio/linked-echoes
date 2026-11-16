@@ -229,6 +229,39 @@ def macros(stats: dict, summary: list, baseline: dict, latex_dir: Path) -> dict:
         "AdjIncorrect": stats.get("adjudication", {}).get("by_field", {}).get("ALL", {}).get("incorrect", ""),
         "AdjUnverifiable": stats.get("adjudication", {}).get("by_field", {}).get("ALL", {}).get("unverifiable", ""),
     }
+    # Numbers added in response to the pre-submission review (score.py,
+    # `supplementary`): the policy-matched test the attribution claim needs, the
+    # matcher-consistent recall ceilings, and the genuine-inference share of yield.
+    sup = stats.get("supplementary")
+    if sup:
+        t = sup["paired_secondary"].get("M6_vs_M4")
+        if t:
+            values["MsixVsMfourP"] = ("$<$0.001" if t["p_value"] < 0.001
+                                      else f"{t['p_value']:.3f}")
+            values["MsixVsMfourDiscordant"] = f"{t['system_only']}/{t['reference_only']}"
+            values["MsixMinusMfourPrecision"] = (
+                f"{s['M6']['precision'] - s['M4']['precision']:.3f}")
+        # LaTeX control sequences take letters only, hence `Eone`, `Mthree`.
+        spelled = {"1": "one", "2": "two", "3": "three", "4": "four", "5": "five",
+                   "6": "six"}
+
+        def letters(name: str) -> str:
+            return "".join(spelled.get(ch, ch) for ch in name)
+
+        for scope, c in sup["recall_ceiling_matcher"].items():
+            values[f"CeilingMatcher{letters(scope)}"] = f"{c['recall']:.3f}"
+        split = sup["support_split_matcher"]
+        values["GoldSupportedMatcher"] = sum(v for k, v in split.items()
+                                             if k != "inference_only")
+        values["GoldInferenceMatcher"] = split.get("inference_only", 0)
+        for system in ("M1", "M3", "M5"):
+            if system in sup["systems"]:
+                values[f"GenuineYield{letters(system)}"] = (
+                    f"{sup['systems'][system]['inference_yield_absent_from_evidence']:.3f}")
+        for system in ("M3", "M5"):
+            if system in sup["systems"]:
+                values[f"OtherCredited{letters(system)}"] = (
+                    f"{sup['systems'][system]['precision_if_other_credited']:.3f}")
     body = "\n".join(rf"\newcommand{{\me{k}}}{{{v}}}" for k, v in values.items())
     (latex_dir / "macros.tex").write_text(body + "\n", encoding="utf-8")
     return values
@@ -273,8 +306,14 @@ def report_md(stats: dict, summary: list, fields: list, ceilings: list, attribut
         f"{baseline['distractors']['objects']} of the {baseline['objects']} objects** — "
         f"values visible in an object's display-case evidence that belong to a neighbour. "
         f"That is what exhaustive extraction runs into, and it is imposed by the corpus "
-        f"rather than by any prompt. **Recall is a ceiling here — for extractive systems; "
-        f"precision is a reference point, not a bound** (§2.4):",
+        f"rather than by any prompt. **Recall is a ceiling here — for literal extraction; "
+        f"precision is a reference point, not a bound** (§2.4). The scoring matcher also "
+        f"credits aliases and near-matches, so a copying system can recover a few values "
+        f"that do not occur verbatim (UK for United Kingdom); computed with the matcher, "
+        f"the ceilings are "
+        + ", ".join(f"{sc} {c['recall']:.3f}" for sc, c in
+                    stats.get("supplementary", {}).get("recall_ceiling_matcher", {}).items())
+        + ":",
         "",
         "| Scope | Evidence | Asserts | Exhaustive P | Recall ceiling | F1 |",
         "| --- | --- | ---: | ---: | ---: | ---: |",

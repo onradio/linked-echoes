@@ -5,6 +5,22 @@ Every figure quoted here is produced by `score.py` from the prediction files in
 `data/predictions/` and formatted by `report.py`; nothing is transcribed by hand. The
 companion `report.md` holds the same tables without the discussion.*
 
+> **Update, 11 Nov 2026 — read this first.** The type-selection results discussed below
+> (Experiments B and C: `term_hint`, `combine_name`) come from the first sweep (12 Aug 2026),
+> whose hint was the sheet's `raw_type_hint`: the object type recorded in the test-set
+> annotation, revised by hand towards vocabulary wording. It is the accepted term's label, up
+> to case, plural or one `|`-separated part, for 49 of the 50 strong-tier objects (30
+> verbatim), so it is an oracle input, not
+> "the type predicted by metadata enrichment" as stated below. A second sweep
+> (`term_predhint`, `combine_name_predhint`) re-ran retrieval and selection with the type that
+> metadata completion actually predicts (M5, run 1; frozen in `data/predicted_type_hints.csv`).
+> Its results are the ones to report, and are in `data/results/report.md`. The headline
+> changes: T1 reaches up to 71.8% (combine + name, k = 50), against 53.8–56.9% for
+> term + hint, and `check_type_hint.py` adds a label-lookup baseline (61.5%). Two values
+> below were also affected by a rounding defect in `score.py`, since fixed: `C2`'s
+> accuracy is 97.9%, not 98.0%, and term + hint's term precision at k = 50 is 68.9, not 68.8.
+> The discussion below is kept as the record of the first sweep.
+
 **Artefacts for the article.** The tables below are reproduced as markdown for reading; the
 typeset versions are generated and should be `\input` rather than retyped.
 

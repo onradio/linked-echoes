@@ -22,7 +22,7 @@ tag. `--model` takes `provider:model` (a bare name means Google).
 
 | Id | Pipeline |
 | -- | -------- |
-| S0 | candidate at rank 1; never abstains; k-independent |
+| S0 | candidate at rank 1; never abstains; decisions k-independent |
 | S1 | highest-ranked ECK-valid candidate; abstain if none |
 | S2 | LLM selects from the unfiltered top-k; may abstain |
 | S3 | ECK filter, then LLM selects; may abstain |
@@ -248,9 +248,14 @@ def main(argv=None) -> int:
     for system in args.systems:
         # S0 and S1 are deterministic, so one run is the whole story.
         runs = 1 if system in ("S0", "S1") else args.runs
-        ks = [args.k[0]] if system == "S0" and len(args.k) > 1 else args.k
+        # S0's decisions are k-independent (rank 1), but its pool statistics
+        # (mean N, retrieval misses) are not, so beside the shallowest depth it is
+        # also computed at the headline depth the article reports (k=10).
+        ks = (sorted({args.k[0]} | ({10} & set(args.k)))
+              if system == "S0" and len(args.k) > 1 else args.k)
         if system == "S0" and len(args.k) > 1:
-            print(f"{system}: k-independent (rank 1), computing once at k={ks[0]}")
+            print(f"{system}: decisions are k-independent (rank 1); "
+                  f"computing at k={ks} for the pool statistics")
         for k in ks:
             for run in range(1, runs + 1):
                 # S0/S1 read straight off the frozen artefacts, so tagging them

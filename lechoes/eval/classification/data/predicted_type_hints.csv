@@ -1,0 +1,66 @@
+object_id,metadata_extraction_object_id,annotated_hint,predicted_M5_run1,predicted_M5_run2,predicted_M5_run3,predicted_M3_run1,predicted_M3_run2,predicted_M3_run3,predicted_M1_run1,predicted_M1_run2,predicted_M1_run3
+OBJ-001,OBJ-031,concert program,Souvenir programme,Souvenir programme,Souvenir programme,Souvenir programme,Souvenir programme,Souvenir programme,Souvenir programme,Souvenir programme,Souvenir programme
+OBJ-002,,leaflet,,,,,,,,,
+OBJ-003,OBJ-032,magazine,Newspaper,Newspaper,Newspaper,Newspaper,Newspaper,Newspaper,Newspaper,Newspaper,Newspaper
+OBJ-004,OBJ-033,poster,Poster,Poster,Poster,Poster,Poster,Poster,Concert poster,Concert poster,Concert poster
+OBJ-005,OBJ-034,Vinyl recording,LP,LP,LP,78rpm record and sheet music,78rpm record and sheet music,Record,LP,LP,LP
+OBJ-006,OBJ-035,sheet music,Sheet music,Sheet music,Sheet music,Sheet Music,Sheet Music,Sheet Music,Sheet music,Sheet music,Sheet music
+OBJ-007,OBJ-036,sheet music,Sheet music,Sheet music,Sheet music,Sheet music,Sheet music,Sheet music,Sheet Music,Sheet music,Sheet Music
+OBJ-008,OBJ-037,magazine,Magazine,Magazine,Magazine,Magazine,Magazine,Magazine,Magazine,Magazine,Magazine
+OBJ-009,OBJ-038,sheet music,Sheet music,Sheet music,Sheet music,Sheet music,Sheet music,Sheet music,Sheet music,Sheet music,Sheet music
+OBJ-010,OBJ-039,Tour programme,Tour programme,Tour programme,Tour programme,Tour programme,Programme,Tour programme,Tour Programme,Tour Programme,Tour Programme
+OBJ-011,OBJ-040,Guitar,Toy guitar,Toy guitar,Toy guitar,Toy guitar,Toy guitar,Toy guitar,Toy Guitar,Toy Guitar,Toy Guitar
+OBJ-012,OBJ-041,Drum,Toy drum,Toy drum,Toy drum,Toy drum,Toy drum,Toy drum,Toy drum,Toy Drum,Toy Drum
+OBJ-013,OBJ-042,Vinyl recording,LP,LP,LP,LP,LP,LP,Vinyl Record,Vinyl Record,Vinyl Record
+OBJ-014,OBJ-043,sheet music,Sheet music,Sheet music,sheet music,"Sheet music, LP","Sheet music, LP",Sheet Music,Sheet music,Sheet music,Sheet music
+OBJ-015,,Dress,,,,,,,,,
+OBJ-016,OBJ-044,newsletters,Newsletter and photograph,Newsletter and Photograph,Newsletter and photograph,Newsletter and photograph,"Newsletter, Photograph",Newsletter and photograph,Newsletter,Newsletter and Photograph,Newsletter
+OBJ-017,OBJ-045,leaflets,Flyer,Flyer,Flyer,Flyer,Flyer,Flyer,Flyer,Flyer,Flyer
+OBJ-018,OBJ-046,leaflets,Flyer,Flyer,Flyer,Flyer,Flyer,Flyer,Flyer,Flyer,Flyer
+OBJ-019,OBJ-047,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics
+OBJ-020,OBJ-048,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics
+OBJ-021,OBJ-049,Vinyl recording,LP,LP,LP,LP,LP,LP,LP,LP,LP
+OBJ-022,OBJ-050,poster,Poster,Poster,Poster,Poster,Poster,Poster,Poster,Poster,Poster
+OBJ-023,OBJ-051,membership card,Membership cards,Membership cards,Membership cards,Membership cards,Membership cards,Membership cards,Membership Card,Membership Card,Membership Card
+OBJ-024,OBJ-052,,Artwork,Artwork,Artwork,Artwork,Artwork,Artwork,Artwork,Artwork,Artwork
+OBJ-025,OBJ-053,poster,Poster,Poster,Poster,Poster,Poster,Poster,Poster,Poster,Poster
+OBJ-026,OBJ-054,Bass guitar,Bass guitar,Bass guitar,Bass Guitar,Bass guitar,Bass guitar,Bass guitar,Bass Guitar,Bass Guitar,Bass Guitar
+OBJ-027,OBJ-055,jumpsuit,Jumpsuit,Jumpsuit,Jumpsuit,Jumpsuit,Jumpsuit,Jumpsuit,Jumpsuit,Jumpsuit,Jumpsuit
+OBJ-028,OBJ-056,comics,Comic,Comic,Comic,Comic,Comic,Comic,Comic,Comic,Comic
+OBJ-029,OBJ-057,suit,Suit,Suit,Suit,Costume,Costume,Costume,Suit,Suit,Suit
+OBJ-030,OBJ-058,kimono,Kimono,Kimono,Kimono,Kimono,Kimono,Kimono,Kimono,Kimono,Kimono
+OBJ-031,OBJ-059,drum head | drumsticks,Drum head and drumsticks,Drum Head and Drumsticks,Drum head and drumsticks,Drum head and drumsticks,Drum head and drumsticks,Drum head and drumsticks,Drum head and drumsticks,Drumming equipment,Drumming equipment
+OBJ-032,OBJ-060,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics
+OBJ-033,OBJ-061,trousers | jacket,Trousers and jacket,Trousers and jacket,Trousers and jacket,Trousers and Jacket,Trousers and Jacket,Trousers and Jacket,Trousers and Jacket,Trousers and Jacket,Trousers and Jacket
+OBJ-034,,Electric guitar,,,,,,,,,
+OBJ-035,OBJ-062,Plectrum,Plectrum,Plectrum,Plectrum,Plectrum,Plectrum,Plectrum,Plectrum,Plectrum,Plectrum
+OBJ-036,OBJ-001,jumpsuit,Jumpsuit,Jumpsuit,jumpsuit,Jumpsuit,Jumpsuit,Jumpsuit,Jumpsuit,Jumpsuit,Jumpsuit
+OBJ-037,OBJ-002,poster,Poster,Concert poster,Poster,Concert poster,Concert poster,Concert poster,Concert poster,Concert poster,Concert poster
+OBJ-038,OBJ-003,sheet music,Sheet music,Sheet music,Sheet music,Sheet music,Sheet music,Sheet music,Sheet music,Sheet music,Sheet music
+OBJ-039,OBJ-004,poster,Poster,Poster,Poster,Poster,Poster,Poster,Poster,Poster,Poster
+OBJ-040,OBJ-005,leaflet | poster,Flyer,Flyer,Flyer,Flyer,Flyer,Flyer,Flyer,Flyer,Flyer
+OBJ-041,OBJ-006,Bass guitar,Bass guitar,Bass guitar,Bass guitar,Bass guitar,Bass guitar,Bass guitar,Bass Guitar,Bass Guitar,Bass Guitar
+OBJ-042,OBJ-007,suit,Suit,Suit,Suit,Suit,Suit,Suit,Suit,Suit,Suit
+OBJ-043,OBJ-008,hat,Trilby hat,Trilby hat,Trilby hat,Trilby hat,Trilby hat,Trilby hat,Trilby hat,Trilby hat,Trilby hat
+OBJ-044,OBJ-009,Lyrics,Lyrics,lyrics,lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics
+OBJ-045,OBJ-010,outfit,Outfit,Outfit,Outfit,Outfit,Outfit,Outfit,Outfit,Outfit,Outfit
+OBJ-046,OBJ-011,Tour Programme,Tour programme,Tour programme,Tour programme,Tour Programme,Tour Programme,Tour Programme,Tour programme,Tour programme,Tour programme
+OBJ-047,OBJ-012,Vinyl recording,LP,LP,LP,LP,LP,LP,LP,LP,Vinyl Record
+OBJ-048,OBJ-013,Vinyl recording,Single and Picture Disc,Single and Picture Disc,Single and Picture Disc,Single,Single,Single,Single,Picture Disc Single,Single
+OBJ-049,OBJ-014,T-shirt,T-Shirt,T-Shirt,T-Shirt,T-Shirt,T-Shirt,T-Shirt,T-Shirt,T-Shirt,T-Shirt
+OBJ-050,OBJ-015,poster,Poster,Poster,Poster,Poster,Poster,Poster,Poster,Poster,Poster
+OBJ-051,OBJ-016,Electric guitar,Electric Guitar,Electric Guitar,Electric Guitar,Fender Stratocaster guitar,Fender Stratocaster guitar,Fender Stratocaster guitar,Electric Guitar,Electric Guitar,Electric Guitar
+OBJ-052,OBJ-017,Vinyl recording,LP,LP,LP,LP,LP,LP,LP,LP Record,LP
+OBJ-053,OBJ-018,Tour Programme,Tour Programme,Tour Programme,Tour programme,tour programme,tour programme,Tour programme,Tour Programme,Tour Programme,Tour Programme
+OBJ-054,OBJ-019,Lyrics,lyrics,lyrics,Lyrics,"Lyrics, Recording Schedule, and Sales Award",Lyrics and Sales Award,"Lyrics, Recording Schedule, and Sales Award",Lyrics,Lyrics,Lyrics
+OBJ-055,OBJ-020,schedule,Recording schedule,Recording schedule,Recording schedule,Award,Award,Award,Recording schedule,Recording schedule,Recording schedule
+OBJ-056,OBJ-021,Vinyl,Single,"7"" single","7"" single","Single, Sales Award","Single, Sales Award","Single, Sales Award",Vinyl Single,Vinyl Single,Vinyl Single
+OBJ-057,OBJ-022,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics
+OBJ-058,OBJ-023,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics
+OBJ-059,OBJ-024,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics
+OBJ-060,OBJ-025,outfits,Boxing robe,Boxing Robe,Boxing Robe,Boxing robe,Boxing robe,Boxing Robe,Outfit,Outfit,Outfit
+OBJ-061,OBJ-026,Tour Programme,Programme,Programme,Programme,programme,programme,programme,Programme,Programme,Programme
+OBJ-062,OBJ-027,Tour Programme,Tour programme,Tour programme,Tour programme,Programme,Programme,Programme,Programme,Programme,Programme
+OBJ-063,OBJ-028,poster,Poster,Poster,Poster,Poster,Poster,Poster,Poster,Poster,Poster
+OBJ-064,OBJ-029,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics,Lyrics
+OBJ-065,OBJ-030,poster,Tour poster,Tour poster,Poster,Poster,Poster,Poster,Poster,Poster,Poster

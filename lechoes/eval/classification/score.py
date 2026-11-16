@@ -397,13 +397,20 @@ def bootstrap_ci_generic(records: list, resamples: int, fn) -> tuple:
 
 
 def write_csv(path: Path, rows: list, columns: list) -> None:
+    """
+    Floats are written to 6 places, not 4. `report.py` formats these values as
+    percentages to one place, so a 4-place value ending in 5 was rounded twice:
+    C2's accuracy, 191/195 = 97.949%, was stored as 0.9795 and printed as 98.0;
+    term + hint's precision at k = 50 printed as 68.8 instead of 68.9. Six places
+    leave every printed figure equal to the exact value rounded once.
+    """
     import csv
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=columns, extrasaction="ignore")
         w.writeheader()
         for row in rows:
-            w.writerow({c: (round(row[c], 4) if isinstance(row.get(c), float)
+            w.writerow({c: (round(row[c], 6) if isinstance(row.get(c), float)
                             else row.get(c)) for c in columns})
 
 
@@ -577,17 +584,26 @@ def main() -> int:
                 **mcnemar(modal_correct(base),
                           modal_correct(selection[(config, "T1", k, model)]))})
 
-    # T1 across configurations at the same k, paired per object
+    # T1 across configurations at the same k, paired per object. The first pair is
+    # the original comparison of the two retrieval configurations; the second is
+    # the same comparison under the predicted hint; the last two hold retrieval
+    # fixed and change only the source of the hint (annotated vs predicted), which
+    # measures how much the annotated hint was worth to the selector.
+    config_pairs = [("term_hint", "combine_name"),
+                    ("term_predhint", "combine_name_predhint"),
+                    ("term_hint", "term_predhint"),
+                    ("combine_name", "combine_name_predhint")]
     for k, model in sorted({(k, m) for (_, s, k, m) in selection if s == "T1"}):
-        a = selection.get(("term_hint", "T1", k, model))
-        b = selection.get(("combine_name", "T1", k, model))
-        if a and b:
-            stats["mcnemar"].append({
-                "configuration": "term_hint vs combine_name", "k": k,
-                "model": model,
-                "comparison": "T1 term_hint vs T1 combine_name",
-                "a": "term_hint", "b": "combine_name",
-                **mcnemar(modal_correct(a), modal_correct(b))})
+        for ca, cb in config_pairs:
+            a = selection.get((ca, "T1", k, model))
+            b = selection.get((cb, "T1", k, model))
+            if a and b:
+                stats["mcnemar"].append({
+                    "configuration": f"{ca} vs {cb}", "k": k,
+                    "model": model,
+                    "comparison": f"T1 {ca} vs T1 {cb}",
+                    "a": ca, "b": cb,
+                    **mcnemar(modal_correct(a), modal_correct(b))})
 
     for (config, system, k, model), records in sorted(selection.items()):
         by_run = defaultdict(dict)
@@ -605,11 +621,24 @@ def main() -> int:
 
     best = max((r for r in cell_rows if r["system"] == "T1"),
                key=lambda r: r["accuracy"])
+    # Which configurations show the selector the *predicted* hint (config.yaml,
+    # `prompt_hint`). The overall best cell above can be an annotated-hint one,
+    # which uses an oracle input; the deployable headline is reported beside it.
+    import yaml
+    configured = yaml.safe_load((HERE / "config.yaml").read_text())
+    hint_source = {c["id"]: c.get("prompt_hint", "annotated")
+                   for c in configured["selection"]["configurations"]}
+    predicted = [r for r in cell_rows if r["system"] == "T1"
+                 and hint_source.get(r["configuration"]) == "predicted"]
+    best_predicted = max(predicted, key=lambda r: r["accuracy"]) if predicted else None
+    headline_keys = ("configuration", "k", "model", "accuracy", "term_precision",
+                     "term_recall", "term_f1", "abstention_accuracy")
     stats["headline"] = {
         "reference_model": reference,
-        "best_T1_cell": {key: best[key] for key in
-                         ("configuration", "k", "model", "accuracy", "term_precision",
-                          "term_recall", "term_f1", "abstention_accuracy")},
+        "best_T1_cell": {key: best[key] for key in headline_keys},
+        "best_T1_cell_predicted_hint": ({key: best_predicted[key] for key in headline_keys}
+                                        if best_predicted else None),
+        "hint_source_by_configuration": hint_source,
         "T0_by_configuration": {r["configuration"]: r["accuracy"]
                                 for r in cell_rows if r["system"] == "T0"},
         "n_objects": best["n_objects"],

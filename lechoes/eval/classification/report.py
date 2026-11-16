@@ -29,9 +29,19 @@ FIGURES = RESULTS / "figures"
 LATEX = RESULTS / "latex"
 
 # Categorical slots 1 and 2 of the reference palette, light mode, used unchanged.
-# Colour follows the entity: a configuration keeps its hue in both panels.
-SERIES = {"term_hint": "#2a78d6", "combine_name": "#eb6834"}
-LABELS = {"term_hint": "term + hint", "combine_name": "combine + name"}
+# Colour follows the retrieval configuration, so a configuration keeps its hue in
+# both panels; the hint source is carried by the line style instead (solid: the
+# type predicted by metadata completion, as deployed; dashed: the annotated type,
+# an oracle input), which keeps the hue count at two.
+SERIES = {"term_predhint": "#2a78d6", "combine_name_predhint": "#eb6834",
+          "term_hint": "#2a78d6", "combine_name": "#eb6834"}
+DASHED = {"term_hint", "combine_name"}
+LABELS = {"term_predhint": "term + hint",
+          "combine_name_predhint": "combine + name",
+          "term_hint": "term + hint (annotated)",
+          "combine_name": "combine + name (annotated)"}
+# Table order: the deployable configurations first, their oracle twins after.
+CONFIG_ORDER = ("term_predhint", "combine_name_predhint", "term_hint", "combine_name")
 SURFACE = "#fcfcfb"
 INK = "#0b0b0b"
 INK_MUTED = "#52514e"
@@ -94,42 +104,51 @@ def build_figure(retrieval: list, selection: list, config_query: dict) -> Path:
 
     for config, (strategy, query) in config_query.items():
         colour = SERIES[config]
+        # The annotated-hint (oracle) twins are drawn as thin dashed references
+        # behind the deployable configurations, and are not end-labelled.
+        oracle = config in DASHED
+        style = (dict(linewidth=1.3, linestyle=(0, (4, 3)), marker="o", markersize=4,
+                      alpha=0.75, zorder=2) if oracle else
+                 dict(linewidth=2, marker="o", markersize=8, markeredgecolor=SURFACE,
+                      markeredgewidth=2, solid_capstyle="round",
+                      solid_joinstyle="round", zorder=3))
         points = sorted(
             ((int(r["k"]), num(r, "hit_with_fallback")) for r in retrieval
              if r["index_strategy"] == strategy and r["query"] == query),
             key=lambda pair: pair[0])
-        ks = [k for k, _ in points]
-        values = [100 * v for _, v in points]
-        ax_left.plot(ks, values, color=colour, linewidth=2, marker="o",
-                     markersize=8, markeredgecolor=SURFACE, markeredgewidth=2,
-                     solid_capstyle="round", solid_joinstyle="round",
-                     label=LABELS[config], zorder=3)
-        # Only the endpoint is labelled: a value on every point is unreadable
-        # and the axis already carries the rest.
-        ax_left.annotate(f"{values[-1]:.0f}%", (ks[-1], values[-1]),
-                         textcoords="offset points", xytext=(6, -3),
-                         color=INK_MUTED, fontsize=8)
-
         cells = sorted(
             ((int(r["k"]), num(r, "accuracy")) for r in selection
              if r["configuration"] == config and r["system"] == "T1"),
             key=lambda pair: pair[0])
+        if not points or not cells:
+            continue
+        ks = [k for k, _ in points]
+        values = [100 * v for _, v in points]
+        ax_left.plot(ks, values, color=colour, label=LABELS[config], **style)
+        # Only the endpoint is labelled: a value on every point is unreadable
+        # and the axis already carries the rest.
+        if not oracle:
+            ax_left.annotate(f"{values[-1]:.0f}%", (ks[-1], values[-1]),
+                             textcoords="offset points", xytext=(6, -3),
+                             color=INK_MUTED, fontsize=8)
+
         ks2 = [k for k, _ in cells]
         values2 = [100 * v for _, v in cells]
-        ax_right.plot(ks2, values2, color=colour, linewidth=2, marker="o",
-                      markersize=8, markeredgecolor=SURFACE, markeredgewidth=2,
-                      solid_capstyle="round", solid_joinstyle="round",
-                      label=LABELS[config], zorder=3)
-        ax_right.annotate(f"{values2[-1]:.0f}%", (ks2[-1], values2[-1]),
-                          textcoords="offset points", xytext=(6, -3),
-                          color=INK_MUTED, fontsize=8)
+        ax_right.plot(ks2, values2, color=colour, label=LABELS[config], **style)
+        if not oracle:
+            ax_right.annotate(f"{values2[-1]:.0f}%", (ks2[-1], values2[-1]),
+                              textcoords="offset points", xytext=(6, -3),
+                              color=INK_MUTED, fontsize=8)
 
     # Ticks only where a measurement exists: retrieval swept six depths, selection
     # four, and a tick at k=30 in panel (b) would imply a cell that was not run.
     retrieval_ks = sorted({int(r["k"]) for r in retrieval})
     selection_ks = sorted({int(r["k"]) for r in selection if r["system"] == "T1"})
     for ax, title, ticks in (
-            (ax_left, "(a) retrieval ceiling: hit@$k$", retrieval_ks),
+            # Not "ceiling": hit@k bounds the objects on which the selector can
+            # assert the accepted term, but accuracy also credits correct
+            # abstentions on weak and NIL rows, so panel (b) may exceed it.
+            (ax_left, "(a) retrieval: hit@$k$", retrieval_ks),
             (ax_right, "(b) selection accuracy: T1", selection_ks)):
         ax.set_title(title, fontsize=10, color=INK, pad=8, loc="left")
         ax.set_xlabel("$k$ (candidates retrieved)", fontsize=9, color=INK_MUTED)
@@ -195,7 +214,7 @@ def table2(selection: list, stats: dict) -> tuple:
     ref = reference()
     selection = [r for r in selection if is_reference(r, ref)]
     rows = []
-    for config in ("term_hint", "combine_name"):
+    for config in CONFIG_ORDER:
         t0 = next((r for r in selection
                    if r["configuration"] == config and r["system"] == "T0"), None)
         if t0:
@@ -203,34 +222,63 @@ def table2(selection: list, stats: dict) -> tuple:
             # column does not apply to it and is left blank rather than quoting
             # whichever k happened to be first in the file.
             rows.append([LABELS[config], "T0", "--", pct(num(t0, "accuracy")),
-                         pct(num(t0, "term_precision")), pct(num(t0, "term_recall")),
+                         ci(t0), pct(num(t0, "term_precision")),
+                         pct(num(t0, "term_recall")),
                          pct(num(t0, "term_f1")), "--", "--", "--"])
         cells = sorted((r for r in selection
                         if r["configuration"] == config and r["system"] == "T1"),
                        key=lambda r: int(r["k"]))
         for r in cells:
             rows.append([
-                LABELS[config], "T1", r["k"], pct(num(r, "accuracy")),
+                LABELS[config], "T1", r["k"], pct(num(r, "accuracy")), ci(r),
                 pct(num(r, "term_precision")), pct(num(r, "term_recall")),
-                pct(num(r, "term_f1")), pct(num(r, "abstention_accuracy")),
+                pct(num(r, "term_f1")), abst(r),
                 pct(num(r, "hit_at_k")),
                 fmt_p(p_value(stats, configuration=config, k=r["k"],
                               comparison="T1 vs T0")),
             ])
-    header = ["Retrieval", "Sys.", "$k$", "Acc.", "Term P", "Term R", "F1",
-              "Abst.", "hit@$k$", "$p$ vs T0"]
+    header = ["Retrieval", "Sys.", "$k$", "Acc.", "95\\% CI", "Term P", "Term R",
+              "F1", "Abst. (den.)", "hit@$k$", "$p$ vs T0"]
     return header, rows
+
+
+def ci(row: dict) -> str:
+    """The case-clustered accuracy interval, or -- when scored without bootstrap."""
+    lo, hi = num(row, "accuracy_lo"), num(row, "accuracy_hi")
+    if lo is None or hi is None:
+        return "--"
+    return f"[{pct(lo)}, {pct(hi)}]"
+
+
+def abst(row: dict) -> str:
+    """
+    Abstention accuracy with its denominator. The denominator is not the 15 weak
+    and NIL rows: weak rows on which the system returned the recorded
+    approximation (a correct assertion) are excluded, and counts are means over
+    runs, so it varies by cell. Printing it is what lets a reader check a value
+    such as 12.8 (= 1.67 / 13) instead of expecting multiples of 1/45.
+    """
+    value, den = num(row, "abstention_accuracy"), num(row, "abstention_denominator")
+    if value is None:
+        return "--"
+    return f"{pct(value)} ({den:g})" if den is not None else pct(value)
 
 
 QUERY_LABELS = {"description": "description",
                 "name_description": "name + description",
-                "hint_description": "hint + description"}
+                "predhint_description": "hint + description",
+                "hint_description": "annotated hint + description"}
+QUERY_ORDER = ("description", "name_description", "predhint_description",
+               "hint_description")
 # Palette slots 1-3, light mode. Three is the documented all-pairs-safe prefix,
 # which is why the query dimension gets the hues and the index dimension gets
-# the panels rather than the other way round.
+# the panels rather than the other way round. The two hint sources share a hue;
+# the annotated one (an oracle input) is drawn dashed.
 QUERY_COLOURS = {"description": "#2a78d6", "name_description": "#eb6834",
-                 "hint_description": "#1baf7a"}
-CARRIED_FORWARD = {("term", "hint_description"), ("combine", "name_description")}
+                 "predhint_description": "#1baf7a", "hint_description": "#1baf7a"}
+QUERY_DASHED = {"hint_description"}
+CARRIED_FORWARD = {("term", "hint_description"), ("combine", "name_description"),
+                   ("term", "predhint_description")}
 # Y-range of the appendix grid figure; see the comment where it is applied.
 GRID_YLIM = (40, 90)
 
@@ -243,9 +291,11 @@ def table_retrieval_grid(retrieval: list) -> tuple:
     ks = sorted({int(r["k"]) for r in retrieval})
     rows = []
     for strategy in ("term", "combine"):
-        for query in ("description", "name_description", "hint_description"):
+        for query in QUERY_ORDER:
             cells = {int(r["k"]): r for r in retrieval
                      if r["index_strategy"] == strategy and r["query"] == query}
+            if not cells:
+                continue
             rows.append(
                 [strategy, QUERY_LABELS[query]]
                 + [pct(num(cells[k], "hit_with_fallback")) if k in cells else "--"
@@ -271,13 +321,21 @@ def build_grid_figure(retrieval: list) -> Path:
 
     for ax, strategy in zip(axes, ("term", "combine")):
         endpoints = {}
-        for query, colour in QUERY_COLOURS.items():
+        for query in QUERY_ORDER:
+            colour = QUERY_COLOURS[query]
             points = sorted(
                 ((int(r["k"]), num(r, "hit_with_fallback")) for r in retrieval
                  if r["index_strategy"] == strategy and r["query"] == query),
                 key=lambda pair: pair[0])
+            if not points:
+                continue
             xs = [k for k, _ in points]
             ys = [100 * v for _, v in points]
+            if query in QUERY_DASHED:      # the annotated hint: an oracle reference
+                ax.plot(xs, ys, color=colour, linewidth=1.3, linestyle=(0, (4, 3)),
+                        marker="o", markersize=4, alpha=0.75,
+                        label=QUERY_LABELS[query], zorder=2)
+                continue                   # not end-labelled either
             ax.plot(xs, ys, color=colour, linewidth=2, marker="o", markersize=8,
                     markeredgecolor=SURFACE, markeredgewidth=2,
                     solid_capstyle="round", solid_joinstyle="round",
@@ -317,7 +375,7 @@ def build_grid_figure(retrieval: list) -> Path:
 
     axes[0].set_ylabel("hit@$k$ (% of objects)", fontsize=9, color=INK_MUTED)
     handles, labels = axes[0].get_legend_handles_labels()
-    fig.legend(handles, labels, frameon=False, fontsize=9, ncols=3,
+    fig.legend(handles, labels, frameon=False, fontsize=9, ncols=2,
                loc="outside lower center", labelcolor=INK_MUTED)
     fig.patch.set_facecolor(SURFACE)
 
@@ -330,8 +388,8 @@ def build_grid_figure(retrieval: list) -> Path:
 
 
 def table_queries(retrieval: list, k: str = "10") -> tuple:
-    """The figure's companion: hit@k for the three query formulations."""
-    queries = ["description", "name_description", "hint_description"]
+    """The figure's companion: hit@k for every query formulation."""
+    queries = list(QUERY_ORDER)
     rows = []
     for strategy in ("term", "combine"):
         row = [strategy]
@@ -340,7 +398,8 @@ def table_queries(retrieval: list, k: str = "10") -> tuple:
                           and r["query"] == query and r["k"] == k), None)
             row.append(pct(num(match, "hit_with_fallback")) if match else "--")
         rows.append(row)
-    header = ["Index", "description", "name + desc.", "hint + desc."]
+    header = ["Index", "description", "name + desc.", "hint + desc.",
+              "annotated hint + desc."]
     return header, rows
 
 
@@ -368,9 +427,12 @@ def main() -> int:
     retrieval = read("retrieval_hits.csv")
     stats = json.loads((RESULTS / "stats.json").read_text())
 
-    # The two configurations Experiment C evaluated end to end.
+    # The configurations Experiment C evaluated end to end: the oracle twins first
+    # so that the deployable configurations are drawn over them.
     config_query = {"term_hint": ("term", "hint_description"),
-                    "combine_name": ("combine", "name_description")}
+                    "combine_name": ("combine", "name_description"),
+                    "term_predhint": ("term", "predhint_description"),
+                    "combine_name_predhint": ("combine", "name_description")}
     # The main figure reports the reference model; a multi-model comparison is a
     # separate deliverable rather than more lines on this one.
     ref = reference()
@@ -398,30 +460,47 @@ def main() -> int:
         h1, r1,
         f"Category classification on the {n}-object gold standard. Accuracy credits "
         "a match against either gold category; strict accuracy against the primary "
-        "only. Macro averages are over the four attested classes. C2's accuracy is "
+        "only. Macro averages are over the four attested classes, so a prediction "
+        "into a class with no gold instance lowers the recall of the true class "
+        "but enters no precision term: C2's one to two errors per run fall there, "
+        "which is why its macro precision is 100.0. C2's accuracy is "
         "at ceiling, so its bootstrap interval is degenerate and the sample cannot "
         "separate it from a perfect classifier.",
         "tab:category"))
     (LATEX / "table2_type.tex").write_text(to_latex(
         h2, r2,
-        "Type classification. T0 is the top-ranked retrieved term and never "
-        "abstains, so it is independent of $k$. Term precision is computed over "
-        "everything asserted; recall excludes correct abstentions on the weak tier. "
-        "Abstention accuracy is over the weak and NIL rows only ($n=15$) and is "
-        "indicative.",
+        "Type classification, with the gold category supplied. The type hint is "
+        "the one metadata completion predicts, as in the deployed pipeline; rows "
+        "marked (annotated) repeat the first sweep, whose hint was the annotated "
+        "object type, an oracle input. T0 is the "
+        "top-ranked retrieved term and never abstains, so it is independent of "
+        "$k$. The 95\\% interval is a percentile bootstrap over display cases. "
+        "Term precision is computed over everything asserted; recall excludes "
+        "correct abstentions on the weak tier. Abstention accuracy is "
+        "(TA + TA$_\\mathrm{weak}$) / (TA + TA$_\\mathrm{weak}$ + SA + "
+        "WT$_\\mathrm{weak}$): among the weak and NIL rows on which the system did "
+        "not return the recorded approximation, the share it declined to assert. "
+        "Counts are means over three runs, so its denominator (in brackets) "
+        "varies by cell; it is indicative. hit@$k$ bounds the share of objects on "
+        "which the accepted term can be asserted, not accuracy, which also "
+        "credits correct abstentions.",
         "tab:type"))
     (LATEX / "table_query_formulations.tex").write_text(to_latex(
         h3, r3,
         "Retrieval hit@10 by query formulation, with the AAT fallback pool "
-        "included.", "tab:queries"))
+        "included. The hint is the type predicted by metadata completion; the "
+        "annotated hint is the annotated object type (an oracle input).",
+        "tab:queries"))
     (LATEX / "table3_retrieval_grid.tex").write_text(to_latex(
         h4, r4,
         "Type retrieval over the full grid: hit@$k$ for each index strategy and "
         "query formulation, with the AAT fallback pool included, on the "
-        f"{n_scored} objects whose gold term is reachable. The two configurations "
-        "marked in the last column are those carried into the selection "
-        "experiment: the deployed pipeline (term + hint) and the configuration "
-        "that retrieves best at depth (combine + name). MRR is at $k=50$.",
+        f"{n_scored} objects whose gold term is reachable. \\emph{{hint + "
+        "description} prefixes the type predicted by metadata completion, as the "
+        "deployed pipeline does; \\emph{annotated hint + description} prefixes the "
+        "annotated object type instead, an oracle input reported for reference. "
+        "The last column marks the configurations carried into the selection "
+        "experiment. MRR is at $k=50$.",
         "tab:retrieval_grid"))
 
     # Figure captions live with the figures, so the axis note cannot be lost
@@ -433,18 +512,23 @@ def main() -> int:
         f"{n_scored} objects with a reachable gold term whose term appears in the "
         r"top $k$, with the AAT fallback pool included; panel (b) is the accuracy "
         r"of the LLM selector (T1) over the same pools, averaged over three runs "
-        r"at temperature 0. Both panels share one percentage axis. Retrieval "
-        r"improves with depth in both configurations, but only \emph{combine + "
-        r"name} converts that into selection accuracy: \emph{term + hint} gains "
-        r"ceiling and loses accuracy.}",
+        r"at temperature 0. Both panels share one percentage axis. Solid lines use "
+        r"the type predicted by metadata completion as the hint, as deployed; "
+        r"dashed lines repeat the first sweep, whose hint was the annotated object "
+        r"type (an oracle input). Combine + name does not use the hint in its "
+        r"query, so its two lines coincide in panel (a). hit@$k$ bounds the share "
+        r"of objects on which the "
+        r"selector can assert the accepted term, not its accuracy, which also "
+        r"credits correct abstentions on the weak and \textsc{nil} rows, so "
+        r"accuracy can exceed hit@$k$.}",
         r"% Appendix figure",
         r"\caption{Type retrieval over the full grid: one panel per index "
         r"strategy, one line per query formulation. \textbf{The vertical axis "
         r"begins at " + str(GRID_YLIM[0]) + r"\%, not zero}, so that differences "
-        r"of a few points between six configurations remain visible; exact values "
+        r"of a few points between configurations remain visible; exact values "
         r"for every cell are in Table~\ref{tab:retrieval_grid}. Only the highest "
-        r"and lowest final value in each panel are labelled, since two "
-        r"configurations on the term index finish on the same number.}",
+        r"and lowest final value in each panel are labelled, since in each panel "
+        r"two configurations finish on the same number.}",
     ]) + "\n")
 
     report = [
@@ -453,28 +537,32 @@ def main() -> int:
         "Generated by `report.py` from `data/results/`. Every number is computed "
         "in `score.py`; nothing here is hand-edited.",
         "",
-        "## Figure — retrieval ceiling and selection accuracy",
+        "## Figure — retrieval and selection accuracy",
         "",
         f"![retrieval and selection](figures/{pdf.with_suffix('.png').name})",
         "",
         "Panel (a) is the share of objects whose accepted gold term appears in the "
         "top $k$, with the AAT fallback pool included; panel (b) is the accuracy of "
         "the LLM selector over the same pools. Both panels share one percentage "
-        "axis.",
+        "axis. Solid lines use the type predicted by metadata completion as the "
+        "hint; dashed lines repeat the first sweep, run with the annotated type. "
+        "Combine + name does not use the hint in its query, so its two lines "
+        "coincide in panel (a).",
         "",
         "## Table 3 — the full retrieval grid",
         "",
-        f"All six retrieval configurations at every depth, over the {n_scored} "
-        "objects whose gold term is reachable. The last column marks the two "
-        "carried into the selection experiment.",
+        f"Every retrieval configuration at every depth, over the {n_scored} "
+        "objects whose gold term is reachable. The last column marks those "
+        "carried into the selection experiment. `hint` is the type predicted by "
+        "metadata completion; `annotated hint` is the annotated object type, an "
+        "oracle input (see `check_type_hint.py`).",
         "",
         to_markdown(h4, r4),
         "",
         f"![retrieval grid](figures/{grid_pdf.with_suffix('.png').name})",
         "",
-        "One panel per index strategy, one line per query formulation. The type "
-        "hint dominates on the term index at every depth; on the combine index it "
-        "leads early and is overtaken by name + description at $k=50$. "
+        "One panel per index strategy, one line per query formulation; the "
+        "annotated hint is dashed. "
         f"**The vertical axis begins at {GRID_YLIM[0]}%**, not zero — the table "
         "above carries every value exactly.",
         "",

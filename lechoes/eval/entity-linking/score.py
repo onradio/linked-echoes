@@ -289,6 +289,17 @@ def main(argv=None) -> int:
                 vals.append(sum(1 for v in sel if v["code"] in CORRECT) / len(sel))
         return sum(vals) / len(vals) if vals else 0.0
 
+    # S0 takes rank 1, so its *decisions* are identical at every k, and it was
+    # first computed once, at the shallowest depth. Its pool statistics are not
+    # k-independent, though: the mean pool size (N) and the error attribution's
+    # `retrieval_miss` (gold absent from the top-k) both depend on k. Reporting
+    # the k=5 cell beside systems at the headline k put a 3.9-candidate pool and
+    # three retrieval misses into a table and a figure labelled k=10. So S0 is
+    # read at the headline k whenever that cell exists (run_systems.py --systems
+    # S0 --k 10 produces it), and at its single computed depth otherwise.
+    def s0_k():
+        return K if ("S0", K, 1) in cell_mentions else ks[0]
+
     n_inst = defaultdict(int)
     n_dist = defaultdict(int)
     for mid, r in scored.items():
@@ -304,7 +315,7 @@ def main(argv=None) -> int:
             "n_distinct": n_dist[etype] if etype != "ALL" else sum(n_dist.values()),
             "n_instances": n_inst[etype] if etype != "ALL" else sum(n_inst.values()),
             f"retrieval_recall@{K}": ret_by.get(etype, 0.0),
-            "S0_accuracy": acc_by_type("S0", ks[0], etype),
+            "S0_accuracy": acc_by_type("S0", s0_k(), etype),
             "S1_accuracy": acc_by_type("S1", K, etype),
             "S2_accuracy": s2, "S3_accuracy": s3, "delta": s3 - s2,
             "validator_frr": frr_by.get(etype, 0.0),
@@ -315,7 +326,7 @@ def main(argv=None) -> int:
     # ── error attribution (§8.3) ────────────────────────────────────────
     attribution = []
     for system in ("S0", "S1", "S2", "S3"):
-        kk = ks[0] if system == "S0" else K
+        kk = s0_k() if system == "S0" else K
         runs = sorted({r for s, k2, r in cells if s == system and k2 == kk})
         if not runs:
             continue
@@ -373,7 +384,7 @@ def main(argv=None) -> int:
         "bootstrap": {"resamples": args.resamples, "cluster": "object"},
     }
     for system in ("S0", "S1", "S2", "S3"):
-        kk = ks[0] if system == "S0" else K
+        kk = s0_k() if system == "S0" else K
         if (system, kk, 1) not in cell_mentions:
             continue
         pm = cell_mentions[(system, kk, 1)]
@@ -381,6 +392,37 @@ def main(argv=None) -> int:
         stats[f"{system}_accuracy_ci95"] = [lo, hi]
     lo, hi = bootstrap_ci(obj_to_mentions, delta_fn, args.resamples)
     stats["delta_S3_minus_S2_ci95"] = [lo, hi]
+
+    # Every system against S3 at the headline k, each LLM system reduced to its
+    # majority outcome across runs, as the article's protocol states (the S2 vs
+    # S3 test above is run 1 only; on this sample the majority vote gives the
+    # same discordant counts). S1 vs S3 is the comparison that isolates what the
+    # generative step adds on top of the filter: both see the same validated
+    # survivors, S1 takes the top-ranked one and S3 lets the LLM choose or abstain.
+    def majority(system, k):
+        runs = sorted({r for s, kk, r in cells if s == system and kk == k})
+        if not runs:
+            return None
+        per = [cell_mentions[(system, k, r)] for r in runs]
+        return {m: sum(p[m]["code"] in CORRECT for p in per) * 2 > len(per)
+                for m in per[0]}, len(runs)
+
+    s3_mv = majority("S3", K)
+    stats["mcnemar_vs_S3"] = {}
+    for system in ("S0", "S1", "S2"):
+        kk = s0_k() if system == "S0" else K
+        other = majority(system, kk)
+        if not other or not s3_mv:
+            continue
+        a, n_runs = other
+        z, n3 = s3_mv
+        shared = sorted(set(a) & set(z))
+        b_sys = sum(1 for m in shared if a[m] and not z[m])
+        c_s3 = sum(1 for m in shared if z[m] and not a[m])
+        stats["mcnemar_vs_S3"][system] = {
+            "system_only_correct": b_sys, "S3_only_correct": c_s3,
+            "p_value": mcnemar_exact(b_sys, c_s3), "k": kk,
+            "outcome": f"majority of {n_runs} vs majority of {n3} runs"}
     (RESULTS / "stats.json").write_text(json.dumps(stats, indent=2), encoding="utf-8")
     print("wrote stats.json")
 
@@ -409,6 +451,10 @@ def main(argv=None) -> int:
     print(f"wrote hard_cases.csv ({len(hard)} rows)")
 
     print(f"\nMcNemar S2 vs S3 @k={K}: b={b}, c={c}, p={p_value:.3g}")
+    for system, t in stats["mcnemar_vs_S3"].items():
+        print(f"McNemar {system} vs S3 @k={t['k']} (majority): "
+              f"{system}-only={t['system_only_correct']}, "
+              f"S3-only={t['S3_only_correct']}, p={t['p_value']:.3g}")
     print(f"Δ accuracy (S3−S2) 95% CI: [{lo:.3f}, {hi:.3f}]")
     return 0
 

@@ -19,7 +19,9 @@ retrieval:
   # it is not a separate experimental condition.
   similarity: [cosine_normalised]
   index_strategies: [term, combine]
-  queries: [description, name_description, hint_description]
+  # `hint_description` prefixes the sheet's annotated type (see `type_hint` below);
+  # `predhint_description` prefixes the type metadata completion predicted.
+  queries: [description, name_description, hint_description, predhint_description]
   # Six points rather than four: retrieval costs no API calls and every k is a
   # slice of the same k_max pool, so the denser grid is free and shows the shape
   # of the curve rather than four corners of it.
@@ -39,14 +41,39 @@ selection:
   # the only variable — so the sweep stays interpretable and nothing is tuned.
   #   term_hint    the deployed pipeline: term-only indices, "<hint>: <description>"
   #   combine_name the configuration that retrieves best at large k (Experiment B)
+  # Each configuration also names the source of the type hint it shows the
+  # selector (`prompt_hint`, default `annotated`) — see `type_hint` below.
+  # `term_hint` and `combine_name` are the first sweep (12 Aug 2026), run with the
+  # annotated hint; `term_predhint` and `combine_name_predhint` repeat it with the
+  # predicted one, in query and prompt alike, which is what the deployed pipeline
+  # sees. The first sweep is kept as the annotated-hint (oracle) reference.
   configurations:
     - {id: term_hint, index_strategy: term, query: hint_description}
     - {id: combine_name, index_strategy: combine, query: name_description}
+    - {id: term_predhint, index_strategy: term, query: predhint_description,
+       prompt_hint: predicted}
+    - {id: combine_name_predhint, index_strategy: combine, query: name_description,
+       prompt_hint: predicted}
   # The selection prompt is IDENTICAL across configurations, hint included, so
   # that the two differ only in retrieval. Removing the hint from the prompt in
   # the name_description condition would vary two things at once; that is a
   # prompt ablation and a separate experiment.
   hint_in_prompt: always
+
+# Two sources for the object-type hint.
+#   annotated  the sheet's `raw_type_hint`: the object type recorded in the
+#              test-set annotation and revised by hand towards vocabulary wording
+#              (Flyer -> leaflets, LP -> Vinyl recording). On 49 of the 50 strong
+#              rows it is the accepted term's label up to case or plural, so it
+#              acts as an oracle input (see check_type_hint.py).
+#   predicted  the `specific_type` returned by metadata completion — the hint the
+#              deployed pipeline actually passes (populate.py) — frozen from the
+#              metadata-extraction predictions of its M5 configuration, run 1.
+#              The three objects held out there as in-context examples have no
+#              prediction; they get no hint, as the pipeline does when completion
+#              returns no type.
+type_hint:
+  predicted: {file: data/predicted_type_hints.csv, column: predicted_M5_run1}
 
 fallback_to_aat: true                   # fixed, see §0.4
 

@@ -15,7 +15,7 @@
 
 209 gold values over 62 objects in 21 display cases; 173 occur literally in the case evidence and 36 can only be reached by inference. 496 of the 682 (object, field) cells are empty, so precision is mostly lost on cells where there is nothing to find and recall can only be won on the 186 that carry a value.
 
-**139 sibling distractors over 49 of the 62 objects** — values visible in an object's display-case evidence that belong to a neighbour. That is what exhaustive extraction runs into, and it is imposed by the corpus rather than by any prompt. **Recall is a ceiling here — for extractive systems; precision is a reference point, not a bound** (§2.4):
+**139 sibling distractors over 49 of the 62 objects** — values visible in an object's display-case evidence that belong to a neighbour. That is what exhaustive extraction runs into, and it is imposed by the corpus rather than by any prompt. **Recall is a ceiling here — for literal extraction; precision is a reference point, not a bound** (§2.4). The scoring matcher also credits aliases and near-matches, so a copying system can recover a few values that do not occur verbatim (UK for United Kingdom); computed with the matcher, the ceilings are E1 0.483, E2 0.837, E3 0.885:
 
 | Scope | Evidence | Asserts | Exhaustive P | Recall ceiling | F1 |
 | --- | --- | ---: | ---: | ---: | ---: |

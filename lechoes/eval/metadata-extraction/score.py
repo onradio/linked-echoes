@@ -515,6 +515,138 @@ def adjudicate(runs: list, adjudication: dict, exclude: list) -> dict:
             "hallucinations_unverifiable": mean("unverifiable")}
 
 
+# ----------------------------------------------------------------- supplementary
+
+# Paired comparisons beyond "every system against the reference": the two that hold
+# the evidence scope or the assertion policy fixed while varying the other. M6 vs M4
+# is the claim that the attribution gain survives the quote policy; quoting the
+# M6-vs-M3 test for it (as an earlier draft did) compared two things at once.
+SECONDARY_PAIRS = (("M6", "M4"), ("M2", "M1"), ("M5", "M6"))
+
+
+def matcher_support(text: str, field: str, value: str, policy: dict) -> str | None:
+    """
+    How `value` (normalised gold) can be recovered from normalised `text` by a system
+    that copies a span and is then scored with this field's matching policy:
+    'literal' (the support-class test), 'alias' (some alias of its canonical form
+    occurs), 'fuzzy' (an n-gram of the text clears the field's fuzzy threshold), or
+    None. The literal test is what the support classes and the recall ceilings use;
+    the other two are what the matcher additionally credits, which is how a purely
+    extractive system can score on an "inference-only" gold value (UK for United
+    Kingdom; Freddie for the sheet's Freddy Mercury).
+    """
+    if G.contains(text, value):
+        return "literal"
+    if policy.get("alias"):
+        canon = G.canonicalise(field, value)
+        variants = {w for (f, w), c in G.ALIASES.items() if f == field and c == canon}
+        if any(w and G.contains(text, w) for w in variants):
+            return "alias"
+    fuzzy = policy.get("fuzzy")
+    if fuzzy:
+        tokens, length = text.split(), len(value.split())
+        for n in range(max(1, length - 2), length + 3):
+            for i in range(len(tokens) - n + 1):
+                gram = G.normalise(" ".join(tokens[i:i + n]), field)
+                if fuzz.token_sort_ratio(gram, value) >= float(fuzzy["threshold"]):
+                    return "fuzzy"
+    return None
+
+
+def supplementary(gold_obj, config, systems, scored, raw_runs, stats, ceilings,
+                  baseline) -> dict:
+    """
+    Quantities added in response to the pre-submission review. None of them changes
+    a published number; each qualifies one.
+
+    * `paired_secondary` — McNemar on cell exactness for SECONDARY_PAIRS.
+    * `recall_ceiling_matcher` — the exhaustive extractor's recall when a gold value
+      counts as recoverable if the *scoring matcher* could credit a copied span
+      (literal, alias or fuzzy), not only on literal occurrence. The published
+      ceiling is exact for literal extraction; this is its matcher-consistent twin.
+    * `support_split_matcher` — the supported / inference-only split at case scope
+      under the same rule.
+    * per-system `inference_yield_absent_from_evidence` — inference-only true
+      positives whose *predicted* value does not occur in the system's evidence
+      (genuine inference), as opposed to alias/spelling variants of a span it read.
+    * per-system `precision_if_other_credited` — precision if every false positive
+      of the residual `other` class (in the evidence read, absent from the gold, not a
+      sibling's or another field's value) were correct: an upper bound, not an
+      estimate, since that class mixes unrecorded values with values the annotation
+      excluded.
+    """
+    policies = config["matching"]["policy"]
+    out: dict = {}
+
+    voted = {s: majority_vote(sorted(scored[s], key=lambda r: r.run)) for s in systems}
+    out["paired_secondary"] = {
+        f"{a}_vs_{b}": mcnemar(voted[a], voted[b])
+        for a, b in SECONDARY_PAIRS if a in voted and b in voted}
+
+    total = baseline["gold_values"]
+    out["recall_ceiling_matcher"] = {}
+    for scope in G.SCOPES:
+        kinds = collections.Counter()
+        for o in gold_obj.objects():
+            oid = o["object_id"]
+            text = G.normalise(gold_obj.evidence(oid, scope))
+            for f in G.SCORED:
+                for v in gold_obj.gold_values(oid, f):
+                    kind = matcher_support(text, f, v, policies[f])
+                    if kind:
+                        kinds[kind] += 1
+        out["recall_ceiling_matcher"][scope] = {
+            "recall": sum(kinds.values()) / total, "by_kind": dict(kinds),
+            "recall_literal": ceilings[scope]["recall"]}
+
+    split = collections.Counter()
+    for o in gold_obj.objects():
+        oid = o["object_id"]
+        text = gold_obj._norm_evidence[oid]["case"]
+        for f in G.SCORED:
+            for v in gold_obj.gold_values(oid, f):
+                split[matcher_support(text, f, v, policies[f]) or "inference_only"] += 1
+    out["support_split_matcher"] = dict(split)
+
+    n_inference = baseline["inference_only"]
+    out["systems"] = {}
+    for system in systems:
+        runs = raw_runs[system]
+        genuine = surface = 0
+        for scope, records in runs:
+            for rec in records:
+                if rec["predicted"] is None:
+                    continue
+                oid = rec["object_id"]
+                text = G.normalise(gold_obj.evidence(oid, scope))
+                for f in G.SCORED:
+                    preds, _ = prepare_predicted(rec, f, config)
+                    matched, _, _ = match_cell(f, preds,
+                                               sorted(gold_obj.gold_values(oid, f)),
+                                               policies[f])
+                    for p, g, _, _ in matched:
+                        if gold_obj.support_class(oid, f, g) != "inference_only":
+                            continue
+                        if G.contains(text, p):
+                            surface += 1
+                        else:
+                            genuine += 1
+        n = len(runs)
+        rs = scored[system]
+        tp = statistics.fmean(r.counts.tp for r in rs)
+        fp = statistics.fmean(r.counts.fp for r in rs)
+        other = statistics.fmean(sum(c for (kind, cause, _), c in r.attribution.items()
+                                     if kind == "FP" and cause == "other") for r in rs)
+        out["systems"][system] = {
+            "inference_yield": stats["systems"][system]["inference_yield"],
+            "inference_yield_absent_from_evidence": genuine / n / n_inference,
+            "inference_yield_surface_form": surface / n / n_inference,
+            "other_share_of_fp": other / fp if fp else None,
+            "precision_if_other_credited": (tp + other) / (tp + fp) if tp + fp else None,
+        }
+    return out
+
+
 def adjudication_rates(adjudication: dict) -> list:
     """Per-field verdict counts, for `adjudication.csv`."""
     judged = collections.defaultdict(collections.Counter)
@@ -604,10 +736,12 @@ def main() -> int:
 
     # ------------------------------------------------------------------ score
     scored: dict = collections.defaultdict(list)
+    raw_runs: dict = collections.defaultdict(list)     # for the supplementary block
     for entry in entries:
         path = P.prediction_path(config, entry["system"], entry["model_slug"],
                                  entry["run"])
         records = P.read(path)
+        raw_runs[entry["system"]].append((entry["evidence_scope"], records))
         scored[entry["system"]].append(score_run(
             gold_obj, config, records, system=entry["system"], run=entry["run"],
             scope=entry["evidence_scope"], policy_name=entry["assertion_policy"],
@@ -805,6 +939,9 @@ def main() -> int:
                                       ("judged", "correct", "incorrect", "unverifiable",
                                        "rate_correct")} for r in rows},
         }
+
+    stats["supplementary"] = supplementary(gold_obj, config, systems, scored, raw_runs,
+                                           stats, ceilings, baseline)
 
     write_csv(results / "system_cells.csv", per_run_rows, list(per_run_rows[0]))
     write_csv(results / "system_summary.csv", summary_rows, list(summary_rows[0]))

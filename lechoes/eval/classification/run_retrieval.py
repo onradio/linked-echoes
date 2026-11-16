@@ -25,6 +25,7 @@ which single pool were chosen. Recording both leaves that decision to `report.py
 """
 import argparse
 import contextlib
+import csv
 import io
 import json
 import os
@@ -54,16 +55,42 @@ def build_query(obj: dict, formulation: str) -> tuple[str, bool]:
     object must be excluded from any claim about the hint.
     """
     name, description = obj["name"], obj["description"]
-    hint = obj["raw_type_hint"]
     if formulation == "description":
         return description, False
     if formulation == "name_description":
         return f"{name}. {description}", False
-    if formulation == "hint_description":
+    if formulation in ("hint_description", "predhint_description"):
+        # Same template for both sources; only where the hint comes from differs.
+        hint = (obj["raw_type_hint"] if formulation == "hint_description"
+                else obj.get("predicted_type_hint", ""))
         if not hint:
             return description, True
         return f"{hint}: {description}", False
     raise ValueError(f"unknown query formulation: {formulation}")
+
+
+def attach_predicted_hints(objects: list, cfg: dict) -> list:
+    """
+    Adds `predicted_type_hint` to every object: the type metadata completion
+    predicted for it, from the frozen file named in `config.yaml: type_hint`.
+
+    The file is a copy made once from the metadata-extraction predictions (see its
+    `.json` sidecar), so this pack never reads a sibling pack at run time. Objects
+    without a prediction get an empty hint, which `build_query` and the selection
+    prompt treat exactly as the pipeline treats a record with no predicted type.
+    """
+    spec = (cfg.get("type_hint") or {}).get("predicted")
+    hints = {}
+    if spec:
+        with open(HERE / spec["file"], newline="", encoding="utf-8") as fh:
+            hints = {r["object_id"]: (r.get(spec["column"]) or "").strip()
+                     for r in csv.DictReader(fh)}
+        unknown = {o["object_id"] for o in objects} - set(hints)
+        if unknown:
+            raise SystemExit(f"{spec['file']} has no row for {sorted(unknown)}")
+    for obj in objects:
+        obj["predicted_type_hint"] = hints.get(obj["object_id"], "")
+    return objects
 
 
 def rank_of_gold(pool: list, gold_uris: list) -> int | None:
@@ -146,7 +173,7 @@ def main() -> int:
     out_dir = HERE / cfg["paths"]["predictions"]
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    objects = load_gold(HERE / cfg["paths"]["annotations"])
+    objects = attach_predicted_hints(load_gold(HERE / cfg["paths"]["annotations"]), cfg)
     if args.limit:
         objects = objects[:args.limit]
 

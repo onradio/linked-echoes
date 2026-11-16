@@ -1,5 +1,5 @@
 system,model,model_label,n_objects,runs,accuracy,accuracy_lo,accuracy_hi,accuracy_strict,macro_precision,macro_recall,macro_f1,n_attested_classes,predictions_in_unattested
-C0,-,,65.0,1,0.6,,,0.6,0.15,0.25,0.1875,4,0.0
-C1,-,,65.0,1,0.2615,,,0.2462,0.5986,0.3696,0.3719,4,38.0
-C2,google-gemini-2-5-flash,Gemini 2.5 Flash,65.0,3,0.9795,,,0.9744,1.0,0.9839,0.9918,4,1.6667
-C2-scoped,google-gemini-2-5-flash,Gemini 2.5 Flash,65.0,3,1.0,,,0.9692,1.0,0.9375,0.9643,4,2.0
+C0,-,,65.0,1,0.6,0.477612,0.730159,0.6,0.15,0.25,0.1875,4,0.0
+C1,-,,65.0,1,0.261538,0.169231,0.362319,0.246154,0.598558,0.369558,0.371928,4,38.0
+C2,google-gemini-2-5-flash,Gemini 2.5 Flash,65.0,3,0.979487,0.941799,1.0,0.974359,1.0,0.983877,0.991806,4,1.666667
+C2-scoped,google-gemini-2-5-flash,Gemini 2.5 Flash,65.0,3,1.0,1.0,1.0,0.969231,1.0,0.9375,0.964286,4,2.0

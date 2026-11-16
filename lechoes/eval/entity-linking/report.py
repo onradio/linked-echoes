@@ -35,14 +35,16 @@ HERE = Path(__file__).resolve().parent
 RESULTS = HERE / "data" / "results"
 OUT = RESULTS / "latex"
 
+# System ids are written as plain S0-S3 everywhere, as in the article's text and
+# tables; the figures previously rendered them as subscripts (S₀-S₃).
 SYSTEM_LABEL = {
-    "S0": r"$S_0$ retrieval rank-1",
-    "S1": r"$S_1$ symbolic only",
-    "S2": r"$S_2$ neural",
-    "S3": r"$S_3$ neuro-symbolic (ours)",
+    "S0": r"\texttt{S0} retrieval rank-1",
+    "S1": r"\texttt{S1} symbolic only",
+    "S2": r"\texttt{S2} neural",
+    "S3": r"\texttt{S3} neuro-symbolic (ours)",
 }
-PLAIN_LABEL = {"S0": "$S_0$ retrieval rank-1", "S1": "$S_1$ symbolic only",
-               "S2": "$S_2$ neural", "S3": "$S_3$ neuro-symbolic (ours)"}
+PLAIN_LABEL = {"S0": "S0 retrieval rank-1", "S1": "S1 symbolic only",
+               "S2": "S2 neural", "S3": "S3 neuro-symbolic (ours)"}
 
 # Categorical hues taken unchanged, in documented order, from the data-viz
 # reference palette. S0 is a baseline reference rather than a compared system,
@@ -255,12 +257,26 @@ def figure_attribution_pdf(attribution, stats, stem):
     plt.close(fig)
 
 
-def table1(per_cell, stats, path):
-    K = stats["k_headline"]
+def at_headline(per_cell, K):
+    """
+    The cells reported at the headline k, per system.
+
+    S0's decisions do not depend on k, but its pool size does, so it is taken at
+    the headline k whenever that cell exists and falls back to its single
+    computed depth otherwise (see score.py).
+    """
+    s0_at_k = any(r["system"] == "S0" and int(r["k"]) == K for r in per_cell)
     by = defaultdict(list)
     for r in per_cell:
-        if r["system"] == "S0" or int(r["k"]) == K:
+        if int(r["k"]) == K or (r["system"] == "S0" and not s0_at_k):
             by[r["system"]].append(r)
+    return by
+
+
+def table1(per_cell, stats, path):
+    K = stats["k_headline"]
+    by = at_headline(per_cell, K)
+    vs3 = stats.get("mcnemar_vs_S3", {})
 
     rows = []
     for system in ("S0", "S1", "S2", "S3"):
@@ -277,6 +293,9 @@ def table1(per_cell, stats, path):
         ci_s = f"[{ci[0]:.3f}, {ci[1]:.3f}]" if ci else "--"
         if system == "S3":
             p_s = "--"
+        elif system in vs3:
+            p = vs3[system]["p_value"]
+            p_s = "$<$0.0001" if p < 0.0001 else f"{p:.4f}"
         else:
             p_s = (f"{stats['mcnemar_S2_vs_S3']['p_value']:.4f}"
                    if system == "S2" else "n/a")
@@ -296,17 +315,26 @@ def table1(per_cell, stats, path):
         f"3 runs at temperature~0 with the standard deviation where it is "
         f"non-zero; the 95\\% interval is a cluster bootstrap over objects "
         f"({stats['bootstrap']['resamples']} resamples). $N\\to M$ is the mean "
-        f"number of candidates before and after symbolic validation. The final "
-        f"column is McNemar's exact test against $S_3$.}}",
+        f"number of candidates before and after symbolic validation "
+        f"(\\texttt{{S0}} and \\texttt{{S2}} apply none). Acc.\\ (wt.) weights "
+        f"each mention by the number of objects it occurs in, i.e.\\ accuracy "
+        f"over mention instances. The final column is McNemar's exact test "
+        f"against \\texttt{{S3}}, runs majority-voted.}}",
         r"\label{tab:el-main}",
         r"\begin{tabular}{lccccccc}", r"\toprule",
         r"System & Acc. & 95\% CI & Acc. (wt.) & Link prec. & Link rec. "
         r"& $N\to M$ & McNemar $p$ \\",
         r"\midrule", *rows, r"\bottomrule", r"\end{tabular}",
         r"\vspace{2pt}",
-        f"\\par\\footnotesize Discordant pairs for $S_2$ vs.\\ $S_3$: "
-        f"$b={mc['b_S2correct_S3wrong']}$ (only $S_2$ correct), "
-        f"$c={mc['c_S2wrong_S3correct']}$ (only $S_3$ correct).",
+        r"\par\footnotesize Discordant pairs against \texttt{S3} "
+        r"(only the system correct\,/\,only \texttt{S3} correct): "
+        + "; ".join(
+            f"\\texttt{{{s}}} {vs3[s]['system_only_correct']}/"
+            f"{vs3[s]['S3_only_correct']}"
+            for s in ("S0", "S1", "S2") if s in vs3)
+        + ("." if vs3 else
+           f"\\texttt{{S2}} {mc['b_S2correct_S3wrong']}/"
+           f"{mc['c_S2wrong_S3correct']}."),
         r"\end{table}",
     ]
     path.write_text("\n".join(tex) + "\n", encoding="utf-8")
@@ -337,13 +365,16 @@ def table2(per_type, stats, path):
         f"\\caption{{Accuracy by entity type at $k={K}$, mean over 3 runs. "
         f"$n$ is distinct mentions / mention instances. Retrieval recall is the "
         f"share of non-NIL mentions whose gold entity appears in the frozen "
-        f"top-{K} pool and bounds every system. FRR is the validator "
+        f"top-{K} pool; it bounds every system's link recall, not its accuracy, "
+        f"which also credits correct abstentions on NIL mentions. "
+        f"$\\Delta$ is \\texttt{{S3}} minus \\texttt{{S2}}. FRR is the validator "
         f"false-rejection rate: gold entities retrieved but rejected by their "
         f"own \\textsc{{ask}} check. Types with fewer than 30 instances are "
         f"indicative only.}}",
         r"\label{tab:el-per-type}",
         r"\begin{tabular}{lccccccc}", r"\toprule",
-        r"Entity type & $n$ & Ret.\ rec. & $S_1$ & $S_2$ & $S_3$ & $\Delta$ "
+        r"Entity type & $n$ & Ret.\ rec. & \texttt{S1} & \texttt{S2} & "
+        r"\texttt{S3} & $\Delta$ "
         r"& FRR \\", r"\midrule", *rows, r"\bottomrule", r"\end{tabular}",
         r"\end{table}",
     ]
@@ -370,15 +401,15 @@ def table3(hard, stats, path, limit=8):
     tex = [
         "% Qualitative hard cases. Generated by report.py.",
         r"\begin{table}[t]", r"\centering", r"\small",
-        f"\\caption{{Mentions the neuro-symbolic system $S_3$ resolves "
-        f"correctly at $k={K}$ and the unvalidated system $S_2$ does not. "
+        f"\\caption{{Mentions the neuro-symbolic system \\texttt{{S3}} resolves "
+        f"correctly at $k={K}$ and the unvalidated system \\texttt{{S2}} does not. "
         f"All are found in the collection, not constructed: cross-domain "
         f"homonyms, titles that read as ordinary language, and works whose "
         f"only Wikidata item is the corresponding single. WL~=~wrong link, "
         f"SL~=~spurious link.}}",
         r"\label{tab:el-hard}",
         r"\begin{tabular}{llllc}", r"\toprule",
-        r"Mention & Type & Gold & $S_2$ chose & $S_2$ \\", r"\midrule",
+        r"Mention & Type & Gold & \texttt{S2} chose & \texttt{S2} \\", r"\midrule",
         *rows, r"\bottomrule", r"\end{tabular}", r"\end{table}",
     ]
     path.write_text("\n".join(tex) + "\n", encoding="utf-8")
@@ -387,10 +418,7 @@ def table3(hard, stats, path, limit=8):
 def macros(per_cell, per_type, retrieval, frr, attribution, stats, path):
     """\\newcommand for every number quoted in prose, so the text cannot drift."""
     K = stats["k_headline"]
-    at_k = defaultdict(list)
-    for r in per_cell:
-        if r["system"] == "S0" or int(r["k"]) == K:
-            at_k[r["system"]].append(r)
+    at_k = at_headline(per_cell, K)
 
     def m(system, field):
         return mean_sd([float(c[field]) for c in at_k[system]])[0]
@@ -420,6 +448,12 @@ def macros(per_cell, per_type, retrieval, frr, attribution, stats, path):
     cmd("McNemarP", f"{mc['p_value']:.4f}")
     cmd("McNemarB", mc["b_S2correct_S3wrong"])
     cmd("McNemarC", mc["c_S2wrong_S3correct"])
+    # S1 vs S3: what the generative step adds over the filter alone.
+    t = stats.get("mcnemar_vs_S3", {}).get("S1")
+    if t:
+        cmd("SoneVsSthreeP", f"{t['p_value']:.3f}")
+        cmd("SoneVsSthreeB", t["system_only_correct"])
+        cmd("SoneVsSthreeC", t["S3_only_correct"])
     cmd("PruneN", f"{m('S3', 'mean_N'):.1f}")
     cmd("PruneM", f"{m('S3', 'mean_M'):.1f}")
     overall = next(r for r in per_type if r["entity_type"] == "ALL")

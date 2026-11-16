@@ -2,11 +2,11 @@
 \begin{table}[t]
 \centering
 \small
-\caption{Accuracy by entity type at $k=10$, mean over 3 runs. $n$ is distinct mentions / mention instances. Retrieval recall is the share of non-NIL mentions whose gold entity appears in the frozen top-10 pool and bounds every system. FRR is the validator false-rejection rate: gold entities retrieved but rejected by their own \textsc{ask} check. Types with fewer than 30 instances are indicative only.}
+\caption{Accuracy by entity type at $k=10$, mean over 3 runs. $n$ is distinct mentions / mention instances. Retrieval recall is the share of non-NIL mentions whose gold entity appears in the frozen top-10 pool; it bounds every system's link recall, not its accuracy, which also credits correct abstentions on NIL mentions. $\Delta$ is \texttt{S3} minus \texttt{S2}. FRR is the validator false-rejection rate: gold entities retrieved but rejected by their own \textsc{ask} check. Types with fewer than 30 instances are indicative only.}
 \label{tab:el-per-type}
 \begin{tabular}{lccccccc}
 \toprule
-Entity type & $n$ & Ret.\ rec. & $S_1$ & $S_2$ & $S_3$ & $\Delta$ & FRR \\
+Entity type & $n$ & Ret.\ rec. & \texttt{S1} & \texttt{S2} & \texttt{S3} & $\Delta$ & FRR \\
 \midrule
 colour & 4 / 4 & 1.00 & 1.000 & 1.000 & 1.000 & +0.000 & 0.00 \\
 country & 5 / 10 & 1.00 & 1.000 & 0.800 & 1.000 & +0.200 & 0.00 \\

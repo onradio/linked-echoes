@@ -1,0 +1,23 @@
+objects,hint,n,accuracy_first_match,accuracy_any_duplicate
+all 65,annotated,65,0.8769,0.9846
+all 65,none,65,0.2308,0.2308
+all 65,predicted M5_run1,65,0.6154,0.6308
+all 65,predicted M5_run2,65,0.6,0.6154
+all 65,predicted M5_run3,65,0.6308,0.6462
+all 65,predicted M3_run1,65,0.5692,0.5846
+all 65,predicted M3_run2,65,0.5692,0.5846
+all 65,predicted M3_run3,65,0.5846,0.6
+all 65,predicted M1_run1,65,0.6308,0.6462
+all 65,predicted M1_run2,65,0.6154,0.6308
+all 65,predicted M1_run3,65,0.6308,0.6462
+62 with a prediction,annotated,62,0.8871,0.9839
+62 with a prediction,none,62,0.2419,0.2419
+62 with a prediction,predicted M5_run1,62,0.6452,0.6613
+62 with a prediction,predicted M5_run2,62,0.629,0.6452
+62 with a prediction,predicted M5_run3,62,0.6613,0.6774
+62 with a prediction,predicted M3_run1,62,0.5968,0.6129
+62 with a prediction,predicted M3_run2,62,0.5968,0.6129
+62 with a prediction,predicted M3_run3,62,0.6129,0.629
+62 with a prediction,predicted M1_run1,62,0.6613,0.6774
+62 with a prediction,predicted M1_run2,62,0.6452,0.6613
+62 with a prediction,predicted M1_run3,62,0.6613,0.6774

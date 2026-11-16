@@ -485,5 +485,130 @@
         "rate_correct": "0.683"
       }
     }
+  },
+  "supplementary": {
+    "paired_secondary": {
+      "M6_vs_M4": {
+        "cells": 682,
+        "system_only": 40,
+        "reference_only": 11,
+        "discordant": 51,
+        "p_value": 5.703811637403078e-05
+      },
+      "M2_vs_M1": {
+        "cells": 682,
+        "system_only": 18,
+        "reference_only": 23,
+        "discordant": 41,
+        "p_value": 0.5327092552361137
+      },
+      "M5_vs_M6": {
+        "cells": 682,
+        "system_only": 26,
+        "reference_only": 19,
+        "discordant": 45,
+        "p_value": 0.3712980344710104
+      }
+    },
+    "recall_ceiling_matcher": {
+      "E1": {
+        "recall": 0.48325358851674644,
+        "by_kind": {
+          "literal": 97,
+          "alias": 1,
+          "fuzzy": 3
+        },
+        "recall_literal": 0.46411483253588515
+      },
+      "E2": {
+        "recall": 0.8373205741626795,
+        "by_kind": {
+          "literal": 167,
+          "alias": 5,
+          "fuzzy": 3
+        },
+        "recall_literal": 0.7990430622009569
+      },
+      "E3": {
+        "recall": 0.8851674641148325,
+        "by_kind": {
+          "literal": 173,
+          "alias": 9,
+          "fuzzy": 3
+        },
+        "recall_literal": 0.8277511961722488
+      }
+    },
+    "support_split_matcher": {
+      "literal": 173,
+      "alias": 9,
+      "inference_only": 24,
+      "fuzzy": 3
+    },
+    "systems": {
+      "M0a": {
+        "inference_yield": 0.1388888888888889,
+        "inference_yield_absent_from_evidence": 0.0,
+        "inference_yield_surface_form": 0.1388888888888889,
+        "other_share_of_fp": 0.8484848484848485,
+        "precision_if_other_credited": 0.8961038961038961
+      },
+      "M0b": {
+        "inference_yield": 0.16666666666666666,
+        "inference_yield_absent_from_evidence": 0.0,
+        "inference_yield_surface_form": 0.16666666666666666,
+        "other_share_of_fp": 0.8586956521739131,
+        "precision_if_other_credited": 0.9124579124579124
+      },
+      "M1": {
+        "inference_yield": 0.17592592592592593,
+        "inference_yield_absent_from_evidence": 0.0925925925925926,
+        "inference_yield_surface_form": 0.08333333333333333,
+        "other_share_of_fp": 0.4823529411764706,
+        "precision_if_other_credited": 0.8277886497064578
+      },
+      "M2": {
+        "inference_yield": 0.05555555555555555,
+        "inference_yield_absent_from_evidence": 0.0,
+        "inference_yield_surface_form": 0.05555555555555555,
+        "other_share_of_fp": 0.8648648648648649,
+        "precision_if_other_credited": 0.9613402061855671
+      },
+      "M3": {
+        "inference_yield": 0.2037037037037037,
+        "inference_yield_absent_from_evidence": 0.037037037037037035,
+        "inference_yield_surface_form": 0.16666666666666666,
+        "other_share_of_fp": 0.7902298850574713,
+        "precision_if_other_credited": 0.8770008424599832
+      },
+      "M3-zeroshot": {
+        "inference_yield": 0.2314814814814815,
+        "inference_yield_absent_from_evidence": 0.06481481481481483,
+        "inference_yield_surface_form": 0.16666666666666666,
+        "other_share_of_fp": 0.7182254196642686,
+        "precision_if_other_credited": 0.8227752639517345
+      },
+      "M4": {
+        "inference_yield": 0.14814814814814814,
+        "inference_yield_absent_from_evidence": 0.0,
+        "inference_yield_surface_form": 0.14814814814814814,
+        "other_share_of_fp": 0.8274894810659187,
+        "precision_if_other_credited": 0.8972431077694235
+      },
+      "M5": {
+        "inference_yield": 0.2685185185185185,
+        "inference_yield_absent_from_evidence": 0.10185185185185185,
+        "inference_yield_surface_form": 0.16666666666666666,
+        "other_share_of_fp": 0.8226495726495727,
+        "precision_if_other_credited": 0.9124472573839664
+      },
+      "M6": {
+        "inference_yield": 0.16666666666666666,
+        "inference_yield_absent_from_evidence": 0.0,
+        "inference_yield_surface_form": 0.16666666666666666,
+        "other_share_of_fp": 0.896969696969697,
+        "precision_if_other_credited": 0.9465408805031447
+      }
+    }
   }
 }

@@ -1,30 +1,41 @@
 {
-  "run_at": "2026-08-13T13:11:30+00:00",
-  "n_objects": 4,
+  "run_at": "2026-11-11T17:46:42+00:00",
+  "n_objects": 65,
   "systems": [
+    "T0",
     "T1"
   ],
   "similarity": "cosine_normalised",
   "configurations": [
     {
-      "id": "term_hint",
+      "id": "term_predhint",
       "index_strategy": "term",
-      "query": "hint_description"
+      "query": "predhint_description",
+      "prompt_hint": "predicted"
+    },
+    {
+      "id": "combine_name_predhint",
+      "index_strategy": "combine",
+      "query": "name_description",
+      "prompt_hint": "predicted"
     }
   ],
   "models": [
     {
-      "id": "mistral:ministral-14b-2512",
-      "label": "Ministral 14B",
-      "slug": "mistral-ministral-14b-2512",
-      "reference": false
+      "id": "google:gemini-2.5-flash",
+      "label": "Gemini 2.5 Flash",
+      "slug": "google-gemini-2-5-flash",
+      "reference": true
     }
   ],
   "hint_in_prompt": "always",
   "k_grid": [
-    5
+    5,
+    10,
+    20,
+    50
   ],
-  "runs": 1,
+  "runs": 3,
   "llm": {
     "temperature": 0.0,
     "models": [
@@ -46,7 +57,119 @@
       }
     ]
   },
+  "note": "Second sweep (11 Nov 2026): the predicted-hint configurations, whose hint is metadata completion's specific_type (M5, run 1; frozen in data/predicted_type_hints.csv). Written by four invocations of run_selection.py, listed under 'invocations'; the two T1 configurations ran in parallel, the combine one with a separate cache directory that was merged into data/llm_cache afterwards (no shared keys). All 32 files replay identically from data/llm_cache with API access disabled. The first sweep (term_hint, combine_name; 12 Aug 2026) left no manifest: the file this one replaces recorded a 4-object Ministral 14B smoke test of 13 Aug 2026.",
+  "invocations": [
+    {
+      "run_at": "2026-11-11T15:28:41+00:00",
+      "systems": [
+        "T0"
+      ],
+      "configurations": [
+        "term_predhint",
+        "combine_name_predhint"
+      ],
+      "files_written": [
+        "selection_T0_combine_name_predhint_k10_run1.jsonl",
+        "selection_T0_combine_name_predhint_k20_run1.jsonl",
+        "selection_T0_combine_name_predhint_k50_run1.jsonl",
+        "selection_T0_combine_name_predhint_k5_run1.jsonl",
+        "selection_T0_term_predhint_k10_run1.jsonl",
+        "selection_T0_term_predhint_k20_run1.jsonl",
+        "selection_T0_term_predhint_k50_run1.jsonl",
+        "selection_T0_term_predhint_k5_run1.jsonl"
+      ]
+    },
+    {
+      "run_at": "2026-11-11T15:38:22+00:00",
+      "systems": [
+        "T1"
+      ],
+      "configurations": [
+        "term_predhint"
+      ],
+      "files_written": [
+        "selection_T1_term_predhint_google-gemini-2-5-flash_k5_run1.jsonl",
+        "selection_T1_term_predhint_google-gemini-2-5-flash_k5_run2.jsonl"
+      ],
+      "note": "stopped during k=5 run 3 to run the configurations in parallel; its 30 completed k=5 run-3 calls were kept in the cache"
+    },
+    {
+      "run_at": "2026-11-11T17:38:09+00:00",
+      "systems": [
+        "T1"
+      ],
+      "configurations": [
+        "term_predhint"
+      ],
+      "files_written": [
+        "selection_T1_term_predhint_google-gemini-2-5-flash_k5_run3.jsonl",
+        "selection_T1_term_predhint_google-gemini-2-5-flash_k10_run1.jsonl",
+        "selection_T1_term_predhint_google-gemini-2-5-flash_k10_run2.jsonl",
+        "selection_T1_term_predhint_google-gemini-2-5-flash_k10_run3.jsonl",
+        "selection_T1_term_predhint_google-gemini-2-5-flash_k20_run1.jsonl",
+        "selection_T1_term_predhint_google-gemini-2-5-flash_k20_run2.jsonl",
+        "selection_T1_term_predhint_google-gemini-2-5-flash_k20_run3.jsonl",
+        "selection_T1_term_predhint_google-gemini-2-5-flash_k50_run1.jsonl",
+        "selection_T1_term_predhint_google-gemini-2-5-flash_k50_run2.jsonl",
+        "selection_T1_term_predhint_google-gemini-2-5-flash_k50_run3.jsonl"
+      ]
+    },
+    {
+      "run_at": "2026-11-11T17:46:42+00:00",
+      "systems": [
+        "T1"
+      ],
+      "configurations": [
+        "combine_name_predhint"
+      ],
+      "files_written": [
+        "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k5_run1.jsonl",
+        "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k5_run2.jsonl",
+        "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k5_run3.jsonl",
+        "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k10_run1.jsonl",
+        "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k10_run2.jsonl",
+        "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k10_run3.jsonl",
+        "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k20_run1.jsonl",
+        "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k20_run2.jsonl",
+        "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k20_run3.jsonl",
+        "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k50_run1.jsonl",
+        "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k50_run2.jsonl",
+        "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k50_run3.jsonl"
+      ]
+    }
+  ],
   "files_written": [
-    "selection_T1_term_hint_mistral-ministral-14b-2512_k5_run1.jsonl"
+    "selection_T0_combine_name_predhint_k10_run1.jsonl",
+    "selection_T0_combine_name_predhint_k20_run1.jsonl",
+    "selection_T0_combine_name_predhint_k50_run1.jsonl",
+    "selection_T0_combine_name_predhint_k5_run1.jsonl",
+    "selection_T0_term_predhint_k10_run1.jsonl",
+    "selection_T0_term_predhint_k20_run1.jsonl",
+    "selection_T0_term_predhint_k50_run1.jsonl",
+    "selection_T0_term_predhint_k5_run1.jsonl",
+    "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k10_run1.jsonl",
+    "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k10_run2.jsonl",
+    "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k10_run3.jsonl",
+    "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k20_run1.jsonl",
+    "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k20_run2.jsonl",
+    "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k20_run3.jsonl",
+    "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k50_run1.jsonl",
+    "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k50_run2.jsonl",
+    "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k50_run3.jsonl",
+    "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k5_run1.jsonl",
+    "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k5_run2.jsonl",
+    "selection_T1_combine_name_predhint_google-gemini-2-5-flash_k5_run3.jsonl",
+    "selection_T1_term_predhint_google-gemini-2-5-flash_k10_run1.jsonl",
+    "selection_T1_term_predhint_google-gemini-2-5-flash_k10_run2.jsonl",
+    "selection_T1_term_predhint_google-gemini-2-5-flash_k10_run3.jsonl",
+    "selection_T1_term_predhint_google-gemini-2-5-flash_k20_run1.jsonl",
+    "selection_T1_term_predhint_google-gemini-2-5-flash_k20_run2.jsonl",
+    "selection_T1_term_predhint_google-gemini-2-5-flash_k20_run3.jsonl",
+    "selection_T1_term_predhint_google-gemini-2-5-flash_k50_run1.jsonl",
+    "selection_T1_term_predhint_google-gemini-2-5-flash_k50_run2.jsonl",
+    "selection_T1_term_predhint_google-gemini-2-5-flash_k50_run3.jsonl",
+    "selection_T1_term_predhint_google-gemini-2-5-flash_k5_run1.jsonl",
+    "selection_T1_term_predhint_google-gemini-2-5-flash_k5_run2.jsonl",
+    "selection_T1_term_predhint_google-gemini-2-5-flash_k5_run3.jsonl"
   ]
 }

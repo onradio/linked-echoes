@@ -1,0 +1,15 @@
+{
+  "description": "specific_type predicted by metadata completion (metadata-extraction pack, Gemini 2.5 Flash, T=0) for each classification object, frozen so this pack never reads a sibling pack at run time. Objects are matched on their normalised description; the three objects held out there as in-context examples have no prediction (empty cells).",
+  "matched_objects": 62,
+  "sources_sha256": {
+    "M5_google-gemini-2-5-flash_run1.jsonl": "2f46e026e7e779d578ba4777976409420eb43ab048d9ba17237b5940b5b9a2b8",
+    "M5_google-gemini-2-5-flash_run2.jsonl": "0180a31d4efea4ef47907a6e6c95346ba5a1cf2f79a9997bd495f0ee60909905",
+    "M5_google-gemini-2-5-flash_run3.jsonl": "f6c65dfd54c21323a6af9b68c3f1c7430d108565053a8f81c1ef75b57a4e077d",
+    "M3_google-gemini-2-5-flash_run1.jsonl": "288c721767fddb25b00faf46e260083b01b47a465e9f92e5f444133f20113e0a",
+    "M3_google-gemini-2-5-flash_run2.jsonl": "2c5f8b14c22c5a8c4c875169647a157bceff1ec53b6e3478bfbdd32b9b181a07",
+    "M3_google-gemini-2-5-flash_run3.jsonl": "725690a4ed6a515532ae4aa701e17d1c691d8130cf1f0046ff3fa07f6e126d04",
+    "M1_google-gemini-2-5-flash_run1.jsonl": "ac1004b6797de1c717d620bc8eaf869c4fa4fe48f3759ff8aebc3eea08697797",
+    "M1_google-gemini-2-5-flash_run2.jsonl": "67f17a7e4c87d94fee60ad68fdeb1961de082c7976c8ca13986992a3e1d1a8cd",
+    "M1_google-gemini-2-5-flash_run3.jsonl": "4b2ea7fc96f5eb8f1fe13946ca9b719e5b531d8f99e87b5159064d194d7f7540"
+  }
+}

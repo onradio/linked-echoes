@@ -1,0 +1,9 @@
+configuration,k,runs,t1_accuracy_majority,lookup_accuracy,t1_only,lookup_only,p_value,strong_n,strong_t1_accepted_term,strong_lookup_accepted_term,strong_t1_only,strong_lookup_only,strong_p_value
+term_predhint,5,3,0.5385,0.6154,5,10,0.3018,50,27,25,5,3,0.7266
+term_predhint,10,3,0.5692,0.6154,6,9,0.6072,50,29,25,6,2,0.2891
+term_predhint,20,3,0.5692,0.6154,8,11,0.6476,50,30,25,8,3,0.2266
+term_predhint,50,3,0.5385,0.6154,9,14,0.4049,50,31,25,9,3,0.146
+combine_name_predhint,5,3,0.5846,0.6154,4,6,0.7539,50,26,25,4,3,1.0
+combine_name_predhint,10,3,0.5538,0.6154,4,8,0.3877,50,25,25,4,4,1.0
+combine_name_predhint,20,3,0.6,0.6154,6,7,1.0,50,27,25,6,4,0.7539
+combine_name_predhint,50,3,0.7231,0.6154,10,3,0.0923,50,35,25,10,0,0.002

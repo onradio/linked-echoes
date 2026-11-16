@@ -33,5 +33,28 @@
   "delta_S3_minus_S2_ci95": [
     0.05217391304347818,
     0.1637931034482759
-  ]
+  ],
+  "mcnemar_vs_S3": {
+    "S0": {
+      "system_only_correct": 2,
+      "S3_only_correct": 36,
+      "p_value": 5.398760549724102e-09,
+      "k": 10,
+      "outcome": "majority of 1 vs majority of 3 runs"
+    },
+    "S1": {
+      "system_only_correct": 2,
+      "S3_only_correct": 7,
+      "p_value": 0.1796875,
+      "k": 10,
+      "outcome": "majority of 1 vs majority of 3 runs"
+    },
+    "S2": {
+      "system_only_correct": 1,
+      "S3_only_correct": 13,
+      "p_value": 0.0018310546875,
+      "k": 10,
+      "outcome": "majority of 3 vs majority of 3 runs"
+    }
+  }
 }

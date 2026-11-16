@@ -33,6 +33,7 @@ import contextlib
 import io
 import json
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -48,7 +49,37 @@ from llm import CachingLLMClient, build_client            # noqa: E402
 from gold import load_gold, score_outcome                # noqa: E402
 from models import load_models, missing_keys, select_models  # noqa: E402
 from build_indices import index_stem                     # noqa: E402
-from run_retrieval import build_query                    # noqa: E402
+from run_retrieval import attach_predicted_hints, build_query  # noqa: E402
+
+class RetryingClient:
+    """
+    Re-attempts a call that raised (a rate limit, a timeout) before it can become
+    an `error_api` record. It never touches a response that arrived — it only
+    repeats calls that failed — and it exposes the wrapped client's provider and
+    model, so cache keys are unchanged and results are those of a run that met no
+    transient failure. The first sweep (12 Aug 2026) ran without it and recorded
+    no failure.
+    """
+
+    def __init__(self, client, attempts: int = 6, base_delay_s: float = 5.0):
+        self.client, self.attempts, self.base_delay_s = client, attempts, base_delay_s
+
+    provider = property(lambda self: self.client.provider)
+    model = property(lambda self: self.client.model)
+    spec = property(lambda self: self.client.spec)
+
+    def generate(self, *args, **kwargs):
+        for attempt in range(self.attempts):
+            try:
+                return self.client.generate(*args, **kwargs)
+            except Exception as e:                    # noqa: BLE001
+                if attempt == self.attempts - 1:
+                    raise
+                delay = self.base_delay_s * 2 ** attempt
+                print(f"    retry {attempt + 1}/{self.attempts - 1} in {delay:.0f}s "
+                      f"after {type(e).__name__}: {str(e)[:120]}", flush=True)
+                time.sleep(delay)
+
 
 def build_vocab_paths(indices_dir: Path, similarity: str, strategy: str) -> dict:
     """Points the classifier at the tagged evaluation builds, not the production ones."""
@@ -85,7 +116,7 @@ def main() -> int:
     cfg = yaml.safe_load(Path(args.config).read_text())
     sel = cfg["selection"]
     llm = cfg["llm"]
-    objects = load_gold(HERE / cfg["paths"]["annotations"])
+    objects = attach_predicted_hints(load_gold(HERE / cfg["paths"]["annotations"]), cfg)
     if args.objects:
         wanted = set(args.objects)
         objects = [o for o in objects if o["object_id"] in wanted]
@@ -182,7 +213,8 @@ def main() -> int:
                                  for v, c in classifier.specific_classifiers.items()))
         written.extend(run_configuration(
             classifier, config_cells, objects, config_id, strategy, query_id,
-            sel, cache_dir, out_path, llm, args.api_key))
+            sel, cache_dir, out_path, llm, args.api_key,
+            prompt_hint=config.get("prompt_hint", "annotated")))
 
     manifest = {
         "run_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -201,8 +233,21 @@ def main() -> int:
 
 
 def run_configuration(classifier, cells, objects, config_id, strategy, query_id,
-                      sel, cache_dir, out_path, llm, api_key) -> list:
-    """Runs every (system, k, run, model) cell for one retrieval configuration."""
+                      sel, cache_dir, out_path, llm, api_key,
+                      prompt_hint: str = "annotated") -> list:
+    """
+    Runs every (system, k, run, model) cell for one retrieval configuration.
+
+    `prompt_hint` is the source of the type hint shown to the selector:
+    `annotated` (the sheet's raw_type_hint, as in the first sweep) or `predicted`
+    (what metadata completion returned). The query's hint, if any, is set by the
+    query formulation; both are recorded on every prediction.
+    """
+    if prompt_hint not in ("annotated", "predicted"):
+        raise SystemExit(f"{config_id}: unknown prompt_hint {prompt_hint!r}")
+    hint_key = "raw_type_hint" if prompt_hint == "annotated" else "predicted_type_hint"
+    query_hint_key = {"hint_description": "raw_type_hint",
+                      "predhint_description": "predicted_type_hint"}.get(query_id)
     written = []
     for config_id_, system, k, run, model in cells:
         path = out_path(config_id_, system, k, run,
@@ -212,8 +257,11 @@ def run_configuration(classifier, cells, objects, config_id, strategy, query_id,
             # One caching client per (model, run), shared by every vocabulary so
             # that a fallback to AAT bills and caches like any other call.
             cache = CachingLLMClient(
-                client=build_client(model["id"], api_key=api_key,
-                                    temperature=llm["temperature"]),
+                # An explicit deadline: neither SDK sets one by default, and a
+                # wedged call would otherwise stall the sweep indefinitely.
+                client=RetryingClient(build_client(model["id"], api_key=api_key,
+                                                   temperature=llm["temperature"],
+                                                   timeout_s=120)),
                 path=cache_dir / f"selection_{model['slug']}_run{run}.json",
                 run_index=run)
             for clf in classifier.specific_classifiers.values():
@@ -242,7 +290,7 @@ def run_configuration(classifier, cells, objects, config_id, strategy, query_id,
                         top_k=k,
                         prompt_type=sel["prompt"],
                         object_category=obj["category_gold_primary"],
-                        predicted_type=obj["raw_type_hint"],
+                        predicted_type=obj[hint_key],
                         retrieval_query=query,
                     )
                 idx = r["selected_indices"]
@@ -278,6 +326,11 @@ def run_configuration(classifier, cells, objects, config_id, strategy, query_id,
                 "model_label": model["label"] if model else None,
                 "index_strategy": strategy, "query": query_id,
                 "hint_fallback": hint_fallback,
+                # Which hint this decision saw, and from where: the query's (if
+                # the formulation uses one) and the prompt's (T1 only).
+                "query_hint": obj[query_hint_key] if query_hint_key else None,
+                "prompt_hint_source": prompt_hint if system == "T1" else None,
+                "prompt_hint": obj[hint_key] if system == "T1" else None,
                 "vocab": result["vocab"],
                 "fallback_triggered": result["fallback_triggered"],
                 "tier": obj["tier"], "gold_uris": obj["gold_uris"],
